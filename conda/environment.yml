@@ -1,0 +1,15 @@
+# Edit this file to add dependencies to environment,
+# Then run `./lock-environment.sh` to generate reproducible lock files
+
+# !!! If you are developing the website locally use the existing lock files
+# for your platform (`conda create --name hackweek --file conda-osx-64.lock`)
+name: hackweek
+channels:
+  - conda-forge
+dependencies:
+  # Common
+  - python=3.9
+  - pip
+platforms:
+  - linux-64
+  - osx-64
