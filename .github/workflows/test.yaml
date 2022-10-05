@@ -1,7 +1,13 @@
 name: Test container image build
 
 on:
-  pull_request:
+  pull_request_target:
+    types: [labeled, synchronize]
+    paths:
+      - '.github/**/*'
+      - 'conda/**'
+    branches:
+      - main
 
 jobs:
   test-build:
