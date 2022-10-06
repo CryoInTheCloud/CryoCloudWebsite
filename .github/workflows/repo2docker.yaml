@@ -1,0 +1,46 @@
+name: Repo2Docker
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'conda/**'
+
+jobs:
+  build-image-and-push:
+    runs-on: ubuntu-20.04
+    steps:
+    - name: Checkout Repo
+      uses: actions/checkout@v2
+
+    - name: Get CalenderVersion UTC Date
+      id: calver
+      run: echo "::set-output name=version::$(date +'%Y.%m.%d')"
+
+    - name: Build and Push to DockerHub
+      uses: jupyterhub/repo2docker-action@master
+      with:
+        DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+        DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+        IMAGE_NAME: ${{ secrets.DOCKER_IMAGE }}
+        ADDITIONAL_TAG: ${{ steps.calver.outputs.version }}
+        MYBINDERORG_TAG: ${{ github.event.ref }} # This builds the container on mybinder.org
+
+    - name: Also Push To quay.io
+      id: push-to-quay
+      uses: redhat-actions/push-to-registry@v2
+      with:
+        image: ${{ secrets.DOCKER_IMAGE }}
+        tags: ${{ steps.calver.outputs.version }}
+        registry: quay.io
+        username: ${{ secrets.QUAY_USERNAME }}
+        password: ${{ secrets.QUAY_PASSWORD }}
+
+    - name: Print image url
+      run: echo "Image pushed to ${{ steps.push-to-quay.outputs.registry-paths }}"
+
+    - name: Report Image Size and Conda Packages
+      if: always()
+      run: |
+        docker images
+        docker run ${{secrets.DOCKER_IMAGE}}:latest conda list --export
