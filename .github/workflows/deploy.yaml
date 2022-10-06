@@ -1,0 +1,37 @@
+name: Deploy
+
+on:
+  push:
+    paths:
+      - 'book/**'
+      - '{{ cookiecutter.repo_directory }}/**'
+      - 'scripts/**'
+      - '.github/workflows/deploy.yaml'
+      - '.github/actions/**'
+      - 'cookiecutter.yaml'
+
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-20.04
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+      
+    - name: Configure NASA Earthdata Login
+      env:
+        EARTHDATA_USER: ${{ secrets.EARTHDATA_USER}}
+        EARTHDATA_PASS: ${{ secrets.EARTHDATA_PASS }}
+      run: |
+        echo "machine urs.earthdata.nasa.gov login $EARTHDATA_USER password $EARTHDATA_PASS" > ~/.netrc
+        chmod 0600 ~/.netrc
+
+    - uses: ./.github/actions/buildresources
+      with:
+        jb-cache: true
+        publish-to-gh: true
+        jb-save: true
+        token:  ${{ secrets.GH_PAT }}

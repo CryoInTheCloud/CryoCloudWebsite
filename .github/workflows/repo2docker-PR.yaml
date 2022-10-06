@@ -1,0 +1,29 @@
+name: Repo2DockerPR
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'conda/**'
+
+jobs:
+  build-image:
+    runs-on: ubuntu-20.04
+    steps:
+    - name: Checkout Repo
+      uses: actions/checkout@v2
+
+    - name: Get CalenderVersion UTC Date
+      id: calver
+      run: echo "::set-output name=version::$(date +'%Y.%m.%d')"
+
+    - name: Repo2Docker
+      uses: jupyterhub/repo2docker-action@master
+      with:
+        NO_PUSH: true
+
+    - name: Report Image Size and Conda Packages
+      if: always()
+      run: |
+        docker images
+        docker run ${{secrets.DOCKER_IMAGE}}:latest conda list --export

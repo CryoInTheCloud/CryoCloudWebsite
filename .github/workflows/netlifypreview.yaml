@@ -1,41 +1,22 @@
-name: Test
+name: NetlifyPreview
 
 on:
-  schedule:
-    # run this once a week (sunday midnight) to preserve cache
-    # https://docs.github.com/en/actions/guides/caching-dependencies-to-speed-up-workflows#usage-limits-and-eviction-policy
-    - cron:  '0 0 * * 0'
   pull_request_target:
     types: [labeled, synchronize]
-    paths:
-      - '.github/**/*'
-      - '{{ cookiecutter.repo_directory }}/**'
-      - 'book/**'
-      - 'conda/**'
-      - 'scripts/**'
-      - 'cookiecutter.yaml'
-    branches:
-      - main
 
 jobs:
-  build-and-test:
-    # This workflow accesses secrets (~/.netrc) so only run if labelled by repo owner
+  add-preview:
+    runs-on: ubuntu-20.04
+    # This workflow accesses secrets and checks out a PR, so only run if labelled
     # https://securitylab.github.com/research/github-actions-preventing-pwn-requests/
     if: contains(github.event.pull_request.labels.*.name, 'preview')
-    
-    name: Build and test on OS - ${{ matrix.os }}
-    runs-on: ${{ matrix.os }}
-    strategy:
-      fail-fast: false
-      matrix:
-        os: [ "ubuntu-latest", "macos-latest" ]
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
       with:
         ref: ${{ github.event.pull_request.head.sha }}
-      
+
     - name: Configure NASA Earthdata Login
       env:
         EARTHDATA_USER: ${{ secrets.EARTHDATA_USER}}
@@ -43,9 +24,25 @@ jobs:
       run: |
         echo "machine urs.earthdata.nasa.gov login $EARTHDATA_USER password $EARTHDATA_PASS" > ~/.netrc
         chmod 0600 ~/.netrc
-    
+
     - uses: ./.github/actions/buildresources
       with:
         jb-cache: true
         publish-to-gh: false
-        jb-save: true
+        jb-save: false
+
+    - name: Deploy Website Preview
+      uses: nwtgck/actions-netlify@v1.1
+      with:
+        publish-dir: './book/_build/html'
+        production-deploy: false
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        deploy-message: "Deploy from GitHub Actions"
+        enable-commit-comment: false
+        enable-pull-request-comment: true
+        overwrites-pull-request-comment: true
+        alias: deploy-preview-${{ github.event.number }}
+      env:
+        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+        NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+      timeout-minutes: 1
