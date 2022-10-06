@@ -1,0 +1,57 @@
+name: 'Build Jupyterbook'
+description: 'Build the Jupyterbook with desired run features'
+
+inputs:
+  jb-cache:
+    description: “Set up the Jupyterbook Cache (boolean)”
+    required: true
+  publish-to-gh:
+    description: “Publish to GitHub Pages (boolean)”
+    required: true
+  jb-save:
+    description: "Save the Jupyterbook Build (boolean)"
+    required: true
+  token:
+    description: 'A GitHub Personal Access Token (for publishing)'
+    required: false
+    default: '0'
+
+runs:
+  using: "composite"
+  steps:
+    - name: Setup JupyterBook Cache
+      if: inputs.jb-cache == 'true'
+      uses: actions/cache@v2
+      with:
+        path: ./book/_build
+        # NOTE: change key to "jupyterbook-N-DATE"
+        key: jupyterbook-2022-04-14
+
+    - uses: ./.github/actions/setupconda
+
+    - name: Build JupyterBook
+      shell: bash -l {0}
+      run: |
+        ./scripts/build_resources.sh
+        
+    - name: Dump Build Logs
+      if: always()
+      shell: bash -l {0}
+      run: |
+        if (test -a book/_build/html/reports/*log); then cat book/_build/html/reports/*log ; fi
+
+    - name: Publish to GitHub Pages
+      if: inputs.publish-to-gh == 'true'
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        personal_token: ${{inputs.token}}
+        publish_dir: book/_build/html
+        publish_branch: gh-pages
+        cname: icesat-2.hackweek.io
+
+    - name: Save Build
+      if: ${{ always() && inputs.jb-save == 'true'}} 
+      uses: actions/upload-artifact@v2
+      with:
+        name: build
+        path: book/_build/
