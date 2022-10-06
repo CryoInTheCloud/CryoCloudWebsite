@@ -1,7 +1,6 @@
 # GitHub Actions
 
-This folder contains continuous integration workflows to perform a variety of tasks such as checking for spelling errors and broken links, ensuring HTML is generated without errors, and publishing the website.
-From eScience Hackweek Jupyterbook Template 
+This folder contains continuous integration workflows to perform a variety of tasks such as checking for spelling errors and broken links, ensuring HTML is generated without errors, and publishing the website. Based on the eScience Hackweek Jupyterbook Template. 
 
 ## Actions
 
