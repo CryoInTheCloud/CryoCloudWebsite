@@ -26,4 +26,4 @@ jobs:
       if: always()
       run: |
         docker images
-        docker run ${{secrets.DOCKER_IMAGE}}:latest conda list --export
+        docker run ${{ secrets.DOCKER_IMAGE }}:latest conda list --export
