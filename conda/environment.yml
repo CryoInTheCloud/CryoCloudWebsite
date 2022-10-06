@@ -7,9 +7,16 @@ name: hackweek
 channels:
   - conda-forge
 dependencies:
-  # Common
-  - python=3.9
+  - git
+  - jupyter-book=0.13
+  - jupyter-resource-usage
+  - jupyterhub-singleuser
+  - jupyterlab=3
+  - jupytext
   - pip
+  - python=3.9
+  - vim
+  - wget
 platforms:
   - linux-64
   - osx-64
