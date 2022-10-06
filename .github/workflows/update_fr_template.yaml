@@ -1,0 +1,41 @@
+name: Update repo from template
+
+on:
+  workflow_dispatch:
+
+env:
+  TEMPLATE_REPO: uwhackweek/jupyterbook-template 
+
+jobs:
+  template-update:
+    name: Template Update
+    runs-on: ubuntu-20.04
+    if: github.repository != ${{ env.TEMPLATE_REPO}}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Setup Conda
+        uses: ./.github/actions/setupconda
+      - name: Install nodejs
+        shell: bash -l {0}
+        run: |
+          conda install --yes nodejs
+      - name: Install update-template
+        shell: bash -l {0}
+        run: |
+          which npm
+          npm install -g update-template
+      - name: Run update template
+        shell: bash -l {0}
+        run: |
+          which npx
+          npx update-template https://github.com/${{ env.TEMPLATE_REPO }}
+      - name: Commit changes and Open PR
+        uses: peter-evans/create-pull-request@v3
+        with:
+          commit_message: Updating repository from template
+          title: apply template updates
+          branch: template-updates
+          base: main
