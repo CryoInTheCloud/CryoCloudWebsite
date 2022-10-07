@@ -15,6 +15,7 @@ dependencies:
   - jupytext
   - pip
   - python=3.9
+  - sphinxcontrib-bibtex
   - vim
   - wget
 platforms:
