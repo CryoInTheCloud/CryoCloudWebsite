@@ -21,9 +21,10 @@ jobs:
       uses: jupyterhub/repo2docker-action@master
       with:
         NO_PUSH: true
+        IMAGE_NAME: pull-request
 
     - name: Report Image Size and Conda Packages
       if: always()
       run: |
         docker images
-        docker run ${{secrets.DOCKER_IMAGE}}:latest conda list --export
+        docker run pull-request:latest conda list --export
