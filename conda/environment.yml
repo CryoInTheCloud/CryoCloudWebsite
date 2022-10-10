@@ -8,6 +8,7 @@ channels:
   - conda-forge
 dependencies:
   - git
+  - icepyx
   - jupyter-book=0.13
   - jupyter-resource-usage
   - jupyterhub-singleuser
@@ -20,4 +21,3 @@ dependencies:
   - wget
 platforms:
   - linux-64
-  - osx-64
