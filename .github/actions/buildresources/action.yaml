@@ -47,7 +47,7 @@ runs:
         personal_token: ${{inputs.token}}
         publish_dir: book/_build/html
         publish_branch: gh-pages
-        cname: cryocloud.github.io
+        cname: cryointhecloud.github.io
 
     - name: Save Build
       if: ${{ always() && inputs.jb-save == 'true'}} 
