@@ -1,0 +1,273 @@
+timezone: UTC -7 (Pacific Daylight Time)
+tabs:
+  - title: Day 1
+    date: Monday 21 March
+    contents:
+      - time: 9:00 - 10:00
+        location: Zoom
+        title: Welcome to ICESat-2 Hackweek
+        description: Getting to know each other and setting the stage for our work together.
+        leads:
+          - Anthony Arendt
+          - Charley Haley
+          - Jessica Scheick
+        resources:
+        - title: "Welcome and Project Session Slides"
+          url: https://docs.google.com/presentation/d/13eMHSXoA8OlLyCCFpGZ_WJM_fEoO7ewmumu5WGxLtIk/edit?usp=sharing
+        - title: 'Video Recording'
+          url: https://www.youtube.com/watch?v=-FoNmbDWozM
+      - time: 10:00 - 10:30
+        location: Zoom
+        title: Overview of ICESat-2 Mission
+        description:
+        leads:
+          - Tom Neumann
+        resources:
+        - title: "ICESat-2 Mission Slides"
+          url: https://drive.google.com/file/d/1FreEymYptmOn5xs3wQ-BGF1xJocor7Ch/view?usp=sharing
+        - title: 'Video Recording'
+          url: https://www.youtube.com/watch?v=ETDbnmtiado
+      - time: 10:30 - 10:45
+        title: Movement and coffee break
+        description:
+        leads: [ ]
+      - time: 10:45 - 11:30
+        location: Zoom
+        title: Getting Started on Technology
+        description: Still having trouble with getting any technology going? We're here to help you debug!
+        leads:
+          - Scott Henderson
+          - Joachim Meyer
+          - Daniel Shapero
+        resources:
+          - title: 'Video Recording'
+            url: https://www.youtube.com/watch?v=mFaM41fRRcY
+      - time: 11:30 - 12:00
+        location: Zoom
+        title: Project Ideation
+        description: A chance to learn about existing project ideas and pitch new ones.
+        leads:
+          - Charley Haley
+          - Axel Schweiger
+          - Anthony Arendt
+      - time: 12:00 - 1:00
+        title: Lunch
+        description:
+        leads: [ ]
+      - time: 1:00 - 2:00
+        location: Zoom
+        title: Formation of Hacking Projects
+        description: Time to breakout into small groups and find out which project is the best fit for you.
+        leads:
+          - Charley Haley
+          - Anthony Arendt
+      - time: 2:00 - 3:00
+        location: Zoom
+        title: Project Set up and Logistics
+        description: Meet your teammates, figure out how/when you want to meet and communicate.
+        leads: [ ]
+  - title: Day 2
+    date: Tuesday 22 March
+    contents:
+      - time: 9:00 - 10:00
+        location: Zoom
+        title: About ICESat-2 Data
+        description: A description of ICESat-2 data products, where to find information and how to access data.
+        leads:
+          - Ben Smith
+        resources:
+          - title: Slides
+            url: https://github.com/ICESAT-2HackWeek/website2022/raw/main/book/tutorials/DataProducts/ICESat-2_data_products_2022.pdf
+          - title: 'Video Recording'
+            url: https://youtu.be/pL9psogF_LQ
+      - time: 10:00 - 10:30
+        location: Zoom
+        title: Best Practices for Effective Teamwork
+        description: This tutorial focuses on the social and organizational aspects of working together effectively in groups.
+        leads:
+          - Naomi Alterman
+        resources:
+          - title: 'Video Recording'
+            url: https://youtu.be/4tarSai5Ato
+      - time: 10:30 - 10:45
+        title: Movement and coffee break
+        description:
+        leads: [ ]
+      - time: 10:45 - 12:00
+        location: Zoom
+        title: ICESat-2 Data Access
+        description: Learning how to access ICESat-2 data using web mapping interfaces and programmatic methods.
+        leads:
+          - Mikala Beig
+          - Jessica Scheick
+        resources:
+          - title: 'Video Recording'
+            url: https://youtu.be/UpXGZLlO76w
+      - time: 12:00 - 12:45
+        title: Lunch
+        description:
+        leads: [ ]
+      - time: 12:45 - 2:00
+        location: Zoom
+        title: Object Oriented Programming for Collaborative Development in Python
+        description: An introduction to writing well-formed modular code to facilitate collaborative programming.
+          - icepyx
+          - working together
+        leads:
+          - Romina Piunno
+        resources:
+          - title: 'Video Recording'
+            url: https://youtu.be/dhLkCX0OWYs
+      - time: 2:00 - 3:00
+        location: Zoom
+        title: Project Hacking Time
+        description: Placeholder for project hacking time whenever works best for your group!
+        leads: [ ]
+  - title: Day 3
+    date: Wednesday 23 March
+    contents:
+      - time: 9:00 - 9:30
+        location: Zoom
+        title: Geospatial Transformations
+        description: We'll learn some of the fundamentals of coordinate reference systems with a focus on those used for ICESat-2 data products.
+        leads:
+          - Tyler Sutterley
+          - Hannah Besso
+        resources:
+          - title: 'Video Recording'
+            url: https://youtu.be/vwoR0Blynvk
+      - time: 9:30 - 10:30
+        location: Zoom
+        title: Data Integration - Tools and Techniques
+        description: In this tutorial we'll describe how to acquire other satellite and in situ data for comparison with ICESat-2.
+        leads:
+          - Tasha Snow
+          - Zachary Fair
+        resources:
+          - title: 'Video Recording'
+            url: https://youtu.be/HWc9FJHjQPg
+      - time: 10:30 - 10:45
+        title: Movement and coffee break
+        description:
+        leads: [ ]
+      - time: 10:45 - 11:45
+        location: Zoom
+        title: Data Visualization
+        description: Approaches for visualizing ICESat-2 data for quick exploratory analysis as well as for creating publication graphics.
+        leads:
+          - Philipp Arndt
+          - Wei Ji Leong
+        resources:
+          - title: 'Video Recording'
+            url: https://youtu.be/fpcBFsy6Kso
+      - time: 11:45 - 12:30
+        title: Lunch
+        description:
+        leads: [ ]
+      - time: 12:30 - 1:30
+        location: Zoom
+        title: Cloud Computing Tools
+        description: Helping you navigate the various sources and platforms for working with data hosted in the cloud.
+        leads:
+          - Aimee Barciauskas
+        resources:
+          - title: 'Video Recording'
+            url: https://youtu.be/mSklwuJ1onw
+      - time: 1:30 - 2:00
+        location: Zoom
+        title: Detailed Dives
+        description: We'll invite participants to co-lead short tutorials going deeper on topics of interest.
+        leads: [ ]
+      - time: 2:00 - 3:00
+        location: Zoom
+        title: Project Hacking Time
+        description: Placeholder for project hacking time whenever works best for your group!
+        leads: [ ]
+  - title: Day 4
+    date: Thursday 24 March
+    contents:
+      - time: 9:00 - 10:00
+        location: Zoom
+        title: Data Integration - Slide Rule with Raster Data
+        description: Here we'll show some case studies of working with ICESat-2 data and comparing it with Greenland velocity data.
+        leads:
+          - Tyler Sutterley
+          - Ian Joughin
+          - Zheng Liu
+        resources:
+          - title: 'Video Recording'
+            url: https://youtu.be/4BkGvjPXvlo
+      - time: 10:00 - 10:15
+        title: Movement and coffee break
+        description:
+        leads: [ ]
+      - time: 10:15 - 11:15
+        location: Zoom
+        title: Flexible schedule time
+        description: We'll fill this time in as we get closer to it. It may include additional content, an opportunity to share code, or something else.
+        leads:
+          - Jessica Scheick
+          - Anthony Arendt
+      - time: 11:15 - 12:15
+        location: Zoom
+        title: Data Integration - Advanced Analyses
+        description: In this tutorial we'll integrate ICESat-2 data with airborne products, terminus position and other datasets.
+        leads:
+          - Tasha Snow
+        resources:
+          - title: 'Video Recording'
+            url: https://youtu.be/JW_S8_qyUA8
+      - time: 12:15 - 1:00
+        title: Lunch
+        description:
+        leads: [ ]
+      - time: 1:00 - 1:30
+        location: Zoom
+        title: Detailed Dives
+        description:
+        leads: [ ]
+      - time: 1:30 - 3:00
+        location: Zoom
+        title: Project Hacking Time
+        description: Placeholder for project hacking time whenever works best for your group!
+        leads: [ ]
+  - title: Day 5
+    date: Friday 25 March
+    contents:
+      - time: 9:00 - 10:00
+        location: Zoom
+        title: Project work
+        description:
+        leads: [ ]
+      - time: 10:00 - 10:15
+        title: Movement and coffee break
+        description:
+        leads: [ ]
+      - time: 10:15 - 10:30
+        location: Zoom
+        title: Hackweek evaluation
+        description: We will invite you to complete an evaluation survey so that we can learn how to continue to improve hackweeks in the future.
+        leads:
+          - Anthony Arendt
+      - time: 10:30 - 12:15
+        location: Zoom
+        title: Project Presentations
+        description:
+        leads: [ ]
+      - time: 12:15 - 1:00
+        title: Lunch
+        description:
+        leads: [ ]
+      - time: 1:00 - 2:00
+        location: Zoom
+        title: Project Presentations and Hands-on code sharing
+        description: Now that we've shared our presentations, lets share our code in a centralized location!
+        leads:
+          - Jessica Scheick
+      - time: 2:00 - 2:10
+        location: Zoom
+        title: Wrap up and gratitude
+        description:
+        leads:
+          - Anthony Arendt
+          - Jessica Scheick

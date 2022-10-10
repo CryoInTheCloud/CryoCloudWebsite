@@ -1,3 +1,18 @@
+.DS_Store
+
+# Jupyter Book things
+.bash_history
+*_build
+.jupyter-server-log.txt
+.config/
+.jupyter/
+.local/
+.viminfo
+
+# cookiecutter webpage things
+cookiecutter.json
+/book/_build/html/assets
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

@@ -1,0 +1,23 @@
+{
+    "files": [
+        ".editorconfig",
+        ".github/*",
+        ".gitignore",
+        "book/img/*",
+        "book/preliminary/*",
+        "book/projects/project_initialization.md",
+        "book/projects/project_roadmap.md",
+        "book/projects/project_roles.md",
+        "book/CoC.md",
+        "book/_config.md",
+        "book/_toc.md",
+        "book/intro.md",
+        "book/mission.md",
+        "conda/lock-environment.sh",
+        "scripts/*",
+        "{{ cookiecutter.repo_directory }}/*",
+        "CHANGELOG.md",
+        "LICENSE.md",
+        "README.md"
+    ]
+}

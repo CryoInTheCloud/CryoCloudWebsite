@@ -1,0 +1,44 @@
+repo_directory: html
+name: The ICESat-2 Hackweek 2022
+about: The ICESat-2 Hackweek is a 5-day collaborative learning experience designed to coalesce people and resources around exploring, creating, and promoting effective computation and analysis workflows for the large and complex data returned by the ATLAS sensor on board NASA's ICESat-2 satellite. We will bring together data managers, maintainers, and users to teach each other about open science practices and software during tutorials and contribute to centrally accessible, shareable tools during project work. Our vision includes creating an inclusive, open space that fosters networking, innovation, and sharing ideas.
+apply:
+  title: Applications Closed
+hackweek_mission: https://icesat-2.hackweek.io/mission.html
+banner:
+  title: ICESat-2 Hackweek
+  description: A fully virtual workshop
+  start_date: 21 March
+  end_date: 25 March
+  year: 2022
+  location: Zoom
+  links:
+  - url: intro.html
+    title: Event Jupyter Book
+    new_window: false
+  image: https://github.com/ICESAT-2HackWeek/icesat-2hackweek.github.io/raw/2022.03.01/assets/images/banner.jpg 
+applicant_info: 'Applications closed for 2022'
+team:
+  !include book/team.yaml
+schedule:
+  !include book/schedule.yaml
+sponsors:
+  description: ''
+  organizations:
+  - name: eScience Institute
+    website: ''
+    logo_url: https://escience.washington.edu/wp-content/uploads/2015/10/Logo_eScience-stacked.png
+  - name: NASA ICESat-2 Mission
+    website: 'https://icesat-2.gsfc.nasa.gov/mission'
+    logo_url: https://github.com/ICESAT-2HackWeek/icesat-2hackweek.github.io/raw/2022.03.01/assets/images/ICESat2.png 
+  - name: Amazon Web Services
+    website: 'https://aws.amazon.com'
+    logo_url: https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg
+footer:
+  social:
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/ICESAT-2HackWeek
+_copy_without_render:
+- assets
+_extensions:
+- jinja_markdown.MarkdownExtension
