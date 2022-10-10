@@ -22,20 +22,20 @@ jobs:
     # This workflow accesses secrets (~/.netrc) so only run if labelled by repo owner
     # https://securitylab.github.com/research/github-actions-preventing-pwn-requests/
     if: contains(github.event.pull_request.labels.*.name, 'preview')
-    
+
     name: Build and test on OS - ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
       matrix:
-        os: [ "ubuntu-latest", "macos-latest" ]
+        os: [ "ubuntu-latest" ]
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
       with:
         ref: ${{ github.event.pull_request.head.sha }}
-      
+
     - name: Configure NASA Earthdata Login
       env:
         EARTHDATA_USER: ${{ secrets.EARTHDATA_USER}}
@@ -43,7 +43,7 @@ jobs:
       run: |
         echo "machine urs.earthdata.nasa.gov login $EARTHDATA_USER password $EARTHDATA_PASS" > ~/.netrc
         chmod 0600 ~/.netrc
-    
+
     - uses: ./.github/actions/buildresources
       with:
         jb-cache: true

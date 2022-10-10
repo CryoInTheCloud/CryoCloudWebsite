@@ -306,7 +306,7 @@ dependencies:
   - h5netcdf=1.0.2=pyhd8ed1ab_0
   - jupyter_telemetry=0.1.0=pyhd8ed1ab_1
   - matplotlib-base=3.6.0=py39hf9fd14e_0
-  - nbformat=5.6.1=pyhd8ed1ab_0
+  - nbformat=5.7.0=pyhd8ed1ab_0
   - netcdf4=1.6.1=nompi_py39hfaa66c4_100
   - oauthlib=3.2.1=pyhd8ed1ab_0
   - prompt-toolkit=3.0.31=pyha770c72_0
