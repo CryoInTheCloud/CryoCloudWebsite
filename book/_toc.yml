@@ -3,61 +3,30 @@
 root: intro
 format: jb-book
 parts:
-- caption: Details
+- caption: CryoCloud Project Specs
   chapters:
-    - file: application
-    - title: Schedule
-      url: https://icesat-2.hackweek.io/index.html?jump_to=schedule
-    - title: Team
-      url: https://icesat-2.hackweek.io/index.html?jump_to=team
+    - file: about
     - file: mission
+%    - title: Schedule
+%      url: https://icesat-2.hackweek.io/index.html?jump_to=schedule
     - file: CoC
-- caption: Preparation
+- caption: Cloud Training
   chapters:
-    - file: preliminary/index
-      sections:
-        - file: preliminary/swc
-        - file: preliminary/github
-        - file: preliminary/jupyterhub
-        - file: preliminary/git
-        - file: preliminary/earthdata
-        - file: preliminary/earthengine
-        - file: preliminary/python
+    - file: recorded/index
+%      sections:
+%        - file: preliminary/swc
+%        - file: preliminary/something
 - caption: Tutorials
   chapters:
     - file: tutorials/index
-      sections:
-        - file: tutorials/jupyter
-        - file: tutorials/DataProducts/DataProducts
-        - file: tutorials/data_access/data_access_1_intro
-          sections:
-            - file: tutorials/data_access/data_access_2_earthdata
-            - file: tutorials/data_access/data_access_3_icepyx
-        - file: tutorials/ObjectOriented/index
-          sections:
-            - file: tutorials/ObjectOriented/OOP_tutorial_live
-            - file: tutorials/ObjectOriented/OOP_tutorial
-            - file: tutorials/ObjectOriented/alien
-        - file: tutorials/geospatial/geospatial-intro
-          sections:
-            - file: tutorials/geospatial/geospatial-advanced
-        - file: tutorials/DataVisualization/Visualization_Earth_Engine_geemap_IS2_HW_2022
-          sections:
-            - file: tutorials/DataVisualization/Visualization_geemap_use_examples.ipynb
-        - file: tutorials/DataIntegration/dataintegration-1
-          sections:
-            - file: tutorials/DataIntegration/dataintegration-2
-            - file: tutorials/DataIntegration/data-applications
-        - file: tutorials/cloud-computing/cloud-computing-tutorial
-        - file: tutorials/DataVisualization/dataviz2d.py
-- caption: Projects
-  chapters:
-    - file: projects/list_of_projects
-    - file: projects/index
-      sections:
-        - file: projects/project_roles
-        - file: projects/project_roadmap
-        - file: projects/project_initialization
+%      sections:
+%        - file: tutorials/jupyter
+%        - file: tutorials/DataProducts/DataProducts
+%        - file: tutorials/data_access/data_access_1_intro
+%          sections:
+%            - file: tutorials/data_access/data_access_2_earthdata
+%            - file: tutorials/data_access/data_access_3_icepyx
+%        - file: tutorials/DataVisualization/Visualization_Earth_Engine_geemap_IS2_HW_2022
 - caption: Reference
   chapters:
     - file: reference/glossary
