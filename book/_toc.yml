@@ -7,26 +7,26 @@ parts:
   chapters:
     - file: about
     - file: mission
-%    - title: Schedule
-%      url: https://icesat-2.hackweek.io/index.html?jump_to=schedule
+<!--    - title: Schedule
+      url: https://icesat-2.hackweek.io/index.html?jump_to=schedule-->
     - file: CoC
 - caption: Cloud Training
   chapters:
     - file: recorded/index
-%      sections:
-%        - file: preliminary/swc
-%        - file: preliminary/something
+<!--      sections:
+        - file: preliminary/swc
+        - file: preliminary/something-->
 - caption: Tutorials
   chapters:
     - file: tutorials/index
-%      sections:
-%        - file: tutorials/jupyter
-%        - file: tutorials/DataProducts/DataProducts
-%        - file: tutorials/data_access/data_access_1_intro
-%          sections:
-%            - file: tutorials/data_access/data_access_2_earthdata
-%            - file: tutorials/data_access/data_access_3_icepyx
-%        - file: tutorials/DataVisualization/Visualization_Earth_Engine_geemap_IS2_HW_2022
+<!--      sections:
+        - file: tutorials/jupyter
+        - file: tutorials/DataProducts/DataProducts
+        - file: tutorials/data_access/data_access_1_intro
+          sections:
+            - file: tutorials/data_access/data_access_2_earthdata
+            - file: tutorials/data_access/data_access_3_icepyx
+        - file: tutorials/DataVisualization/Visualization_Earth_Engine_geemap_IS2_HW_2022-->
 - caption: Reference
   chapters:
     - file: reference/glossary
