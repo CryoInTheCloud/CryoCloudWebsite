@@ -1,4 +1,3 @@
-<!--# Welcome to {{CryoCloud}}!-->
 # Welcome to CryoCloud!
 
 ![banner](img/MinesLogos/banner_white.png)
@@ -11,9 +10,6 @@ The CryoCloud is a JupyterHub built for NASA Cryosphere communities in partnersh
 📖 On this JupyterBook website you'll find [tutorials](tutorials/index). All tutorials are Jupyter Notebooks, designed to be run interactively, but also rendered on this website for convenience.
 
 💡 Learn more about the CryoCloud hosted by the [Colorado School of Mines Glaciology Laboratory](https://glaciology.mines.edu/) at [CryoInTheCloud.com](cryointhecloud.com).
-
-<!--For the recommended citation for the content on this website see our Zenodo record:
-[![DOI](https://zenodo.org/badge/452775913.svg)](https://zenodo.org/badge/latestdoi/452775913)-->
 
 ```{admonition} Quick links for the event
 :class: seealso
