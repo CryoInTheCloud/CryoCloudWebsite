@@ -1,7 +1,10 @@
-# Welcome to CryoCloud!
-
-![banner](img/MinesLogos/banner_white.png)
-
+# Welcome to CryoCloud! 
+```{image} img/MinesLogos/stacked_white.png
+:alt: fishy
+:class: bg-primary mb-1
+:width: 200px
+:align: right
+```
 
 ```{note}
 The CryoCloud is a JupyterHub built for NASA Cryosphere communities in partnership with the International Interactive Computing Collaboration [2i2c](www.2i2c.org). The CryoCloud cloud-computing environment spun up in Oct. 2022. The CryoCloud projects aim to establish a curated interactive computing platform and develop Cryosphere community expertise in using these platforms. The intention is to transition a NASA community into the cloud while discovering the needs and overall best practices for making this transition. 
