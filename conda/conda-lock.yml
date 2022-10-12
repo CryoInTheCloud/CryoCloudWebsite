@@ -9,7 +9,7 @@
 # To update a single package to the latest version compatible with the version constraints in the source:
 #     conda-lock lock --lockfile conda-lock.yml --update PACKAGE
 # To re-solve the entire environment, e.g. after changing a version constraint in the source file:
-#     conda-lock -f /home/leong81/Documents/github/CryoCloudWebsite/conda/environment.yml -f /Volumes/GoogleDrive/.shortcut-targets-by-id/0B9H-XP5YRibEY1Brdk1qTzdxUm8/LandsatSST/Scripts/CryoCloudWebsite/conda/environment.yml --lockfile conda-lock.yml
+#     conda-lock -f /home/leong81/Documents/github/CryoCloudWebsite/conda/environment.yml  --lockfile conda-lock.yml
 metadata:
   channels:
   - url: conda-forge
@@ -20,7 +20,6 @@ metadata:
   - linux-64
   sources:
   - /home/leong81/Documents/github/CryoCloudWebsite/conda/environment.yml
-  - /Volumes/GoogleDrive/.shortcut-targets-by-id/0B9H-XP5YRibEY1Brdk1qTzdxUm8/LandsatSST/Scripts/CryoCloudWebsite/conda/environment.yml
 package:
 - category: main
   dependencies: {}
