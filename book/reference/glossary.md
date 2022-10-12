@@ -36,6 +36,11 @@
   things, build community and gain hands-on experience with collaboration and
   team science.
 
+[International Interactive Computing Collaboration (2i2c)](https://2i2c.org)
+  A provider of JupyterHubs in the cloud for research and education. 2i2c 
+  designs, develops, and operates cloud-computing open-source infrastructure 
+  that facilitates collaboration within communities of practice.
+  
 [Project Jupyter](https://jupyter.org)
   Project Jupyter (name derived from "JUlia PYThon and R") exists to develop
   open-source software, open-standards, and services for interactive computing
