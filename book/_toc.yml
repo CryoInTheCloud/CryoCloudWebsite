@@ -6,7 +6,6 @@ parts:
 - caption: CryoCloud Project Specs
   chapters:
     - file: about
-    - file: mission
     - file: CoC
 - caption: Cloud Training
   chapters:

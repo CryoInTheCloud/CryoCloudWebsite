@@ -1,4 +1,4 @@
-# Conda environment management (**Place Holder template from hackweeks**)
+# Conda environment management
 
 **The only file you should need to edit in this folder is `conda/environment.yml`. This file defines the set of conda-packages needed to render the full website.**
 
@@ -13,3 +13,4 @@ mamba remove --name hackweek --all
 mamba env create --name hackweek --file conda-linux-64.lock.yml
 mamba activate hackweek
 ```
+Originally built by eScience Hackweeks.

@@ -20,5 +20,10 @@ dependencies:
   - sphinxcontrib-bibtex
   - vim
   - wget
+  - jinja2 >= 2.11
+  - pygments>=2.6.1
+  - pymdown-extensions>=7.1
+  - pip:
+    - jinja-markdown==1.210911
 platforms:
   - linux-64
