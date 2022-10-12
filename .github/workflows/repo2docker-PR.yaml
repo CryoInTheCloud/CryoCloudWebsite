@@ -20,7 +20,6 @@ jobs:
     - name: Repo2Docker
       uses: jupyterhub/repo2docker-action@master
       with:
-        NO_PUSH: true
         IMAGE_NAME: pull-request
 
     - name: Report Image Size and Conda Packages
