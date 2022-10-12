@@ -9,17 +9,18 @@
 # To update a single package to the latest version compatible with the version constraints in the source:
 #     conda-lock lock --lockfile conda-lock.yml --update PACKAGE
 # To re-solve the entire environment, e.g. after changing a version constraint in the source file:
-#     conda-lock -f /home/leong81/Documents/github/CryoCloudWebsite/conda/environment.yml --lockfile conda-lock.yml
+#     conda-lock -f /home/leong81/Documents/github/CryoCloudWebsite/conda/environment.yml -f /Volumes/GoogleDrive/.shortcut-targets-by-id/0B9H-XP5YRibEY1Brdk1qTzdxUm8/LandsatSST/Scripts/CryoCloudWebsite/conda/environment.yml --lockfile conda-lock.yml
 metadata:
   channels:
   - url: conda-forge
     used_env_vars: []
   content_hash:
-    linux-64: 8048a2adf2b2349d320b2cae7498b44e98903a212f533e01c8960255585c6844
+    linux-64: 49ff2a74142e77a36b64e26e05adb57ae6fda8857c0aeb57bdacc776940d9503
   platforms:
   - linux-64
   sources:
   - /home/leong81/Documents/github/CryoCloudWebsite/conda/environment.yml
+  - /Volumes/GoogleDrive/.shortcut-targets-by-id/0B9H-XP5YRibEY1Brdk1qTzdxUm8/LandsatSST/Scripts/CryoCloudWebsite/conda/environment.yml
 package:
 - category: main
   dependencies: {}
@@ -145,14 +146,14 @@ package:
 - category: main
   dependencies: {}
   hash:
-    md5: 456b5b1d99e7a9654b331bcd82e71042
-    sha256: 3d234013a4e2f70f40068f29b8790e959d5cc97cd4b1c6a0aa5446eec03819b9
+    md5: b6bd89cf71494c41a181cac13cc5a8ea
+    sha256: fec882af11d68ec22084a84b5bc831f5d3f6bae9cbe2462d88b6e875e26454b4
   manager: conda
   name: tzdata
   optional: false
   platform: linux-64
-  url: https://conda.anaconda.org/conda-forge/noarch/tzdata-2022d-h191b570_0.tar.bz2
-  version: 2022d
+  url: https://conda.anaconda.org/conda-forge/noarch/tzdata-2022e-h191b570_0.tar.bz2
+  version: 2022e
 - category: main
   dependencies:
     font-ttf-dejavu-sans-mono: ''
@@ -642,14 +643,14 @@ package:
   dependencies:
     libgcc-ng: '>=12'
   hash:
-    md5: 47f080f1708e09e88a273112024a8bde
-    sha256: d48cdf982c8a0fb8f4546c385b383429580a4b610764127de2bdc59771b7ae80
+    md5: d83ab8f6570bbf0be104948fb2d0f79e
+    sha256: fb15e3a3228edcfde002f527ee2e9e0b5e1f15091521de1aa8429a4357138af8
   manager: conda
   name: tzcode
   optional: false
   platform: linux-64
-  url: https://conda.anaconda.org/conda-forge/linux-64/tzcode-2022d-h166bdaf_0.tar.bz2
-  version: 2022d
+  url: https://conda.anaconda.org/conda-forge/linux-64/tzcode-2022e-h166bdaf_0.tar.bz2
+  version: 2022e
 - category: main
   dependencies:
     libgcc-ng: '>=9.3.0'
@@ -3398,14 +3399,14 @@ package:
     python: '>=3.9,<3.10.0a0'
     python_abi: 3.9.* *_cp39
   hash:
-    md5: d760762fcdeadd7637dc7756c30b601c
-    sha256: 0a35a0220c0685cdd9360bcaedb59e7c888222cbbf1f2d012143318836548f05
+    md5: 166cd8ffc125784089e5fdc1feb4b2e5
+    sha256: b057ce83dcc1b4609c0348ae693595a4baf195214192515b192b666e7fd78ee5
   manager: conda
   name: rtree
   optional: false
   platform: linux-64
-  url: https://conda.anaconda.org/conda-forge/linux-64/rtree-1.0.0-py39hb102c33_1.tar.bz2
-  version: 1.0.0
+  url: https://conda.anaconda.org/conda-forge/linux-64/rtree-1.0.1-py39hb102c33_0.tar.bz2
+  version: 1.0.1
 - category: main
   dependencies:
     libgcc-ng: '>=10.3.0'
@@ -3688,14 +3689,14 @@ package:
     python: '>=3.9,<3.10.0a0'
     python_abi: 3.9.* *_cp39
   hash:
-    md5: db3436b5db460fa721859db55694d8ff
-    sha256: d005958fac69f5fc888841e3743c950b8105f2d1e2f244ee0fa6a1a23f27b5f4
+    md5: e408fbfa625450d340d4ae84545bacd5
+    sha256: 80f3d26fcd84bbb90c0ca284f41d511f76393a3177c23b8f8ec8fcbf7270fe35
   manager: conda
   name: cryptography
   optional: false
   platform: linux-64
-  url: https://conda.anaconda.org/conda-forge/linux-64/cryptography-38.0.1-py39hd97740a_0.tar.bz2
-  version: 38.0.1
+  url: https://conda.anaconda.org/conda-forge/linux-64/cryptography-38.0.2-py39hd97740a_0.tar.bz2
+  version: 38.0.2
 - category: main
   dependencies:
     cloudpickle: '>=1.1.1'
@@ -3830,14 +3831,14 @@ package:
     tornado: '>=6.2'
     traitlets: ''
   hash:
-    md5: 7853b3a9c3e9e0c8a8c824a753a7fc7b
-    sha256: b9f351d117025ec9d07f48bc7373168b85cde19e7633ae5c8893c742fe75d380
+    md5: 8861f3816cd0e94029b539459d46a26c
+    sha256: 307195727fc36b8bae9224e9c8df9e1b7fa856b0483ccd9facbcfd87dade3ff3
   manager: conda
   name: jupyter_client
   optional: false
   platform: linux-64
-  url: https://conda.anaconda.org/conda-forge/noarch/jupyter_client-7.4.1-pyhd8ed1ab_0.tar.bz2
-  version: 7.4.1
+  url: https://conda.anaconda.org/conda-forge/noarch/jupyter_client-7.4.2-pyhd8ed1ab_0.tar.bz2
+  version: 7.4.2
 - category: main
   dependencies:
     pygments: '>=2.4.1,<3'
@@ -4390,6 +4391,19 @@ package:
   platform: linux-64
   url: https://conda.anaconda.org/conda-forge/linux-64/pybtex-docutils-1.0.2-py39hf3d152e_1.tar.bz2
   version: 1.0.2
+- category: main
+  dependencies:
+    markdown: '>=3.2'
+    python: '>=3.7'
+  hash:
+    md5: f5aff82f53b8f0c7183539734acc1cce
+    sha256: c2bd5e82104427ac1e4437cd7bf4601b55381fbfa2b65b90ef54c5d5888ab230
+  manager: conda
+  name: pymdown-extensions
+  optional: false
+  platform: linux-64
+  url: https://conda.anaconda.org/conda-forge/noarch/pymdown-extensions-9.6-pyhd8ed1ab_0.tar.bz2
+  version: '9.6'
 - category: main
   dependencies:
     cryptography: '>=38.0.0,<39'
@@ -5267,14 +5281,14 @@ package:
     tornado: '>=6.1'
     traitlets: '>=4.2.1'
   hash:
-    md5: 8d16bf3ba8cba7f702691767919d6bc6
-    sha256: 2edf0741bf374b55163970127697846985ae9ac0576684ab9c80224ca810f060
+    md5: 892f2bf64c1493356b848d31beab2e7d
+    sha256: 7582a070df7131b411345184e23c093aff8a4606f741f8ea656fe4a39d555aa7
   manager: conda
   name: nbclassic
   optional: false
   platform: linux-64
-  url: https://conda.anaconda.org/conda-forge/noarch/nbclassic-0.4.5-pyhd8ed1ab_0.tar.bz2
-  version: 0.4.5
+  url: https://conda.anaconda.org/conda-forge/noarch/nbclassic-0.4.6-pyhd8ed1ab_0.tar.bz2
+  version: 0.4.6
 - category: main
   dependencies:
     colorama: ''
@@ -5587,4 +5601,18 @@ package:
   platform: linux-64
   url: https://conda.anaconda.org/conda-forge/noarch/jupyter-book-0.13.1-pyhd8ed1ab_0.tar.bz2
   version: 0.13.1
+- category: main
+  dependencies:
+    jinja2: '>=2.11'
+    pygments: '>=2.6.1'
+    pymdown-extensions: '>=7.1'
+  hash:
+    sha256: cce8e2be016227c925a8c82a7f3499099319d239fedc481b7728a7c9e9e3cfcc
+  manager: pip
+  name: jinja-markdown
+  optional: false
+  platform: linux-64
+  source: null
+  url: https://files.pythonhosted.org/packages/10/a4/9d42465c2e6dc24a4d13dede260f13f78d96b7982020491e91272798dffb/jinja_markdown-1.210911-py3-none-any.whl
+  version: '1.210911'
 version: 1
