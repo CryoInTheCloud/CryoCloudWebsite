@@ -17,15 +17,6 @@ jobs:
       id: calver
       run: echo "::set-output name=version::$(date +'%Y.%m.%d')"
 
-    - name: Build and Push to DockerHub
-      uses: jupyterhub/repo2docker-action@master
-      with:
-        DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
-        DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
-        IMAGE_NAME: ${{ secrets.DOCKER_IMAGE }}
-        ADDITIONAL_TAG: ${{ steps.calver.outputs.version }}
-        MYBINDERORG_TAG: ${{ github.event.ref }} # This builds the container on mybinder.org
-
     - name: Also Push To quay.io
       id: push-to-quay
       uses: redhat-actions/push-to-registry@v2
