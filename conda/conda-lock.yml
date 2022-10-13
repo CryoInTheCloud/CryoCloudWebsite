@@ -9,17 +9,17 @@
 # To update a single package to the latest version compatible with the version constraints in the source:
 #     conda-lock lock --lockfile conda-lock.yml --update PACKAGE
 # To re-solve the entire environment, e.g. after changing a version constraint in the source file:
-#     conda-lock -f /home/leong81/Documents/github/CryoCloudWebsite/conda/environment.yml  --lockfile conda-lock.yml
+#     conda-lock -f /home/jovyan/CryoCloudWebsite/conda/environment.yml  --lockfile conda-lock.yml
 metadata:
   channels:
   - url: conda-forge
     used_env_vars: []
   content_hash:
-    linux-64: 49ff2a74142e77a36b64e26e05adb57ae6fda8857c0aeb57bdacc776940d9503
+    linux-64: ef77c0f070d90edaa4e4232e07c05df31034064720b1674e3a1d5abca6bf90a8
   platforms:
   - linux-64
   sources:
-  - /home/leong81/Documents/github/CryoCloudWebsite/conda/environment.yml
+  - /home/joyvan/CryoCloudWebsite/conda/environment.yml
 package:
 - category: main
   dependencies: {}
@@ -4052,18 +4052,18 @@ package:
   dependencies:
     geos: '>=3.11.0,<3.11.1.0a0'
     libgcc-ng: '>=12'
-    numpy: '>=1.19.5,<2.0a0'
+    numpy: '>=1.20.3,<2.0a0'
     python: '>=3.9,<3.10.0a0'
     python_abi: 3.9.* *_cp39
   hash:
-    md5: e871ee7de5bfa95095256e95e30be2a6
-    sha256: 46f0c3de9ab502d3112b1694ff0ea9bd7fa696f09305fda7fdfc489f7670243a
+    md5: b9e155ef6b1797cff35270cf1ac757f2
+    sha256: efb9feb7e0f227f224112ad513d9dceef402d021b104fe6817daebe21bce9270
   manager: conda
   name: shapely
   optional: false
   platform: linux-64
-  url: https://conda.anaconda.org/conda-forge/linux-64/shapely-1.8.4-py39h68ae834_0.tar.bz2
-  version: 1.8.4
+  url: https://conda.anaconda.org/conda-forge/linux-64/shapely-1.8.5-py39h5b5020f_0.tar.bz2
+  version: 1.8.5
 - category: main
   dependencies:
     greenlet: '!=0.4.17'
@@ -5428,6 +5428,21 @@ package:
   platform: linux-64
   url: https://conda.anaconda.org/conda-forge/noarch/jupyterlab-3.4.8-pyhd8ed1ab_0.tar.bz2
   version: 3.4.8
+- category: main
+  dependencies:
+    jupyter_server: '>=1.10.1'
+    notebook: '>=5.5.0'
+    python: '>=3'
+    tornado: ''
+  hash:
+    md5: 7939a867db173d59e8f72d860678eb37
+    sha256: bb441db443f0b7e89a4561a016009df4d6e80183ff3baab9b92c8172c079d996
+  manager: conda
+  name: nbgitpuller
+  optional: false
+  platform: linux-64
+  url: https://conda.anaconda.org/conda-forge/noarch/nbgitpuller-1.1.0-pyhd8ed1ab_0.tar.bz2
+  version: 1.1.0
 - category: main
   dependencies:
     notebook: '>=5.3'

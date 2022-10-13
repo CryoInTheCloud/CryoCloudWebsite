@@ -15,6 +15,7 @@ dependencies:
   - jupyterhub-singleuser
   - jupyterlab=3
   - jupytext
+  - nbgitpuller
   - pip
   - python=3.9
   - sphinxcontrib-bibtex
