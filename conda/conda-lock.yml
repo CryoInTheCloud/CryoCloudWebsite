@@ -9,17 +9,16 @@
 # To update a single package to the latest version compatible with the version constraints in the source:
 #     conda-lock lock --lockfile conda-lock.yml --update PACKAGE
 # To re-solve the entire environment, e.g. after changing a version constraint in the source file:
-#     conda-lock -f /home/leong81/Documents/github/CryoCloudWebsite/conda/environment.yml -f environment.yml --lockfile conda-lock.yml
+#     conda-lock -f environment.yml --lockfile conda-lock.yml
 metadata:
   channels:
   - url: conda-forge
     used_env_vars: []
   content_hash:
-    linux-64: 87bdd5b75de7cc1a06518b5d670a838921756f24e9ee2c384dedb91b73e0302c
+    linux-64: 924991b5d63e6da8dad7d2682e5fb4b2bb703763df69e44c3a57d9adc5062489
   platforms:
   - linux-64
   sources:
-  - /home/leong81/Documents/github/CryoCloudWebsite/conda/environment.yml
   - environment.yml
 package:
 - category: main
@@ -2389,18 +2388,6 @@ package:
   version: 1.7.0
 - category: main
   dependencies:
-    python: ''
-  hash:
-    md5: afcf07cba949f797ac96c5e13e745cc7
-    sha256: 232b434fdf612933e35d3bb087a1fb268ce7cc1ff3e7b742c327c23e19eaefb6
-  manager: conda
-  name: text-unidecode
-  optional: false
-  platform: linux-64
-  url: https://conda.anaconda.org/conda-forge/noarch/text-unidecode-1.3-py_0.tar.bz2
-  version: '1.3'
-- category: main
-  dependencies:
     python: '>=3.6'
   hash:
     md5: a2995ee828f65687ac5b1e71a2ab1e0c
@@ -2483,18 +2470,6 @@ package:
   platform: linux-64
   url: https://conda.anaconda.org/conda-forge/noarch/uc-micro-py-1.0.1-pyhd8ed1ab_0.tar.bz2
   version: 1.0.1
-- category: main
-  dependencies:
-    python: '>=3.5'
-  hash:
-    md5: e8f24401b17802df5f82f66a88cee29e
-    sha256: 6556b1005d31edefef61a16601b27698d2837c2bae305efd7d3b9e27fd7a242d
-  manager: conda
-  name: unidecode
-  optional: false
-  platform: linux-64
-  url: https://conda.anaconda.org/conda-forge/noarch/unidecode-1.3.6-pyhd8ed1ab_0.tar.bz2
-  version: 1.3.6
 - category: main
   dependencies:
     python: ''
@@ -2651,19 +2626,6 @@ package:
   platform: linux-64
   url: https://conda.anaconda.org/conda-forge/linux-64/cffi-1.15.1-py39he91dace_0.tar.bz2
   version: 1.15.1
-- category: main
-  dependencies:
-    python: '>=3.9,<3.10.0a0'
-    python_abi: 3.9.* *_cp39
-  hash:
-    md5: ab94ed2075ab95fdb8eb7f0a00414d4e
-    sha256: 1aaf16ace43940bc7657c4c1974b5ab424a84b9d03d1bf4eefb9403091856b30
-  manager: conda
-  name: chardet
-  optional: false
-  platform: linux-64
-  url: https://conda.anaconda.org/conda-forge/linux-64/chardet-5.0.0-py39hf3d152e_0.tar.bz2
-  version: 5.0.0
 - category: main
   dependencies:
     python: '>=3.9,<3.10.0a0'
@@ -3336,20 +3298,6 @@ package:
   version: 2.8.2
 - category: main
   dependencies:
-    python: '>=3.6'
-    text-unidecode: '>=1.3'
-    unidecode: '>=1.1.1'
-  hash:
-    md5: a882d8d1971e2618a702d8b4c4d58390
-    sha256: 0f209008ad2c4da848a0ac51995fb49e0cd3fb5d31f27895cea0bdacaf4827ac
-  manager: conda
-  name: python-slugify
-  optional: false
-  platform: linux-64
-  url: https://conda.anaconda.org/conda-forge/noarch/python-slugify-6.1.2-pyhd8ed1ab_0.tar.bz2
-  version: 6.1.2
-- category: main
-  dependencies:
     param: ''
     python: '>=3.6'
   hash:
@@ -3553,33 +3501,6 @@ package:
   platform: linux-64
   url: https://conda.anaconda.org/conda-forge/linux-64/argon2-cffi-bindings-21.2.0-py39hb9d737c_2.tar.bz2
   version: 21.2.0
-- category: main
-  dependencies:
-    python: '>=3.6'
-    python-dateutil: '>=2.7.0'
-    typing_extensions: ''
-  hash:
-    md5: fd1967c76eda3a3dd9e8e6cb7a15a028
-    sha256: a0434c2770cf5b0ab5a33913c0b202b1521bc13f755b762d16a86b110425cdc2
-  manager: conda
-  name: arrow
-  optional: false
-  platform: linux-64
-  url: https://conda.anaconda.org/conda-forge/noarch/arrow-1.2.3-pyhd8ed1ab_0.tar.bz2
-  version: 1.2.3
-- category: main
-  dependencies:
-    chardet: ''
-    python: ''
-  hash:
-    md5: a556fa60840fcb9dd739d186bfd252f7
-    sha256: 8f65c16a9f85285e1f704a26d4c5ced25f46544f5cc20dc8a4aebd7796f8011a
-  manager: conda
-  name: binaryornot
-  optional: false
-  platform: linux-64
-  url: https://conda.anaconda.org/conda-forge/noarch/binaryornot-0.4.4-py_1.tar.bz2
-  version: 0.4.4
 - category: main
   dependencies:
     packaging: ''
@@ -4255,20 +4176,6 @@ package:
   version: 1.0.2
 - category: main
   dependencies:
-    arrow: ''
-    jinja2: ''
-    python: '>=2.7'
-  hash:
-    md5: 68e2dba4d112965e297120ed916a898c
-    sha256: 9e0fbfadbdafc1dcd287d08406364ac15d3f890c974d62817c2b6c00bb1b74d9
-  manager: conda
-  name: jinja2-time
-  optional: false
-  platform: linux-64
-  url: https://conda.anaconda.org/conda-forge/noarch/jinja2-time-0.2.0-pyhd8ed1ab_3.tar.bz2
-  version: 0.2.0
-- category: main
-  dependencies:
     jsonschema: ''
     python: '>=3.5'
     python-json-logger: ''
@@ -4391,19 +4298,6 @@ package:
   platform: linux-64
   url: https://conda.anaconda.org/conda-forge/linux-64/pybtex-docutils-1.0.2-py39hf3d152e_1.tar.bz2
   version: 1.0.2
-- category: main
-  dependencies:
-    markdown: '>=3.2'
-    python: '>=3.7'
-  hash:
-    md5: f5aff82f53b8f0c7183539734acc1cce
-    sha256: c2bd5e82104427ac1e4437cd7bf4601b55381fbfa2b65b90ef54c5d5888ab230
-  manager: conda
-  name: pymdown-extensions
-  optional: false
-  platform: linux-64
-  url: https://conda.anaconda.org/conda-forge/noarch/pymdown-extensions-9.6-pyhd8ed1ab_0.tar.bz2
-  version: '9.6'
 - category: main
   dependencies:
     cryptography: '>=38.0.0,<39'
@@ -4716,25 +4610,6 @@ package:
   platform: linux-64
   url: https://conda.anaconda.org/conda-forge/noarch/requests-2.28.1-pyhd8ed1ab_1.tar.bz2
   version: 2.28.1
-- category: main
-  dependencies:
-    binaryornot: '>=0.4.4'
-    click: '>=7.0,<9'
-    jinja2: '>=2.7,<4.0.0'
-    jinja2-time: '>=0.2.0'
-    python: '>=3.7'
-    python-slugify: '>=4.0.0'
-    pyyaml: '>=5.3.1'
-    requests: '>=2.23.0'
-  hash:
-    md5: 47b37ce64dc88f696116e037fed2c33c
-    sha256: ea95bee54193f4886920baf99a68670097ef9b083e82bd26ccd933e00b339b19
-  manager: conda
-  name: cookiecutter
-  optional: false
-  platform: linux-64
-  url: https://conda.anaconda.org/conda-forge/noarch/cookiecutter-2.1.1-pyh6c4a22f_0.tar.bz2
-  version: 2.1.1
 - category: main
   dependencies:
     bokeh: '>=2.4.2'
@@ -5602,18 +5477,4 @@ package:
   platform: linux-64
   url: https://conda.anaconda.org/conda-forge/noarch/jupyter-book-0.13.1-pyhd8ed1ab_0.tar.bz2
   version: 0.13.1
-- category: main
-  dependencies:
-    jinja2: '>=2.11'
-    pygments: '>=2.6.1'
-    pymdown-extensions: '>=7.1'
-  hash:
-    sha256: cce8e2be016227c925a8c82a7f3499099319d239fedc481b7728a7c9e9e3cfcc
-  manager: pip
-  name: jinja-markdown
-  optional: false
-  platform: linux-64
-  source: null
-  url: https://files.pythonhosted.org/packages/10/a4/9d42465c2e6dc24a4d13dede260f13f78d96b7982020491e91272798dffb/jinja_markdown-1.210911-py3-none-any.whl
-  version: '1.210911'
 version: 1
