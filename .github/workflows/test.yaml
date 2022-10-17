@@ -9,11 +9,9 @@ on:
     types: [labeled, synchronize]
     paths:
       - '.github/**/*'
-      - '{{ cookiecutter.repo_directory }}/**'
       - 'book/**'
       - 'conda/**'
       - 'scripts/**'
-      - 'cookiecutter.yaml'
     branches:
       - main
 

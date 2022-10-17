@@ -6,8 +6,7 @@
 name: hackweek
 channels:
   - conda-forge
-dependencies:
-  - cookiecutter
+dependencies: 
   - git
   - icepyx
   - jupyter-book=0.13
