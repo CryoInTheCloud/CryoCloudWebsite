@@ -3,10 +3,11 @@
 root: intro
 format: jb-book
 parts:
-- caption: CryoCloud Project Specs
+- caption: Details
   chapters:
-    - file: about
-    - file: CoC
+    - file: content/about
+    - file: content/mission
+    - file: content/Code_of_Conduct
 - caption: Cloud Training
   chapters:
     - file: recorded/index
