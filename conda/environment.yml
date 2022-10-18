@@ -6,7 +6,7 @@
 name: cryocloud
 channels:
   - conda-forge
-dependencies: 
+dependencies:
   - git
   - icepyx
   - jupyter-book=0.13
