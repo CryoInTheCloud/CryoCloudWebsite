@@ -3,6 +3,7 @@
 ## Tools and Technology (general)
 
 ```{glossary}
+
 [Binder](https://mybinder.org)
   A free, public service for running reproducible interactive computing
   environments. Binder is a 100% open source infrastructure that is run by
