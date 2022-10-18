@@ -11,6 +11,9 @@ parts:
 - caption: Cloud Training
   chapters:
     - file: recorded/index
+- caption: Background
+  chapters:
+    - file: preliminary/index
 - caption: Tutorials
   chapters:
     - file: tutorials/index
