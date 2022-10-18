@@ -2,12 +2,11 @@
 # Then run `./lock-environment.sh` to generate reproducible lock files
 
 # !!! If you are developing the website locally use the existing lock files
-# for your platform (`conda create --name hackweek --file conda-osx-64.lock`)
-name: hackweek
+# for your platform (`conda create --name cryocloud --file conda-linux-64.lock`)
+name: cryocloud
 channels:
   - conda-forge
 dependencies:
-  - cookiecutter
   - git
   - icepyx
   - jupyter-book=0.13
@@ -20,10 +19,5 @@ dependencies:
   - sphinxcontrib-bibtex
   - vim
   - wget
-  - jinja2 >= 2.11
-  - pygments>=2.6.1
-  - pymdown-extensions>=7.1
-  - pip:
-    - jinja-markdown==1.210911
 platforms:
   - linux-64

@@ -7,10 +7,10 @@ This folder contains continuous integration workflows to perform a variety of ta
 the `actions/` subfolder contains common [composite actions steps](https://docs.github.com/en/actions/creating-actions/creating-a-composite-action) that any workflow can use.
 
 #### [setupconda](./actions/setupconda/action.yaml)
-Steps to configure conda environment required to build the website.
+Steps to configure conda environment required to build the JupyterBook.
 
 #### [buildresources](./actions/buildresources/action.yaml)
-Steps to build the hackweek landing webpage and JupyterBook.
+Steps to build the JupyterBook.
 
 
 ## Workflows

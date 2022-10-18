@@ -13,7 +13,7 @@ jobs:
         shell: bash -l {0}
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
 
     - uses: ./.github/actions/setupconda
 
@@ -31,8 +31,9 @@ jobs:
       uses: codespell-project/actions-codespell@master
       with:
         check_filenames: true
-        check_hidden: false
-        skip: '*.js,qaqc.yml'
+        check_hidden: true
+        skip: '*.js,qaqc.yaml,./.git/objects/*'
+
         ignore_words_list: slippy,trough,thw
 
     # borrowed from https://github.com/ProjectPythia/pythia-foundations/blob/main/.github/workflows/link-checker.yaml

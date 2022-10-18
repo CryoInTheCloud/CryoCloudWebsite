@@ -4,11 +4,9 @@ on:
   push:
     paths:
       - 'book/**'
-      - '{{ cookiecutter.repo_directory }}/**'
       - 'scripts/**'
       - '.github/workflows/deploy.yaml'
       - '.github/actions/**'
-      - 'cookiecutter.yaml'
 
     branches:
       - main
@@ -19,7 +17,7 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
       
     - name: Configure NASA Earthdata Login
       env:
