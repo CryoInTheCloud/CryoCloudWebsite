@@ -5,7 +5,7 @@
 
 CryoCloud is dedicated to helping researchers transition to cloud-based collaboration and processing under the supervision of dedicated developers and in a managed environment that meets the community needs.
 
-A community of practice is a collaborative model that shows how we can tailor infrastructure with community input to meet the specic needs of current and future scientists.
+A community of practice is a collaborative model that shows how we can tailor infrastructure with community input to meet the specific needs of current and future scientists.
 
 ![Community of Practice](../img/communityprac.png)
 
