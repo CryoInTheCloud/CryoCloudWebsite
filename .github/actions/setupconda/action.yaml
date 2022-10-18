@@ -6,7 +6,7 @@ runs:
   steps:
     - name: Cache Conda Packages
       id: cache-packages
-      uses: actions/cache@v2
+      uses: actions/cache@v3
       env:
         # Increase this value to reset cache if conda/conda-lock.yml has not changed
         CACHE_NUMBER: 0
@@ -22,12 +22,12 @@ runs:
         miniforge-variant: Mambaforge
         use-mamba: true
         auto-update-conda: false
-        activate-environment: hackweek
+        activate-environment: cryocloud
         use-only-tar-bz2: true # IMPORTANT: This needs to be set for conda package cache to work properly!    
     
     - name: Cache Entire Conda Environment
       id: cache-env
-      uses: actions/cache@v2
+      uses: actions/cache@v3
       env:
         CACHE_NUMBER: 0
       with:
@@ -40,4 +40,4 @@ runs:
       env:
         ENVFILE: conda/conda-${{ runner.os == 'Linux' && 'linux' || 'osx'  }}-64.lock.yml
       shell: bash -l {0}
-      run: mamba env update -n hackweek -f $ENVFILE
+      run: mamba env update -n cryocloud -f $ENVFILE

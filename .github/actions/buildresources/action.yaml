@@ -21,7 +21,7 @@ runs:
   steps:
     - name: Setup JupyterBook Cache
       if: inputs.jb-cache == 'true'
-      uses: actions/cache@v2
+      uses: actions/cache@v3
       with:
         path: ./book/_build
         # NOTE: change key to "jupyterbook-N-DATE"

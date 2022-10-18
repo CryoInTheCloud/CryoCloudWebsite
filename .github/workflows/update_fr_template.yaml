@@ -13,7 +13,7 @@ jobs:
     if: github.repository != ${{ env.TEMPLATE_REPO}}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Setup Conda
