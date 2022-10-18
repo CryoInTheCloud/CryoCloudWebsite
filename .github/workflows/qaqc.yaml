@@ -25,13 +25,13 @@ jobs:
       run: |
         python .github/workflows/ensure_clean_notebooks.py
 
-    # NOTE: this isn't a comprehensive spellcheck, just common typos
+    # NOTE: this isn't a comprehensive spellcheck, just common typos, not checking hidden files at the moment
     - name: Spellcheck
       if: always()
       uses: codespell-project/actions-codespell@master
       with:
         check_filenames: true
-        check_hidden: true
+        check_hidden: false
         skip: '*.js,qaqc.yml'
         ignore_words_list: slippy,trough,thw
 
