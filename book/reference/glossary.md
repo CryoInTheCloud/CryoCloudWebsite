@@ -3,7 +3,6 @@
 ## Tools and Technology (general)
 
 ```{glossary}
-
 [Binder](https://mybinder.org)
   A free, public service for running reproducible interactive computing
   environments. Binder is a 100% open source infrastructure that is run by
@@ -77,8 +76,8 @@
 ```
 
 ## Topical (event specific)
-```{glossary}
 
+```{glossary}
 [ICESat-2](https://icesat-2.gsfc.nasa.gov)
   Ice, Cloud, and land Elevation Satellite (2).
   Launched in September 2018, the ICESat-2 satellite continues the ICESat and IceBridge missions to
