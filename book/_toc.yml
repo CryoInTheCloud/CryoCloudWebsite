@@ -14,16 +14,16 @@ parts:
 - caption: Background Info
   chapters:
     - file: preliminary/index
-    sections:
-      - file: preliminary/github
-      - file: preliminary/jupyterhub
-      - file: preliminary/git
-      - file: preliminary/earthdata
-      - file: preliminary/earthengine
-      - file: preliminary/swc
-        sections:
-        - file: preliminary/python
-        - file: preliminary/conda
+      sections:
+        - file: preliminary/github
+        - file: preliminary/jupyterhub
+        - file: preliminary/git
+        - file: preliminary/earthdata
+        - file: preliminary/earthengine
+        - file: preliminary/swc
+          sections:
+          - file: preliminary/python
+          - file: preliminary/conda
 - caption: Tutorials
   chapters:
     - file: tutorials/index
