@@ -9,7 +9,7 @@ We welcome all types of learners to our cloud computing platform, from professio
 
 ## Software Carpentry Session
 
-We strongly encourage participants to review this two-day recorded fundamentals of Python and open-source workflows crash course ([Software Carpentry Schedule](preliminary/swc)). You may choose whichever topics you'd like to brush up on or learn. Monthly office hours will also provide an opportunity for asking questions and troubleshooting any issues you encounter.
+We strongly encourage participants to review this two-day recorded fundamentals of Python and open-source workflows crash course ([Software Carpentry Schedule](swc)). You may choose whichever topics you'd like to brush up on or learn. Monthly office hours will also provide an opportunity for asking questions and troubleshooting any issues you encounter.
 
 ## Required setup
 
@@ -21,7 +21,7 @@ orientation and getting onto the CryoCloud.
 ### GitHub Account
 
 Everyone attending the CryoCloud Orientation will need to obtain a GitHub account and request access to join the CryoCloud organization and CryoCloudUser team.
-Visit our [GitHub instruction page](preliminary/github) to learn how!
+Visit our [GitHub instruction page](github) to learn how!
 
 ### Slack Account
 
@@ -33,27 +33,27 @@ email to join the Slack workspace. Upon accepting the invite please take a momen
 ### JupyterHub
 
 We will offer all tutorials within the Jupyter Hub computing environment.
-Visit our [Introduction to Jupyter Hub](preliminary/jupyterhub) page to learn more!
+Visit our [Introduction to Jupyter Hub](jupyterhub) page to learn more!
 
 ### Git
 
 All content for the CryoCloud will be shared via GitHub and interacting with the
-website will be done via the `git` command. Visit [Setting up the `git` command](preliminary/git)
+website will be done via the `git` command. Visit [Setting up the `git` command](git)
 to learn how to configure that!
 
 ### EarthData Login
 
 To download data  from NSIDC for your tutorials and projects.
-Visit our [Earthdata](preliminary/earthdata) page to learn how to access and Earthdata login account if you don't already have one!
+Visit our [Earthdata](earthdata) page to learn how to access and Earthdata login account if you don't already have one!
 
 ## Optional setup
 
 ### Google Earth Engine Sign-Up
 The ICESat-2 visualization tutorial will have an interactive component that uses Google Earth Engine (GEE) to query for 
 additional data to help put ICESat-2 data into context. 
-If you would like to follow this part interactively, please visit our [Earth Engine](preliminary/earthengine) page to learn how to sign up, 
+If you would like to follow this part interactively, please visit our [Earth Engine](earthengine) page to learn how to sign up, 
 if you haven't already!
 
 ### Python
-Dive deeper into how [Python is managed and installed](preliminary/python) on the JupyterHub
+Dive deeper into how [Python is managed and installed](python) on the JupyterHub
 and how you can install that on your personal machine.
