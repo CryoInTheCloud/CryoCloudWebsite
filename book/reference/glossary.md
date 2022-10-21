@@ -36,11 +36,6 @@
   things, build community and gain hands-on experience with collaboration and
   team science.
 
-[International Interactive Computing Collaboration (2i2c)](https://2i2c.org)
-  A provider of JupyterHubs in the cloud for research and education. 2i2c 
-  designs, develops, and operates cloud-computing open-source infrastructure 
-  that facilitates collaboration within communities of practice.
-  
 [Project Jupyter](https://jupyter.org)
   Project Jupyter (name derived from "JUlia PYThon and R") exists to develop
   open-source software, open-standards, and services for interactive computing
@@ -68,21 +63,19 @@
   meant for technical documentation and publishing. It is used by Jupyter Book.
 
 [Slack](https://slack.com)
-  A communication platform that we use to share information. We use separate 
-  channels for each project and also rely on the video features. If possible we 
-  recommend [downloading the Slack app](https://slack.com/downloads). If your 
-  agency does not allow you to use the app, you can still interface with Slack 
-  in a web browser.
+  A communication platform that we use to share information. We use separate channels
+  for each project and also rely on the video features. If possible we recommend
+  [downloading the Slack app](https://slack.com/downloads). If your agency does not allow
+  you to use the app, you can still interface with Slack in a web browser.
 
 ```
 
 ## Topical (event specific)
-
 ```{glossary}
 [ICESat-2](https://icesat-2.gsfc.nasa.gov)
-  Ice, Cloud, and land Elevation Satellite (2). Launched in September 2018, the
-  ICESat-2 satellite continues the ICESat and IceBridge missions to collect 
-  multi-year elevation data. Mission science goals focus on assessing changing 
-  land and sea ice and forest heights.
+  Ice, Cloud, and land Elevation Satellite (2).
+  Launched in September 2018, the ICESat-2 satellite continues the ICESat and IceBridge missions to
+  collect multi-year elevation data.
+  Mission science goals focus on assessing changing land and sea ice and forest heights.
 
-```
+  ```
