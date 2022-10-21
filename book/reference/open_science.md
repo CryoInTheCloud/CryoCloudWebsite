@@ -2,8 +2,6 @@
 
 ## What is Open Science?
 
-![open-science-defn](../img/open-science-defn.png)
-
 Open science is the process of making science open and accessible to all through reproducibility and availability of research data and analysis steps.
 Practicing open science allows you to get critical feedback throughout the process, rather than just towards the end of a project.
 Plus, by sharing our work, we can ask increasingly complex questions.

@@ -25,7 +25,7 @@ runs:
       with:
         path: ./book/_build
         # NOTE: change key to "jupyterbook-N-DATE"
-        key: jupyterbook-2022-10-06
+        key: jupyterbook-2022-10-19
 
     - uses: ./.github/actions/setupconda
 
@@ -45,6 +45,7 @@ runs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         personal_token: ${{inputs.token}}
+        external_repository: CryoInTheCloud/cryointhecloud.github.io
         publish_dir: book/_build/html
         publish_branch: gh-pages
         cname: cryointhecloud.github.io
