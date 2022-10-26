@@ -32,4 +32,4 @@ jobs:
         jb-cache: true
         publish-to-gh: true
         jb-save: true
-        token:  ${{ secrets.GH_PAT }}
+        token:  ${{ secrets.ACTIONS_DEPLOY_KEY }}
