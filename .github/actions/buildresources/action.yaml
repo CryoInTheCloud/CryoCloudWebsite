@@ -44,7 +44,7 @@ runs:
       if: inputs.publish-to-gh == 'true'
       uses: peaceiris/actions-gh-pages@v3
       with:
-        personal_token: ${{inputs.token}}
+        deploy_key: ${{inputs.token}}
         external_repository: CryoInTheCloud/cryointhecloud.github.io
         publish_dir: book/_build/html
         publish_branch: gh-pages
