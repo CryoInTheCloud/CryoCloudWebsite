@@ -15,7 +15,7 @@ parse:
     github_org_url: "https://github.com/CryoInTheCloud"
     book_repo: "CryoCloudWebsite"
     website_url: "https://cryointhecloud.com"
-    jupyterhub_url: "https://book.cryointhecloud.com"
+    jupyterhub_url: "https://hub.cryointhecloud.com"
     slack_workspace_url: "https://CryoCloud.slack.com"
     docker_image: "https://hub.docker.com/r/cryointhecloud"
     contact_email: "cryocloud@mines.edu"
