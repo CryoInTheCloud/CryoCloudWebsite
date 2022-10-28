@@ -10,4 +10,3 @@ Finally, one of the best resources when working with a new remote sensing data p
 |  |  |  |
 | :--- | :----: | ----: |
 |![icesat-2 logo](../img/IS2logo.png) |![nsidc logo](../img/nsidc.png)|![sliderule logo](../img/SlideRule.png)|
-
