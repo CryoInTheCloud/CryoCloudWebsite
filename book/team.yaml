@@ -1,5 +1,5 @@
 description:
-  The people on this page have helped organize the hackweek.
+  The people on this page have helped create and/or maintain the CryoCloud computing hub.
   You'll find a few specializations listed per person if you're wondering who to reach out to during the event!
 
 # INSTRUCTIONS:
@@ -7,6 +7,97 @@ description:
 # - user_groups correspond to hackweek roles defined here: https://uwhackweek.github.io/hackweeks-as-a-service/services/index.html
 # - For 'avatar' an easy option is to use the URL for your GitHub user image: https://api.github.com/users/YOUR_GITHUB_USERNAME
 people:
+  - title: Wei Ji Leong
+    avatar: https://avatars.githubusercontent.com/u/23487320?v=4
+    role: Postdoctoral Researcher
+    organizations:
+      - name: Byrd Polar and Climate Research Center
+      - name: The Ohio State University
+    bio: >
+      Wei Ji is a Geospatial Data Scientist working on applying Deep Learning to Earth Observation datasets. His research interest is focused on the subglacial topography and hydrology of Antarctica, having used ICESat-2 to map active subglacial lakes over an entire ice sheet and seeing how they drain and fill over time. As an active open source contributor, he has contributed to many open source PyData projects, and is a core developer of PyGMT - a Python library for geospatial data processing and visualization.
+      He values open science and is excited to get more early career researchers on board too!
+    expertise:
+      - open science
+      - cloud computing
+      - Python
+      - remote sensing
+      - machine learning
+      - subglacial hydrology
+    social:
+      - icon: github
+        icon_pack: fab
+        link: https://github.com/weiji14
+      - icon: twitter
+        icon_pack: fab
+        link: https://twitter.com/weiji14_
+    user_groups:
+      - Maintainer
+      # =============
+  - title: Joanna Millstein
+    avatar: https://avatars.githubusercontent.com/u/7379173?v=4
+    role: PhD Candidate
+    organizations:
+      - name: Massachusetts Institute of Technology
+    bio: >
+      Joanna Millstein is a fifth year PhD candidate in Brent Minchew’s glaciology research group. Her research focuses on the flow and fracture of glacier ice, using remote sensing observation to constrain the fundamental equations and essential patterns on our planet’s ice. Her website is jdmillstein.github.io for more information.
+    expertise:
+      - open science
+      - cloud computing
+      - glaciology
+      - remote sensing
+    social:
+      - icon: github
+        icon_pack: fab
+        link: https://github.com/jdmillstein
+    user_groups:
+      - Creator
+      - Maintainer
+      - Trainer
+# =============
+  - title: Fernando Perez 
+    avatar: https://avatars.githubusercontent.com/u/57394?v=4
+    role: Assistant Professor
+    organizations:
+      - name: University of California Berkeley
+    bio: Fernando Pérez is an assistant professor in Statistics at UC Berkeley and a Faculty Scientist in the Department of Data Science and Technology at Lawrence Berkeley National Laboratory. After completing a PhD in particle physics at the University of Colorado at Boulder, his postdoctoral research in applied mathematics centered on the development of fast algorithms for the solution of partial differential equations in multiple dimensions.  Today, his research focuses on creating tools for modern computational research and data science across domain disciplines, with an emphasis on high-level languages, interactive and literate computing, and reproducible research.  He created IPython while a graduate student in 2001 and co-founded its successor, Project Jupyter. The Jupyter team collaborates openly to create the next generation of tools for human-driven computational exploration, data analysis, scientific insight and education. He is a National Academy of Science Kavli Frontiers of Science Fellow and a Senior Fellow and founding co-investigator of the Berkeley Institute for Data Science.  He is a co-founder of the NumFOCUS Foundation, and a member of the Python Software Foundation. He is the recipient of the 2012 Award for the Advancement of Free Software from the Free Software Foundation.
+    expertise:
+      - open science
+      - cloud computing
+      - data science
+      - software engineering
+      - applied mathematics
+      - numerical algorithms
+      - scientific computing
+    social:
+      - icon: github
+        icon_pack: fab
+        link: https://github.com/fperez
+    user_groups:
+      - Trainer
+  # =============
+  - title: Wilson Sauthoff
+    avatar: https://avatars.githubusercontent.com/u/63430469?v=4
+    role: PhD Student
+    organizations:
+      - name: Colorado School of Mines
+    bio: > 
+      Wilson is a hydrology PhD student researhing Antarctic subglacial hydrology. He has expertise with oceanographic processes and remote sensing of subglacial hydrology using altimetry. He is completing coursework for both a Hydrology PhD and Data Science MSc providing knowledge in data analysis, spatial statistics, and remote sensing. He is a proponent of open, reproducible science and excited to help other researchers incorporate cloud computing into their research workflows.
+    expertise:
+      - open science
+      - cloud computing
+      - Python
+      - subglacial hydrology
+    social:
+      - icon: github
+        icon_pack: fab
+        link: https://github.com/wsauthoff
+      - icon: twitter
+        icon_pack: fab
+        link: https://twitter.com/wilsonsauthoff
+    user_groups:
+      - Maintainer
+      - Trainer
+  # =============
   - title: Jessica Scheick
     avatar: https://avatars.githubusercontent.com/u/11756442?v=4
     role: Research Assistant Professor
@@ -33,515 +124,48 @@ people:
         icon_pack: fab
         link: https://github.com/icesat2py
     user_groups:
-      - Lead Hackweek Organizer
-      - Tutorial Lead
-      - Project Team Lead
-  # =============
-  - title: Anthony Arendt
-    avatar: https://avatars.githubusercontent.com/u/4993098?v=4?s=100
-    role: Senior Data Science Fellow
+      - Maintainer
+    # =============
+  - title: Matthew Siegfried
+    avatar: https://avatars.githubusercontent.com/u/15235568?v=4
+    role: Assistant Professor
     organizations:
-      - name: eScience Institute
-      - name: Applied Physics Laboratory
-    bio: Anthony is leading the eScience Institute's Hackweek-as-a-Service program.
-      He is an advocate for open, inclusive and collaborative science.
-      He has experience teaching GIS and has been the lead organizer for multiple earth-science themed hackweeks.
-      His background is in cryospheric science and remote sensing.
+      - name: Colorado School of Mines
+    bio: >
+      Matt is a glaciologist who uses satellite remote sensing techniques in combination with field-based and airborne geophysical methods to understand physical processes of Earth’s glaciers and ice sheets. He runs the Mines Glaciology Laboratory, where the team collects and synthesizes ground-, air-, and space-based datasets in an effort to span the spatial (centimeters to 100s of km) and temporal (minutes to centuries) on which these processes occur. He is particularly interested in processes at the ice-bed interface, which lies hidden beneath 10s to 1000s of meters of ice at the intersection between glaciology, hydrology, geology, microbiology, and oceanography. He strives to work with a diverse set of researchers to create a unique perspective on the role of subglacial processes within the larger global Earth system. As a polar scientist, Matt is also committed to maintaining an open discussion of the changing cryosphere, having collaborated with institutions ranging from local elementary schools to the U.S. State Department in an effort to facilitate our conversation about the local, regional, and global impacts of changes at the Earth’s poles. Matt is currently an assistant professor in the Department of Geophysics at Colorado School of Mines and is affiliated faculty with the Hydrologic Science and Engineering Program and the Humanitarian Engineering Program.
     expertise:
       - open science
-      - community building
-      - GIS
-      - SQL
-      - glaciers
-      - Python
-    social:
-      - icon: github
-        icon_pack: fab
-        link: https://github.com/aaarendt
-    user_groups:
-      - Lead Hackweek Organizer
-  # =============
-  - title: Charley Haley
-    avatar: https://avatars.githubusercontent.com/u/70242677?v=4
-    role: Social Strategist and Collaboration Architect
-    organizations:
-      - name: Collaboration Architect at eScience Institute
-      - name: WayForagers
-        url: https://WayForagers.org
-    bio: I am passionate about all things that are in service to building collaborations, especially interdisciplinary ones.
-      I love building frameworks that make it easier for science groups (research, applied, data, stakeholders) to understand
-      each other and how they might fit together to address the larger, more complex science challenges that are impossible to
-      touch without a community of collaborators representing all angles & all perspectives.
-    expertise:
-      - Participatory Design and facilitation
-      - Structuring productive meetings & discussions
-      - Community development
-    user_groups:
-      - Lead Community Building
-  # =============
-  - title: Scott Henderson
-    avatar: https://avatars2.githubusercontent.com/u/3924836?s=460&v=4
-    role: Research Scientist
-    organizations:
-      - name: eScience Institute
-      - name: UW Earth and Space Sciences Department
-    bio: Scott is a research scientist and data science fellow at the University of Washington.
-      His research is focused on applications of synthetic aperture radar to understand geophysical processes.
-      Scott is excited about the potential for open source software and Cloud computing to enable more open and reproducible science.
-    expertise:
-      - InSAR
-      - Jupyter
-      - Python
-      - Cloud computing
-    social:
-      - icon: github
-        icon_pack: fab
-        link: https://github.com/scottyhq
-    user_groups:
-      - Lead of Technology
-      - Tutorial Lead
-  # =============
-  - title: Jane Koh
-    avatar: https://avatars.githubusercontent.com/u/51932541?v=4
-    role: Program Manager
-    organizations:
-      - name: eScience Institute
-    bio: about Jane here
-    expertise:
-      - hackweek organization
-    social:
-      - icon: github
-        icon_pack: fab
-        link: https://github.com/janekoh1
-    user_groups:
-      - Program Manager
-  # =============
-  - title: Don Setiawan
-    avatar: https://avatars.githubusercontent.com/u/17802172?v=4
-    role: Research Software Engineer
-    organizations:
-      - name: School of Oceanography
-        url: https://www.ocean.washington.edu/home/Don_Setiawan
-      - name: University of Washington
-    bio: I am a Research Software Engineer at the University of Washington with a
-      strong focus in designing, developing, and maintaining scientific data analysis
-      systems. I am a contributor to various open source software. I learning new
-      technologies and apply them in my work.
-    expertise:
-      - Geospatial Information Systems (GIS)
-      - Data Engineering / Data Science
-      - Software Engineering
-      - Web Development
-      - DevOps/GitOps
-      - Oceanography
-      - Python
-    social:
-      - icon: github
-        icon_pack: fab
-        link: https://github.com/lsetiawan
-    user_groups:
-      - Technology Specialist
-  # =============
-  - title: Naomi Alterman
-    avatar: https://escience.washington.edu/wp-content/uploads/2021/01/nlalterman.jpg
-    role: Education Consultant
-    organizations:
-      - name: eScience Institute
-    bio: >
-      Naomi is a Technical Education Specialist at the University of
-      Washington's eScience Institute. She has a background in electrical
-      engineering and computer science, but loves spending her time working on the
-      interface between complex domains of information, be they software, hardware,
-      or people.
-    expertise:
-      - Education and pedagogy
-      - Technical mentorship
-      - Python
-      - git
-      - Cloud computing
-    social:
-      - icon: github
-        icon_pack: fab
-        link: https://github.com/naclomi
-    user_groups:
-      - Education Consultant
-  # =============
-  - title: Joachim Meyer
-    avatar: https://avatars.githubusercontent.com/u/178649?v=4
-    role: Graduate Student
-    organizations:
-      - name: University of Utah
-    bio: >
-      Joe is a graduate student at the University of Utah with a research focus
-      on snow hydrology and closing the gap between research and operations.
-      He has a background in software development and would love to see more
-      software development best practices, open source software, and open science
-      principles being adapted throughout the research community.
-    expertise:
-      - Software Development
-      - Python
-      - git, GDAL, anything in the Terminal really ...
-      - Modeling
-    social:
-      - icon: github
-        icon_pack: fab
-        link: https://github.com/jomey
-    user_groups:
-      - Technology Specialist
-  # =============
-  - title: Nicoleta Cristea
-    avatar: https://avatars.githubusercontent.com/u/16614760?v=4
-    role: Research Scientist
-    organizations:
-      - name: eScience Institute
-    bio: >
-      Nicoleta is a research hydrologist interested in using data science methods in
-      research and educational activities. Current projects focus on studying snowy
-      areas with machine learning and physics based models. She is also working on developing
-      GeoSMART, an educational framework for machine learning adoption in the geosciences.
-    expertise:
-      - hydrology, snow hydrology
-      - remote sensing
-      - geospatial data analysis
-      - Python
-    social:
-      - icon: github
-        icon_pack: fab
-        link: https://github.com/NCristea
-    user_groups:
-      - Lead Education Coordinator
-  # =============
-  - title: Axel Schweiger
-    avatar: https://avatars.githubusercontent.com/u/47397809?v=4
-    role: Project Coordination Lead
-    organizations:
-      - name: Polar Science Center/APL/UW
-    bio: >
-      Arctic Climate Change. Sea Ice, Atmosphere Interactions
-    expertise:
-      - sea ice, remote sensing, arctic clouds
-    social:
-      - icon: github
-        icon_pack: fab
-        link: https://github.com/axelschweiger
-    user_groups:
-      - Lead Project Coordinator
-  # =============
-  - title: Aimee Barciauskas
-    avatar: https://avatars.githubusercontent.com/u/15016780?v=4
-    role: Data Engineer
-    organizations:
-      - name: Development Seed
-    bio: >
-      Aimee is a data engineer at Development Seed where she collaborates with Earth data providers and scientists in promoting open data and open science.
-    expertise:
-      - Cloud computing
-    social:
-      - icon: github
-        icon_pack: fab
-        link: https://github.com/abarciauskas-bgse
-    user_groups:
-      - Tutorial Lead
-  # =============
-  - title: Ben Smith
-    avatar: https://avatars.githubusercontent.com/u/2279144?v=4
-    role: Research Scientist
-    organizations:
-      - name: University of Washington APL
-    bio: >
-      Ben is an investigator with the University of Washington Polar Science Center.  He has worked on a
-      variety of projects involving ice-sheet dynamics, with a focus on using altimetry to measure ice-sheet
-      mass change, and has worked on product design for the ICESat-2 mission.
-    expertise:
-      - ICESat-2 products
-      - Ice-sheet glaciology
-      - Ice-sheet change detection
-    social:
-      - icon: github
-        icon_pack: fab
-        link: https://github.com/smithB
-    user_groups:
-      - Tutorial Lead
-  # =============
-  - title: Romina Piunno
-    avatar: "https://avatars.githubusercontent.com/u/17185856?v=4"
-    role: Graduate Student
-    organizations:
-      - name: University of Toronto
-    bio: >
-      Romina is a PhD candidate in atmospheric physics at the University of Toronto with a
-      background in computer science and mathematics. Her research focuses on deep
-      convection in the Labrador Sea and its role in atmospheric carbon sequestration.
-      In additio to her research, Romina is actively involved in a project that aims to
-      extend Icepyx functionality to other datasets.
-    expertise:
-      - Python
-      - Matlab
-      - Atmospheric Physics
-      - Air-Sea Interactions
-    social:
-      - icon: github
-        icon_pack: fab
-        link: https://github.com/RomiP
-    user_groups:
-      - Tutorial Lead
-  # =============
-  - title: Daniel Shapero
-    avatar: https://avatars.githubusercontent.com/u/3905742?v=4
-    role: Senior Research Scientist
-    organizations:
-      - name: UW Applied Physics Laboratory
-      - name: UW Earth and Space Sciences
-    bio: Daniel develops a software package called Icepack for simulating the flow
-      of ice sheets and glaciers and for assimilating observational data into these models.
-    expertise:
-      - software development, git
-      - Python, Jupyter
-      - rasterio, GIS
-      - numerical modeling, finite elements
-    social:
-      - icon: github
-        icon_pack: fab
-        link: https://github.com/danshapero
-    user_groups:
-      - Tutorial Lead
-  # =============
-  - title: Zachary Fair
-    avatar: https://avatars.githubusercontent.com/u/48361714?v=4
-    role: Postdoctoral Fellow
-    organizations:
-      - name: NASA GSFC
-    bio: >
-      I am a postdoc working with the ICESat-2 and SnowEx missions, with the goal of calibrating ICESat-2 data for snow depth studies.
-      I have a background in radar meteorology and lidar remote sensing of the cryosphere. I am here to provide assistance in the
-      integration of ICESat-2 with other data sets, and I am looking forward to learn more about open source software development.
-    expertise:
-      - ICESat-2 ATL03 data analysis
-      - Data integration with airborne/in-situ data
-    social:
-      - icon: github
-        icon_pack: fab
-        link: https://github.com/zachghiaccio
-    user_groups:
-      - Tutorial Developer
-    # =============
-  - title: Philipp Arndt
-    avatar: https://avatars.githubusercontent.com/u/22216399?v=4
-    role: Graduate Student
-    organizations:
-      - name: Scripps Polar Center, UC San Diego
-    bio: >
-      I spend my days trying to understand how the floating ice shelves surrounding Antarctica are responding to a warming climate:
-      How much ice turns into meltwater that pools in lakes at the surface?
-      Where does all the meltwater go, and will it damage the ice shelf in the process?
-      What does all this mean for the stability of the Antarctic Ice Sheet and global sea-level rise?
-      To answer these questions, I use a combination of different high-resolution data products from multiple satellite missions.
-      Whenever I'm not busy watching Antarctica melt from space through my computer,
-      you'll probably find me doing flips at the gymnastics facility or climbing on the face of some mountain.
-    expertise:
-      - Python
-      - Supraglacial Hydrology
-      - Satellite Remote Sensing
-      - ICESat-2 ATL03
-    social:
-      - icon: github
-        icon_pack: fab
-        link: https://github.com/fliphilipp
-    user_groups:
-      - Tutorial Lead / Helper
-    # =============
-  - title: Wei Ji Leong
-    avatar: https://avatars.githubusercontent.com/u/23487320?v=4
-    role: Postdoctoral Researcher
-    organizations:
-      - name: Byrd Polar and Climate Research Center
-      - name: The Ohio State University
-    bio: >
-      Wei Ji is a Geospatial Data Scientist working on applying Deep Learning to Earth Observation datasets.
-      His research interest is focused on the subglacial topography and hydrology of Antarctica, having used
-      ICESat-2 to map active subglacial lakes over an entire ice sheet and seeing how they drain and fill over time.
-      As an active open source contributor, he has contributed to many open source PyData projects, and is
-      a core developer of PyGMT - a Python library for geospatial data processing and visualization.
-      He values open science and is excited to get more early career researchers on board too!
-    expertise:
-      - remote sensing
-      - machine learning
+      - cloud computing
       - subglacial hydrology
-      - open science
-      - Python
+      - ice-ocean interaction
+      - air- & space-borne altimetry
     social:
       - icon: github
         icon_pack: fab
-        link: https://github.com/weiji14
-      - icon: twitter
-        icon_pack: fab
-        link: https://twitter.com/weiji14_
+        link: https://github.com/mrsiegfried
     user_groups:
-      - Tutorial Lead
-      - Project Helper
+      - Maintainer
     # =============
-  - title: Tyler Sutterley
-    avatar: https://avatars.githubusercontent.com/u/5384907?v=4
-    role: Senior Research Scientist
-    organizations:
-      - name: UW Applied Physics Laboratory
-    bio: >
-      Tyler is a research scientist within the Polar Science Center at the
-      University of Washington Applied Physics Laboratory. Tyler uses airborne
-      and satellite altimetry data to help analyze ice sheet and ice shelf change.
-      He writes code in Python and generally spends too much time on Slack.
-    expertise:
-      - ICESat-2 products
-      - SlideRule development
-      - Physical geodesy
-      - Ice sheets and ice shelves
-    social:
-      - icon: github
-        icon_pack: fab
-        link: https://github.com/tsutterley
-      - icon: github
-        icon_pack: fab
-        link: https://github.com/ICESat2-SlideRule
-    user_groups:
-      - Tutorial Lead
-  # =============
   - title: Tasha Snow
     avatar: https://avatars.githubusercontent.com/u/12904976?v=4
     role: Postdoctoral Researcher
     organizations:
       - name: Colorado School of Mines
     bio: >
-      Tasha is a postdoc at the Colorado School of Mines working to develop new ways of detecting
-      ocean heat transport and glacier-ocean interactions with remote sensing (especially thermal
-      infrared). In her research, she also works on cloud-based, open-sourced workflows for advancing
+      Tasha is a postdoc at the Colorado School of Mines working to develop new ways of detecting ocean heat transport and glacier-ocean interactions with remote sensing (especially thermal infrared). In her research, she also works on cloud-based, open-sourced workflows for advancing
       data integration and machine learning techniques.
     expertise:
+      - open science
+      - cloud computing
       - remote sensing
       - machine learning
       - ice-ocean interaction
-      - open science
     social:
       - icon: github
         icon_pack: fab
         link: https://github.com/tsnow03
     user_groups:
-      - Tutorial Lead
-    # =============
-  - title: Mikala Beig
-    avatar: https://avatars.githubusercontent.com/u/83375472?v=4
-    role: Data support specialist
-    organizations:
-      - name: National Snow and Ice Data Center NASA DAAC
-    bio: >
-      Mikala is a Data support specialist at the National Snow and Ice Data Center NASA Distributed
-      Active Archive Center, where all ICESat-2 data products are archived.  She supports data users
-      in the discovery of and access to ICESat-2 data sets, as well as SnowEx and High Mountain Asia data sets.
-    expertise:
-      - data access - on prem and cloud
-      - ICESat-2 data sets
-    social:
-      - icon: github
-        icon_pack: fab
-        link: https://github.com/mikala-nsidc
-    user_groups:
-      - Tutorial Lead
-  # =============
-  - title: Hannah Besso
-    avatar: https://avatars.githubusercontent.com/u/71660036?v=4
-    role: Graduate Student
-    organizations:
-      - name: University of Washington
-    bio: >
-      Hannah is a graduate student with the Mountain Hydrology Research Group at the University of Washington.
-      She uses ICESat-2 satellite altimetry and airborne lidar to measure snow depth in the Western US, and
-      enjoys working as a part-time ski patroller at Crystal Mountain to balance out all that time in front of a
-      computer.
-    expertise:
-      - remote sensing
-      - python
-      - jupyter
-      - SlideRule ICESat-2
-    social:
-      - icon: github
-        icon_pack: fab
-        link: https://github.com/bessoh2
-    user_groups:
-      - Tutorial Helper
-  # =============
-  - title: Zheng Liu
-    avatar: https://avatars.githubusercontent.com/u/51420076?v=4
-    role: Senior Research Scientist
-    organizations:
-      - name: Polar Science Center/APL/UW
-    bio: >
-      Zheng works on the interactions between clouds and sea ice in the Arctic using satellite observations and regional atmospheric modeling.
-    expertise:
-      - Arctic clouds
-      - remote sensing
-      - Python, Jupyter
-      - ICESat-2 ATL07/09/10
-    social:
-      - icon: github
-        icon_pack: fab
-        link: https://github.com/liuzheng-arctic
-    user_groups:
-      - Tutorial Helper/Project Helper
-  # =============
-  - title: Ian Joughin
-    avatar: https://coenv-media-gene1ufvxiloffjq.stackpathdns.com/2015/02/Ian-Joughin-528x528.jpg
-    role: Senior Principal Engineer
-    organizations:
-      - name: Polar Science Center/APL/UW
-    bio: >
-     Ian combines the remote sensing with field work and modeling to solve ice dynamics problems. 
-    expertise:
-      - Synthetic Aperture Radar
-      - remote sensing
-      - Ice sheet modeling
-    user_groups:
-      - Tutorial Helper/Project Helper
-  # =============
-  - title: Kelsey Bisson
-    avatar: https://avatars.githubusercontent.com/u/48059682?v=4
-    role: Research Assistant Professor
-    organizations:
-      - name: Oregon State University
-    bio: > 
-      Kelsey is a biogeochemical oceanographer and remote sensing specialist. She advocates for open science and for using 
-      satellite data outside of their intended use (ie using ICESat-2 to inform detections of phytoplankton). 
-    expertise:
-      - ICESat-2/icepyx
-      - collaborative development
-      - phytoplankton, ocean
-    social:
-      - icon: github
-        icon_pack: fab
-        link: https://github.com/kelseybisson
-      - icon: github
-        icon_pack: fab
-        link: https://github.com/icesat2py
-    user_groups:
-      - Tutorial Helper
-  # =============
-  - title: Wilson Sauthoff
-    avatar: https://avatars.githubusercontent.com/u/63430469?v=4
-    role: Graduate Student
-    organizations:
-      - name: Colorado School of Mines
-    bio: > 
-      Wilson is a hydrology PhD student researhing Antarctic subglacial hydrology using ICESat-2 data. 
-      He is a proponent of open, reproducible science and excited to help other researchers incorporate ICESat-2 data into their work.
-    expertise:
-      - subglacial hydrology
-      - Python
-      - ICESat-2 ATL11 data product
-    social:
-      - icon: github
-        icon_pack: fab
-        link: https://github.com/wsauthoff
-      - icon: twitter
-        icon_pack: fab
-        link: https://twitter.com/wilsonsauthoff
-    user_groups:
-      - Tutorial Helper
+      - Creator
+      - Maintainer
+      - Trainer
   # =============
