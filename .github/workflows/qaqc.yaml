@@ -13,7 +13,7 @@ jobs:
         shell: bash -l {0}
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
 
     - uses: ./.github/actions/setupconda
 
@@ -25,14 +25,15 @@ jobs:
       run: |
         python .github/workflows/ensure_clean_notebooks.py
 
-    # NOTE: this isn't a comprehensive spellcheck, just common typos
+    # NOTE: this isn't a comprehensive spellcheck, just common typos, not checking hidden files at the moment
     - name: Spellcheck
       if: always()
       uses: codespell-project/actions-codespell@master
       with:
         check_filenames: true
         check_hidden: true
-        skip: '*.js,qaqc.yml'
+        skip: '*.js,qaqc.yaml,./.git/objects/*'
+
         ignore_words_list: slippy,trough,thw
 
     # borrowed from https://github.com/ProjectPythia/pythia-foundations/blob/main/.github/workflows/link-checker.yaml

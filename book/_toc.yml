@@ -3,13 +3,28 @@
 root: intro
 format: jb-book
 parts:
-- caption: CryoCloud Project Specs
+- caption: Details
   chapters:
-    - file: about
-    - file: CoC
+    - file: content/about
+    - file: content/mission
+    - file: content/Getting_Started
+    - file: content/Code_of_Conduct
 - caption: Cloud Training
   chapters:
     - file: recorded/index
+- caption: Background Info
+  chapters:
+    - file: preliminary/index
+      sections:
+        - file: preliminary/github
+        - file: preliminary/jupyterhub
+        - file: preliminary/git
+        - file: preliminary/earthdata
+        - file: preliminary/earthengine
+        - file: preliminary/swc
+          sections:
+          - file: preliminary/python
+          - file: preliminary/conda
 - caption: Tutorials
   chapters:
     - file: tutorials/index

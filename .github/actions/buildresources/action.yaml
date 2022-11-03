@@ -21,11 +21,11 @@ runs:
   steps:
     - name: Setup JupyterBook Cache
       if: inputs.jb-cache == 'true'
-      uses: actions/cache@v2
+      uses: actions/cache@v3
       with:
         path: ./book/_build
         # NOTE: change key to "jupyterbook-N-DATE"
-        key: jupyterbook-2022-10-06
+        key: jupyterbook-2022-10-19
 
     - uses: ./.github/actions/setupconda
 
@@ -44,10 +44,11 @@ runs:
       if: inputs.publish-to-gh == 'true'
       uses: peaceiris/actions-gh-pages@v3
       with:
-        personal_token: ${{inputs.token}}
+        deploy_key: ${{inputs.token}}
+        external_repository: CryoInTheCloud/cryointhecloud.github.io
         publish_dir: book/_build/html
         publish_branch: gh-pages
-        cname: cryointhecloud.github.io
+        cname: book.cryointhecloud.com
 
     - name: Save Build
       if: ${{ always() && inputs.jb-save == 'true'}} 

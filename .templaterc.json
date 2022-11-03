@@ -15,7 +15,6 @@
         "book/mission.md",
         "conda/lock-environment.sh",
         "scripts/*",
-        "{{ cookiecutter.repo_directory }}/*",
         "CHANGELOG.md",
         "LICENSE.md",
         "README.md"
