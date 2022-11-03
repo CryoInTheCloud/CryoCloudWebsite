@@ -6,6 +6,7 @@
 name: cryocloud
 channels:
   - conda-forge
+  - nodefaults
 dependencies:
   - git
   - icepyx
