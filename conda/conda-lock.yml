@@ -3267,22 +3267,6 @@ package:
   version: 0.4.6
 - category: main
   dependencies:
-    libcurl: '>=7.83.1,<8.0a0'
-    libgcc-ng: '>=12'
-    openssl: '>=1.1.1o,<1.1.2a'
-    python: '>=3.9,<3.10.0a0'
-    python_abi: 3.9.* *_cp39
-  hash:
-    md5: f18d0d0194faf2d853a91a407548ac37
-    sha256: 2a78f1a6638a209964837a61dec0e1fbf40fcdae7d54876fb7d9aa879ce6b3d9
-  manager: conda
-  name: pycurl
-  optional: false
-  platform: linux-64
-  url: https://conda.anaconda.org/conda-forge/linux-64/pycurl-7.45.1-py39hd73adbb_2.tar.bz2
-  version: 7.45.1
-- category: main
-  dependencies:
     python: '>=3.6'
     setuptools: ''
   hash:
