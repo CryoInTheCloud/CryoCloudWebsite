@@ -6,6 +6,7 @@
 name: cryocloud
 channels:
   - conda-forge
+  - nodefaults
 dependencies:
   - git
   - icepyx
@@ -14,6 +15,7 @@ dependencies:
   - jupyterhub-singleuser
   - jupyterlab=3
   - jupytext
+  - nbgitpuller
   - pip
   - python=3.9
   - sphinxcontrib-bibtex
