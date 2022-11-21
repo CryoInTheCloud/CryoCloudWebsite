@@ -18,13 +18,11 @@ runs:
     - name: Setup Mambaforge
       uses: conda-incubator/setup-miniconda@v2
       with:
-        activate-environment: cryocloud
-        auto-update-conda: false
-        channels: conda-forge
-        channel-priority: strict
         miniforge-version: latest
         miniforge-variant: Mambaforge
         use-mamba: true
+        auto-update-conda: false
+        activate-environment: cryocloud
         use-only-tar-bz2: true # IMPORTANT: This needs to be set for conda package cache to work properly!
 
     - name: Cache Entire Conda Environment
