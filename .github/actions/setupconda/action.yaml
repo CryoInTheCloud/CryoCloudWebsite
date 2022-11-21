@@ -14,17 +14,17 @@ runs:
         path: ~/conda_pkgs_dir
         key:
           ${{ runner.os }}-conda-packages-${{ env.CACHE_NUMBER }}-${{ hashFiles('conda/conda-lock.yml') }}
-
+    
     - name: Setup Mambaforge
       uses: conda-incubator/setup-miniconda@v2
       with:
-        miniforge-version: latest
+        miniforge-version: 4.11.0-4
         miniforge-variant: Mambaforge
         use-mamba: true
         auto-update-conda: false
         activate-environment: cryocloud
-        use-only-tar-bz2: true # IMPORTANT: This needs to be set for conda package cache to work properly!
-
+        use-only-tar-bz2: true # IMPORTANT: This needs to be set for conda package cache to work properly!    
+    
     - name: Cache Entire Conda Environment
       id: cache-env
       uses: actions/cache@v3
