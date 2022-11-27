@@ -18,6 +18,7 @@ dependencies:
   - nbgitpuller
   - pip
   - python=3.9
+  - s3fs
   - sphinxcontrib-bibtex
   - vim
   - wget
