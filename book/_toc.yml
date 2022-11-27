@@ -29,7 +29,7 @@ parts:
   chapters:
     - file: tutorials/index
       sections:
-	- file: tutorials/IS2_cloud_data_integration
+        - file: tutorials/IS2_cloud_data_integration
 - caption: Reference
   chapters:
     - file: reference/glossary
