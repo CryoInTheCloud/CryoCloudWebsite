@@ -4,7 +4,7 @@
 # !!! If you are developing the website locally use the existing lock files
 # for your platform (`conda create --name cryocloud --file conda-linux-64.lock`)
 
-name: cryointhecloud
+name: cryocloud
 
 channels:
   - conda-forge
