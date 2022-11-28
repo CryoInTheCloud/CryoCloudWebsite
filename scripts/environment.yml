@@ -1,0 +1,13 @@
+name: notebook-import
+channels:
+- conda-forge
+dependencies:
+- python=3.8
+- nbformat=5.1
+- requests=2.26
+- pytest=6.2
+- pip
+- pip:
+  - pqdm
+  - markdown
+  - pytest-watch
