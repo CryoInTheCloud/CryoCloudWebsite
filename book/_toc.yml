@@ -7,7 +7,6 @@ parts:
   chapters:
     - file: content/about
     - file: content/mission
-    - file: content/team
     - file: content/Getting_Started
     - file: content/Code_of_Conduct
 - caption: Cloud Training
@@ -26,6 +25,9 @@ parts:
           sections:
           - file: preliminary/python
           - file: preliminary/conda
+- caption: How Tos
+  chapters:
+    - file: how_tos/index
 - caption: Tutorials
   chapters:
     - file: tutorials/index
