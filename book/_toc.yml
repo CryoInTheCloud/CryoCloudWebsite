@@ -7,7 +7,6 @@ parts:
   chapters:
     - file: content/about
     - file: content/mission
-    - file: content/team
     - file: content/Getting_Started
     - file: content/Code_of_Conduct
 - caption: Cloud Training
