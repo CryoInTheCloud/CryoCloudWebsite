@@ -52,6 +52,8 @@ git branch -d newbranchname # delete old local  branch
 git mv filename newfilename # rename while keeping git history for file
 git rm filename             # delete file
 git rm -r directoryname     # delete directory
+git log                     # show commit logs
+git status                  # the state of the working directory and the staging area - which changes have been staged, which haven’t, and which files aren’t being tracked by Git. Status output does not show you any information regarding the committed project history. For this, you need to use git log.
 ```
 :::
 
@@ -240,14 +242,14 @@ Master](https://stackoverflow.com/questions/34656523/git-update-local-branch-wit
 ``` bash
 git checkout main
 git pull
-git checkout your-branch
+git checkout newbranchname
 git merge main
 ```
 
 #### or fetch and merge origin/main
 
 ``` bash
-git checkout your-branch
+git checkout newbranchname
 git fetch
 git merge origin/main
 ```
@@ -257,13 +259,19 @@ git merge origin/main
 Now you've synced your work to github.com. It is currently online, in a
 separate branch from the `main` branch. Go to
 <https://github.com/cryointhecloud/CryoCloudWebsite>, find your
-branch, and do a pull request.
+branch, and do a pull request. Write a suitable subject heading and submit
+the pull request. 
 
-TODO: Let's discuss our review process:
+Now that you have a pull request open, it will go start automatic checks based
+on what files folders you have made changes to. Additionally, if you are 
+contributing to the JupyterBook, you need to go to the right side within the 
+pull request, click the gear button next to `Labels`, and type preview. This 
+will add a Netlify and Test check to your pull request.
 
--   Tag someone to review, (including you if it's a quick fix?)
--   Timeline
--   Merging
+You will need another reviewer with write priveledges to review your request.
+Once they have reviewed your PR, you and they will be able to `squash and merge`.
+You will want to make sure to update the branch first if any other pull requests
+have been approved since you pushed. 
 
 When the pull request is merged, delete the branch on github.com. GitHub
 will prompt you with a button at the end of the merge.
