@@ -1,6 +1,6 @@
 description:
   The people on this page have helped create and/or maintain the CryoCloud computing hub.
-  You'll find a few specializations listed per person if you're wondering who to reach out to during the event!
+  You'll find a few specializations listed per person if you are looking to discuss specific topics related to your open science.
 
 # INSTRUCTIONS:
 # - One entry per key must be included per person (title, avatar, role, organizations, bio, expertise, social, user_groups)
@@ -14,8 +14,7 @@ people:
       - name: Byrd Polar and Climate Research Center
       - name: The Ohio State University
     bio: >
-      Wei Ji is a Geospatial Data Scientist working on applying Deep Learning to Earth Observation datasets. His research interest is focused on the subglacial topography and hydrology of Antarctica, having used ICESat-2 to map active subglacial lakes over an entire ice sheet and seeing how they drain and fill over time. As an active open source contributor, he has contributed to many open source PyData projects, and is a core developer of PyGMT - a Python library for geospatial data processing and visualization.
-      He values open science and is excited to get more early career researchers on board too!
+      Wei Ji is a Geospatial Data Scientist working on applying Deep Learning to Earth Observation datasets. His research interest is focused on the subglacial topography and hydrology of Antarctica, having used ICESat-2 to map active subglacial lakes over an entire ice sheet and seeing how they drain and fill over time. As an active open source contributor, he has contributed to many open source PyData projects, and is a core developer of PyGMT - a Python library for geospatial data processing and visualization. He values open science and is excited to get more early career researchers on board too!
     expertise:
       - open science
       - cloud computing
@@ -32,12 +31,13 @@ people:
         link: https://twitter.com/weiji14_
     user_groups:
       - Maintainer
-      # =============
+  # =============
   - title: Joanna Millstein
     avatar: https://avatars.githubusercontent.com/u/7379173?v=4
     role: PhD Candidate
     organizations:
       - name: Massachusetts Institute of Technology
+      - name: Colorado School of Mines
     bio: >
       Joanna Millstein is a fifth year PhD candidate in Brent Minchew’s glaciology research group. Her research focuses on the flow and fracture of glacier ice, using remote sensing observation to constrain the fundamental equations and essential patterns on our planet’s ice. Her website is jdmillstein.github.io for more information.
     expertise:
@@ -53,7 +53,28 @@ people:
       - Creator
       - Maintainer
       - Trainer
-# =============
+  # =============
+  - title: Yuvi Panda
+    avatar: https://avatars.githubusercontent.com/u/30430?v=4
+    role: Infrastructure Architect
+    organizations:
+      - name: 2I2C
+      - name: UC Berkeley Division of Computing, Data Science, and Society
+    bio: >
+      Yuvi Panda is a co-founder of 2I2C and Infrastructure Architect at UC Berkeley Division of Computing, Data Science, and Society. 
+    expertise:
+      - web development
+      - programming
+      - JavaScript
+      - data extraction
+      - digital design
+    social:
+      - icon: github
+        icon_pack: fab
+        link: https://github.com/yuvipanda
+    user_groups:
+      - Maintainer
+  # =============
   - title: Fernando Perez 
     avatar: https://avatars.githubusercontent.com/u/57394?v=4
     role: Assistant Professor
@@ -77,11 +98,11 @@ people:
   # =============
   - title: Wilson Sauthoff
     avatar: https://avatars.githubusercontent.com/u/63430469?v=4
-    role: PhD Student
+    role: PhD Candidate
     organizations:
       - name: Colorado School of Mines
     bio: > 
-      Wilson is a hydrology PhD student researhing Antarctic subglacial hydrology. He has expertise with oceanographic processes and remote sensing of subglacial hydrology using altimetry. He is completing coursework for both a Hydrology PhD and Data Science MSc providing knowledge in data analysis, spatial statistics, and remote sensing. He is a proponent of open, reproducible science and excited to help other researchers incorporate cloud computing into their research workflows.
+      Wilson is a hydrology PhD student researhing Antarctic subglacial hydrology. He has expertise with oceanographic processes and remote sensing of subglacial hydrology using altimetry. He is completing coursework for both a Hydrology PhD and Data Science MSc providing knowledge in data analysis, spatial statistics, remote sensing, and machine learning. He is a proponent of open, reproducible science and excited to help other researchers incorporate cloud computing into their research workflows.
     expertise:
       - open science
       - cloud computing
@@ -104,10 +125,7 @@ people:
     organizations:
       - name: University of New Hampshire
       - name: eScience
-    bio: Jessica is a glaciologist, remote sensing specialist, open science advocate and educator,
-      collaborative developer, open-source software contributor and maintainer, and community manager.
-      She enjoys weaving her many roles together to work with others to build software that makes it easier
-      for everyone to access and manipulate data, and she's especially fond of detecting icebergs.
+    bio: Jessica is a glaciologist, remote sensing specialist, open science advocate and educator, collaborative developer, open-source software contributor and maintainer, and community manager. She enjoys weaving her many roles together to work with others to build software that makes it easier for everyone to access and manipulate data, and she's especially fond of detecting icebergs.
     expertise:
       - open science
       - collaborative development
@@ -125,7 +143,7 @@ people:
         link: https://github.com/icesat2py
     user_groups:
       - Maintainer
-    # =============
+  # =============
   - title: Matthew Siegfried
     avatar: https://avatars.githubusercontent.com/u/15235568?v=4
     role: Assistant Professor
@@ -145,15 +163,14 @@ people:
         link: https://github.com/mrsiegfried
     user_groups:
       - Maintainer
-    # =============
+  # =============
   - title: Tasha Snow
     avatar: https://avatars.githubusercontent.com/u/12904976?v=4
     role: Postdoctoral Researcher
     organizations:
       - name: Colorado School of Mines
     bio: >
-      Tasha is a postdoc at the Colorado School of Mines working to develop new ways of detecting ocean heat transport and glacier-ocean interactions with remote sensing (especially thermal infrared). In her research, she also works on cloud-based, open-sourced workflows for advancing
-      data integration and machine learning techniques.
+      Tasha is a postdoc at the Colorado School of Mines working to develop new ways of detecting ocean heat transport and glacier-ocean interactions with remote sensing (especially thermal infrared). In her research, she also works on cloud-based, open-sourced workflows for advancing data integration and machine learning techniques.
     expertise:
       - open science
       - cloud computing
