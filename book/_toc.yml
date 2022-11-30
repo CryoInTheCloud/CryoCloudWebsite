@@ -29,12 +29,6 @@ parts:
 - caption: How Tos
   chapters:
     - file: how_tos/index
-      sections:
-        - file: external/Earthdata_Cloud__Single_File__HTTPS_Access_COG_Example
-        - file: external/Earthdata_Cloud__Single_File_Direct_S3_Access_COG_Example
-        - file: external/Multi-File_Direct_S3_Access_COG_Example
-        - file: external/Earthdata_Cloud__Single_File__Direct_S3_Access_NetCDF4_Example
-        - file: external/Multi-File_Direct_S3_Access_NetCDF_Example
 - caption: Tutorials
   chapters:
     - file: tutorials/index
