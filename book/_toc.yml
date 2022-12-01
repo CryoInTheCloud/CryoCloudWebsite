@@ -33,7 +33,7 @@ parts:
     - file: tutorials/index
 - caption: Contributing
   chapters:
-    -file: contributing/index
+    - file: contributing/index
      sections:
        - file: contributing/workflow
 - caption: Reference
