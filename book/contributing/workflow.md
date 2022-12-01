@@ -18,8 +18,7 @@ contributing, you may have more focus on different parts of it.
 
 ## Quickstart reference
 
-::: {.callout-tip collapse="true"}
-## Summary of GitHub commands detailed here
+```{admonition} Summary of GitHub commands detailed here
 
 ``` bash
 ## check which branches exist, where you are, and pull recent from main branch
@@ -58,7 +57,7 @@ git rm -r directoryname     # delete directory
 git log                     # show commit logs
 git status                  # the state of the working directory and the staging area - which changes have been staged, which haven’t, and which files aren’t being tracked by Git. Status output does not show you any information regarding the committed project history. For this, you need to use git log.
 ```
-:::
+```
 
 ## GitHub Workflow {#github-workflow}
 
@@ -83,8 +82,7 @@ by Fernando Perez, Fernando Paolo, Shane Grigsby, and Daniel Shapiro, which
 includes fantastic background philosophy as well as bash commands for setup, 
 workflows, and collaboration.
 
-**The following assumes you've completed the [initial
-setup](/contributing/setup.qmd) from the previous chapter.
+**The following assumes you've completed the initial setup (*under production*) from the previous chapter.
 
 ### Branch setup
 
