@@ -1,5 +1,7 @@
 # Workflow for contributing to our JupyterBook (or any GitHub project)
 
+*Modeled after [NASA OpenScapes Cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/).*
+
 Your workflow can be from whatever software you are most comfortable
 with: you can develop chapters working in an integrated development
 environment (IDE) like RStudio or Spyder, notebook interface like
@@ -41,7 +43,8 @@ git commit -m "my commit message here"
 git push -u origin newbranchname  # connect your branch to github.com and push
 
 ## create a pull request
-## from GitHub.com, create a pull request and once it is merged, delete your branch
+## from GitHub.com, create a pull request, and add a `preview` label to the pull request. Once it passes 
+all tests, a reviewer signs off on it, and it is merged, delete your branch.
 
 ## delete branch
 git checkout main           # switch to the main branch
@@ -65,8 +68,7 @@ We will work in branches so as to not overwrite each other's work, and
 let GitHub do what it does best.
 
 The `main` branch will be the current approved version of the book. The
-main branch is what displays at
-<https://cryocloud.github.io>.
+main branch is what displays at <https://cryocloud.github.io>.
 
 A nice clean workflow with branches is to consider them temporary. You
 pull the most recent from `main`, you create a branch locally, you make
@@ -74,18 +76,15 @@ your edits, you commit regularly, you push regularly to github.com, and
 then you create a pull request for it to be merged into `main`, and when
 it's approved the branch is deleted on github.com and you also delete it
 locally. That's the workflow we'll walk through here. A great resource
-on GitHub setup and collaboration is [Happy Git with
-R](https://happygitwithr.com/), which includes fantastic background
-philosophy as well as bash commands for setup, workflows, and
-collaboration.
+on GitHub setup and collaboration is the ICESat-2 Hackweek [Git and GitHub 
+tutorial notebooks and video records]
+(https://github.com/ICESAT-2HackWeek/2020_ICESat-2_Hackweek_Tutorials#03-git-and-github)
+by Fernando Perez, Fernando Paolo, Shane Grigsby, and Daniel Shapiro, which 
+includes fantastic background philosophy as well as bash commands for setup, 
+workflows, and collaboration.
 
 **The following assumes you've completed the [initial
 setup](/contributing/setup.qmd) from the previous chapter.
-
-For a more in depth review of GitHub, access the ICESat-2 Hackweek 
-[Git and GitHub tutorial notebooks and video records]
-(https://github.com/ICESAT-2HackWeek/2020_ICESat-2_Hackweek_Tutorials#03-git-and-github) 
-by Fernando Perez, Fernando Paolo, Shane Grigsby, and Daniel Shapiro.
 
 ### Branch setup
 
@@ -326,3 +325,84 @@ development version of the JupyterBook.
 
 You can develop JupyterBook chapters in the text editor, IDE, or notebook
 editor of your choice.
+
+## Jupyter Book Structure
+
+Each chapter in our JupyterBook is a separate file (`.md`/
+`.ipynb`/`.Rmd`). These are stored in our `files` directory,
+organized by sub-directory.
+
+The JupyterBook structure (i.e. the order of sections and chapters) is
+determined in the `_toc.yml` file in the root directory. We can
+shuffle chapter order by editing the `_toc.yml` file, and add new
+chapters by adding to the `_toc.yml` and creating a new file in the
+appropriate sub-directory that is indicated in `_toc.yml`.
+
+Please experiment, add new chapters and sections; we can shuffle chapter
+order and subsections as we continue to develop the JupyterBook, nothing is
+set in stone.
+
+## JupyterHub Workflow
+
+We use the CryoCloud [2i2c](https://2i2c.org/) JupyterHub to run notebooks.
+
+### Log into the JupyterHub
+
+1.  Go to the [CryoCloud Hub](https://hub.cryointhecloud.com). *You should see the CryoCloud logo.*
+2.  Click on the orange "Log in to continue" button.
+3.  Click the "Sign in with Github" button and log in. *If you aren't
+    already logged into Github, you should see the login prompt.
+    Otherwise, you will be logged in automatically.*
+
+### Start a 2i2c JupyterHub session
+
+At this point, what you see depends on whether or not you have an active
+session. If your session is active, JupyterLab will load and you can
+start your work. If not, you'll need to start a new session:
+
+1.  Select a server based on the size of your job. Most of the time during 
+    code development, you will only need the smallest instance. Each larger 
+    instance costs more money per minute used. *You should see a
+    progress window showing you what 2i2c is doing to get your session
+    started. It may take several minutes, but you'll eventually see a
+    JupyterLab instance.*
+
+### Create a different Jupyter kernel to run notebooks
+
+The default jupyter kernel may not have all the libraries you need to
+run a notebook. Fortunately, you can make a new kernel on the fly to use
+with the notebook.
+
+1.  Open a terminal in JupyterLab.
+
+    1.  Click on the large blue "+" button on the upper left. *You
+        should get a new Laucher tab.*
+    2.  In the Launcher tab, click on "Terminal" under "Other." *You
+        should get a tab with a command line prompt.*
+
+2.  Create a conda environment using your [favorite
+    method](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
+
+3.  Activate the new environment with
+    `conda activate YOUR_ENVIRONMENT_HERE`. *You should see the name of
+    the new environment in your command line prompt.*
+
+4.  Create a new kernel by calling
+    `ipython kernel install --name YOUR_ENVIRONMENT_HERE --user`. *You
+    should get a response saying saying the kernel has been installed.*
+
+To use this new kernel,
+
+1.  Open the notebook you want to run. *You should see the notebook in a
+    tab.*
+2.  Click on the current kernel on the upper right. The default kernel
+    is called `Python 3`. *You should see a kernel selection widget.*
+3.  Select the new kernel you created and click the "Select" button.
+    *The kernel on the upper right should now give the name of your
+    custom kernel.*
+
+
+### Dockerfile
+
+To update the Dockerfile, see [2i2c’s Configurator](https://docs.2i2c.org/en/latest/admin/howto/configurator.html).
+
