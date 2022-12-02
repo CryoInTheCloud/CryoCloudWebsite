@@ -9,6 +9,7 @@ parts:
     - file: content/mission
     - file: content/Getting_Started
     - file: content/Code_of_Conduct
+    - file: content/citing_cryocloud
 - caption: Cloud Training
   chapters:
     - file: recorded/index
