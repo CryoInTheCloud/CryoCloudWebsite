@@ -34,9 +34,10 @@ parse:
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
-  execute_notebooks: 'cache'
-  exclude_patterns:
-    - "**/dataintegration-1.ipynb"
+  execute_notebooks: 'off'
+#  execute_notebooks: 'cache'
+#  exclude_patterns:
+#    - "**/dataintegration-1.ipynb"
 
   allow_errors: false
   # Per-cell notebook execution limit (seconds)
