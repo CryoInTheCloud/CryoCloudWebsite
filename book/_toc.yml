@@ -31,6 +31,8 @@ parts:
 - caption: Tutorials
   chapters:
     - file: tutorials/index
+      sections:
+        - file: tutorials/IS2_cloud_data_integration2
 - caption: Contributing
   chapters:
     - file: contributing/index
