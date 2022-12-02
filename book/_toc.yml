@@ -31,6 +31,11 @@ parts:
 - caption: Tutorials
   chapters:
     - file: tutorials/index
+- caption: Contributing
+  chapters:
+    - file: contributing/index
+      sections:
+        - file: contributing/workflow
 - caption: Reference
   chapters:
     - file: reference/glossary
