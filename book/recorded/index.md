@@ -7,5 +7,5 @@ All live tutorial recordings available via the CryoCloud YouTube. Or see the tab
 
 | Topics | Date | Instructor |
 | ---  | --- | ---|
-| Getting Started on Technology - pre-launch | Coming Nov 18, 2022 | Fernando Perez |
+| Getting Started on Technology - pre-launch | Coming Dec 2, 2022 | Fernando Perez |
 | |
