@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# Credit: NASA-Openscapes Cookbook - https://github.com/NASA-Openscapes/earthdata-cloud-cookbook
 import argparse
 import json
 import os
