@@ -39,7 +39,8 @@ parts:
   chapters:
     - file: tutorials/index
       sections:
-        - file: tutorials/IS2_cloud_data_integration2 
+        - file: tutorials/IS2_cloud_Landsat_integration
+        - file: tutorials/IS2_cloud_Sentinel2_integration 
 - caption: Contributing
   chapters:
     - file: contributing/index
