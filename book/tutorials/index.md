@@ -13,5 +13,9 @@ All live tutorial recordings available via CryoCloud YouTube. Or see the table b
 
 | Tutorial | Topics | Recording Link |
 | ---  | --- | --- |
-| Coming Soon! |
-| [ICESat-2 and Sentine 2 cloud access](https://github.com/CryoInTheCloud/CryoCloudWebsite/blob/main/book/tutorials/IS2_cloud_data_integration2.ipynb) |
+<<<<<<< Updated upstream
+| [ICESat-2 and Landsat cloud access and data integration](https://github.com/CryoInTheCloud/CryoCloudWebsite/blob/main/book/tutorials/IS2_cloud_Landsat_integration.ipynb) |
+| [ICESat-2 and Sentinel 2 cloud access](https://github.com/CryoInTheCloud/CryoCloudWebsite/blob/main/book/tutorials/IS2_cloud_Sentinel2_integration.ipynb) |
+=======
+| [ICESat-2 and Sentinel 2 cloud access](https://github.com/CryoInTheCloud/CryoCloudWebsite/blob/main/book/tutorials/IS2_cloud_data_integration2.ipynb) |
+>>>>>>> Stashed changes

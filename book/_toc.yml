@@ -13,33 +13,35 @@ parts:
 - caption: Cloud Training
   chapters:
     - file: recorded/index
-- caption: Background Info
+- caption: How Tos
   chapters:
     - file: preliminary/index
       sections:
-        - file: preliminary/github
-        - file: preliminary/jupyterhub
-        - file: preliminary/git
-        - file: preliminary/earthdata
-        - file: preliminary/earthengine
-        - file: preliminary/swc
+        - file: background/index
           sections:
-          - file: preliminary/python
-          - file: preliminary/conda
-- caption: How Tos
-  chapters:
-    - file: how_tos/index
-      sections:
-        - file: external/Earthdata_Cloud__Single_File__HTTPS_Access_COG_Example
-        - file: external/Earthdata_Cloud__Single_File_Direct_S3_Access_COG_Example
-        - file: external/Multi-File_Direct_S3_Access_COG_Example
-        - file: external/Earthdata_Cloud__Single_File__Direct_S3_Access_NetCDF4_Example
-        - file: external/Multi-File_Direct_S3_Access_NetCDF_Example
+          - file: preliminary/github
+          - file: preliminary/jupyterhub
+          - file: preliminary/git
+          - file: preliminary/earthdata
+          - file: preliminary/earthengine
+          - file: preliminary/swc
+            sections:
+            - file: preliminary/python
+            - file: preliminary/conda
+        - file: how_tos/index
+        - file: access/index
+          sections:
+            - file: external/Earthdata_Cloud__Single_File__HTTPS_Access_COG_Example
+            - file: external/Earthdata_Cloud__Single_File_Direct_S3_Access_COG_Example
+            - file: external/Multi-File_Direct_S3_Access_COG_Example
+            - file: external/Earthdata_Cloud__Single_File__Direct_S3_Access_NetCDF4_Example
+            - file: external/Multi-File_Direct_S3_Access_NetCDF_Example
 - caption: Tutorials
   chapters:
     - file: tutorials/index
       sections:
-        - file: tutorials/IS2_cloud_data_integration2 
+        - file: tutorials/IS2_cloud_Landsat_integration
+        - file: tutorials/IS2_cloud_Sentinel2_integration 
 - caption: Contributing
   chapters:
     - file: contributing/index
