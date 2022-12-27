@@ -1,6 +1,6 @@
 [
 {
-        "title": "COG HTTPS",
+        "title": "COG via HTTPS",
         "preamble": "This notebook is from NASA's OpenScapes COG HTTPS access notebook",
         "source": "https://github.com/NASA-Openscapes/earthdata-cloud-cookbook",
         "url": "https://raw.githubusercontent.com/NASA-Openscapes/earthdata-cloud-cookbook/main/how-tos/access/Earthdata_Cloud__Single_File__HTTPS_Access_COG_Example.ipynb",
@@ -8,7 +8,7 @@
         "process": true
     },
 {
-        "title": "COG Direct S3",
+        "title": "COG direct via S3",
         "preamble": "This notebook is from NASA's OpenScapes COG Direct S3 access notebook",
         "source": "https://github.com/NASA-Openscapes/earthdata-cloud-cookbook",
         "url": "https://raw.githubusercontent.com/NASA-Openscapes/earthdata-cloud-cookbook/main/how-tos/access/Earthdata_Cloud__Single_File__Direct_S3_Access_COG_Example.ipynb",
@@ -16,7 +16,7 @@
         "process": true
     },
 {
-        "title": "Multi-COG Direct S3",
+        "title": "Multi-COG direct via S3",
         "preamble": "This notebook is from NASA's OpenScapes COG Direct S3 - Multi-file access notebook",
         "source": "https://github.com/NASA-Openscapes/earthdata-cloud-cookbook",
         "url": "https://raw.githubusercontent.com/NASA-Openscapes/earthdata-cloud-cookbook/main/how-tos/access/Multi-File_Direct_S3_Access_COG_Example.ipynb",
@@ -24,7 +24,7 @@
         "process": true
     },
 {
-        "title": "NetCDF/HDF5 Direct S3",
+        "title": "NetCDF or HDF5 direct via S3",
         "preamble": "This notebook is from NASA's OpenScapes NetCDF/HDF5 Direct S3 access notebook",
         "source": "https://github.com/NASA-Openscapes/earthdata-cloud-cookbook",
         "url": "https://raw.githubusercontent.com/NASA-Openscapes/earthdata-cloud-cookbook/main/how-tos/access/Earthdata_Cloud__Single_File__Direct_S3_Access_NetCDF4_Example.ipynb",
@@ -32,7 +32,7 @@
         "process": true
     },
 {
-        "title": "NetCDF/HDF5 Direct S3",
+        "title": "NetCDF or HDF5 direct via S3",
         "preamble": "This notebook is from NASA's OpenScapes NetCDF/HDF5 Direct S3 access notebook",
         "source": "https://github.com/NASA-Openscapes/earthdata-cloud-cookbook",
         "url": "https://raw.githubusercontent.com/NASA-Openscapes/earthdata-cloud-cookbook/main/how-tos/access/Earthdata_Cloud__Single_File__Direct_S3_Access_NetCDF4_Example.ipynb",
@@ -40,7 +40,7 @@
         "process": true
     },
 {
-        "title": "Multi-NetCDF/HDF5 Direct S3",
+        "title": "Multi-NetCDF or HDF5 direct via S3",
         "preamble": "This notebook is from NASA's OpenScapes NetCDF/HDF5 Direct S3 - Multi-file access notebook",
         "source": "https://github.com/NASA-Openscapes/earthdata-cloud-cookbook",
         "url": "https://raw.githubusercontent.com/NASA-Openscapes/earthdata-cloud-cookbook/main/how-tos/access/Multi-File_Direct_S3_Access_NetCDF_Example.ipynb",
