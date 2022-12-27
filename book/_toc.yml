@@ -25,11 +25,8 @@ parts:
           - file: preliminary/earthdata
           - file: preliminary/earthengine
           - file: preliminary/swc
-            sections:
-            - file: preliminary/python
-            - file: preliminary/conda
+          - file: preliminary/python
         - file: how_tos/index
-        - file: access/index
           sections:
             - file: external/Earthdata_Cloud__Single_File__HTTPS_Access_COG_Example
             - file: external/Earthdata_Cloud__Single_File_Direct_S3_Access_COG_Example

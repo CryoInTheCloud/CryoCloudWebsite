@@ -5,7 +5,7 @@ These are recordings of the live cloud-computing and JupyterHub orientations for
 All live tutorial recordings available via the CryoCloud YouTube. Or see the table below for links to specific tutorial notebooks and recordings:
 
 
-| Topics | Date | Instructor |
-| ---  | --- | ---|
-| Getting Started on Technology - pre-launch | Coming Dec 2, 2022 | Fernando Perez |
+| Topics | Date | Recording |
+| ---  | --- | ---| --- |
+| [Getting Started on CryoCloud](https://doi.org/10.5281/zenodo.7474855) | Dec 2, 2022 | [Recording](https://youtu.be/QNrDlwiomgc) |
 | |
