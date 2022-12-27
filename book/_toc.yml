@@ -15,18 +15,18 @@ parts:
     - file: recorded/index
 - caption: How Tos
   chapters:
-    - file: preliminary/index
+    - file: how_tos/index
       sections:
-        - file: background/index
+        - file: how_tos/background/index
           sections:
-          - file: preliminary/github
-          - file: preliminary/jupyterhub
-          - file: preliminary/git
-          - file: preliminary/earthdata
-          - file: preliminary/earthengine
-          - file: preliminary/swc
-          - file: preliminary/python
-        - file: how_tos/index
+          - file: how_tos/background/github
+          - file: how_tos/background/jupyterhub
+          - file: how_tos/background/git
+          - file: how_tos/background/earthdata
+          - file: how_tos/background/earthengine
+          - file: how_tos/background/swc
+          - file: how_tos/background/python
+        - file: how_tos/data_access/index
           sections:
             - file: external/Earthdata_Cloud__Single_File__HTTPS_Access_COG_Example
             - file: external/Earthdata_Cloud__Single_File_Direct_S3_Access_COG_Example

@@ -1,6 +1,8 @@
-# Preliminary Work
+# Background Work
 
-We welcome all types of learners to our cloud computing platform, from professional software developers to people just getting started. Based on previous experience, participants gain better access to all of the tools CryoCloud has to offer after they have a preliminary understand of some of the foundational tools of data science workflows. These skills include knowing how to:
+Based on previous experience, participants gain better access to all of the tools CryoCloud 
+has to offer after they have a preliminary understand of some of the foundational tools of 
+data science workflows. These skills include knowing how to:
 
 * Navigate a [Jupyter Notebook](https://jupyter.org/) environment
 * Conduct file management, text editing and other basic tasks from a command line interface
