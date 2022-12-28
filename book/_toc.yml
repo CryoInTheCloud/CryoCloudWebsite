@@ -7,7 +7,7 @@ parts:
   chapters:
     - file: content/about
     - file: content/mission
-    - file: content/Getting_Started
+    - file: how_tos/joincryocloud.md
     - file: content/Code_of_Conduct
     - file: content/citing_cryocloud
 - caption: Cloud Training
