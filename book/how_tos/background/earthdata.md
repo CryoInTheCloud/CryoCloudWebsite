@@ -12,7 +12,7 @@ Each participant will need a login. We will be teaching you ways to programmatic
 
 If you do not already have an Earthdata login, then navigate to the [Earthdata Login](https://urs.earthdata.nasa.gov/) page, a username and password, and then record this somewhere for use during the tutorials:
 
-![earthdata-login](./img/earthdata-login.png)
+![earthdata-login](../img/earthdata-login.png)
 
 ## Configure programmatic access to NASA servers
 
