@@ -16,7 +16,7 @@ There are three reasons you are required to have a GitHub account for the hackwe
 
 Go to [GitHub](https://github.com/).
 
-![github-signup](../img/github-signup.png)
+![github-signup](../../img/github-signup.png)
 
 Next, enter your email address and click on the green 'Sing up for GitHub' button.
 You will need to answer a few required questions in the following dialogs.
@@ -53,11 +53,11 @@ public membership also helps so that others can recognize your participation in 
 First, navigate to the "People" tab on the {{ hackweek }} GitHub organization
 ({{ github_org_url }}) and find yourself:
 
-![people-tab](../img/people-github.png)
+![people-tab](../../img/people-github.png)
 
 Now, if you see "Private" to the right of your account, you will need to switch this to "Public":
 
-![private-setting](../img/public-github.png)
+![private-setting](../../img/public-github.png)
 
 The steps for doing this are also well documented on [this](https://help.github.com/en/articles/publicizing-or-hiding-organization-membership) GitHub help page.
 
@@ -65,6 +65,6 @@ The steps for doing this are also well documented on [this](https://help.github.
 
 When you click on the "Repositories" tab in the {{ '[GitHub organization]({url})'.format(url=github_org_url) }}  you will see a list of names, each of which links to a separate GitHub repository:
 
-![repos-tab](../img/repos.png)
+![repos-tab](../../img/repos.png)
 
 Each repository is a container for a specific subset of material for this event. For example, there is a repository for the public-facing website you used to register for this event {{website_url}}. We'll also create new repositories for each project.
