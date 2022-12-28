@@ -17,4 +17,4 @@ If you would like to follow this part of the tutorial interactively, you will ne
 * Check your email, including your spam folder, for a link from the Google Developer’s Team. The confirmation email will have directions on how to access the Code Editor.
 * Not sure if you have access? Use [this link](https://code.earthengine.google.com/) to check. If you didn’t get access you will get an authorization error that says your account isn’t registered. If you do have access, the link will open up the Javascript IDE. This link is your permanent portal to GEE access.
 
-![gee-signup](../img/gee-signup.jpeg)
+![gee-signup](../../img/gee-signup.jpeg)
