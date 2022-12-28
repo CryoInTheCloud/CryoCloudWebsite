@@ -5,7 +5,7 @@
 
 We use {term}`JupyterHub` in an educational setting because it enables us to quickly begin working with code. Each participant connects to a computational environment hosted in the cloud. All that is required is a web browser, and a GitHub username for authentication:
 
-![jupyterhub-connectivity](../img/jupyterhub-connectivity.png)
+![jupyterhub-connectivity](../../img/jupyterhub-connectivity.png)
 
 We encourage you to use these shared cloud environments for all the tutorials, and you can optionally use this for your projects as well.
 
@@ -29,7 +29,7 @@ The screenshots below will not exactly match what you see and you should see you
 user information for instance.
 ```
 
-![jupyterhub-authentication](../img/jupyterhub-authentication.png)
+![jupyterhub-authentication](../../img/jupyterhub-authentication.png)
 
 ### After each login
 
@@ -38,7 +38,7 @@ It can take several minutes for new servers to launch on the cloud - be patient!
 Once things are spun up you will see your very own instance of a {term}`JupyterLab` environment
 ```
 
-![jupyterhub-overview](../img/jupyterhub-overview.png)
+![jupyterhub-overview](../../img/jupyterhub-overview.png)
 
 When you log into JupyterHub you have access to your own virtual drive space
 under the `/home/jovyan` directory. No other users will be able to see or access
@@ -51,7 +51,7 @@ Stopping the server happens automatically when you navigate to "File -> Log Out"
 and click "Log Out"! to end a session. You can also select "File -> Hub Control
 Panel -> Stop my Server".
 
-![hub-control-panel-button](../img/hub-logout-button.png)
+![hub-control-panel-button](../../img/hub-logout-button.png)
 
 ```{attention}
 When you are finished working for the day it is important to explicitly log
