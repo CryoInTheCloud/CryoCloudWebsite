@@ -23,7 +23,7 @@ Go to {{ jupyterhub_url }}. See also our JupyterHub documentation: {ref}`accessi
 ### 2. Open a Terminal
 Choose the 'Terminal' from the 'Other' options in the 'Launcher' tab.
 
-![jupyterlab](../img/jupyter-terminal.png)
+![jupyterlab](../../img/jupyter-terminal.png)
 
 ### 3. Configure basic `git` information
 Set your username and email address. The email address should be the same
