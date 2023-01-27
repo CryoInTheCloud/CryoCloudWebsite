@@ -1,91 +1,50 @@
-cff-version: 1.2.0
+cff-version: 1.0.0
 message: If you use this book, please cite it as below.
-title: ICESat-2 Hackweek Website
-version: 2022.04.15
-date-released: 2022-04-15
+title: CryoCloud JupyterBook
+version: 2023.01.26
+date-released: 2023-01-26
 identifiers:
 - description: collection of archived snapshots of all versions
   type: doi
   value: TODO
   license: MIT
-  repository-code: https://github.com/ICESAT-2HackWeek/website2022
+  repository-code: https://github.com/CryoInTheCloud/CryoCloudWebsite
 authors:
-- family-names: Scheick
-  given-names: Jessica
-  affiliation: University of New Hampshire
-- family-names: Arendt
-  given-names: Anthony
-  affiliation: eScience Institute
-- family-names: Haley
-  given-names: Charley
-  affiliation: Collaboration Architect at eScience Institute
-- family-names: Henderson
-  given-names: Scott
-  affiliation: eScience Institute
-- family-names: Koh
-  given-names: Jane
-  affiliation: eScience Institute
-- family-names: Setiawan
-  given-names: Don
-  affiliation: School of Oceanography
-- family-names: Alterman
-  given-names: Naomi
-  affiliation: eScience Institute
-- family-names: Meyer
-  given-names: Joachim
-  affiliation: University of Utah
-- family-names: Cristea
-  given-names: Nicoleta
-  affiliation: eScience Institute
-- family-names: Schweiger
-  given-names: Axel
-  affiliation: Polar Science Center/APL/UW
-- family-names: Barciauskas
-  given-names: Aimee
-  affiliation: Development Seed
-- family-names: Smith
-  given-names: Ben
-  affiliation: University of Washington APL
-- family-names: Piunno
-  given-names: Romina
-  affiliation: University of Toronto
-- family-names: Shapero
-  given-names: Daniel
-  affiliation: UW Applied Physics Laboratory
-- family-names: Fair
-  given-names: Zachary
-  affiliation: NASA GSFC
-- family-names: Arndt
-  given-names: Philipp
-  affiliation: Scripps Polar Center, UC San Diego
-- family-names: Leong
-  given-names: Wei Ji
-  affiliation: Byrd Polar and Climate Research Center
-- family-names: Sutterley
-  given-names: Tyler
-  affiliation: UW Applied Physics Laboratory
 - family-names: Snow
   given-names: Tasha
   affiliation: Colorado School of Mines
-- family-names: Beig
-  given-names: Mikala
-  affiliation: National Snow and Ice Data Center NASA DAAC
-- family-names: Besso
-  given-names: Hannah
-  affiliation: University of Washington
-- family-names: Liu
-  given-names: Zheng
-  affiliation: Polar Science Center/APL/UW
-- family-names: Joughin
-  given-names: Ian
-  affiliation: Polar Science Center/APL/UW
-- family-names: Bisson
-  given-names: Kelsey
-  affiliation: Oregon State University
+- family-names: Millstein
+  given-names: Joanna
+  affiliation: Massachusetts Institute of Technology
+- family-names: Scheick
+  given-names: Jessica
+  affiliation: University of New Hampshire
 - family-names: Sauthoff
   given-names: Wilson
   affiliation: Colorado School of Mines
+- family-names: Leong
+  given-names: Wei Ji
+  affiliation: Byrd Polar and Climate Research Center
+- family-names: Colliander
+  given-names: James
+  affiliation: International Interactive Computing Collaboration
+- family-names: Pérez
+  given-names: Fernando
+  affiliation: University of California Berkeley
+- family-names: Munroe 
+  given-names: James
+  affiliation: International Interactive Computing Collaboration
+- family-names: Felikson 
+  given-names: Denis
+  affiliation: NASA Goddard
+- family-names: Sutterley
+  given-names: Tyler
+  affiliation: UW Applied Physics Laboratory
+- family-names: Siegfried 
+  given-names: Matthew
+  affiliation: Colorado School of Mines
 keywords:
 - NASA
-- Hackweek
-- Python
+- Cloud
+- Open science
+- Cryosphere
