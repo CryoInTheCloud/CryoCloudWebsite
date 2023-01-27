@@ -2,9 +2,9 @@
 
 ## Reporting a Code of Conduct Violation
 
-If you are the subject of unacceptable behavior or have witnessed any such behavior, please immediately notify a [CryoCloud team member](https://github.com/orgs/CryoInTheCloud/teams/cryocloudadvanced).
+If you are the subject of unacceptable behavior or have witnessed any such behavior, please immediately notify a [CryoCloud team member](https://github.com/orgs/CryoInTheCloud/teams/cryocloudadvanced). 
 
-Notification should be done by contacting the CryoCloud team member by emailing {{ '{email}'.format(email=contact_email) }}. 
+Notification should be done by contacting a CryoCloud team member on site or by emailing Tasha Snow at [tsnow@mines.edu](tsnow@mines.edu), Joanna Millstein at [jdmill@mit.edu](jdmill@mit.edu), Wilson Sauthoff at [sauthoff@mines.edu](sauthoff@mines.edu), or Matthew Siegfried at [siegfried@mines.edu](siegfried@mines.edu).
 
 All complaints will be reviewed and investigated promptly and fairly. All community leaders are obligated to respect the privacy and security of the reporter of any incident.
 
