@@ -4,7 +4,7 @@
 
 If you are the subject of unacceptable behavior or have witnessed any such behavior, please immediately notify a [CryoCloud team member](https://github.com/orgs/CryoInTheCloud/teams/cryocloudadvanced). 
 
-Notification should be done by contacting a CryoCloud team member on site or by emailing Tasha Snow at [tsnow@mines.edu](tsnow@mines.edu), Joanna Millstein at [jdmill@mit.edu](jdmill@mit.edu), Wilson Sauthoff at [sauthoff@mines.edu](sauthoff@mines.edu), or Matthew Siegfried at [siegfried@mines.edu](siegfried@mines.edu).
+Notification should be done by contacting a CryoCloud team member on site or by emailing Tasha Snow at [tsnow@mines.edu](mailto:tsnow@mines.edu), Joanna Millstein at [jdmill@mit.edu](mailto:jdmill@mit.edu), Wilson Sauthoff at [sauthoff@mines.edu](mailto:sauthoff@mines.edu), or Matthew Siegfried at [siegfried@mines.edu](mailto:siegfried@mines.edu).
 
 All complaints will be reviewed and investigated promptly and fairly. All community leaders are obligated to respect the privacy and security of the reporter of any incident.
 
