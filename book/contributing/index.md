@@ -23,6 +23,7 @@ Our style of working is greatly influenced by:
 -   [The Carpentries Curriculum Development Handbook](https://carpentries.github.io/curriculum-development)
 
 The CryoCloud JupyterBook is made with our [2i2c](https://2i2c.org/) JupyterHub. 
-Learn more in the [Workflow](workflow.md) section.
 
-Modeled after [NASA OpenScapes Cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/).
+**Learn how to contribute to our JupyterBook or any other GitHub project in the [Workflow](workflow) section.**
+
+*Modeled after [NASA OpenScapes Cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/).*
