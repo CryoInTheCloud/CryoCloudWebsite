@@ -9,7 +9,7 @@ will guide you through taking the two onboarding surveys and gaining access to t
 required credentials and information to get you on the hub.
 
 
-2. Once we have your survey, email us at [cryocloud@mines.edu](cryocloud@mines.edu) and we will invite 
+2. Once we have your survey, email us at [cryocloud@mines.edu](mailto:cryocloud@mines.edu) and we will invite 
 you to the CryoCloud GitHub organization and CryoCloudUsers team (you will receive an email from GitHub 
 when we do this). Please accept this invitation within 7 days or it will disappear and we will have to 
 resend it. Your membership on that GitHub team provides you with access to the CryoCloud.
