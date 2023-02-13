@@ -2,7 +2,7 @@
 # Then run `./lock-environment.sh` to generate reproducible lock files
 
 # !!! If you are developing the website locally use the existing lock files
-# for your platform (`conda create --name cryocloud --file conda-linux-64.lock`)
+# for your platform (`conda env create --name cryocloud --file conda-linux-64.lock.yml`)
 
 name: cryocloud
 
