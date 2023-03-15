@@ -63,6 +63,6 @@ If you're adding a new Jupyter Notebook Tutorial, please first take a look at [o
 
 When adding a new `.ipynb` file under `book/tutorials` be sure to:
 
-  1. Add an entry to the table of contents `book/_toc.yml`
+  1. Add an entry to the table of contents `book/_toc.yml`; ensure ipynb's don't have the `.ipynb` filename extension in the toc. 
 
-  1. "Clear all Outputs" before saving. This keeps the book source code small, but outputs are still built for the HTML webpage by Jupyter Book.
+  1. Execute all cells then save. Do not clear all outputs. This ensures cells are rendered for a static display on the Jupyterbook website.
