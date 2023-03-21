@@ -28,6 +28,7 @@ parts:
           - file: how_tos/background/python
         - file: how_tos/data_access/index
           sections:
+            - file: how_tos/data_access/Instructions_for_configuring_AWS_S3_bucket
             - file: external/Earthdata_Cloud__Single_File__HTTPS_Access_COG_Example
             - file: external/Earthdata_Cloud__Single_File_Direct_S3_Access_COG_Example
             - file: external/Multi-File_Direct_S3_Access_COG_Example
