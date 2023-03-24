@@ -40,7 +40,7 @@ parts:
       sections:
         - file: tutorials/IS2_cloud_Landsat_integration
         - file: tutorials/IS2_cloud_Sentinel2_integration
-        - file: tutorials/IS2_ATL14_15_surface_height_anomalies/IS2_ATL14_15_surface_height_anomalies.ipynb
+        - file: tutorials/IS2_ATL15_surface_height_anomalies/IS2_ATL15_surface_height_anomalies
 - caption: Contributing
   chapters:
     - file: contributing/index
