@@ -59,3 +59,10 @@ if you haven't already!
 ### Python
 Dive deeper into how [Python is managed and installed](python) on the JupyterHub
 and how you can install that on your personal machine.
+
+### Nbdime
+Jupyter notebooks are useful, rich media documents stored in a plain text JSON format. This format is relatively easy to 
+parse. However, primitive line-based diff and merge tools do not handle well the logical structure of notebook documents. 
+[`nbdime`](https://nbdime.readthedocs.io/en/latest/), on the other hand, provides “content-aware” diffing and merging of 
+Jupyter notebooks. It understands the structure of notebook documents. Therefore, it can make intelligent decisions when 
+diffing and merging notebooks.
