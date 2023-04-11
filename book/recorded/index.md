@@ -7,5 +7,6 @@ All live tutorial recordings available via the [CryoCloud YouTube](https://www.y
 
 | Topics | Date | Recording |
 | ---  | --- | ---|
-| [Getting Started on CryoCloud](https://doi.org/10.5281/zenodo.7474855) | Dec 2, 2022 | [Recording](https://youtu.be/QNrDlwiomgc) |
+| [FOGSS Workshop cryosphere software tutorials](https://doi.org/10.5281/zenodo.7812488) | Mar 24, 2023 | [Recording](https://youtu.be/WcZCVjSKTYo) |
+| [ICESat-2 Science Team getting started on CryoCloud](https://doi.org/10.5281/zenodo.7474855) | Dec 2, 2022 | [Recording](https://youtu.be/QNrDlwiomgc) |
 | |
