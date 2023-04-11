@@ -26,6 +26,7 @@ parts:
           - file: how_tos/background/earthengine
           - file: how_tos/background/swc
           - file: how_tos/background/python
+          - file: how_tos/nbdime/nbdime-hub
         - file: how_tos/data_access/index
           sections:
             - file: how_tos/data_access/Instructions_for_configuring_AWS_S3_bucket
