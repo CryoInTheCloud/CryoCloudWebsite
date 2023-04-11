@@ -65,4 +65,4 @@ Jupyter notebooks are useful, rich media documents stored in a plain text JSON f
 parse. However, primitive line-based diff and merge tools do not handle well the logical structure of notebook documents. 
 [`nbdime`](https://nbdime.readthedocs.io/en/latest/), on the other hand, provides “content-aware” diffing and merging of 
 Jupyter notebooks. It understands the structure of notebook documents. Therefore, it can make intelligent decisions when 
-diffing and merging notebooks. Checkout our [Nbdime](../nbdime/nbdime-hub) page to learn how to use this versioning tool.
+diffing and merging notebooks. Checkout our [Nbdime](../nbdime/nbdime-hub.ipynb) page to learn how to use this versioning tool.
