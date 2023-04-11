@@ -8,7 +8,7 @@ Below you will find links to our training materials from the 2021 SnowEx Hackwee
 
 ## Getting ready
 
-Please take a minute before the workshop to go over the [GitHub instructions](github),
+Please take a minute before the workshop to go over the [GitHub instructions](./github.md),
 create an account.
 
 ```{attention}
