@@ -23,7 +23,7 @@ orientation and getting onto the CryoCloud.
 ### GitHub Account
 
 Everyone attending the CryoCloud Orientation will need to obtain a GitHub account and request access to join the CryoCloud organization and CryoCloudUser team.
-Visit our [GitHub instruction page](./github) to learn how!
+Visit our [GitHub instruction page](github.md) to learn how!
 
 ### Slack Account
 
@@ -35,29 +35,29 @@ email to join the Slack workspace. Upon accepting the invite please take a momen
 ### JupyterHub
 
 We will offer all tutorials within the Jupyter Hub computing environment.
-Visit our [Introduction to Jupyter Hub](./jupyterhub) page to learn more!
+Visit our [Introduction to Jupyter Hub](./jupyterhub.md) page to learn more!
 
 ### Git
 
 All content for the CryoCloud will be shared via GitHub and interacting with the
-website will be done via the `git` command. Visit [Setting up the `git` command](./git)
+website will be done via the `git` command. Visit [Setting up the `git` command](./git.md)
 to learn how to configure that!
 
 ### EarthData Login
 
 To download data  from NSIDC for your tutorials and projects.
-Visit our [Earthdata](./earthdata) page to learn how to access and Earthdata login account if you don't already have one!
+Visit our [Earthdata](./earthdata.md) page to learn how to access and Earthdata login account if you don't already have one!
 
 ## Optional setup
 
 ### Google Earth Engine Sign-Up
 The ICESat-2 visualization tutorial will have an interactive component that uses Google Earth Engine (GEE) to query for 
 additional data to help put ICESat-2 data into context. 
-If you would like to follow this part interactively, please visit our [Earth Engine](earthengine) page to learn how to sign up, 
+If you would like to follow this part interactively, please visit our [Earth Engine](earthengine.md) page to learn how to sign up, 
 if you haven't already!
 
 ### Python
-Dive deeper into how [Python is managed and installed](python) on the JupyterHub
+Dive deeper into how [Python is managed and installed](python.md) on the JupyterHub
 and how you can install that on your personal machine.
 
 ### Nbdime
@@ -65,4 +65,4 @@ Jupyter notebooks are useful, rich media documents stored in a plain text JSON f
 parse. However, primitive line-based diff and merge tools do not handle well the logical structure of notebook documents. 
 [`nbdime`](https://nbdime.readthedocs.io/en/latest/), on the other hand, provides “content-aware” diffing and merging of 
 Jupyter notebooks. It understands the structure of notebook documents. Therefore, it can make intelligent decisions when 
-diffing and merging notebooks.
+diffing and merging notebooks. Checkout our [Nbdime](nbdime.md) page to learn how to use this versioning tool.
