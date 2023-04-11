@@ -11,7 +11,7 @@ data science workflows. These skills include knowing how to:
 
 ## Software Carpentry Session
 
-We strongly encourage participants to review this two-day recorded fundamentals of Python and open-source workflows crash course ([Software Carpentry Schedule](book/howtos/background/swc)). You may choose whichever topics you'd like to brush up on or learn. Monthly office hours will also provide an opportunity for asking questions and troubleshooting any issues you encounter.
+We strongly encourage participants to review this two-day recorded fundamentals of Python and open-source workflows crash course ([Software Carpentry Schedule](./swc.md)). You may choose whichever topics you'd like to brush up on or learn. Monthly office hours will also provide an opportunity for asking questions and troubleshooting any issues you encounter.
 
 ## Required setup
 
