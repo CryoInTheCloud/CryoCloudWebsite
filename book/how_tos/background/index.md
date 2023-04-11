@@ -23,7 +23,7 @@ orientation and getting onto the CryoCloud.
 ### GitHub Account
 
 Everyone attending the CryoCloud Orientation will need to obtain a GitHub account and request access to join the CryoCloud organization and CryoCloudUser team.
-Visit our [GitHub instruction page](github) to learn how!
+Visit our [GitHub instruction page](./github) to learn how!
 
 ### Slack Account
 
@@ -35,18 +35,18 @@ email to join the Slack workspace. Upon accepting the invite please take a momen
 ### JupyterHub
 
 We will offer all tutorials within the Jupyter Hub computing environment.
-Visit our [Introduction to Jupyter Hub](jupyterhub) page to learn more!
+Visit our [Introduction to Jupyter Hub](./jupyterhub) page to learn more!
 
 ### Git
 
 All content for the CryoCloud will be shared via GitHub and interacting with the
-website will be done via the `git` command. Visit [Setting up the `git` command](git)
+website will be done via the `git` command. Visit [Setting up the `git` command](./git)
 to learn how to configure that!
 
 ### EarthData Login
 
 To download data  from NSIDC for your tutorials and projects.
-Visit our [Earthdata](earthdata) page to learn how to access and Earthdata login account if you don't already have one!
+Visit our [Earthdata](./earthdata) page to learn how to access and Earthdata login account if you don't already have one!
 
 ## Optional setup
 
