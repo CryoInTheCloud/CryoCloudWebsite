@@ -62,23 +62,76 @@ Python 3.7.3|Anaconda custom (x86_64)| (default, Mar 27 2019, 22:11:17)
 ...
 ```
 
-### Installing a specific python version
+### Installing mamba (Optional)
 
-We will be using Python 3 during the week. Since Anaconda (on Linux) expects you to work in the `bash` shell, if this is , then you can create an isolated Python environment with the following commands:
-
-``` bash
-conda create --name py39 python=3.9
+The installation with `conda` may take quite some time... A better option is to use `mamba` instead.
+In order to do so, first install mamba in your base environment:
+```bash
+conda install mamba
 ```
+Then, in all the commands following in the next sections you can replace all the `conda` commands by `mamba` commands (except the `conda activate`! That is the only command for which you need to use `conda`). 
 
-To use Python 3.9:
 
-``` bash
-conda activate py39
+## Working in an environment 
+
+Once miniconda/conda has been installed, we can use it to create new virtual environments we can use to install different libraries we want to use for our
+project. 
+````{note}
+By default, conda environments are not currenlty being keep persistent in the CryoCloud Hub. 
+We encourage users to create a folder in their home directory that they can use to store all the customized environments. 
+You can do this directly from the terminal by first creating a containing folder
+```bash
+mkdir envs
 ```
+and then create (also in your home directory) a new file called `.condarc` (the name is important! don't forget the initial dot `.`) with the following contents
+```
+# .condarc
 
-To check if you have the correct version activated
+envs_dirs:
+  - ~/envs
+```
+This will indicates to conda that all the new environmnets have to live inside `~envs`. 
+````
 
+You can now create a new environment with conda You can do this from scratch, for example, 
+```bash
+conda env reate --name <ENVIRONMENT NAME> python=3.9
+```
+where you have to replace `<ENVIRONMENT NAME>` with the name you want to put to your new environment. 
+Alternatively, you can create an environment directly from a `.yml` file
+```bash
+conda env create -f environment.yml
+```
+This second option is particulary practical for reproducibily and collaboration. 
+
+You can check that the creation and installation of the new environment has worked by first activating the environment
+```bash 
+conda activate <ENVIRONMENT NAME>
+```
+and then check if you have the correct Python version installed
 ```bash
 which python
 python --version
 ```
+
+### Making the environment accesible to the iPython kernel
+
+In order to show the kernel associated to our new environment from a Jupyter Notebook, we need to install `ipykernel`. We first activate the 
+new environment, 
+```bash
+conda activate <ENVIRONMENT NAME>
+```
+and then install `ipykernel`:
+```bash
+conda install ipykernel
+```
+This steps are not needed if you created the environment directly from a `.yml` file that includes ipykernel as dependency. 
+
+Then we create the kernel with  
+```bash
+python -m ipykernel install --user --name <ENVIRONMENT NAME> --display-name "IPython - <NAME>"
+``` 
+to create the associated kernel. Replace `<NAME>` with the name you want to call the iPython kernel.  
+
+You are done! Next time you start your JupyterHub session, you will see the new kernel available from your launcher or from the upper right corner
+of any Jupyter Notebook. 
