@@ -17,7 +17,8 @@ and have a fully functioning environment after.
 Python software is distributed as a series of *libraries* that are called within your code to perform certain tasks. There are many different collections, or *distributions* of Python software. Generally you install a specific distribution of Python and then add additional libraries as you need them. There are also several different *versions* of Python. Support for Python 2 ended in 2020, so you should use Python>=3!
 
 ```{note}
-If you open a terminal on your computer, chances are if you type 'python' you will find it is already installed! But it is best-practice to create separate environments or 'virtual environments' to not interfere with existing installations. You can use {term}`conda` for this.
+If you open a terminal on your computer, chances are if you type `python` you will find it is already installed! But it is best-practice to create separate environments or _virtual environments_ to not interfere with existing installations. This also allows you to have different projects in 
+different workspaces, each one of them with different Python versions and different packages installed. You can use {term}`conda` for this.
 ```
 
 ## What is Conda?
@@ -45,6 +46,7 @@ url=https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
 wget $url -O miniconda.sh
 bash miniconda.sh -b -p $HOME/miniconda
 ```
+Notice that this last command is using `bash`. If bash is not already your default shell, you need to set it to be so (use the `chsh -s /bin/bash` command to change your default shell to bash).
 
 ### Installing Anaconda (Optional)
 
@@ -62,7 +64,7 @@ Python 3.7.3|Anaconda custom (x86_64)| (default, Mar 27 2019, 22:11:17)
 
 ### Installing a specific python version
 
-We will be using Python 3 during the week. Since Anaconda (on Linux) expects you to work in the `bash` shell, if this is not already your default shell, you need to set it to be so (use the `chsh -s /bin/bash` command to change your default shell to bash), then you can create an isolated Python environment with the following commands:
+We will be using Python 3 during the week. Since Anaconda (on Linux) expects you to work in the `bash` shell, if this is , then you can create an isolated Python environment with the following commands:
 
 ``` bash
 conda create --name py39 python=3.9
