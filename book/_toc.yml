@@ -50,6 +50,7 @@ parts:
 - caption: Reference
   chapters:
     - file: reference/glossary
+    - file: reference/hub_best_practices.md
     - file: reference/IS2-resources
     - file: reference/bibliography
     - file: reference/open_science
