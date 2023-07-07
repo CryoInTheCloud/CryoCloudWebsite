@@ -6,6 +6,7 @@
     * Hub will automatically shut off after 90 min of no use or logging off otherwise
 
 * Keep personal storage to <10 Gb unless you talk to us about it
+    * We recommend that you stream data (no download) or download and delete automatically where possible
     * It costs $90 a month to store 2 Tb of data
     * We need to apply for more cloud credits if our users need more storage
 
