@@ -14,5 +14,5 @@
     * Guidance for adding packages in [Contributing/Workflows](../contributing/workflow.md)
     * Otherwise you have two options to maintain shareability and replicability:
         * Install on each use with `%pip install packagename` 
-	* Use own additional environment using instructions in [Python Installation and Environments](../how_tos/background/python.md)
+        * Use own additional environment using instructions in [Python Installation and Environments](../how_tos/background/python.md)
 
