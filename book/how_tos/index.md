@@ -12,7 +12,7 @@ will be useful for working on a JupyterHub, and examples for accessing data from
 [Google Earth Engine Sign-Up](./background/earthengine.md) \
 [Software Carpentry Training](./background/swc.md) \
 [Python Installation and Environments](./background/python.md) \
-[Nbdime - Version Control](./nbdime/nbdime-hub.ipynb) \
+[Nbdime - Version Control](./nbdime/nbdime-hub.ipynb) 
 
 ### [Data Access](./data_access/index.md)
 [Setting up an AWS S3 bucket](./data_access/Instructions_for_configuring_AWS_S3_bucket.ipynb) \
