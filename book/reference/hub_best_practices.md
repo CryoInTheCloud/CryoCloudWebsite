@@ -13,6 +13,6 @@
     * If multiple people use a missing package, let us know and we will add it to everyone's environment
     * Guidance for adding packages in [Contributing/Workflows](../contributing/workflow.md)
     * Otherwise you have two options to maintain shareability and replicability:
-        * Install on each use with `%pip install packagename` 
+        * Install on each use with `%pip install packagename` run in the first cell of your Jupyter notebook
         * Use own additional environment using instructions in [Python Installation and Environments](../how_tos/background/python.md)
 
