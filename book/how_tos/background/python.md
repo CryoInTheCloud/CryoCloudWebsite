@@ -1,4 +1,4 @@
-# Python Installation
+# Python Installation and Environments
 
 ## Overview
 
@@ -18,7 +18,7 @@ Python software is distributed as a series of *libraries* that are called within
 
 ```{note}
 If you open a terminal on your computer, chances are if you type `python` you will find it is already installed! But it is best-practice to create separate environments or _virtual environments_ to not interfere with existing installations. This also allows you to have different projects in 
-different workspaces, each one of them with different Python versions and different packages installed. You can use {term}`conda` for this.
+different workspaces, each one of them with different Python versions and different packages installed. You can use {term}`conda` for this (see next sections).
 ```
 
 ## What is Conda?
@@ -64,33 +64,38 @@ Python 3.7.3|Anaconda custom (x86_64)| (default, Mar 27 2019, 22:11:17)
 
 ### Installing mamba (Optional)
 
-The installation with `conda` may take quite some time... A better option is to use `mamba` instead.
-In order to do so, first install mamba in your base environment:
+Setting up an environment with package dependencies using `conda` may be quite slow... 
+A better option is to use `mamba` instead to solve version dependencies, which is much faster and archives the same result than `conda`.
+In order to use mamba, first install `mamba` in your base environment using `conda`:
 ```bash
 conda install mamba
 ```
-Then, in all the commands following in the next sections you can replace all the `conda` commands by `mamba` commands (except the `conda activate`! That is the only command for which you need to use `conda`). 
+Now, every `conda` command can be replaced by `mamba`.
+For example, you can use `mamba install <package>` instead of `conda install <package>` (except the `conda activate`! That is the only command for which you need to use `conda`). 
 
 
 ## Working in an environment 
 
 Once miniconda/conda has been installed, we can use it to create new virtual environments we can use to install different libraries we want to use for our
 project. 
-````{note}
+````{admonition} Persistent Environmnets
 By default, conda environments are not currenlty being keep persistent in the CryoCloud Hub. 
-We encourage users to create a folder in their home directory that they can use to store all the customized environments. 
-You can do this directly from the terminal by first creating a containing folder
+This means that every time you open a new CryoCloud session, all the installs you made in previous sessions will be gone. 
+In order to be able to work in the same computational environmnet across sessions without re-install the same packages, we encourage users to create a folder in their home directory to store all the customized environments. 
+By doing this, your environmnents and their dependencies will stay in your account when you comeback to work in the future. 
+In order to do this, create a folder called `envs` in your home directory (that is, `/home/jovyan`). 
+You can do this directly from the terminal:
 ```bash
 mkdir envs
 ```
-and then create (also in your home directory) a new file called `.condarc` (the name is important! don't forget the initial dot `.`) with the following contents
+Then, also in your home directory, create a new textfile called `.condarc` (the name is important! don't forget the initial dot `.`) with the following contents
 ```
 # .condarc
 
 envs_dirs:
   - ~/envs
 ```
-This will indicates to conda that all the new environmnets have to live inside `~envs`. 
+This will indicates to conda that all the new environmnets have to live inside `~envs` (`~` is the unix character for your home directory). 
 ````
 
 You can now create a new environment with conda You can do this from scratch, for example, 
@@ -114,7 +119,7 @@ which python
 python --version
 ```
 
-### Making the environment accesible to the iPython kernel
+## Making the environment accesible to the iPython kernel
 
 In order to show the kernel associated to our new environment from a Jupyter Notebook, we need to install `ipykernel`. We first activate the 
 new environment, 
