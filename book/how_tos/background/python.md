@@ -62,7 +62,7 @@ Python 3.7.3|Anaconda custom (x86_64)| (default, Mar 27 2019, 22:11:17)
 ...
 ```
 
-### Installing mamba (Optional)
+### Installing Mamba (Optional)
 
 Setting up an environment with package dependencies using `conda` may be quite slow... 
 A better option is to use `mamba` instead to solve version dependencies, which is much faster and archives the same result than `conda`.
@@ -74,31 +74,31 @@ Now, every `conda` command can be replaced by `mamba`.
 For example, you can use `mamba install <package>` instead of `conda install <package>` (except the `conda activate`! That is the only command for which you need to use `conda`). 
 
 
-## Working in an environment 
+## Working in an Environment 
 
-Once miniconda/conda has been installed, we can use it to create new virtual environments we can use to install different libraries we want to use for our
-project. 
-````{admonition} Persistent Environmnets
-By default, conda environments are not currenlty being keep persistent in the CryoCloud Hub. 
-This means that every time you open a new CryoCloud session, all the installs you made in previous sessions will be gone. 
-In order to be able to work in the same computational environmnet across sessions without re-install the same packages, we encourage users to create a folder in their home directory to store all the customized environments. 
-By doing this, your environmnents and their dependencies will stay in your account when you comeback to work in the future. 
+Once miniconda/conda/mamba has been installed, we can use it to create new virtual environments with different Python versions and packages. A good practice is to have different environments for different projects when these have different dependencies. 
+````{admonition} Persistent Environments
+By default, conda environments are not persistent in the CryoCloud Hub. 
+This means that every time you open a new CryoCloud session, all the installations you made in previous sessions will be gone. 
+In order to be able to work in the same computational environment across sessions without re-installing the same packages, we encourage users to create a folder in their home directory to store all their customized environments. 
+By doing this, your environments will stay in your account when you comeback to work in the future. 
 In order to do this, create a folder called `envs` in your home directory (that is, `/home/jovyan`). 
 You can do this directly from the terminal:
 ```bash
 mkdir envs
 ```
-Then, also in your home directory, create a new textfile called `.condarc` (the name is important! don't forget the initial dot `.`) with the following contents
+Then, also in your home directory, create a new textfile called `.condarc` (the name is important! don't forget the initial dot `.`) with the following content:
 ```
 # .condarc
 
 envs_dirs:
   - ~/envs
 ```
-This will indicates to conda that all the new environmnets have to live inside `~envs` (`~` is the unix character for your home directory). 
+This will indicates to conda that all the new environments have to live inside `~envs` (`~` is the unix character for your home directory). 
 ````
 
-You can now create a new environment with conda You can do this from scratch, for example, 
+You can now create a new environment with `conda`. 
+You can do this from scratch, for example, 
 ```bash
 conda env reate --name <ENVIRONMENT NAME> python=3.9
 ```
@@ -107,9 +107,9 @@ Alternatively, you can create an environment directly from a `.yml` file
 ```bash
 conda env create -f environment.yml
 ```
-This second option is particulary practical for reproducibily and collaboration. 
+This second option is particularly practical for reproducibility and collaboration in a team. 
 
-You can check that the creation and installation of the new environment has worked by first activating the environment
+You can check that the creation and installation of the new environment is working by first activating the environment
 ```bash 
 conda activate <ENVIRONMENT NAME>
 ```
@@ -119,7 +119,7 @@ which python
 python --version
 ```
 
-## Making the environment accesible to the iPython kernel
+## Making the Environment Accessible to the iPython Kernel
 
 In order to show the kernel associated to our new environment from a Jupyter Notebook, we need to install `ipykernel`. We first activate the 
 new environment, 
@@ -130,13 +130,13 @@ and then install `ipykernel`:
 ```bash
 conda install ipykernel
 ```
-This steps are not needed if you created the environment directly from a `.yml` file that includes ipykernel as dependency. 
+This steps are not needed if you created the environment directly from a `.yml` file that includes `ipykernel` as a dependency. 
 
 Then we create the kernel with  
 ```bash
 python -m ipykernel install --user --name <ENVIRONMENT NAME> --display-name "IPython - <NAME>"
 ``` 
-to create the associated kernel. Replace `<NAME>` with the name you want to call the iPython kernel.  
+to create the associated kernel. 
+Replace `<NAME>` with the name you want to call the iPython kernel and `<ENVIRONMENT NAME>` with the name of the respective environment. 
 
-You are done! Next time you start your JupyterHub session, you will see the new kernel available from your launcher or from the upper right corner
-of any Jupyter Notebook. 
+You are done! Next time you start your JupyterHub session, you will see the new kernel available from your launcher or from the upper right corner of any Jupyter Notebook. 
