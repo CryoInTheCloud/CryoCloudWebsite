@@ -98,7 +98,7 @@ This will indicates to conda that all the new environments have to live inside `
 ````
 
 You can now create a new environment with `conda`.
-If you are just starting to work in a new project or want to test something, you can create an environmnet from scratch with
+If you are just starting to work in a new project or want to test something, you can create an environment from scratch with
 ```bash
 conda env create --name <ENVIRONMENT NAME> python=3.9
 ```
@@ -121,18 +121,19 @@ python --version
 
 The best practice for reproducibility and collaboration is to have an updated `environmnent.yml` file in your working space (eg, in the GitHub repository of your project).
 This allows members of the team to keep the environment updated and shared among users.
-You can then install new packages in your new environment and create an associated `environment.yml` file to the environmnet with the command
+You can create a `environment.yml` file associated to the environment with the command
 ```bash
 conda env export --from-history > environment.yml` 
 ```
+This will write the required dependencies to reproduce the environment in the `environment.yml` file.
 Conversely, if you have new packages listed in your `environment.yml` file (because you edited it or changes were made to it by a colleague and you got these changes over git, for example), you can apply these updates with this command
 ```bash
 conda env update --file environment.yml --prune
 ```
-By doing this, you will keep the conda environment and the `environment.yml` file synchonize.
+By doing this, you will keep the conda environment and the `environment.yml` file synchronized.
 Sharing the `environment.yml` file ensures that other users will have the set of instructions to reproduce your virtual environment.
 Notice that the environment and the `environment.yml` are not the same thing! The latest is just a text file that allows the creation
-of a conda enviroment by using the instructions in this section.
+of a conda environment by using the instructions in this section.
 
 ## Making the Environment Accessible to the iPython Kernel
 
