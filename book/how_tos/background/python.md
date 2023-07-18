@@ -64,19 +64,19 @@ Python 3.7.3|Anaconda custom (x86_64)| (default, Mar 27 2019, 22:11:17)
 
 ### Installing Mamba (Optional)
 
-Setting up an environment with package dependencies using `conda` may be quite slow... 
+Setting up an environment with package dependencies using `conda` may be quite slow...
 A better option is to use `mamba` instead to solve version dependencies, which is much faster and archives the same result than `conda`.
 In order to use mamba, first install `mamba` in your base environment using `conda`:
 ```bash
 conda install mamba
 ```
 Now, every `conda` command can be replaced by `mamba`.
-For example, you can use `mamba install <package>` instead of `conda install <package>` (except the `conda activate`! That is the only command for which you need to use `conda`). 
+For example, you can use `mamba install <package>` instead of `conda install <package>` (except the `conda activate`! That is the only command for which you need to use `conda`).
 
 
 ## Working in an Environment 
 
-Once miniconda/conda/mamba has been installed, we can use it to create new virtual environments with different Python versions and packages. A good practice is to have different environments for different projects when these have different dependencies. 
+Once miniconda/conda/mamba has been installed, we can use it to create new virtual environments with different Python versions and packages. A good practice is to have different environments for different projects when these have different dependencies.
 ````{admonition} Persistent Environments
 By default, conda environments are not persistent in the CryoCloud Hub. 
 This means that every time you open a new CryoCloud session, all the installations you made in previous sessions will be gone. 
@@ -92,25 +92,25 @@ Then, also in your home directory, create a new textfile called `.condarc` (the 
 # .condarc
 
 envs_dirs:
-  - ~/envs
+ - ~/envs
 ```
 This will indicates to conda that all the new environments have to live inside `~envs` (`~` is the unix character for your home directory). 
 ````
 
-You can now create a new environment with `conda`. 
-You can do this from scratch, for example, 
+You can now create a new environment with `conda`.
+If you are just starting to work in a new project or want to test something, you can create an environmnet from scratch with
 ```bash
-conda env reate --name <ENVIRONMENT NAME> python=3.9
+conda env create --name <ENVIRONMENT NAME> python=3.9
 ```
-where you have to replace `<ENVIRONMENT NAME>` with the name you want to put to your new environment. 
-Alternatively, you can create an environment directly from a `.yml` file
+where you have to replace `<ENVIRONMENT NAME>` with the name you want to put to your new environment.
+Alternatively, you can create an environment directly from a `environment.yml` file
 ```bash
 conda env create -f environment.yml
 ```
-This second option is particularly practical for reproducibility and collaboration in a team. 
+This second option is particularly practical for reproducibility and collaboration in a team.
 
 You can check that the creation and installation of the new environment is working by first activating the environment
-```bash 
+```bash
 conda activate <ENVIRONMENT NAME>
 ```
 and then check if you have the correct Python version installed
@@ -119,10 +119,25 @@ which python
 python --version
 ```
 
+The best practice for reproducibility and collaboration is to have an updated `environmnent.yml` file in your working space (eg, in the GitHub repository of your project).
+This allows members of the team to keep the environment updated and shared among users.
+You can then install new packages in your new environment and create an associated `environment.yml` file to the environmnet with the command
+```bash
+conda env export --from-history > environment.yml` 
+```
+Conversely, if you have new packages listed in your `environment.yml` file (because you edited it or changes were made to it by a colleague and you got these changes over git, for example), you can apply these updates with this command
+```bash
+conda env update --file environment.yml --prune
+```
+By doing this, you will keep the conda environment and the `environment.yml` file synchonize.
+Sharing the `environment.yml` file ensures that other users will have the set of instructions to reproduce your virtual environment.
+Notice that the environment and the `environment.yml` are not the same thing! The latest is just a text file that allows the creation
+of a conda enviroment by using the instructions in this section.
+
 ## Making the Environment Accessible to the iPython Kernel
 
-In order to show the kernel associated to our new environment from a Jupyter Notebook, we need to install `ipykernel`. We first activate the 
-new environment, 
+In order to access the kernel associated to our new environment from a Jupyter Notebook, we need to install `ipykernel`. We first activate the
+new environment,
 ```bash
 conda activate <ENVIRONMENT NAME>
 ```
@@ -130,13 +145,13 @@ and then install `ipykernel`:
 ```bash
 conda install ipykernel
 ```
-This steps are not needed if you created the environment directly from a `.yml` file that includes `ipykernel` as a dependency. 
+This steps are not needed if you created the environment directly from a `.yml` file that includes `ipykernel` as a dependency.
 
-Then we create the kernel with  
+Then we create the kernel with
 ```bash
 python -m ipykernel install --user --name <ENVIRONMENT NAME> --display-name "IPython - <NAME>"
 ``` 
-to create the associated kernel. 
-Replace `<NAME>` with the name you want to call the iPython kernel and `<ENVIRONMENT NAME>` with the name of the respective environment. 
+to create the associated kernel.
+Replace `<NAME>` with the name you want to call the iPython kernel and `<ENVIRONMENT NAME>` with the name of the respective environment.
 
-You are done! Next time you start your JupyterHub session, you will see the new kernel available from your launcher or from the upper right corner of any Jupyter Notebook. 
+You are done! Next time you start your JupyterHub session, you will see the new kernel available from your launcher or from the upper right corner of any Jupyter Notebook.
