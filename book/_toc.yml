@@ -29,6 +29,7 @@ parts:
           - file: how_tos/nbdime/nbdime-hub
         - file: how_tos/data_access/index
           sections:
+            - file: how_tos/data_access/Cloud_Sentinel2_access
             - file: how_tos/data_access/Instructions_for_configuring_AWS_S3_bucket
             - file: external/Earthdata_Cloud__Single_File__HTTPS_Access_COG_Example
             - file: external/Earthdata_Cloud__Single_File_Direct_S3_Access_COG_Example
@@ -40,7 +41,6 @@ parts:
     - file: tutorials/index
       sections:
         - file: tutorials/IS2_cloud_Landsat_integration
-        - file: tutorials/IS2_cloud_Sentinel2_integration
         - file: tutorials/IS2_ATL15_surface_height_anomalies/IS2_ATL15_surface_height_anomalies
 - caption: Contributing
   chapters:
