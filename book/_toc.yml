@@ -31,6 +31,7 @@ parts:
           sections:
             - file: how_tos/data_access/Cloud_Sentinel2_access
             - file: how_tos/data_access/Instructions_for_configuring_AWS_S3_bucket
+            - file: how_tos/data_access/CryoCloudScratchBucket
             - file: external/Earthdata_Cloud__Single_File__HTTPS_Access_COG_Example
             - file: external/Earthdata_Cloud__Single_File_Direct_S3_Access_COG_Example
             - file: external/Multi-File_Direct_S3_Access_COG_Example
