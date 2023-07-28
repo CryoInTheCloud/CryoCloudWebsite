@@ -19,9 +19,9 @@ will be useful for working on a JupyterHub, and examples for accessing data from
 [Using the CryoCloud S3 scratch bucket](./data_access/CryoCloudScratchBucket.ipynb) \
 [Accessing cloud-optimized Geotiff via HTTPS](../external/Earthdata_Cloud__Single_File__HTTPS_Access_COG_Example.ipynb) \
 [Accessing cloud-optimized Geotiff via S3 Direct Access](../external/Earthdata_Cloud__Single_File_Direct_S3_Access_COG_Example.ipynb) \
-[Accessing Multiple cloud-optimized Geotiff via S3 Direct Access](../external/Multi-File_Direct_S3_Access_COG_Example.ipynb) \
+[Accessing multiple cloud-optimized Geotiff via S3 Direct Access](../external/Multi-File_Direct_S3_Access_COG_Example.ipynb) \
 [Accessing NetCDF4/HDF5 via S3 Direct Access](../external/Earthdata_Cloud__Single_File__Direct_S3_Access_NetCDF4_Example.ipynb) \
-[Accessing Multiple NetCDF/HDF5 via S3 Direct Access](../external/Multi-File_Direct_S3_Access_NetCDF_Example.ipynb) 
+[Accessing multiple NetCDF/HDF5 via S3 Direct Access](../external/Multi-File_Direct_S3_Access_NetCDF_Example.ipynb) 
 
 These pages are a work in progress and we welcome ideas for improvements or pages that would be helpful to 
 have included here.
