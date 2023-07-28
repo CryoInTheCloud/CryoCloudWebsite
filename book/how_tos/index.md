@@ -16,7 +16,7 @@ will be useful for working on a JupyterHub, and examples for accessing data from
 
 ### [Data Access](./data_access/index.md)
 [Setting up an AWS S3 bucket](./data_access/Instructions_for_configuring_AWS_S3_bucket.ipynb) \
-[Using the S3 scratch bucket](./data_access/CryoCloudScratchBucket.ipynb) \
+[Using the CryoCloud S3 scratch bucket](./data_access/CryoCloudScratchBucket.ipynb) \
 [Accessing cloud-optimized Geotiff via HTTPS](../external/Earthdata_Cloud__Single_File__HTTPS_Access_COG_Example.ipynb) \
 [Accessing cloud-optimized Geotiff via S3 Direct Access](../external/Earthdata_Cloud__Single_File_Direct_S3_Access_COG_Example.ipynb) \
 [Accessing Multiple cloud-optimized Geotiff via S3 Direct Access](../external/Multi-File_Direct_S3_Access_COG_Example.ipynb) \
