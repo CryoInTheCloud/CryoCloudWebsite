@@ -47,4 +47,12 @@
         "target": "Multi-File_Direct_S3_Access_NetCDF_Example.ipynb",
         "process": true
     }
+{
+        "title": "ICESat-2 ATL10-h5coro large-scale time series",
+        "preamble": "This notebook is from NSIDC's Processing Large-scale Time Series of ICESat-2 Sea Ice Height in the Cloud tutorial",
+        "source": "https://github.com/nsidc/NSIDC-Data-Tutorials",
+        "url": "https://github.com/nsidc/NSIDC-Data-Tutorials/blob/cryo-184/notebooks/ICESat-2_Cloud_Access/ATL10-h5coro.ipynb",
+        "target": "ICESAT2_ATL10-h5coro_large_scale_time_series.ipynb",
+        "process": true
+    },
 ]
