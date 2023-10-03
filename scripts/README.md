@@ -13,4 +13,4 @@ This folder contains several scripts for building our splash page and Jupyter Bo
   from the CryoCloudWebsite/scripts directory: \
      `conda env update -f environment.yml` \
      `conda activate notebook-import` \
-     `python notebook_import.py -f assets.json` \
+     `python notebook_import.py -f assets.json` 
