@@ -10,7 +10,7 @@ This folder contains several scripts for building our splash page and Jupyter Bo
 * `notebook_import.py`
   1. imports external notebooks from other github repos and assigns credit at the top of the imported notebook. External notebook locations are 
   added to assets.json and the script requires that the import_notebook environment from environment.yml be activated. To run, use the command line 
-  from the CryoCloudWebsite/scripts directory:
-     `conda env update -f environment.yml`
-     `conda activate notebook-import`
-     `python notebook_import.py -f assets.json`
+  from the CryoCloudWebsite/scripts directory: /
+     `conda env update -f environment.yml` /
+     `conda activate notebook-import` /
+     `python notebook_import.py -f assets.json` /
