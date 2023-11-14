@@ -7,7 +7,8 @@ parts:
   chapters:
     - file: content/about
     - file: content/mission
-    - file: content/Getting_Started.md
+    - file: content/Getting_Started
+    - file: content/hub_best_practices
     - file: content/Code_of_Conduct
     - file: content/citing_cryocloud
 - caption: Cloud Training
@@ -53,9 +54,7 @@ parts:
 - caption: Reference
   chapters:
     - file: reference/glossary
-    - file: reference/hub_best_practices.md
     - file: reference/IS2-resources
-    - file: reference/bibliography
     - file: reference/open_science
     - file: reference/open_source_software
     - file: reference/questions
