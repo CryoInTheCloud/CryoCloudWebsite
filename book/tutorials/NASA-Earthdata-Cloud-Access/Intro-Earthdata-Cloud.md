@@ -12,7 +12,7 @@ None
 
 This guide was adapted from the following tutorials:
 * [Data Discovery and Access: Overview](https://icesat-2-2023.hackweek.io/tutorials/data-access-and-format/overview.html) by Andy Barrett, NSIDC DAAC
-* [Using icepyx to access ICESat-2 data](Using icepyx to access ICESat-2 data) by Rachel Wegener, University of Maryland
+* [Using icepyx to access ICESat-2 data](https://nasa-openscapes.github.io/2023-ssc/tutorials/data-access/icepyx.html) by Rachel Wegener, University of Maryland
 * [Data Strategies for Future Us](https://nsidc.github.io/data_strategies_for_future_us/data_strategies_slides#/workflow-solutions-3) by Andy Barrett, NSIDC DAAC
 
 ## 1. Modes of Data Access
@@ -56,7 +56,7 @@ The notion of _analysis in place_, or the concept of bringing your compute, or p
 * Cost to compute: Just like your laptop costs money up front that provides you with certain CPU and memory, the compute resources needed to run your analyses do cost money. This can be thought of as the difference between an upfront cost like purchasing a laptop to process data locally versus something you can pay for as you go. There is a cost associated with the EC2 instance mentioned above, paid for by CryoCloud.
 * Cost to store: With _analysis in place_, the data are being streamed directly from its native location in the cloud, so storage is not needed. However you may wish to store analysis outputs or other data using your own S3 bucket which does incur a cost. 
 
-### When To Cloud
+### "When To Cloud"
 
 Migrating to a cloud-based data analysis workflow can often have a steep learning curve and feel overwhelming. There are times when Cloud is effective and times when the download model may still be more appropriate. Here are a few key questions to ask yourself: 
 
