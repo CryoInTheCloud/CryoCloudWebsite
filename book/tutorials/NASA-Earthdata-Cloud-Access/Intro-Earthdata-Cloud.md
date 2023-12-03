@@ -1,24 +1,21 @@
-# NASA Earthdata Cloud and data access using earthaccess and icepyx: 
-## Introduction to NASA Earthdata and NASA Earthdata Cloud
+# Introduction to NASA Earthdata Cloud and ICESat-2
 
-TODOs / Questions:
-* Cost considerations
-
-# Learning Outcomes
+### Learning Outcomes
 
 The purpose of this overview is to introduce the data search and access options provided within the Earthdata Cloud, along with an introduction to NASA's ICESat-2 Mission. 
 
-## Prerequisites
+### Prerequisites
 
 None
 
-## Credits
+### Credits
 
 This guide was adapted from the following tutorials:
 * [Data Discovery and Access: Overview](https://icesat-2-2023.hackweek.io/tutorials/data-access-and-format/overview.html) by Andy Barrett, NSIDC DAAC
 * [Using icepyx to access ICESat-2 data](Using icepyx to access ICESat-2 data) by Rachel Wegener, University of Maryland
+* [Data Strategies for Future Us](https://nsidc.github.io/data_strategies_for_future_us/data_strategies_slides#/workflow-solutions-3) by Andy Barrett, NSIDC DAAC
 
-## Modes of Data Access
+## 1. Modes of Data Access
 
 In the past, most of our scientific data analysis workflows have started with searching for data and then downloading that data to a local machine; whether that is the hard drive of your laptop or workstation, or some shared storage device hosted by your institution or research group. This can be a time consuming process if the volume of data is large, even with fast internet. It also requires that you have sufficient disk-space. If you want to work with data from different geoscience domains, you may have to download data from several data centers. 
 
@@ -28,9 +25,12 @@ In the past, most of our scientific data analysis workflows have started with se
 </center>
 </figure>
 
+Figure credit: Alexey Shiklomanov, NASA ESDIS, from [The future of NASA Earth Science in the commercial cloud:
+Challenges and opportunities](https://docs.google.com/presentation/d/12mh_8WU9lsrPviBO_MBv2blbjRufXoQmqCB4XGyxQ90/edit?pli=1)
+
 However, a change is a-foot. New modes of data access are starting to becoming available. Driven by the growth in the volume of data from future satellite missions, the archiving and distribution of NASA data is in a [state of transition](https://www.earthdata.nasa.gov/eosdis/cloud-evolution). Over the next few years, all NASA data will be migrated to the NASA Earthdata Cloud, a cloud-hosted data store that will have all NASA datasets in one place. This not only offers new modes of accessing NASA data but also offers new ways of working with this data. As with Google Docs or Sheets, data in these "files" is not just stored in the cloud but compute resources offered by cloud providers allow you to process and analyze the data in the cloud. When you edit your Google Doc or Sheet, you are working in the cloud not on your computer. All you need is a web browser; you can work with these files on your laptop, tablet or even your phone. If you choose to share these documents with others, they can actively collaborate with you on the same document also in the cloud.  For large geoscience datasets, this means you can _skip the download_ and take your _analysis to the data_.  
 
-## NASA Earthdata Cloud at the NSIDC DAAC
+## 2. NASA Earthdata Cloud
 
 During this transition period, data will remain freely available from the NASA DAACs (Distributed Active Archive Centers) that have archived and distributed data for over 20 years; and will support data in cloud-hosted storage known as the Earthdata Cloud as data sets are migrated. 
 
@@ -40,9 +40,9 @@ During this transition period, data will remain freely available from the NASA D
 </center>
 </figure>
 
-The NSIDC DAAC now offers all [ICESat-2](https://nsidc.org/data/icesat-2) and [ICESat/GLAS](https://nsidc.org/data/icesat) data sets in the cloud. A listing of all NSIDC DAAC cloud-hosted data can be found [here](https://nsidc.org/data/earthdata-cloud/data). 
+The NSIDC DAAC now offers all [ICESat-2](https://nsidc.org/data/icesat-2) and [ICESat/GLAS](https://nsidc.org/data/icesat) data sets in the cloud. A listing of all NSIDC DAAC cloud-hosted data can be found [here](https://nsidc.org/data/earthdata-cloud/data). More details on ICESat-2 below.
 
-### More on Cloud Computing
+### Earthdata Cloud Computing Basics
 
 "The Cloud" is a somewhat nebulous term (pun intended). In general, the cloud is a network of remote servers that run software and services that are accessed over the internet.  There is a growing number of commercial cloud providers (Google Cloud Services, Amazon Web Services, Microsoft Azure). NASA has contracted with Amazon Web Services (AWS) to host data using the AWS Simple Storage Service (S3). AWS offers a large number of services in addition to S3 storage. A key service is Amazon Elastic Compute Cloud (Amazon EC2). This is the service that is _under-the-hood_ of the CryoCloud JupyterHub you are using during today's workshop.  When you start a JupyterHub, an EC2 _instance_ is started.  You can think of an EC2 _instance_ as a remote computer.
 
@@ -52,25 +52,44 @@ AWS has the concept of a region, which is a cluster of data centers. These data 
 
 The notion of _analysis in place_, or the concept of bringing your compute, or processing, to the data, provides several advantages over the more traditional download method: You no longer need to move data from its archived location, and you only pay for the compute needed to do your analysis. A few key points about cost:
 
-* Cost to access: As long as you are performing your processing in the same location as where the data are located in Earthdata Cloud, then the cost to access the data is completely free. The CryoCloud is running in the same `us-west-2` region as where the NASA Earthdata Cloud data are stored.
+* Cost to access: As long as you are performing your processing in the same location as where the data are located in Earthdata Cloud, then the cost to access the data is completely free. CryoCloud is running in the same `us-west-2` region as where the NASA Earthdata Cloud data are stored.
 * Cost to compute: Just like your laptop costs money up front that provides you with certain CPU and memory, the compute resources needed to run your analyses do cost money. This can be thought of as the difference between an upfront cost like purchasing a laptop to process data locally versus something you can pay for as you go. There is a cost associated with the EC2 instance mentioned above, paid for by CryoCloud.
 * Cost to store: With _analysis in place_, the data are being streamed directly from its native location in the cloud, so storage is not needed. However you may wish to store analysis outputs or other data using your own S3 bucket which does incur a cost. 
 
 ### When To Cloud
 
-## Introduction to ICESat-2
+Migrating to a cloud-based data analysis workflow can often have a steep learning curve and feel overwhelming. There are times when Cloud is effective and times when the download model may still be more appropriate. Here are a few key questions to ask yourself: 
 
-* Scientific use case leveraging cloud computing
-* Consider Andy's slides from Coiled Community call: https://github.com/andypbarrett/openscapes_community_chat_coiled
+* What is the data volume?
+* How long will it take to download?
+* Can you store all that data (cost and space)?
+* Do you have the computing power for processing?
+* Does your team need a common computing environment?
+* Do you need to share data at each step or just an end product?
 
 
-Extras:
+## 3. Introduction to ICESat-2
 
+![IS2](https://icesat-2.gsfc.nasa.gov/sites/default/files/MissionLogo_0.png)
 
-Earthdata Cloud is a NASA Earth Science Data Systems program that enables new methods of data analysis and distribution, while preserving most existing analysis and distribution methods. Having data in the cloud enables efficient use of large amounts of data collections and collaborative work with these data. 
+ICESat-2 carries a satellite lidar instrument, ATLAS. Lidar is an active remote sensing technique in which pulses of light are emitted and the return time is used to measure distance. The available ICESat-2 data products range from sea ice freeboard to land elevation to cloud backscatter characteristics. A list of availble products can be found [here](https://icesat-2.gsfc.nasa.gov/science/data-products). 
 
-Data products, or "collections", from NASA Earthdata are available from Earth Observing System Data and Information System (EOSDIS) Distributed Active Archive Centers (DAACs) that are in the process of moving data holdings to a cloud platform. The Earthdata Cloud is hosted in Amazon Web Services (AWS), with tools and services co-located next to the data. 
+### Data Collection
 
-As far as quick background on those missions: these are both altimetry-focused missions that describe elevations of sea ice, land ice, forest canopies, water height, urban areas, and more.
+ICESat-2 measures data along 3 strong/weak beam pairs, resulting in 3 strong beams and 3 weak beams. The strong and weak beams are calibrated such that the weak beams have more sensitivity to viewing very bright surfaces (Ex. ice), while the strong beams are able to view surfaces with lower reflectances (Ex. water). The beams are designated in each data product as `gt1l`, `gt1r`, `gt2l`, `gt2r`, `gt3l`, and `gt3r`, where `gt` stands for "ground track", the number refers to the photon emitter, and the `l` and `r` indicate "left" or "right" beam of the pair. Which of these designations is strong or weak depends on the orientation of the satellite (forwards, `sc_orient==1`; backwards, `sc_orient==0`). A helpful table of which beams are strong/weak can be found on p131 of the [ATL03 Algorithm Theoretical Basis Document](https://icesat-2.gsfc.nasa.gov/sites/default/files/page_files/ICESat2_ATL03_ATBD_r006.pdf). The ATLAS spot number (values 1-6) is based on the ground track designation (`gt1l` etc.) and spacecraft orientation and, once determined, can be used to consistently identify strong (Spots 1, 3, and 5) and weak (Spots 2, 4, and 6) beams.
 
-ICESat-2 data sets were some of the first data to be migrated to the cloud.  All Level-2 (e.g. ATL03 and beyond) ICESat-2 datasets are available in Earthdata Cloud. 
+![Tracks](https://ars.els-cdn.com/content/image/1-s2.0-S0034425718305066-gr1.jpg)
+
+Photo: Neuenschwander et. al. 2019, Remote Sens. Env. [DOI](https://doi.org/10.1016/j.rse.2018.11.005)
+
+### Counting Photons
+
+The ICESat-2 lidar collects at the single photon level, different from most commercial lidar systems. A lot of additional photons get returned as solar background noise, and removing these unwanted photons is a key part of the algorithms that produce the higher level data products.
+
+<img src="images/ATL08_signalphotons.jpg" width=450/>
+
+> _Fig. 2. Results from signal finding methods for simulated ATLAS data. Black points show raw point cloud data as ingested from ATL03 product. Blue points overlaid in each plot show which photons each method identified as signal. Top panel reflects the signal photons as identified on the ATL03 data product (medium and high confidence signal photons). Bottom panel reflects the signal photons identified from the ATL08 DRAGANN method._ (Neuenschwander & Pitts, 2019)
+
+Photo: Neuenschwander et. al. 2019, Remote Sens. Env. [DOI](https://doi.org/10.1016/j.rse.2018.11.005)
+
+To aggregate all these photons into more manegable chunks, many of the Level-3B products such as [ATL08](https://nsidc.org/data/atl08) consolidate the photons into variable segment lengths.
