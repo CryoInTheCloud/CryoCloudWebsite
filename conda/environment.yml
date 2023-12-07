@@ -34,7 +34,7 @@ dependencies:
   - s3fs==2022.11.0
   # handle login and similar details for accessing earthdata protected data
   # https://github.com/nsidc/earthaccess
-  - earthdata==0.4.1
+  - earthaccess~=0.8.2
   # Access datasets exposed via STAC
   - pystac-client==0.5.1
   # Access datasets exposed via intake catalogs
@@ -100,7 +100,7 @@ dependencies:
   - flake8==5.0.4
 
   # Packages specific to cryo work
-  - icepyx==0.6.4
+  - icepyx~=0.8.1
 
   # Desktop tools whose versions are more recent on conda-forge than ubuntu
   - qgis==3.18.3
