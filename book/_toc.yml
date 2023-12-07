@@ -7,7 +7,8 @@ parts:
   chapters:
     - file: content/about
     - file: content/mission
-    - file: content/Getting_Started.md
+    - file: content/Getting_Started
+    - file: content/hub_best_practices
     - file: content/Code_of_Conduct
     - file: content/citing_cryocloud
 - caption: Cloud Training
@@ -46,6 +47,8 @@ parts:
         - file: tutorials/IS2_ATL15_surface_height_anomalies/IS2_ATL15_surface_height_anomalies
         - file: external/ICESAT2_ATL10-h5coro_large_scale_time_series
         - file: tutorials/ARCOdata_writingZarrs
+        - file: tutorials/GrIMP/GrIMP_tutorial_AGU23
+        - file: tutorials/SlideRule_applications/SlideRule_applications
 - caption: Contributing
   chapters:
     - file: contributing/index
@@ -54,9 +57,7 @@ parts:
 - caption: Reference
   chapters:
     - file: reference/glossary
-    - file: reference/hub_best_practices.md
     - file: reference/IS2-resources
-    - file: reference/bibliography
     - file: reference/open_science
     - file: reference/open_source_software
     - file: reference/questions
