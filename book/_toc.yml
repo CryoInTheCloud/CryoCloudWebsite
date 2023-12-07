@@ -47,6 +47,7 @@ parts:
         - file: tutorials/IS2_ATL15_surface_height_anomalies/IS2_ATL15_surface_height_anomalies
         - file: external/ICESAT2_ATL10-h5coro_large_scale_time_series
         - file: tutorials/GrIMP/GrIMP_tutorial_AGU23
+        - file: tutorials/SlideRule_applications/SlideRule_applications
 - caption: Contributing
   chapters:
     - file: contributing/index
