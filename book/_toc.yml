@@ -47,6 +47,7 @@ parts:
         - file: tutorials/IS2_ATL15_surface_height_anomalies/IS2_ATL15_surface_height_anomalies
         - file: external/ICESAT2_ATL10-h5coro_large_scale_time_series
         - file: tutorials/ARCOdata_writingZarrs
+        - file: tutorials/index  
           sections:
           - file: tutorials/NASA-Earthdata-Cloud-Access/1.Intro-Earthdata-Cloud
           - file: tutorials/NASA-Earthdata-Cloud-Access/2.earthdata_search
