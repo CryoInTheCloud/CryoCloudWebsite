@@ -43,18 +43,20 @@ parts:
   chapters:
     - file: tutorials/index
       sections:
+        - file: tutorials/cryocloud_demo/CryoCloud_demo
         - file: tutorials/IS2_cloud_Landsat_integration
         - file: tutorials/IS2_ATL15_surface_height_anomalies/IS2_ATL15_surface_height_anomalies
         - file: external/ICESAT2_ATL10-h5coro_large_scale_time_series
-        - file: tutorials/ARCOdata_writingZarrs
         - file: tutorials/NASA-Earthdata-Cloud-Access/index
           sections:
           - file: tutorials/NASA-Earthdata-Cloud-Access/1.Intro-Earthdata-Cloud
           - file: tutorials/NASA-Earthdata-Cloud-Access/2.earthdata_search
           - file: tutorials/NASA-Earthdata-Cloud-Access/3.earthaccess
           - file: tutorials/NASA-Earthdata-Cloud-Access/4.icepyx
-        - file: tutorials/GrIMP/GrIMP_tutorial_AGU23
         - file: tutorials/SlideRule_applications/SlideRule_applications
+        - file: tutorials/dask_for_geoscientists
+        - file: tutorials/ARCOdata_writingZarrs
+        - file: tutorials/GrIMP/GrIMP_tutorial_AGU23
 - caption: Contributing
   chapters:
     - file: contributing/index
