@@ -13,7 +13,7 @@ All live tutorial recordings available via CryoCloud YouTube. Or see the table b
 
 | Tutorial | Recording Link |
 | ---  | --- |
-| [CryoCloud demo](https://book.cryointhecloud.com/tutorials/cryocloud_demo/CryoCloud_demo.html) | Recording
+| [CryoCloud demo](https://book.cryointhecloud.com/tutorials/cryocloud_demo/CryoCloud_demo.html) | [Recording](https://www.youtube.com/watch?v=ub86G53V12s)
 | [NASA data access and subglacial lake investigation using ice-surface height anomalies](https://book.cryointhecloud.com/tutorials/IS2_ATL15_surface_height_anomalies/IS2_ATL15_surface_height_anomalies.html) | [Recording](https://youtu.be/HnGsCKyxkPo)
 | [ICESat-2 and Landsat cloud access and data integration](https://book.cryointhecloud.com/tutorials/IS2_cloud_Landsat_integration.html) | [Recording](https://youtu.be/QNrDlwiomgc)
 | [ICESat-2 ATL10-h5coro large-scale time series](https://book.cryointhecloud.com/external/ICESAT2_ATL10-h5coro_large_scale_time_series.html) | [Recording](https://youtu.be/iSRjtXoflRU)
