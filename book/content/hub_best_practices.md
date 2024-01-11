@@ -10,7 +10,7 @@ To save money for us, when you finish on the Hub
 * Click `Log Out`
 * Close that browser tab before starting CryoCloud again to prevent errors --> You may receive an error if you try to restart CryoCloud from this same tab
 
-Hub will automatically shut off after 90 min of no use or logging off otherwise
+<font color="red">The hub will automatically shut off after 90 minute of no active use or by the user logging off</font>
 
 ***
 
@@ -42,4 +42,4 @@ If you want to use an older/different environment from our CryoCloud repositorie
 
 If you want to use a tag from Docker Hub
 * Search for them in [https://hub.docker.com/](https://hub.docker.com/)
-* The tags will take the form of `account/image:tag`: `isce/isce2:20240107`
+* The tags will take the form of `account/image:tag`: `tensorflow/tensorflow:latest
