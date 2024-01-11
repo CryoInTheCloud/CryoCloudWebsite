@@ -8,7 +8,7 @@ To save money for us, when you finish on the Hub
 * Go to `File` > `Hub Control Panel` > push `Stop Server`
 * Once that button disappears, your server has stopped
 * Click `Log Out`
-* Close that tab before starting CryoCloud again to prevent errors --> You may receive an error if you try to restart CryoCloud from this same tab
+* Close that browser tab before starting CryoCloud again to prevent errors --> You may receive an error if you try to restart CryoCloud from this same tab
 
 Hub will automatically shut off after 90 min of no use or logging off otherwise
 
