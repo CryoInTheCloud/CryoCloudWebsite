@@ -42,4 +42,8 @@ If you want to use an older/different environment from our CryoCloud repositorie
 
 If you want to use a tag from Docker Hub
 * Search for them in [https://hub.docker.com/](https://hub.docker.com/)
-* The tags will take the form of `account/image:tag`: `tensorflow/tensorflow:latest`  
+* The tags will take the form of `account/image:tag`: `tensorflow/tensorflow:latest`
+
+***
+
+Get better oriented with open science practices and broaden the impact of your work through the [NASA Open Science 101 curriculum](https://nasa.github.io/Transform-to-Open-Science/take-os101/). This curriculum comes with a NASA certificate and takes users through the ethos of open science, open tools and resources, open data, open code, and open results. With some background knowledge in open science, you may be able to take the fast track through the certificate without needing to go through all of the modules.
