@@ -26,3 +26,4 @@ All live tutorial recordings available via CryoCloud YouTube. Or see the table b
 | [Analysis-ready, cloud-optimized data: writing zarr directories](https://book.cryointhecloud.com/tutorials/ARCOdata_writingZarrs.html) | [Recording](https://youtu.be/CkQW_3gcFaM)
 | [Determining ice sheet change using Greenland Ice Mapping Project (GrIMP) tools](https://book.cryointhecloud.com/tutorials/GrIMP/GrIMP_tutorial_AGU23.html) | [Recording](https://youtu.be/MSp7zke8ReE)
 | Publishing tools and storing data with Ghub | [Recording](https://youtu.be/wwezHsz1j9M)
+| [ITS_LIVE Python Library Demo: Time Series of Ice Flow Speed at a Point](https://book.cryointhecloud.com/tutorials/ITS_LIVE_plot_point_timeseries.html) | Recording
