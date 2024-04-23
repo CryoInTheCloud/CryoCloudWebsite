@@ -42,7 +42,7 @@ If you want to use an older/different environment from our CryoCloud repositorie
 
 If you want to use a tag from Docker Hub
 * Search for them in [https://hub.docker.com/](https://hub.docker.com/)
-* The tags will take the form of `account/image:tag`: `tensorflow/tensorflow:latest`
+* The tags will take the form of `account/image:tag` (e.g., `pangeo/ml-notebook:latest`).
 
 ***
 

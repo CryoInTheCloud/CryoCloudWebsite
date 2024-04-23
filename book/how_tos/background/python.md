@@ -94,7 +94,7 @@ Then, also in your home directory, create a new textfile called `.condarc` (the 
 envs_dirs:
  - ~/envs
 ```
-This will indicates to conda that all the new environments have to live inside `~envs` (`~` is the unix character for your home directory). 
+This will indicates to conda that all the new environments have to live inside `~envs` (`~` is the unix character for your home directory). In doing so, you ensure that the new environments you build will be permanent to your CryoCloud account. 
 ````
 
 You can now create a new environment with `conda`.
