@@ -57,6 +57,7 @@ parts:
         - file: tutorials/dask_for_geoscientists
         - file: tutorials/ARCOdata_writingZarrs
         - file: tutorials/GrIMP/GrIMP_tutorial_AGU23
+        - file: tutorials/ITS_LIVE_plot_point_timeseries
 - caption: Contributing
   chapters:
     - file: contributing/index
