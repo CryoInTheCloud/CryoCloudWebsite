@@ -65,6 +65,7 @@ parts:
         - file: contributing/workflow
 - caption: Reference
   chapters:
+    - file: reference/projects_supported
     - file: reference/glossary
     - file: reference/IS2-resources
     - file: reference/open_science
