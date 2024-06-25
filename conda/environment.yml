@@ -42,7 +42,6 @@ dependencies:
   - jupyterlab-myst~=2.4.2
   - jupyterlab_pygments~=0.3.0 # To bring extension uptodate
   - jupytext~=1.16.1
-  - nbconvert==6.5.3
   - nbdime~=4.0.1
   # JupyterBook Addons
   - sphinxcontrib-bibtex
