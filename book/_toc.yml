@@ -53,6 +53,7 @@ parts:
           - file: tutorials/NASA-Earthdata-Cloud-Access/2.earthdata_search
           - file: tutorials/NASA-Earthdata-Cloud-Access/3.earthaccess
           - file: tutorials/NASA-Earthdata-Cloud-Access/4.icepyx
+          - file: tutorials/NASA-Earthdata-Cloud-Access/4b.icepyx-ATL06
         - file: tutorials/SlideRule_applications/SlideRule_applications
         - file: tutorials/dask_for_geoscientists
         - file: tutorials/ARCOdata_writingZarrs
