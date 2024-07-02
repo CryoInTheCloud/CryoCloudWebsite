@@ -1,9 +1,11 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: CryoCloud
-author: Mines Glaciology Laboratory, Colorado School of Mines
-logo: logo.png
+title :      CryoCloud
+author :     CryoCloud Team and Community, Colorado School of Mines
+logo :       logo.png
+copyright : "2022" # Goes in the footer
+
 only_build_toc_files: true
 
 parse:
@@ -34,7 +36,7 @@ parse:
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
-  execute_notebooks: 'off'
+  execute_notebooks: 'force'
 #  execute_notebooks: 'cache'
 #  exclude_patterns:
 #    - "**/dataintegration-1.ipynb"
