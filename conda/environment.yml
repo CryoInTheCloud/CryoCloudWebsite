@@ -45,6 +45,7 @@ dependencies:
   - nbdime~=4.0.1
   # JupyterBook Addons
   - sphinxcontrib-bibtex
+  - myst-parser
   # dashboards
   - voila~=0.5
   
