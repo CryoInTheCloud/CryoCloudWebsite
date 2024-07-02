@@ -45,7 +45,7 @@ dependencies:
   - nbdime~=4.0.1
   # JupyterBook Addons
   - sphinxcontrib-bibtex
-  - markdown-it-py~=3.0.0
+  #- markdown-it-py~=3.0.0
   - markupsafe~=2.1.5
   - myst-nb~=1.1.1
   # dashboards
@@ -104,7 +104,7 @@ dependencies:
   - kerchunk~=0.2
 
   # Cloud access tools and libraries
-  - awscli~=1.27.76
+  #- awscli~=1.27.76
   - boto3
   - s3fs>=2023.6.0
   # handle login and similar details for accessing earthdata protected data
