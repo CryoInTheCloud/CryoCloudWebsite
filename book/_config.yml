@@ -39,23 +39,6 @@ parse:
     - smartquotes
     - tasklist
 
-# Enable the myst_nb extension and sphinx-hoverxref
-sphinx:
-  extra_extensions:
-    - myst_nb
-    - sphinx_hoverxref
-
-  hoverxref_role_types:
-    ref: modal
-    numref: modal
-    term: tooltip
-    glossary: tooltip
-    mod: tooltip
-    doc: modal
-
-  hoverxref_auto_ref: True
-
-
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
