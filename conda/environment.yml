@@ -43,22 +43,21 @@ dependencies:
   - jupyterlab_pygments~=0.3.0 # To bring extension uptodate
   - jupytext~=1.16.1
   - nbdime~=4.0.1
+  
   # JupyterBook Addons
   - sphinxcontrib-bibtex
   - markupsafe~=2.1.5
   - myst-nb~=1.1.1
-  # dashboards
-  - voila~=0.5
-  
-  # JupyterBook packages
   - jupytext
   # For building Team Splashpage
   - cookiecutter
   # Dependencies of jinja-markdown
   - jinja2>=2.11
   - pygments>=2.6.1
-  - pymdown-extensions>=7.1 
-
+  - pymdown-extensions>=7.1
+  # dashboards
+  - voila~=0.5
+  
   # Core scientific python stack
   - cython==0.29.32 # optimization, C API access
   - flox~=0.9.7 # optimization, xarray operations
