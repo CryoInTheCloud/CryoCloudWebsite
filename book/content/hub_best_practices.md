@@ -4,6 +4,10 @@ Who and how you can access the CryoCloud - Setup instructions in the [Getting St
 
 ***
 
+Close out your browser tab every time that you log out. This keeps each log in clean and can prevent weird artifacts from popping up on your next log in.
+
+***
+
 To save money for us, when you finish on the Hub
 * Go to `File` > `Hub Control Panel` > push `Stop Server`
 * Once that button disappears, your server has stopped
