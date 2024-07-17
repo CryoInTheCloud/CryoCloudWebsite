@@ -8,27 +8,11 @@
         "process": true
     },
 {
-        "title": "Read different kinds of data",
-        "preamble": "From NASA's OpenScapes Cookbook 'Read Data' notebook for Python/R/Matlab",
-        "source": "https://github.com/NASA-Openscapes/earthdata-cloud-cookbook",
-        "url": "https://raw.githubusercontent.com/nasa-openscapes/earthdata-cloud-cookbook/main/how-tos/read_data.qmd",
-        "target": "read_data.qmd",
-        "process": true
-    },
-{
         "title": "Multi-dataset access from EarthData Cloud",
         "preamble": "From NASA's OpenScapes Cookbook multi-dataset notebook in Python",
         "source": "https://github.com/NASA-Openscapes/earthdata-cloud-cookbook",
         "url": "https://raw.githubusercontent.com/nasa-openscapes/earthdata-cloud-cookbook/main/tutorials/Hurricanes_Wind_and_Sea_Surface_Temperature.ipynb",
         "target": "Hurricane_Wind_and_Sea_Surface_Temperature.ipynb",
-        "process": true
-    },
-{
-        "title": "EartData Cloud access using MATLAB",
-        "preamble": "From NASA's OpenScapes MATLAB data access notebook",
-        "source": "https://github.com/NASA-Openscapes/earthdata-cloud-cookbook",
-        "url": "https://raw.githubusercontent.com/nasa-openscapes/earthdata-cloud-cookbook/main/tutorials/matlab.qmd",
-        "target": "matlab.qmd",
         "process": true
     },
 {
