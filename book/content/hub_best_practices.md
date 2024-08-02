@@ -25,7 +25,7 @@ Keep personal storage to <10 Gb unless you talk to us about it
 
 ***
 
-The `shared` drive is a folder everyone can read files from and only admins can write to. `shared-public` everyone can read and write to. When deleting files, please be careful to leave other users' files intact in those directories. This means that while it is easy to share data, especially `shared-public` carries an inherent risk of losing the data if someone else accidentally deletes it. We do not recommend this folder for long term storage unless the files are copies or easily recreated. It is best suited for sharing files and then deleting those files as soon as your team is done using them. 
+The `shared` drive is a folder everyone can read files from and only admins can write to. `shared-public` everyone can read and write to. When deleting files, please be careful to leave other users' files intact in those directories. This means that while it is easy to share data, especially `shared-public` carries an inherent risk of losing the data if someone else accidentally deletes it. We do not recommend this folder for long term storage unless the files are copies or easily recreated. This storage space is best suited for sharing files and then deleting those files as soon as your team is done using them. 
 
 ***
 
