@@ -25,6 +25,10 @@ Keep personal storage to <10 Gb unless you talk to us about it
 
 ***
 
+The `shared` drive is a folder everyone can read files from and only admins can write to. `shared-public` everyone can read and write to. When deleting files, please be careful to leave other users' files intact in those directories. This means that while it is easy to share data, especially `shared-public` carries an inherent risk of losing the data if someone else accidentally deletes it. We do not recommend this folder for long term storage unless the files are copies or easily recreated. It is best suited for sharing files and then deleting those files as soon as your team is done using them. 
+
+***
+
 Pip installs on your hub last only for that session
 * If multiple people use a missing package, let us know and we will add it to everyone's environment
 * Guidance for adding packages in [Contributing/Workflows](../contributing/workflow.md)
@@ -50,4 +54,4 @@ If you want to use a tag from Docker Hub
 
 ***
 
-Get better oriented with open science practices and broaden the impact of your work through the [NASA Open Science 101 curriculum](https://nasa.github.io/Transform-to-Open-Science/take-os101/). This curriculum comes with a NASA certificate and takes users through the ethos of open science, open tools and resources, open data, open code, and open results. With some background knowledge in open science, you may be able to take the fast track through the certificate without needing to go through all of the modules.
+Get better oriented with open science practices and broaden the impact of your work through the [NASA Open Science 101 curriculum](https://nasa.github.io/Transform-to-Open-Science/take-os101/). This curriculum comes with a NASA certificate and takes users through the ethos of open science, open tools and resources, open data, open code, and open results. It has really practical content. With some background knowledge in open science, you may be able to take the fast track through the certificate without needing to go through all of the modules.
