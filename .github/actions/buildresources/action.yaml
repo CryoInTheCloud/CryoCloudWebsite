@@ -52,7 +52,7 @@ runs:
 
     - name: Save Build
       if: ${{ always() && inputs.jb-save == 'true'}} 
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: build
         path: book/_build/
