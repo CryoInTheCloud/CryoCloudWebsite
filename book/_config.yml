@@ -44,8 +44,8 @@ parse:
 execute:
   execute_notebooks: 'force'
 #  execute_notebooks: 'cache'
-#  exclude_patterns:
-#    - "**/dataintegration-1.ipynb"
+  exclude_patterns:
+    - "*Instructions_for_configuring_AWS_S3_bucket.ipynb"
 
   allow_errors: false
   # Per-cell notebook execution limit (seconds)
