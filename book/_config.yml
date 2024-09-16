@@ -1,9 +1,11 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: CryoCloud
-author: Mines Glaciology Laboratory, Colorado School of Mines
-logo: logo.png
+title :      CryoCloud
+author :     CryoCloud Team and Community, Colorado School of Mines
+logo :       logo.png
+copyright : "2022" # Goes in the footer
+
 only_build_toc_files: true
 
 parse:
@@ -30,11 +32,17 @@ parse:
     - colon_fence
     # Extras
     - html_image
+    - amsmath
+    - deflist
+    - html_admonition
+    - replacements
+    - smartquotes
+    - tasklist
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
-  execute_notebooks: 'off'
+  execute_notebooks: 'force'
 #  execute_notebooks: 'cache'
 #  exclude_patterns:
 #    - "**/dataintegration-1.ipynb"
@@ -52,6 +60,7 @@ latex:
 launch_buttons:
   notebook_interface: jupyterlab
   binderhub_url: "https://mybinder.org"
+  jupyterhub_url: "https://hub.cryointhecloud.com/"
 
 # Information about where the book exists on the web
 repository:

@@ -10,105 +10,151 @@ channels:
   - conda-forge
 
 dependencies:
-  - python==3.10.8
+  - python~=3.11.0
   # Required until https://github.com/jupyterhub/repo2docker/pull/1196 is merged
-  - jupyterhub-singleuser>=3.0,<4.0
+  - jupyterhub-singleuser~=4.0.1
   # nbgitpuller is very helpful when distributing user content
-  - nbgitpuller==1.1.1
+  - nbgitpuller~=1.2.0
   # Specify major version of jupyterlab to use. Manually bump it when you want to upgrade
   # jupyterlab version
-  - jupyterlab>=3.0,<4.0
+  - jupyterlab>=4.0,<4.1
   # This provides memory usage stats on JupyterLab and classic notebook
-  - jupyter-resource-usage==0.6.4
+  - jupyter-resource-usage~=1.0.1
   # https://syncthing.net/ provides a dropbox-like interface for syncing directories across users,
-  # hubs and machines. Used along with `jupyter-syncthing-proxy` from pip.
-  - syncthing==1.22.1
+  # hubs and machines. Used along with `jupyter-syncthing-proxy`.
+  - jupyter-syncthing-proxy==1.0.3
+  - syncthing~=1.22.1
   # gh-scoped-creds allows users to securely push to GitHub from their repo.
   # https://blog.jupyter.org/securely-pushing-to-github-from-a-jupyterhub-3ee42dfdc54f has
   # some more information
   - gh-scoped-creds==4.1
-  # needed for Linux desktop to work
-  - websockify>=0.10
+  # More git tools from github-cli
+  - gh~=2.32.1
+ 
+  # Jupyter tools
+  - ipython~=8.20.0
+  - ipywidgets~=8.1.1
+  - jupyter-book~=1.0.0
+  - jupyterlab-favorites~=3.2.1
+  - jupyterlab-geojson~=3.4.0
+  - jupyterlab-git~=0.50.0
+  - jupyterlab-h5web~=11.1.0
+  - jupyterlab-myst~=2.4.2
+  - jupyterlab_pygments~=0.3.0 # To bring extension uptodate
+  - jupytext~=1.16.1
+  - nbdime~=4.0.1
+  
+  # JupyterBook Addons
+  - sphinxcontrib-bibtex
+  - markupsafe~=2.1.5
+  - myst-nb~=1.1.1
+  - jupytext
+  # For building Team Splashpage
+  - cookiecutter
+  # Dependencies of jinja-markdown
+  - jinja2>=2.11
+  - pygments>=2.6.1
+  - pymdown-extensions>=7.1
+  # dashboards
+  - voila~=0.5
+  
+  # Core scientific python stack
+  - cython==0.29.32 # optimization, C API access
+  - flox~=0.9.7 # optimization, xarray operations
+  - hypothesis==6.58.0 # needed by numpy testing tools
+  - networkx==2.8.8
+  - numba~=0.58.1 # high-performance numerics
+  - numpy==1.23.5
+  - pandas>=2.0.1,<3.0
+  - scikit-image==0.19.3
+  - scikit-learn>=1.2.2,<2.0.0
+  - scipy>=1.10
+  - statsmodels==0.13.5
+  - sympy~=1.12
+  - xarray>=2024.05.0
+
+  # Visualization packages
+  - bokeh~=3.2.2
+  - cartopy~=0.22.0 # geospatial plotting with matplotlib
+  - geemap~=0.32
+  - geoviews~=1.10.1
+  - hvplot~=0.8.4
+  - ipyleaflet~=0.17.3
+  - ipympl~=0.9.3 # This enables matplotlib interaction with jupyter widgets
+  - leafmap~=0.31
+  - matplotlib~=3.8.0
+  - plotly~=5.18.0
+  - seaborn==0.12.1 # statistical plotting with matplotlib
+
+  # Geospatial data packages
+  - geopandas~=0.13.2
+  - pygmt~=0.10.0
+  - rasterio~=1.3
+  - rioxarray~=0.15.5 
+ 
+  # File formats and file management, download, dataset caching
+  - h5py~=3.8
+  - hdf5~=1.14
+  - h5netcdf~=1.3.0
+  - nco~=5.1.6
+  - pooch==1.6.0
+  - zarr~=2.18
+  - kerchunk~=0.2
+
   # Cloud access tools and libraries
-  # Access S3 easily from python
-  - s3fs==2022.11.0
+  - awscli~=1.27.76
+  - boto3
+  - s3fs>=2023.6.0
   # handle login and similar details for accessing earthdata protected data
   # https://github.com/nsidc/earthaccess
-  - earthaccess~=0.8.2
+  - earthaccess~=0.9.0
   # Access datasets exposed via STAC
   - pystac-client==0.5.1
   # Access datasets exposed via intake catalogs
   - intake==0.6.6
-  - intake-esm==2022.9.18
+  - intake-esm>=2023.7.7
+  - intake-stac==0.4.0
   - intake-xarray==0.6.1
-
-  # Core scientific python stack
-  - numpy==1.23.5
-  - scipy==1.9.3
-  - matplotlib==3.6.2
-  - pandas==1.5.2
-  - networkx==2.8.8
-  - scikit-image==0.19.3
-  - scikit-learn==1.1.3
-  - sympy==1.11.1
-  - statsmodels==0.13.5
-  - xarray==2022.11.0
-  - hypothesis==6.58.0 # needed by numpy testing tools
-  - cython==0.29.32 # optimization, C API access
-  - numba==0.56.4 # high-performance numerics
-
-  # Jupyter tools
-  - ipython==8.6.0
-  - ipywidgets==7.7.2
-  - jupyterlab-favorites==3.1.0
-  - jupyterlab-geojson==3.3.1
-  - jupyterlab-git==0.39.3
-  - jupyter-book==0.13.1
-  - nbconvert==6.5.3
-  - nbdime==3.1.1
-
-  # Visualization packages
-  - cartopy==0.20.2 # geospatial plotting with matplotlib
-  - seaborn==0.12.1 # statistical plotting with matplotlib
-  - ipympl==0.9.2 # This enables matplotlib interaction with jupyter widgets
-  - ipyleaflet==0.17.2
-  - bokeh==3.0.2
-  - plotly==5.11.0
-
-  # Geospatial data packages
-  - geopandas==0.12.1
-  - rasterio==1.2.10
-  - rioxarray==0.13.1
-  - xarray-datatree==0.0.9
-
-  # File formats and file management, download, dataset caching
-  - h5py==3.7.0
-  - hdf5==1.12.1
-  - h5netcdf==1.1.0
-  - pooch==1.6.0
+  - gcsfs>=2023.5.0
 
   # Distributed computing
-  - dask==2022.11.0
-  - dask-labextension==6.0.0
+  - dask>=2023.12.1
+  - dask-labextension~=7.0.0
+  - dask-geopandas~=0.3.1
 
   # Other useful generic python packages
-  - pillow==9.2.0 # Python imaging library, useful for many image-related tasks
-  - tqdm==4.64.1 # progress bars, with notebook support
+  - pillow~=10.2.0 # Python imaging library, useful for many image-related tasks
   - pytest==7.2.0
   - pytest-cov==4.0.0
   - pep8==1.7.1
   - flake8==5.0.4
+  - tqdm==4.64.1 # progress bars, with notebook support
+
+  # Packages specific to climate work
+  - esmpy~=8.4.2
+  - xmip~=0.7.1
 
   # Packages specific to cryo work
-  - icepyx~=0.8.1
+  - h5coro~=0.0.6
+  - icepyx~=1.1.0
+  - itslive~=0.3.2
+  - is2view~=0.0.8
+  - sliderule~=4.0.0
 
   # Desktop tools whose versions are more recent on conda-forge than ubuntu
-  - qgis==3.18.3
+  - qgis~=3.34.0
+  # Maybe needed for qgis? https://github.com/conda-forge/qgis-feedstock/issues/263
+  - pyopencl
+  # needed for Linux desktop to work
+  - websockify>=0.10
+  # Includes new subcommands (`switch` & `restore`) and vulnerability fixes
+  # over the version available via ubuntu sources
+  - git>=2.39
 
   # Not all packages will be available from conda-forge, we install from pip when we need to.
-  - pip==22.3.1
+  - pip~=23.3.2
   - pip:
-    - jupyter-syncthing-proxy
-
-      # Access linux desktop from inside JupyterHub
-    - jupyter-desktop-server
+    # Access linux desktop from inside JupyterHub
+    - jupyter-desktop-server==0.1.3
+    # For JupyterBook
+    - jinja-markdown==1.210911

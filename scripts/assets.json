@@ -1,50 +1,18 @@
 [
 {
-        "title": "COG via HTTPS",
-        "preamble": "This notebook is from NASA's OpenScapes COG HTTPS access notebook",
+        "title": "Access data stored in Earthdata Cloud using Python",
+        "preamble": "From NASA's OpenScapes Cookbook notebook for accessing EarthData",
         "source": "https://github.com/NASA-Openscapes/earthdata-cloud-cookbook",
-        "url": "https://raw.githubusercontent.com/NASA-Openscapes/earthdata-cloud-cookbook/main/how-tos/access/Earthdata_Cloud__Single_File__HTTPS_Access_COG_Example.ipynb",
-        "target": "Earthdata_Cloud__Single_File__HTTPS_Access_COG_Example.ipynb",
+        "url": "https://raw.githubusercontent.com/nasa-openscapes/earthdata-cloud-cookbook/main/how-tos/access-data/access-cloud-python.ipynb",
+        "target": "access-cloud-python.ipynb",
         "process": true
     },
 {
-        "title": "COG direct via S3",
-        "preamble": "This notebook is from NASA's OpenScapes COG Direct S3 access notebook",
+        "title": "Multi-dataset access from EarthData Cloud",
+        "preamble": "From NASA's OpenScapes Cookbook multi-dataset notebook in Python",
         "source": "https://github.com/NASA-Openscapes/earthdata-cloud-cookbook",
-        "url": "https://raw.githubusercontent.com/NASA-Openscapes/earthdata-cloud-cookbook/main/how-tos/access/Earthdata_Cloud__Single_File__Direct_S3_Access_COG_Example.ipynb",
-        "target": "Earthdata_Cloud__Single_File_Direct_S3_Access_COG_Example.ipynb",
-        "process": true
-    },
-{
-        "title": "Multi-COG direct via S3",
-        "preamble": "This notebook is from NASA's OpenScapes COG Direct S3 - Multi-file access notebook",
-        "source": "https://github.com/NASA-Openscapes/earthdata-cloud-cookbook",
-        "url": "https://raw.githubusercontent.com/NASA-Openscapes/earthdata-cloud-cookbook/main/how-tos/access/Multi-File_Direct_S3_Access_COG_Example.ipynb",
-        "target": "Multi-File_Direct_S3_Access_COG_Example.ipynb",
-        "process": true
-    },
-{
-        "title": "NetCDF or HDF5 direct via S3",
-        "preamble": "This notebook is from NASA's OpenScapes NetCDF/HDF5 Direct S3 access notebook",
-        "source": "https://github.com/NASA-Openscapes/earthdata-cloud-cookbook",
-        "url": "https://raw.githubusercontent.com/NASA-Openscapes/earthdata-cloud-cookbook/main/how-tos/access/Earthdata_Cloud__Single_File__Direct_S3_Access_NetCDF4_Example.ipynb",
-        "target": "Earthdata_Cloud__Single_File__Direct_S3_Access_NetCDF4_Example.ipynb",
-        "process": true
-    },
-{
-        "title": "NetCDF or HDF5 direct via S3",
-        "preamble": "This notebook is from NASA's OpenScapes NetCDF/HDF5 Direct S3 access notebook",
-        "source": "https://github.com/NASA-Openscapes/earthdata-cloud-cookbook",
-        "url": "https://raw.githubusercontent.com/NASA-Openscapes/earthdata-cloud-cookbook/main/how-tos/access/Earthdata_Cloud__Single_File__Direct_S3_Access_NetCDF4_Example.ipynb",
-        "target": "Earthdata_Cloud__Single_File__Direct_S3_Access_NetCDF4_Example.ipynb",
-        "process": true
-    },
-{
-        "title": "Multi-NetCDF or HDF5 direct via S3",
-        "preamble": "This notebook is from NASA's OpenScapes NetCDF/HDF5 Direct S3 - Multi-file access notebook",
-        "source": "https://github.com/NASA-Openscapes/earthdata-cloud-cookbook",
-        "url": "https://raw.githubusercontent.com/NASA-Openscapes/earthdata-cloud-cookbook/main/how-tos/access/Multi-File_Direct_S3_Access_NetCDF_Example.ipynb",
-        "target": "Multi-File_Direct_S3_Access_NetCDF_Example.ipynb",
+        "url": "https://raw.githubusercontent.com/nasa-openscapes/earthdata-cloud-cookbook/main/tutorials/Hurricanes_Wind_and_Sea_Surface_Temperature.ipynb",
+        "target": "Hurricanes_Wind_and_Sea_Surface_Temperature.ipynb",
         "process": true
     },
 {
@@ -56,18 +24,18 @@
         "process": true
     },
 {
-        "title": "ICESat-2 ATL10-h5coro large-scale time series",
+        "title": "Power of the cloud: Large-scale time series",
         "preamble": "This notebook is from NSIDC's Processing Large-scale Time Series of ICESat-2 Sea Ice Height in the Cloud tutorial",
         "source": "https://github.com/nsidc/NSIDC-Data-Tutorials",
-        "url": "https://raw.githubusercontent.com/nsidc/NSIDC-Data-Tutorials/cryo-184/notebooks/ICESat-2_Cloud_Access/ATL10-h5coro.ipynb",
-        "target": "ICESAT2_ATL10-h5coro_large_scale_time_series.ipynb",
+        "url": "https://raw.githubusercontent.com/nsidc/NSIDC-Data-Tutorials/main/notebooks/ICESat-2_Cloud_Access/ATL10-h5coro.ipynb",
+        "target": "ICESat2_ATL10-h5coro_large_scale_time_series.ipynb",
         "process": true
     },
 {
         "title": "Read ATL10",
         "preamble": "This notebook is from NSIDC's Processing Large-scale Time Series of ICESat-2 Sea Ice Height in the Cloud read ATL10 script",
         "source": "https://github.com/nsidc/NSIDC-Data-Tutorials",
-        "url": "https://raw.githubusercontent.com/nsidc/NSIDC-Data-Tutorials/cryo-184/notebooks/ICESat-2_Cloud_Access/h5cloud/read_atl10.py",
+        "url": "https://raw.githubusercontent.com/nsidc/NSIDC-Data-Tutorials/main/notebooks/ICESat-2_Cloud_Access/h5cloud/read_atl10.py",
         "target": "read_atl20.py",
         "process": true
     }
