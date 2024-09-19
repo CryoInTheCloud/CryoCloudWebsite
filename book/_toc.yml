@@ -40,6 +40,7 @@ parts:
       sections:
         - file: tutorials/cryocloud_demo/CryoCloud_demo
         - file: tutorials/IS2_cloud_Landsat_integration
+        - file: \tutorials/ICESat2_ATL15_dhdt/ICESat2_ATL15_dhdt
         - file: tutorials/IS2_ATL15_surface_height_anomalies/IS2_ATL15_surface_height_anomalies
         - file: external/ICESAT2_ATL10-h5coro_large_scale_time_series
         - file: tutorials/NASA-Earthdata-Cloud-Access/index
