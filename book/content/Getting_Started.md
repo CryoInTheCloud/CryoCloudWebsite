@@ -5,7 +5,7 @@ extenuating circumstances will prevent some members of our scientific communitie
 are part of the ICESat-2, cryosphere, or associated Earth science communities and want to join CryoCloud, please follow these instructions which 
 will guide you through taking the two onboarding surveys and gaining access to CryoCloud. 
 
-**If you are NOT joining as a part of a workshop taught in CryoCloud, please send an email to cryocloud@mines.edu to let us know who you are, your research field, and why you are requesting access to CryoCloud.**
+**If you are NOT joining as a part of a workshop taught in CryoCloud, before going through the checklist below please send an email to cryocloud@mines.edu to let us know who you are, your research field, and why you are requesting access to CryoCloud.**
 
   
 1. Fill out this short [Getting Started Survey](https://forms.gle/d8oP1gp9YikS2ixM8) to give us the 
