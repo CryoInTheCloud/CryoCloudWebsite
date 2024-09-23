@@ -20,7 +20,7 @@ You will need your Github username and password to sign on. A 404 error message 
 and need to accept the invitation from GitHub first.
 
 
-4. Watch the [CryoCloud training recording](https://youtu.be/bBNPuVEG4lE) to learn your way around CryoCloud.
+4. Watch the [CryoCloud training recording](https://youtu.be/bBNPuVEG4lE) to learn your way around CryoCloud. Make sure to also read our updated [Best Practices page](https://book.cryointhecloud.com/content/hub_best_practices.html) to know the most important information we have for our users. 
 
 
 5. Fill out the [CryoCloud Onboarding Survey](https://forms.gle/8Mr9Ykc8M7jY9fCd7). This 
