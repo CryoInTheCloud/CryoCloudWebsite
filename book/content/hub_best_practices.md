@@ -20,6 +20,7 @@ To save money for us, when you finish on the Hub
 
 Keep personal storage to <10 Gb unless you talk to us about it
 * We recommend that you stream data (no download) or download and delete automatically where possible
+* You can use this handy terminal command `du -hs --exclude="shared*" ~/` to check how much disk space you have used 
 * It costs $90 a month to store 2 Tb of data
 * Reach out if you need more storage because we can apply for more cloud credits if needed
 
