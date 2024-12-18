@@ -32,7 +32,7 @@ Since 2022, we have grown from a Cryosphere-focused project into a community eco
 Have questions or ideas? Reach out at **cryocloud@mines.edu** or explore our open resources on [GitHub](https://github.com/CryoInTheCloud) and [Zenodo](https://zenodo.org/communities/cryointhecloud).
 
 ## Funding Sources
-![funder logos](../img/funderlogos.png)
+![funder logos](/img/funderlogos.png)
 
 ```{admonition} Quick links for the event
 :class: seealso
