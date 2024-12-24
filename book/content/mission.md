@@ -1,16 +1,21 @@
 # Mission
 
-## CryoCloud to accelerate discovery and enhance collaboration
+## CryoCloud: Empowering Geoscience in the Cloud
 
+CryoCloud is a **community-centric cloud-based computing ecosystem** designed to support geoscientists across disciplines. Our mission is to foster **collaboration, innovation, and inclusivity** by providing tools, training, and workflows that simplify cloud computing, enhance scientific impact, and reduce costs.
 
-CryoCloud is dedicated to helping researchers transition to cloud-based collaboration and processing under the supervision of dedicated developers and in a managed environment that meets the community needs.
-
-A community of practice is a collaborative model that shows how we can tailor infrastructure with community input to meet the specific needs of current and future scientists.
+Our platform enables researchers to transition to cloud-based collaboration and data processing seamlessly, while ensuring that the needs of the geoscience community are met. CryoCloud builds on a foundation of intellectual generosity, interoperability, and community buy-in to create an inclusive environment where data producers, engineers, scientists, and developers collaborate to tackle pressing geoscience challenges, including managing and analyzing the growing volume of Earth observation data in the face of a changing climate.
 
 ![Community of Practice](../img/communityprac.png)
 
+---
 
-The collaborative, interdisciplinary approach between [2i2c](https://2i2c.org/) engineering experts and the [NASA Cryosphere](https://ice.nasa.gov/) community is critical to understanding the large-scale effects of climate change in the cryosphere and will lead to better data management, code sharing, and collaborative research projects across the community to address current challenges.
+## Core Principles
 
+StratusGeo is guided by key principles that ensure our platform meets the diverse needs of our growing community:
 
-Everyone involved in CryoCloud, from scientists to software developers, commit to our **[Code of Conduct](Code_of_Conduct)**.
+- **FAIR and CARE Practices**: Develop workflows and data that are **Findable, Accessible, Interoperable, and Reproducible (FAIR)** while promoting **Collective Benefit, Authority, Responsibility, and Ethics (CARE)**.
+- **Cloud-Native Workflows**: Design geoscience workflows that maximize **accessibility, transparency, reproducibility, and interoperability**.
+- **Cross-Disciplinary Collaboration**: Foster collaboration across diverse scientific and technical domains to tackle complex geoscience challenges.
+- **Equitable Support**: Provide training and support for users at all experience levels, ensuring inclusivity for underrepresented and under-resourced communities.
+
