@@ -6,6 +6,8 @@ Science is not composed of isolated groups of practitioners, but is rather an in
 CryoCloud is not just a cloud platform—it’s a **community-driven initiative** that brings scientists, developers, and data providers together. By working collaboratively with accessible tools and workflows, we empower researchers to reimagine how they analyze and share data. 
 
 ---
+<br/>
+
 ## Changing the Scientific Paradigm through Co-Creation
 
 The success of CryoCloud is rooted in **co-creation** across our foundational partnerships. Co-creation refers to the collaborative dynamics enabled by a community's shared infrastructure and the rapid feedback loops we can close through *end-to-end transparency*, *intellectual generosity*, and *community agency* over a shared platform. This approach empowers users and developers alike to actively shape tools, infrastructure, and workflows that best meet their needs.
@@ -18,8 +20,6 @@ CryoCloud thrives through partnerships with innovative organizations and contrib
 
 Through co-creation, these partnerships align cutting-edge infrastructure with the needs of researchers, ensuring that our tools and training programs have real-world impact.
 
-<br/>
-
 ### A Structured Approach to Community Collaboration with 2i2c
 
 Our community cloud-ecosystem leverages a structured partnership between CryoCloud representatives and [2i2c](https://2i2c.org/). Together, the team co-creates:
@@ -28,6 +28,8 @@ Our community cloud-ecosystem leverages a structured partnership between CryoClo
 - Infrastructure management best practices** that evolve to meet community requirements.
 
 CryoCloud representatives act as bridges between users and 2i2c, ensuring that community goals and dynamics are reflected in platform design and training resources. Meanwhile, 2i2c operates and develops the community-specific cloud infrastructure, improves the open-source tools powering the ecosystem, and supports researchers in their use of these tools. As leading experts in open-source standards, 2i2c ensures that all advancements and lessons learned are rapidly and openly shared across not just the CryoCloud community and all 2i2c hubs, but also the upstream Jupyter and broader open-source communities, expanding our impact. 
+
+<br/>
 
 ![2i2c Services](../img/2i2c_service.png)
 
@@ -43,8 +45,6 @@ Our partnerships with tool development projects such as [icepyx](https://icepyx.
 
 By embedding tool development within the community, CryoCloud ensures that both developers and users benefit from shared insights, fostering a culture of collaboration and innovation.
 
-<br/>
-
 ### Transforming Research and Education
 
 The CryoCloud research community serves as a model for developing training and tools that accelerate the transition to cloud-based workflows across geoscience disciplines. This transition delivers real-world benefits, including:
@@ -56,6 +56,7 @@ The CryoCloud research community serves as a model for developing training and t
 By embracing co-creation and leveraging shared resources, CryoCloud is making scientific computing more **intuitive**, **cost-effective**, and **open for all**.
 
 ---
+<br/>
 
 ## What CryoCloud Provides
 
@@ -84,6 +85,7 @@ CryoCloud hosts workshops, hackathons, and training sessions designed to:
 - Foster collaboration and knowledge-sharing across geoscience disciplines.
 
 ---
+<br/>
 
 ## A Vision for the Future
 
