@@ -2,7 +2,7 @@
 # Citing CryoCloud
 
 To track the impact that CryoCloud has on publications and research output, 
-we ask that any projects and publications that the CryoCloud supports, do one of two things: 
+we ask that any projects and publications that the CryoCloud supports, do at least one of two things: 
 
 1. In the acknowledgements section, include CryoCloud and our NASA funding sources that make it possible for us to use CryoCloud (NASA grants 80NSSC22K1877, 80NSSC23K0002)
 
