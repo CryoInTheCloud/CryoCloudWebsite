@@ -10,7 +10,7 @@ Our platform enables researchers to transition to cloud-based collaboration and 
 
 ## Core Principles
 
-StratusGeo is guided by key principles that ensure our platform meets the diverse needs of our growing community:
+CryoCloud is guided by key principles that ensure our platform meets the diverse needs of our growing community:
 
 - **FAIR and CARE Practices**: Develop workflows and data that are **Findable, Accessible, Interoperable, and Reproducible (FAIR)** while promoting **Collective Benefit, Authority, Responsibility, and Ethics (CARE)**.
 - **Cloud-Native Workflows**: Design geoscience workflows that maximize **accessibility, transparency, reproducibility, and interoperability**.
