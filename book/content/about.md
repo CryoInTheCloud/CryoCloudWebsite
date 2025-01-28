@@ -81,7 +81,6 @@ CryoCloud enables researchers to:
 ### **Accelerated Learning**
 CryoCloud hosts workshops, hackathons, and training sessions designed to:
 - Build cloud computing and open science skills for users of all experience levels.
-- Include participants from diverse backgrounds and institutions.
 - Foster collaboration and knowledge-sharing across geoscience disciplines.
 
 ---

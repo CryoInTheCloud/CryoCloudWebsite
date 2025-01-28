@@ -6,7 +6,7 @@ The CryoCloud Community is collaborating to create this JupyterBook, with
 an eye towards how others could collaborate with us in the future.
 
 The [CryoCloud Code of Conduct](../content/Code_of_Conduct) describes how we 
-work to create an inclusive, diverse, and positive environment through 
+work to create a positive environment through 
 continual learning, practice, and iteration.
 
 We believe open practices can accelerate data-driven solutions and increase 
