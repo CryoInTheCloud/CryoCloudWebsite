@@ -1,7 +1,7 @@
 
 # About
 
-Science is not composed of isolated groups of practitioners, but is rather an interconnected network of communities of practice, with members who fluidly move between them. Infrastructure for scientific research and collaboration should leverage this structure to make science more productive and inclusive. NASA (along with many other scientific entities) has started to adopt practices consistent with this natural structure of contemporary science. Communities such as [Project Jupyter](https://jupyter.org/) and [Pangeo](https://pangeo.io/) have pioneered a model for the inclusive, interconnected, and data-intensive practices of the future through cloud-based JupyterHub workflows. However, substantial barriers exist for individual users to make the transition from their local systems to the cloud to accomplish research goals: cloud cost opacity, infrastructure deployment complexity, and a general lack of community awareness and expertise, among others. At its outset, CryoCloud overcame these barriers by building upon existing cloud-workflow models and creating infrastructure that allows researchers to seamlessly move their workflows wherever they can do their best work.
+Science is not composed of isolated groups of practitioners, but is rather an interconnected network of communities of practice, with members who fluidly move between them. Infrastructure for scientific research and collaboration should leverage this structure to make science more productive and welcoming. NASA (along with many other scientific entities) has started to adopt practices consistent with this natural structure of contemporary science. Communities such as [Project Jupyter](https://jupyter.org/) and [Pangeo](https://pangeo.io/) have pioneered a model for the welcoming, interconnected, and data-intensive practices of the future through cloud-based JupyterHub workflows. However, substantial barriers exist for individual users to make the transition from their local systems to the cloud to accomplish research goals: cloud cost opacity, infrastructure deployment complexity, and a general lack of community awareness and expertise, among others. At its outset, CryoCloud overcame these barriers by building upon existing cloud-workflow models and creating infrastructure that allows researchers to seamlessly move their workflows wherever they can do their best work.
 
 CryoCloud is not just a cloud platform—it’s a **community-driven initiative** that brings scientists, developers, and data providers together. By working collaboratively with accessible tools and workflows, we empower researchers to reimagine how they analyze and share data. 
 
@@ -66,7 +66,7 @@ CryoCloud first and foremost helps to connect researchers and build community by
 - A GitHub organization that welcomes contribution and provides transparency in our content and infrastructure development.
 - Knowledge sharing and access to the latest tooling and workflows that enable collaboration.
 
-### **Equitable Access to Resources**
+### **Easy Access to Resources**
 CryoCloud provides free access to cloud computing resources for verified geoscientists brought in through our workshops, including:
 - Scalable JupyterHub instances with up to 32 GB of RAM and NVIDIA GPUs.
 - The ability to bring your own cloud credits for larger-scale computations.
