@@ -12,10 +12,7 @@ Anyone experiencing or witnessing behavior that constitutes an immediate or seri
 
 ## Purpose
 
-This code of conduct outlines our expectations for all those who participate in our community, as well as the consequences for unacceptable behavior.  A supplemental goal of this Code of Conduct is to increase open science citizenship by encouraging participants to recognize and strengthen the relationships between our actions and their effects on our community.
-
-We invite all those who participate in CryoCloud to help us create safe and positive experiences for everyone.
-If you see someone who is making an extra effort to ensure our community is welcoming, friendly, and encourages all participants to contribute to the fullest extent, we want to know.
+This code of conduct outlines our expectations for all those who participate in our community, as well as the consequences for unacceptable behavior.  A supplemental goal of this Code of Conduct is to increase open science citizenship by encouraging participants to recognize and strengthen the relationships between our actions and their effects on our community. We invite all those who participate in CryoCloud to help us create safe and positive experiences for everyone.
 
 [Mines' Statement of Equal Opportunity, Access and Nondiscrimination](https://www.mines.edu/equal-opportunity/)
 
@@ -23,7 +20,7 @@ If you see someone who is making an extra effort to ensure our community is welc
 
 We strive to create a welcoming culture that empowers people to conduct open science using cloud computing resources. That requires an open exchange of ideas balanced by thoughtful guidelines. If we have only openness, colleagues who are on the receiving end of thoughtless or intentionally hurtful comments and behavior may reasonably withdraw. If we have overly intrusive guidelines, people may feel unwelcome.
 
-It would be impossible to list everything staff can do to create a more welcoming space, and we know this team will find ways to include their colleagues that we haven't even thought of. But when in doubt, we encourage you to look to these principles for guidance:
+It would be impossible to list everything staff can do to create a more welcoming space, and we know this team will find ways to create a positive environment for their colleagues in ways we haven't even thought of. But when in doubt, we encourage you to look to these principles for guidance:
 
  * Practice empathy and humility.
  * Participate in an authentic and active way. In doing so, you contribute to the health and longevity of this community.
@@ -34,10 +31,10 @@ It would be impossible to list everything staff can do to create a more welcomin
  * Encourage other people to listen as much as they speak.
  * Attempt collaboration before conflict.
  * Be mindful of your surroundings and of your fellow participants. Alert community leaders if you notice a dangerous situation, someone in distress, or violations of this Code of Conduct, even if they seem inconsequential.
- * Being respectful of differing opinions, viewpoints, and experiences
- * Giving and gracefully accepting constructive feedback
- * Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience
- * Focusing on what is best not just for us as individuals, but for the overall community.
+ * Be respectful of differing opinions, viewpoints, and experiences
+ * Give and gracefully accept constructive feedback
+ * Accept responsibility and apologizing to those affected by our mistakes, and learning from the experience
+ * Focus on what is best not just for us as individuals, but for the overall community.
 
 
 
