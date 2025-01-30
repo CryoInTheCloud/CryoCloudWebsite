@@ -9,8 +9,8 @@ Lockfiles ensure that everyone working on this project has an identical developm
 If you edit `conda/environment.yml` to change package versions or add new ones, be sure to _re-lock_ the environment by running `./lock-environment.sh`:
 
 ```
-mamba remove --name hackweek --all
-mamba env create --name hackweek --file conda-linux-64.lock.yml
-mamba activate hackweek
+mamba remove --name cryocloud --all
+mamba env create --name cryocloud --file conda-linux-64.lock.yml
+mamba activate cryocloud
 ```
 Originally built by eScience Hackweeks.
