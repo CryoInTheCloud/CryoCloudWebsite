@@ -3,68 +3,72 @@
 root: intro
 format: jb-book
 parts:
-- caption: Details
-  chapters:
-    - file: content/about
-    - file: content/mission
-    - file: content/Getting_Started
-    - file: content/hub_best_practices
-    - file: content/Code_of_Conduct
-    - file: content/citing_cryocloud
-- caption: Cloud Training
-  chapters:
-    - file: recorded/index
-- caption: How Tos
-  chapters:
-    - file: how_tos/index
-      sections:
-        - file: how_tos/background/index
-          sections:
-          - file: how_tos/background/github
-          - file: how_tos/background/jupyterhub
-          - file: how_tos/background/git
-          - file: how_tos/background/earthdata
-          - file: how_tos/background/earthengine
-          - file: how_tos/background/swc
-          - file: how_tos/background/python
-          - file: how_tos/nbdime/nbdime-hub
-        - file: how_tos/data_access/index
-          sections:
-            - file: how_tos/data_access/Cloud_Sentinel2_access
-            - file: how_tos/data_access/Instructions_for_configuring_AWS_S3_bucket
-            - file: how_tos/data_access/CryoCloudScratchBucket
-            - file: external/ICESat2_Earthaccess
-- caption: Tutorials
-  chapters:
-    - file: tutorials/index
-      sections:
-        - file: tutorials/cryocloud_demo/CryoCloud_demo
-        - file: tutorials/IS2_cloud_Landsat_integration
-        - file: tutorials/ICESat2_ATL15_dhdt/ICESat2_ATL15_dhdt
-        - file: tutorials/IS2_ATL15_surface_height_anomalies/IS2_ATL15_surface_height_anomalies
-        - file: external/ICESAT2_ATL10-h5coro_large_scale_time_series
-        - file: tutorials/NASA-Earthdata-Cloud-Access/index
-          sections:
-          - file: tutorials/NASA-Earthdata-Cloud-Access/1.Intro-Earthdata-Cloud
-          - file: tutorials/NASA-Earthdata-Cloud-Access/2.earthdata_search
-          - file: tutorials/NASA-Earthdata-Cloud-Access/3.earthaccess
-          - file: tutorials/NASA-Earthdata-Cloud-Access/4.icepyx
-          - file: tutorials/NASA-Earthdata-Cloud-Access/4b.icepyx-ATL06
-        - file: tutorials/SlideRule_applications/SlideRule_applications
-        - file: tutorials/dask_for_geoscientists
-        - file: tutorials/ARCOdata_writingZarrs
-        - file: tutorials/GrIMP/GrIMP_tutorial_AGU23
-        - file: tutorials/ITS_LIVE_plot_point_timeseries
-- caption: Contributing
-  chapters:
-    - file: contributing/index
-      sections:
-        - file: contributing/workflow
-- caption: Reference
-  chapters:
-    - file: reference/projects_supported
-    - file: reference/glossary
-    - file: reference/IS2-resources
-    - file: reference/open_science
-    - file: reference/open_source_software
-    - file: reference/questions
+  - title: Details
+    chapters:
+      - title: About
+        file: content/about
+      - title: Mission
+        file: content/mission
+      - title: Getting Started
+        file: content/Getting_Started
+      - title: Best Practices
+        file: content/hub_best_practices
+      - title: Code of Conduct
+        file: content/Code_of_Conduct
+      - title: Citing CryoCloud
+        file: content/citing_cryocloud
+      - title: Cloud Training
+        file: recorded/index
+      - title: How Tos
+        file: how_tos/index
+        sections:
+          - title: Background
+            file: how_tos/background/index
+            sections:
+            - file: how_tos/background/github
+            - file: how_tos/background/jupyterhub
+            - file: how_tos/background/git
+            - file: how_tos/background/earthdata
+            - file: how_tos/background/earthengine
+            - file: how_tos/background/swc
+            - file: how_tos/background/python
+            - file: how_tos/nbdime/nbdime-hub
+          - title: Data Access
+            file: how_tos/data_access/index
+            sections:
+              - file: how_tos/data_access/Cloud_Sentinel2_access
+              - file: how_tos/data_access/Instructions_for_configuring_AWS_S3_bucket
+              - file: how_tos/data_access/CryoCloudScratchBucket
+              - file: external/ICESat2_Earthaccess
+      - title: Tutorials
+        file: tutorials/index
+        sections:
+          - file: tutorials/cryocloud_demo/CryoCloud_demo
+          - file: tutorials/IS2_cloud_Landsat_integration
+          - file: tutorials/ICESat2_ATL15_dhdt/ICESat2_ATL15_dhdt
+          - file: tutorials/IS2_ATL15_surface_height_anomalies/IS2_ATL15_surface_height_anomalies
+          - file: external/ICESAT2_ATL10-h5coro_large_scale_time_series
+          - file: tutorials/NASA-Earthdata-Cloud-Access/index
+            sections:
+              - file: tutorials/NASA-Earthdata-Cloud-Access/1.Intro-Earthdata-Cloud
+              - file: tutorials/NASA-Earthdata-Cloud-Access/2.earthdata_search
+              - file: tutorials/NASA-Earthdata-Cloud-Access/3.earthaccess
+              - file: tutorials/NASA-Earthdata-Cloud-Access/4.icepyx
+              - file: tutorials/NASA-Earthdata-Cloud-Access/4b.icepyx-ATL06
+          - file: tutorials/SlideRule_applications/SlideRule_applications
+          - file: tutorials/dask_for_geoscientists
+          - file: tutorials/ARCOdata_writingZarrs
+          - file: tutorials/GrIMP/GrIMP_tutorial_AGU23
+          - file: tutorials/ITS_LIVE_plot_point_timeseries
+      - title: Contributing
+        file: contributing/index
+        sections:
+          - file: contributing/workflow
+      - title: Reference
+        sections:
+          - file: reference/projects_supported
+          - file: reference/glossary
+          - file: reference/IS2-resources
+          - file: reference/open_science
+          - file: reference/open_source_software
+          - file: reference/questions
