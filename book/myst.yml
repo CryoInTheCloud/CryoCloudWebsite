@@ -7,32 +7,77 @@ project:
   repo: https://quay.io/repository/cryointhecloud/cryo-hub-image
   description: "Welcome to CryoCloud: Empowering collaborative Earth science in the cloud"
   # keywords: []
-  authors: [CryoCloud Team and Community, Colorado School of Mines]
+  # authors:
   github: https://github.com/CryoInTheCloud/CryoCloudWebsite
-  license: CC-BY-4.0
+  license: MIT
   open_access: true
   copyright: "2022"
   funding: "This work was funded by the NASA Transform to Open Science program (grant 80NSSC23K0002), and the NASA Cryosphere Program and ICESat-2 Project Science Office (grant 80NSSC22K1877)."
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+
+#  toc: # this didn't work, it uses a toc.yml instead
+#    - file: content/about.md
+#    - file: content/mission.md
+#    - file: content/Getting_Started.md
+#    - file: content/hub_best_practices.md
+#    - file: content/Code_of_Conduct.md
+#    - file: content/citing_cryocloud.md
+#    - file: recorded/index.md
+#    - file: how_tos/index.md
+#      children:
+#        - file: how_tos/background/index.md
+#          childen:
+#            - file: how_tos/background/github.md
+#            - file: how_tos/background/jupyterhub.md
+#            - file: how_tos/background/git.md
+#            - file: how_tos/background/earthdata.md
+#            - file: how_tos/background/earthengine.md
+#            - file: how_tos/background/swc.md
+#            - file: how_tos/background/python.md
+#            - file: how_tos/nbdime/nbdime-hub.md
+#        - file: how_tos/data_access/index.md
+#          children:
+#            - file: how_tos/data_access/Cloud_Sentinel2_access.ipynb
+#            - file: how_tos/data_access/Instructions_for_configuring_AWS_S3_bucket.ipynb
+#            - file: how_tos/data_access/CryoCloudScratchBucket.ipynb
+#            - file: external/ICESat2_Earthaccess.ipynb
+#    - file: tutorials/index.md
+#      children:
+#        - file: tutorials/cryocloud_demo/CryoCloud_demo.ipynb
+#        - file: tutorials/IS2_cloud_Landsat_integration.ipynb
+#        - file: tutorials/ICESat2_ATL15_dhdt/ICESat2_ATL15_dhdt.ipynb
+#        - file: tutorials/IS2_ATL15_surface_height_anomalies/IS2_ATL15_surface_height_anomalies.ipynb
+#        - file: external/ICESAT2_ATL10-h5coro_large_scale_time_series.ipynb
+#        - file: tutorials/NASA-Earthdata-Cloud-Access/index.md
+#          children:
+#            - file: tutorials/NASA-Earthdata-Cloud-Access/1.Intro-Earthdata-Cloud.md
+#            - file: tutorials/NASA-Earthdata-Cloud-Access/2.earthdata_search.md
+#            - file: tutorials/NASA-Earthdata-Cloud-Access/3.earthaccess.ipynb
+#            - file: tutorials/NASA-Earthdata-Cloud-Access/4.icepyx.ipynb
+#            - file: tutorials/NASA-Earthdata-Cloud-Access/4b.icepyx-ATL06.ipynb
+#        - file: tutorials/SlideRule_applications/SlideRule_applications.ipynb
+#        - file: tutorials/dask_for_geoscientists.ipynb
+#        - file: tutorials/ARCOdata_writingZarrs.ipynb
+#        - file: tutorials/GrIMP/GrIMP_tutorial_AGU23.ipynb
+#        - file: tutorials/ITS_LIVE_plot_point_timeseries.ipynb
+#    - file: contributing/index.md
+#      children:
+#        - file: contributing/workflow.md
+#    - title: Reference
+#      children:
+#        - file: reference/projects_supported.ipynb
+#        - file: reference/glossary.md
+#        - file: reference/IS2-resources.md
+#        - file: reference/open_science.md
+#        - file: reference/open_source_software.md
+#        - file: reference/questions.md
+
 site:
   template: book-theme
   title: CryoCloud Website
+  domain:
+    - https://cryointhecloud.github.io
   options:
   #   favicon: favicon.ico
     logo: logo.png
     
- 
-#license: MIT
-#source: https://book.cryointhecloud.com
-#build:
-#  install: npm install
-#  start: npm run start
-#files:
-#  - server.js
-#  - package.json
-#  - package-lock.json
-#  - public/**/*
-#  - build/**/*
-     
-
-
