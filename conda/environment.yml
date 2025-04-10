@@ -1,5 +1,6 @@
 # Edit this file to add dependencies to environment,
 # Then run `./lock-environment.sh` to generate reproducible lock files
+# You may have to run `chmod +x lock-environment.sh` first if you get a permission denied error.
 
 # !!! If you are developing the website locally use the existing lock files
 # for your platform (`conda env create --name cryocloud --file conda-linux-64.lock.yml`)
@@ -47,7 +48,6 @@ dependencies:
   # JupyterBook Addons
   - sphinxcontrib-bibtex
   - markupsafe~=2.1.5
-  - myst-nb~=1.1.1
   - jupytext
   # For building Team Splashpage
   - cookiecutter
@@ -60,6 +60,7 @@ dependencies:
   - nodeenv~=1.9.0
   # - npm~=11.0.0
   - mystmd~=1.3
+  - ImageMagick
   
   # Core scientific python stack
   - cython==0.29.32 # optimization, C API access
