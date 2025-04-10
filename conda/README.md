@@ -16,4 +16,4 @@ mamba remove --name cryocloud --all
 mamba env create --name cryocloud --file conda-linux-64.lock.yml
 mamba activate cryocloud
 ```
-Which makes the `lock-environment.sh` executable, re-locks the environment, deletes the old env, creates the new one and activates.
+Which makes the `lock-environment.sh` executable, re-locks the environment, deletes the old environment, creates the new one, and activates it.
