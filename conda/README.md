@@ -6,11 +6,14 @@ Although we refer to "conda" environments, we recommend using [mamba](https://gi
 
 Lockfiles ensure that everyone working on this project has an identical development environment, whether working on a personal computer or running on our hosted JupyterHub cloud infrastructure.
 
-If you edit `conda/environment.yml` to change package versions or add new ones, be sure to _re-lock_ the environment by running `./lock-environment.sh`:
-
+If you edit `conda/environment.yml` to change package versions or add new ones, be sure to _re-lock_ the environment by running: 
+ 
 ```
+chmod +x lock-environment.sh
+./lock-environment.sh
+
 mamba remove --name cryocloud --all
 mamba env create --name cryocloud --file conda-linux-64.lock.yml
 mamba activate cryocloud
 ```
-Originally built by eScience Hackweeks.
+Which makes the `lock-environment.sh` executable, re-locks the environment, deletes the old environment, creates the new one, and activates it.
