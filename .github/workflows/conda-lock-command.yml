@@ -48,6 +48,7 @@ jobs:
       # Run "conda-lock" for linux-64 only
       - name: Run conda-lock
         run: |
+          cd conda/
           conda-lock lock --mamba --kind explicit --file environment.yml --platform linux-64
 
       # Commit the change to the PR branch if any changes
