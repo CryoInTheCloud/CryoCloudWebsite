@@ -9,6 +9,7 @@ name: cryocloud
 
 channels:
   - conda-forge
+  - nodefaults
 
 dependencies:
   - python~=3.11.0
