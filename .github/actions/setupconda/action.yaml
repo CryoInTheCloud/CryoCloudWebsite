@@ -40,4 +40,4 @@ runs:
       env:
         ENVFILE: conda/conda-${{ runner.os == 'Linux' && 'linux' || 'osx'  }}-64.lock
       shell: bash -l {0}
-      run: mamba create -n cryocloud --file $ENVFILE
+      run: conda create -n cryocloud --file $ENVFILE
