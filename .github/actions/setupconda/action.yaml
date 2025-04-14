@@ -23,7 +23,11 @@ runs:
         use-mamba: true
         auto-update-conda: false
         activate-environment: cryocloud
-        use-only-tar-bz2: true # IMPORTANT: This needs to be set for conda package cache to work properly!    
+        use-only-tar-bz2: true # IMPORTANT: This needs to be set for conda package cache to work properly!  
+   
+    - name: Install conda-lock
+      shell: bash -l {0}
+      run: mamba install -n base -c conda-forge conda-lock
     
     - name: Cache Entire Conda Environment
       id: cache-env
@@ -38,6 +42,8 @@ runs:
     - name: Update Conda Environment
       if: steps.cache-env.outputs.cache-hit != 'true'
       env:
-        ENVFILE: conda/conda-${{ runner.os == 'Linux' && 'linux' || 'osx'  }}-64.lock
+        ENVFILE: conda/conda-${{ runner.os == 'Linux' && 'linux' || 'osx'  }}-64.lock.yml
       shell: bash -l {0}
-      run: conda create -n cryocloud --file $ENVFILE
+      run: 
+        echo "Installing environment from YAML lockfile..."
+        conda-lock install --name cryocloud --file $ENVFILE
