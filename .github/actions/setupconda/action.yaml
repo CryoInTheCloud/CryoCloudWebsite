@@ -38,6 +38,6 @@ runs:
     - name: Update Conda Environment
       if: steps.cache-env.outputs.cache-hit != 'true'
       env:
-        ENVFILE: conda/conda-${{ runner.os == 'Linux' && 'linux' || 'osx'  }}-64.lock
+        ENVFILE: conda/conda-${{ runner.os == 'Linux' && 'linux' || 'osx'  }}-64.lock.yml
       shell: bash -l {0}
       run: mamba env update -n cryocloud -f $ENVFILE
