@@ -6,7 +6,7 @@ on:
 
 jobs:
   add-preview:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     # This workflow accesses secrets and checks out a PR, so only run if labelled
     # https://securitylab.github.com/research/github-actions-preventing-pwn-requests/
     if: contains(github.event.pull_request.labels.*.name, 'preview')
