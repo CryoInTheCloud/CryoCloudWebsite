@@ -15,19 +15,19 @@ runs:
         key:
           ${{ runner.os }}-conda-packages-${{ env.CACHE_NUMBER }}-${{ hashFiles('conda/conda-lock.yml') }}
     
-    - name: Setup Mambaforge
+    - name: Setup Miniforge
       uses: conda-incubator/setup-miniconda@v2
       with:
         miniforge-version: 4.11.0-4
-        miniforge-variant: Mambaforge
-        use-mamba: true
+        miniforge-variant: Miniforge  # ✅ This gives you plain conda
+        use-mamba: false
         auto-update-conda: false
         activate-environment: cryocloud
         use-only-tar-bz2: true # IMPORTANT: This needs to be set for conda package cache to work properly!  
    
     - name: Install conda-lock
       shell: bash -l {0}
-      run: mamba install -n base -c conda-forge conda-lock
+      run: conda install -n base -c conda-forge conda-lock
     
     - name: Cache Entire Conda Environment
       id: cache-env
