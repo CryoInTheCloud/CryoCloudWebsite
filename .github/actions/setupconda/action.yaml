@@ -42,3 +42,4 @@ runs:
       shell: bash -l {0}
       run: 
         mamba create -n cryocloud --file $ENVFILE
+        source activate cryocloud
