@@ -175,16 +175,16 @@ package:
   category: main
   optional: false
 - name: alsa-lib
-  version: 1.2.13
+  version: 1.2.14
   manager: conda
   platform: linux-64
   dependencies:
     __glibc: '>=2.17,<3.0.a0'
     libgcc: '>=13'
-  url: https://conda.anaconda.org/conda-forge/linux-64/alsa-lib-1.2.13-hb9d3cd8_0.conda
+  url: https://conda.anaconda.org/conda-forge/linux-64/alsa-lib-1.2.14-hb9d3cd8_0.conda
   hash:
-    md5: ae1370588aa6a5157c34c73e9bbb36a0
-    sha256: f507b58f77eabc0cc133723cb7fc45c053d551f234df85e70fb3ede082b0cd53
+    md5: 76df83c2a9035c54df5d04ff81bcc02d
+    sha256: b9214bc17e89bf2b691fad50d952b7f029f6148f4ac4fe7c60c08f093efdf745
   category: main
   optional: false
 - name: annotated-types
@@ -1721,7 +1721,7 @@ package:
   category: main
   optional: false
 - name: earthengine-api
-  version: 1.5.9
+  version: 1.5.11
   manager: conda
   platform: linux-64
   dependencies:
@@ -1732,10 +1732,10 @@ package:
     httplib2: '>=0.9.2,<1dev'
     python: '>=3.9'
     requests: ''
-  url: https://conda.anaconda.org/conda-forge/noarch/earthengine-api-1.5.9-pyhd8ed1ab_0.conda
+  url: https://conda.anaconda.org/conda-forge/noarch/earthengine-api-1.5.11-pyhd8ed1ab_0.conda
   hash:
-    md5: 5722e7263ae78632d8cf9a76bedc169c
-    sha256: 0aa78c82cc7b846402fe1ea7864a2436553fca9ffaf6e3cd46c6af410ae1b367
+    md5: 06dab96c1fb347a97de5f49e4a6ae250
+    sha256: 6baec746f87904feaacc99b8c3de509e49b298fd45ef5aeb9c113b5d2b28d57f
   category: main
   optional: false
 - name: ee_extra
@@ -2861,7 +2861,7 @@ package:
   category: main
   optional: false
 - name: google-auth
-  version: 2.38.0
+  version: 2.39.0
   manager: conda
   platform: linux-64
   dependencies:
@@ -2874,10 +2874,10 @@ package:
     pyu2f: '>=0.1.5'
     requests: '>=2.20.0,<3.0.0'
     rsa: '>=3.1.4,<5'
-  url: https://conda.anaconda.org/conda-forge/noarch/google-auth-2.38.0-pyhd8ed1ab_0.conda
+  url: https://conda.anaconda.org/conda-forge/noarch/google-auth-2.39.0-pyhd8ed1ab_0.conda
   hash:
-    md5: c48abda87ffa7a0cc9f819cb8a384a9a
-    sha256: 0bbff264a2a50af0e2a61a4445c1b2353c6f44d87b83ffb36c95cca5d8fd4aaa
+    md5: e2072032f616200fe413d26d5076153b
+    sha256: e7bc74dea29f14139d2bdcede6407c5f8757c616731646b0ba932117a0d47a2a
   category: main
   optional: false
 - name: google-auth-httplib2
@@ -2973,16 +2973,16 @@ package:
   category: main
   optional: false
 - name: googleapis-common-protos
-  version: 1.69.2
+  version: 1.70.0
   manager: conda
   platform: linux-64
   dependencies:
     protobuf: '>=3.20.2,<7.0.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5'
     python: '>=3.9'
-  url: https://conda.anaconda.org/conda-forge/noarch/googleapis-common-protos-1.69.2-pyhd8ed1ab_0.conda
+  url: https://conda.anaconda.org/conda-forge/noarch/googleapis-common-protos-1.70.0-pyhd8ed1ab_0.conda
   hash:
-    md5: f68727c208418c7abae573cbecec682b
-    sha256: a80fd47f3689c3cf0f7f3f3fa77cb354571cd07b0e307674bf99537bc68f217d
+    md5: 7999fb45c48645272d7d88de0b7dc188
+    sha256: e0aa51de5565e92139791c5b8e2908e3cadd2c5fce6941a225889070815bcd99
   category: main
   optional: false
 - name: graphite2
