@@ -42,3 +42,5 @@ runs:
       shell: bash -l {0}
       run: 
         mamba create -n cryocloud --file $ENVFILE
+        conda activate
+        pip install jupyter-book==2.0.0a0
