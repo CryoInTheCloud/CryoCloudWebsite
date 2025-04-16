@@ -46,4 +46,4 @@ runs:
       shell: bash -l {0}
       run: |
         conda activate base
-        conda-lock install --name cryocloud --file $ENVFILE
+        conda-lock install --name cryocloud $ENVFILE
