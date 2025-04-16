@@ -13,12 +13,12 @@ on:
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
-      
+
     - name: Configure NASA Earthdata Login
       env:
         EARTHDATA_USER: ${{ secrets.EARTHDATA_USER}}
