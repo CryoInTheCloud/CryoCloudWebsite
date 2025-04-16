@@ -35,11 +35,15 @@ runs:
         key:
           ${{ runner.os }}-conda-environment-${{ env.CACHE_NUMBER }}-${{ hashFiles('conda/conda-lock.yml') }}
 
+    - name: Install conda-lock
+      shell: bash -l {0}
+      run: conda install -n base -c conda-forge conda-lock
+
     - name: Update Conda Environment
       if: steps.cache-env.outputs.cache-hit != 'true'
       env:
-        ENVFILE: conda/conda-${{ runner.os == 'Linux' && 'linux' || 'osx'  }}-64.lock.yml
+        ENVFILE: conda/conda-${{ runner.os == 'Linux' && 'linux' || 'osx' }}-64.lock.yml
       shell: bash -l {0}
       run: |
-        conda install -n base -c conda-forge conda-lock
+        source activate base
         conda-lock install --name cryocloud --file $ENVFILE
