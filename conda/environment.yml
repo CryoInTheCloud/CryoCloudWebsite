@@ -11,10 +11,6 @@ channels:
   - conda-forge
   - nodefaults
 
-# Non-standard conda-lock specification
-platforms:
-  - linux-64
-
 dependencies:
   - python~=3.11.0
   # Required until https://github.com/jupyterhub/repo2docker/pull/1196 is merged

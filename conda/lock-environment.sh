@@ -4,7 +4,7 @@
 
 ENV_FILE="environment.yml"
 LOCK_ENV='CondaLock'
-
+PLATFORM="${LOCK_PLATFORM:-linux-64}"
 # Generate CondaLock environment unless present
 conda env list | grep ${LOCK_ENV} > /dev/null
 
@@ -25,7 +25,7 @@ fi
 
 # Local environments
 ## Generate explicit lock files
-conda-lock lock -f ${ENV_FILE}
+conda-lock lock -f ${ENV_FILE} -p "${PLATFORM}"
 
 # BinderHub support
 ## Generate environment.yml for binder compatibility
