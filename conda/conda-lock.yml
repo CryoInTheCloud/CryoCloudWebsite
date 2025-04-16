@@ -709,17 +709,17 @@ package:
   category: main
   optional: false
 - name: beautifulsoup4
-  version: 4.13.3
+  version: 4.13.4
   manager: conda
   platform: linux-64
   dependencies:
     python: '>=3.9'
     soupsieve: '>=1.2'
     typing-extensions: ''
-  url: https://conda.anaconda.org/conda-forge/noarch/beautifulsoup4-4.13.3-pyha770c72_0.conda
+  url: https://conda.anaconda.org/conda-forge/noarch/beautifulsoup4-4.13.4-pyha770c72_0.conda
   hash:
-    md5: 373374a3ed20141090504031dc7b693e
-    sha256: 4ce42860292a57867cfc81a5d261fb9886fc709a34eca52164cc8bbf6d03de9f
+    md5: 9f07c4fc992adb2d6c30da7fab3959a7
+    sha256: ddb0df12fd30b2d36272f5daf6b6251c7625d6a99414d7ea930005bbaecad06d
   category: main
   optional: false
 - name: binaryornot
@@ -1314,7 +1314,7 @@ package:
   category: main
   optional: false
 - name: contourpy
-  version: 1.3.1
+  version: 1.3.2
   manager: conda
   platform: linux-64
   dependencies:
@@ -1324,10 +1324,10 @@ package:
     numpy: '>=1.23'
     python: '>=3.11,<3.12.0a0'
     python_abi: 3.11.*
-  url: https://conda.anaconda.org/conda-forge/linux-64/contourpy-1.3.1-py311hd18a35c_0.conda
+  url: https://conda.anaconda.org/conda-forge/linux-64/contourpy-1.3.2-py311hd18a35c_0.conda
   hash:
-    md5: 351cb68d2081e249069748b6e60b3cd2
-    sha256: 08be6120dc9369f07858677dde2a8474644cc7ec2ae146b39a6953aadc536dfd
+    md5: f8e440efa026c394461a45a46cea49fc
+    sha256: 92ec3244ee0b424612025742a73d4728ded5bf6a358301bd005f67e74fec0b21
   category: main
   optional: false
 - name: cookiecutter
@@ -2844,7 +2844,7 @@ package:
   category: main
   optional: false
 - name: google-api-python-client
-  version: 2.165.0
+  version: 2.167.0
   manager: conda
   platform: linux-64
   dependencies:
@@ -2854,10 +2854,10 @@ package:
     httplib2: '>=0.19.0,<1.0.0'
     python: '>=3.9'
     uritemplate: '>=3.0.1,<5'
-  url: https://conda.anaconda.org/conda-forge/noarch/google-api-python-client-2.165.0-pyhff2d567_0.conda
+  url: https://conda.anaconda.org/conda-forge/noarch/google-api-python-client-2.167.0-pyhff2d567_0.conda
   hash:
-    md5: e2661248171650b7957b900cd79e62b2
-    sha256: 08495a602952a8c592cc85701767bd2df6edb53731ef0ace7e1a19de8d7ef485
+    md5: 6645f1f2913484747ea7f4c9c057e670
+    sha256: c0072f4a4daa37bbd31a07cb60d0a269871dc054a3aeddff02de252f6e335864
   category: main
   optional: false
 - name: google-auth
@@ -2999,7 +2999,7 @@ package:
   category: main
   optional: false
 - name: greenlet
-  version: 3.1.1
+  version: 3.2.0
   manager: conda
   platform: linux-64
   dependencies:
@@ -3008,10 +3008,10 @@ package:
     libstdcxx: '>=13'
     python: '>=3.11,<3.12.0a0'
     python_abi: 3.11.*
-  url: https://conda.anaconda.org/conda-forge/linux-64/greenlet-3.1.1-py311hfdbb021_1.conda
+  url: https://conda.anaconda.org/conda-forge/linux-64/greenlet-3.2.0-py311hfdbb021_0.conda
   hash:
-    md5: d44da5fc47328530ad83e190af89576f
-    sha256: 81685173a05dcd21d57da4c137eb30643414034aba98a8cec31089b9e53e3413
+    md5: e2d6b1307377bca8acfed2fa5e60d8d4
+    sha256: 3e6f513e62422362a391fe4de514b1191da297cccc03a21f9e173731b138b521
   category: main
   optional: false
 - name: grpcio
@@ -8292,16 +8292,16 @@ package:
   category: main
   optional: false
 - name: prompt-toolkit
-  version: 3.0.50
+  version: 3.0.51
   manager: conda
   platform: linux-64
   dependencies:
     python: '>=3.9'
     wcwidth: ''
-  url: https://conda.anaconda.org/conda-forge/noarch/prompt-toolkit-3.0.50-pyha770c72_0.conda
+  url: https://conda.anaconda.org/conda-forge/noarch/prompt-toolkit-3.0.51-pyha770c72_0.conda
   hash:
-    md5: 7d823138f550b14ecae927a5ff3286de
-    sha256: 0749c49a349bf55b8539ce5addce559b77592165da622944a51c630e94d97889
+    md5: d17ae9db4dc594267181bd199bf9a551
+    sha256: ebc1bb62ac612af6d40667da266ff723662394c0ca78935340a5b5c14831227b
   category: main
   optional: false
 - name: propcache
@@ -8900,16 +8900,16 @@ package:
   category: main
   optional: false
 - name: pystac
-  version: 1.12.1
+  version: 1.13.0
   manager: conda
   platform: linux-64
   dependencies:
     python: '>=3.10'
     python-dateutil: '>=2.7.0'
-  url: https://conda.anaconda.org/conda-forge/noarch/pystac-1.12.1-pyhd8ed1ab_0.conda
+  url: https://conda.anaconda.org/conda-forge/noarch/pystac-1.13.0-pyhd8ed1ab_0.conda
   hash:
-    md5: 1b4762b30f995f8a74d3857793a297d3
-    sha256: bcd0bd9a8ba5a643a3013c56d2309ed4bc959585fb8df40f3c0f156625398f4b
+    md5: 4ae2500df499834453e4de127bfca208
+    sha256: 64037bb49b40b9477cff51991ee4831a9b3e227a39cd10aa7822199538027a9f
   category: main
   optional: false
 - name: pystac-client
@@ -8978,7 +8978,6 @@ package:
     libzlib: '>=1.2.13,<2.0.0a0'
     ncurses: '>=6.4.20240210,<7.0a0'
     openssl: '>=3.2.1,<4.0a0'
-    pip: ''
     readline: '>=8.2,<9.0a0'
     tk: '>=8.6.13,<8.7.0a0'
     tzdata: ''
@@ -11152,7 +11151,7 @@ package:
   platform: linux-64
   dependencies:
     libgcc-ng: '>=12'
-  url: https://conda.anaconda.org/conda-forge/linux-64/x264-1%21164.3095-h166bdaf_2.tar.bz2
+  url: https://conda.anaconda.org/conda-forge/linux-64/x264-1!164.3095-h166bdaf_2.tar.bz2
   hash:
     md5: 6c99772d483f566d59e25037fea2c4b1
     sha256: 175315eb3d6ea1f64a6ce470be00fa2ee59980108f246d3072ab8b977cb048a5
