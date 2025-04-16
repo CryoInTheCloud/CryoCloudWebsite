@@ -45,5 +45,5 @@ runs:
         ENVFILE: conda/conda-${{ runner.os == 'Linux' && 'linux' || 'osx' }}-64.lock.yml
       shell: bash -l {0}
       run: |
-        source activate base
+        conda activate base
         conda-lock install --name cryocloud --file $ENVFILE
