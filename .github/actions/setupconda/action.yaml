@@ -18,10 +18,10 @@ runs:
     - name: Setup Mambaforge
       uses: conda-incubator/setup-miniconda@v3
       with:
-        miniforge-version: latest
+        miniforge-version: 24.11.1-0
         use-mamba: true
         auto-update-conda: false
-        activate-environment: false
+        activate-environment: ""
         use-only-tar-bz2: true # IMPORTANT: This needs to be set for conda package cache to work properly!  
     
     - name: Cache Entire Conda Environment
