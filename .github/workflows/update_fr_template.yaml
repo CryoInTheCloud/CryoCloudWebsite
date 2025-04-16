@@ -9,7 +9,7 @@ env:
 jobs:
   template-update:
     name: Template Update
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     if: github.repository != ${{ env.TEMPLATE_REPO}}
     steps:
       - name: Checkout repository
