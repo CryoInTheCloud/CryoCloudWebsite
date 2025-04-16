@@ -5,8 +5,6 @@
 channels:
   - conda-forge
 dependencies:
-  - _libgcc_mutex=0.1=conda_forge
-  - _openmp_mutex=4.5=2_gnu
   - accessible-pygments=0.0.5=pyhd8ed1ab_1
   - affine=2.4.0=pyhd8ed1ab_1
   - aiobotocore=2.5.0=pyhd8ed1ab_0
