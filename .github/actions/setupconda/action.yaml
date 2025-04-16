@@ -16,10 +16,9 @@ runs:
           ${{ runner.os }}-conda-packages-${{ env.CACHE_NUMBER }}-${{ hashFiles('conda/conda-lock.yml') }}
 
     - name: Setup Mambaforge
-      uses: conda-incubator/setup-miniconda@v2
+      uses: conda-incubator/setup-miniconda@v3
       with:
-        miniforge-version: 4.11.0-4
-        miniforge-variant: Mambaforge
+        miniforge-version: latest
         use-mamba: true
         auto-update-conda: false
         activate-environment: false
