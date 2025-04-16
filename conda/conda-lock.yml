@@ -8978,6 +8978,7 @@ package:
     libzlib: '>=1.2.13,<2.0.0a0'
     ncurses: '>=6.4.20240210,<7.0a0'
     openssl: '>=3.2.1,<4.0a0'
+    pip: ''
     readline: '>=8.2,<9.0a0'
     tk: '>=8.6.13,<8.7.0a0'
     tzdata: ''
@@ -11151,7 +11152,7 @@ package:
   platform: linux-64
   dependencies:
     libgcc-ng: '>=12'
-  url: https://conda.anaconda.org/conda-forge/linux-64/x264-1!164.3095-h166bdaf_2.tar.bz2
+  url: https://conda.anaconda.org/conda-forge/linux-64/x264-1%21164.3095-h166bdaf_2.tar.bz2
   hash:
     md5: 6c99772d483f566d59e25037fea2c4b1
     sha256: 175315eb3d6ea1f64a6ce470be00fa2ee59980108f246d3072ab8b977cb048a5
