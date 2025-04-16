@@ -22,7 +22,7 @@ runs:
         miniforge-variant: Mambaforge 
         use-mamba: true
         auto-update-conda: false
-        activate-environment: cryocloud
+        activate-environment: false
         use-only-tar-bz2: true # IMPORTANT: This needs to be set for conda package cache to work properly!  
     
     - name: Cache Entire Conda Environment
