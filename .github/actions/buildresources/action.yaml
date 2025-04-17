@@ -31,9 +31,7 @@ runs:
 
     - name: Build JupyterBook
       shell: bash -l {0}
-      run: |
-        conda activate cryocloud
-        ./scripts/build_resources.sh
+      run: ./scripts/build_resources.sh
         
     - name: Dump Build Logs
       if: always()
