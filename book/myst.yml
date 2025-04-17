@@ -15,7 +15,7 @@ project:
   funding: "This work was funded by the NASA Transform to Open Science program (grant 80NSSC23K0002), and the NASA Cryosphere Program and ICESat-2 Project Science Office (grant 80NSSC22K1877)."
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 
-  toc: # this didn't work, it uses a toc.yml instead
+  toc:
     - file: intro.md
     - file: content/about.md
     - file: content/mission.md
