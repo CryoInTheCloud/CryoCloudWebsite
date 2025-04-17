@@ -50,7 +50,7 @@ jobs:
         run: |
           cd conda/
           conda-lock lock --mamba --file environment.yml --platform linux-64
-          conda-lock render --kind explicit --platform linux-64 --filename-template conda-{platform}.lock
+          conda-lock render --platform linux-64
 
       # Commit the change to the PR branch if any changes
       - name: Commit condalock files to PR
