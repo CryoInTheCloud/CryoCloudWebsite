@@ -76,8 +76,6 @@ project:
 site:
   template: book-theme
   title: CryoCloud Website
-  domain:
-    - https://cryointhecloud.github.io
   options:
   #   favicon: favicon.ico
     logo: logo.png
