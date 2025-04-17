@@ -5,6 +5,7 @@
 ENV_FILE="environment.yml"
 LOCK_ENV='CondaLock'
 PLATFORM="${LOCK_PLATFORM:-linux-64}"
+
 # Generate CondaLock environment unless present
 conda env list | grep ${LOCK_ENV} > /dev/null
 

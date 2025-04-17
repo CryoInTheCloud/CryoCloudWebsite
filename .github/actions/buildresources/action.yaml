@@ -33,8 +33,6 @@ runs:
       shell: bash -l {0}
       run: |
         conda activate cryocloud
-        pip install jupyter-book==2.0.0a0
-        jupyter-book --version
         ./scripts/build_resources.sh
         
     - name: Dump Build Logs
