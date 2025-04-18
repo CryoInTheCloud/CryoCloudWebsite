@@ -46,7 +46,7 @@ project:
         - file: tutorials/IS2_cloud_Landsat_integration.ipynb
         - file: tutorials/ICESat2_ATL15_dhdt/ICESat2_ATL15_dhdt.ipynb
         - file: tutorials/IS2_ATL15_surface_height_anomalies/IS2_ATL15_surface_height_anomalies.ipynb
-        - file: external/ICESAT2_ATL10-h5coro_large_scale_time_series.ipynb
+        - file: external/ICESat2_ATL10-h5coro_large_scale_time_series.ipynb
         - file: tutorials/NASA-Earthdata-Cloud-Access/index.md
           children:
             - file: tutorials/NASA-Earthdata-Cloud-Access/1.Intro-Earthdata-Cloud.md
