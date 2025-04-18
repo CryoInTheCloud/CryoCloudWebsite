@@ -25,7 +25,7 @@ project:
     - file: how_tos/index.md
       children:
         - file: how_tos/background/index.md
-          childen:
+          children:
             - file: how_tos/background/github.md
             - file: how_tos/background/jupyterhub.md
             - file: how_tos/background/git.md
