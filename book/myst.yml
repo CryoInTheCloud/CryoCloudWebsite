@@ -65,7 +65,6 @@ project:
     - title: References
       children:
         - file: reference/projects_supported.ipynb
-        - file: reference/glossary.md
         - file: reference/IS2-resources.md
         - file: reference/open_science.md
         - file: reference/open_source_software.md
