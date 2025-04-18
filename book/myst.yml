@@ -3,8 +3,6 @@ version: 1
 project:
   title: CryoCloud
   jupyter: true
-  binder: https://hub.cryointhecloud.com
-  repo: https://quay.io/repository/cryointhecloud/cryo-hub-image
   description: "Welcome to CryoCloud: Empowering collaborative Earth science in the cloud"
   # keywords: []
   # authors:
