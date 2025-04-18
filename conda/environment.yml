@@ -1,5 +1,6 @@
 # Edit this file to add dependencies to environment,
 # Then run `./lock-environment.sh` to generate reproducible lock files
+# You may have to run `chmod +x lock-environment.sh` first if you get a permission denied error.
 
 # !!! If you are developing the website locally use the existing lock files
 # for your platform (`conda env create --name cryocloud --file conda-linux-64.lock.yml`)
@@ -8,6 +9,7 @@ name: cryocloud
 
 channels:
   - conda-forge
+  - nodefaults
 
 dependencies:
   - python~=3.11.0
@@ -30,11 +32,10 @@ dependencies:
   - gh-scoped-creds==4.1
   # More git tools from github-cli
   - gh~=2.32.1
- 
+
   # Jupyter tools
   - ipython~=8.20.0
   - ipywidgets~=8.1.1
-  - jupyter-book~=1.0.0
   - jupyterlab-favorites~=3.2.1
   - jupyterlab-geojson~=3.4.0
   - jupyterlab-git~=0.50.0
@@ -43,11 +44,10 @@ dependencies:
   - jupyterlab_pygments~=0.3.0 # To bring extension uptodate
   - jupytext~=1.16.1
   - nbdime~=4.0.1
-  
+
   # JupyterBook Addons
   - sphinxcontrib-bibtex
   - markupsafe~=2.1.5
-  - myst-nb~=1.1.1
   - jupytext
   # For building Team Splashpage
   - cookiecutter
@@ -57,7 +57,9 @@ dependencies:
   - pymdown-extensions>=7.1
   # dashboards
   - voila~=0.5
-  
+  - nodeenv~=1.9.0
+  # - npm~=11.0.0
+
   # Core scientific python stack
   - cython==0.29.32 # optimization, C API access
   - flox~=0.9.7 # optimization, xarray operations
@@ -90,8 +92,8 @@ dependencies:
   - geopandas~=0.13.2
   - pygmt~=0.10.0
   - rasterio~=1.3
-  - rioxarray~=0.15.5 
- 
+  - rioxarray~=0.15.5
+
   # File formats and file management, download, dataset caching
   - h5py~=3.8
   - hdf5~=1.14
@@ -152,9 +154,10 @@ dependencies:
   - git>=2.39
 
   # Not all packages will be available from conda-forge, we install from pip when we need to.
-  - pip~=23.3.2
+  - pip~=25.0
   - pip:
     # Access linux desktop from inside JupyterHub
     - jupyter-desktop-server==0.1.3
     # For JupyterBook
     - jinja-markdown==1.210911
+    - jupyter-book==2.0.0a0
