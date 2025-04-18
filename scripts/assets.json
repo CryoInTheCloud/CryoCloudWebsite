@@ -16,13 +16,13 @@
         "process": true
     },
 {
-        "title": "Earthaccess",
-        "preamble": "This notebook is from NSIDC's Using `earthaccess` to Search for, Access and Open ICESat-2 Data in the Cloud tutorial",
-        "source": "https://github.com/ICESAT-2HackWeek/ICESat-2-Hackweek-2023",
-        "url": "https://github.com/ICESAT-2HackWeek/ICESat-2-Hackweek-2023/blob/main/book/tutorials/data-access-and-format/earthaccess.ipynb",
-        "target": "ICESat2_Earthaccess.ipynb",
-        "process": true
-    },
+  "title": "Earthaccess",
+  "preamble": "This notebook is from NSIDC's Using `earthaccess` to Search for, Access and Open ICESat-2 Data in the Cloud tutorial",
+  "source": "https://github.com/ICESAT-2HackWeek/ICESat-2-Hackweek-2023",
+  "url": "https://raw.githubusercontent.com/ICESAT-2HackWeek/ICESat-2-Hackweek-2023/main/book/tutorials/data-access-and-format/earthaccess.ipynb",
+  "target": "ICESat2_Earthaccess.ipynb",
+  "process": true
+},
 {
         "title": "Power of the cloud: Large-scale time series",
         "preamble": "This notebook is from NSIDC's Processing Large-scale Time Series of ICESat-2 Sea Ice Height in the Cloud tutorial",
