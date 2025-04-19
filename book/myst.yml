@@ -33,7 +33,7 @@ project:
             - file: how_tos/background/earthengine.md
             - file: how_tos/background/swc.md
             - file: how_tos/background/python.md
-            - file: how_tos/nbdime/nbdime-hub.md
+            - file: how_tos/nbdime/nbdime-hub.ipynb
         - file: how_tos/data_access/index.md
           children:
             - file: how_tos/data_access/Cloud_Sentinel2_access.ipynb
