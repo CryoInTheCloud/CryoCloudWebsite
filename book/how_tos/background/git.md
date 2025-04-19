@@ -5,23 +5,20 @@
 [Git](https://git-scm.com/) is a popular version control system that is used in
 many open source software projects to manage their software code base.
 
-```{note}
-You are not required to know Git in advance of this event, but come prepared to learn a lot about it!
 [Here a quick introduction video from the official website](https://git-scm.com/video/what-is-git)
-```
-(setting-up-git)=
+
 ## Setting up on JupyterHub
 
-Below are instructions to get you setup with `git` on the {{hackweek}} hackweek
+Below are instructions to get you setup with `git` on the ICESat-2 hackweek
 JupyterHub. These are only basic instructions to get started. See the
 [Software Carpentry Git](http://swcarpentry.github.io/git-novice/02-setup/index.html)
 instructions for a more thorough explanation and background information.
 
 ### 1. Login to JupyterHub
-Go to {{ jupyterhub_url }}. See also our JupyterHub documentation: {ref}`accessing-jupyterhub`
+Go to `hub.cryointhecloud.com`. See also our [JupyterHub documentation](./jupyterhub.md)
 
 ### 2. Open a Terminal
-Choose the 'Terminal' from the 'Other' options in the 'Launcher' tab.
+Choose the `Terminal` from the `Other` options in the `Launcher` tab.
 
 ![jupyterlab](../../img/jupyter-terminal.png)
 
@@ -30,7 +27,7 @@ Set your username and email address. The email address should be the same
 as you used to register your GitHub account.
 
 ```{attention}
-Use your personal name instead of the placeholder `{{hackweek}} Attendee`
+Use your personal name instead of the placeholder `ICESat-2 Attendee`
 in the below commands. For the email, it should be the address you used to create
 your GitHub account instead of `attendee@hackweek.com`. Both values need to be
 surrounded by quotes `"`.
@@ -76,15 +73,15 @@ account password.
 Take a moment to work through the instructions on the [GitHub personal access tokens](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) page. For this hackweek, you need to check the **repo**, **admin:org**, and **workflow** scope.
 
 Screenshot from github.com setting up the token:
-![github-token](../img/github-token.png)
+![github-token](../../img/github-token.png)
 
 Once you have created your token, be sure to save it on your computer in case
 you need to re-authenticate again. The token will give you access to your
 personal GitHub account. It will also give you permission to push changes to your project repository within
-the {{hackweek}} hackweek organization via the command line.
+the ICESat-2 hackweek organization via the command line.
 
 To test your setup on the JupyterHub, we will be using a test repository from
-the {{hackweek}} Hackweek organization. Paste the following command into your open
+the ICESat-2 Hackweek organization. Paste the following command into your open
 terminal on the JupyterHub. where you will be prompted for your GitHub username
 and the token.
 
@@ -138,11 +135,11 @@ Already up to date.
 With the `git` command successfully set up, you can now remove the test
 repository.
 
-```{Danger}
+:::note
 Be careful with the `rm -rf` command. There will be **no** confirmation prompt
 for this action and files and folders removed with this command are not
 recoverable.
-```
+:::
 
 ```shell
 rm -rf github_setup_check
