@@ -17,6 +17,6 @@ check_success() {
 
 echo "Building the Jupyter Book"
 cd ../book/
-myst build --html
+jupyter-book build --keep-going
 
 check_success
