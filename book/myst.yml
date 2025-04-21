@@ -25,7 +25,7 @@ project:
     - file: how_tos/index.md
       children:
         - file: how_tos/background/index.md
-          childen:
+          children:
             - file: how_tos/background/github.md
             - file: how_tos/background/jupyterhub.md
             - file: how_tos/background/git.md
@@ -33,7 +33,7 @@ project:
             - file: how_tos/background/earthengine.md
             - file: how_tos/background/swc.md
             - file: how_tos/background/python.md
-            - file: how_tos/nbdime/nbdime-hub.md
+            - file: how_tos/nbdime/nbdime-hub.ipynb
         - file: how_tos/data_access/index.md
           children:
             - file: how_tos/data_access/Cloud_Sentinel2_access.ipynb
@@ -46,7 +46,7 @@ project:
         - file: tutorials/IS2_cloud_Landsat_integration.ipynb
         - file: tutorials/ICESat2_ATL15_dhdt/ICESat2_ATL15_dhdt.ipynb
         - file: tutorials/IS2_ATL15_surface_height_anomalies/IS2_ATL15_surface_height_anomalies.ipynb
-        - file: external/ICESAT2_ATL10-h5coro_large_scale_time_series.ipynb
+        - file: external/ICESat2_ATL10-h5coro_large_scale_time_series.ipynb
         - file: tutorials/NASA-Earthdata-Cloud-Access/index.md
           children:
             - file: tutorials/NASA-Earthdata-Cloud-Access/1.Intro-Earthdata-Cloud.md
@@ -65,7 +65,6 @@ project:
     - title: References
       children:
         - file: reference/projects_supported.ipynb
-        - file: reference/glossary.md
         - file: reference/IS2-resources.md
         - file: reference/open_science.md
         - file: reference/open_source_software.md

@@ -6,9 +6,6 @@
 :align: right
 ```
 
-```{Note}
-This [JupyterBook](https://jupyterbook.org/en/stable/intro.html) is in development as we launch the CryoCloud project.
-```
 CryoCloud is a NASA-supported community and cloud platform built in partnership with the International Interactive Computing Collaboration ([2i2c](https://2i2c.org/)) and designed to advance collaborative, data-intensive Earth science across all disciplines. CryoCloud embraces a broad vision—breaking down silos, fostering intellectual generosity, and empowering scientists to make the most of NASA's vast data resources through streamlined data workflows.
 
 
