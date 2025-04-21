@@ -36,6 +36,7 @@ dependencies:
   # Jupyter tools
   - ipython~=8.20.0
   - ipywidgets~=8.1.1
+  - jupyter-book~=1.0.0
   - jupyterlab-favorites~=3.2.1
   - jupyterlab-geojson~=3.4.0
   - jupyterlab-git~=0.50.0
@@ -58,6 +59,7 @@ dependencies:
   # dashboards
   - voila~=0.5
   - nodeenv~=1.9.0
+  - mystmd~=1.3.0
   # - npm~=11.0.0
 
   # Core scientific python stack
@@ -160,4 +162,3 @@ dependencies:
     - jupyter-desktop-server==0.1.3
     # For JupyterBook
     - jinja-markdown==1.210911
-    - jupyter-book==2.0.0a0
