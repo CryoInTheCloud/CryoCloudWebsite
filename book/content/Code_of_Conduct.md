@@ -12,7 +12,11 @@ Anyone experiencing or witnessing behavior that constitutes an immediate or seri
 
 ## Purpose
 
+A primary goal of CryoCloud is to be inclusive to the largest number of community members, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe, and welcoming environment for all. We pledge to act and interact in ways that contribute to an open, welcoming, and healthy community.
+
 This code of conduct outlines our expectations for all those who participate in our community, as well as the consequences for unacceptable behavior.  A supplemental goal of this Code of Conduct is to increase open science citizenship by encouraging participants to recognize and strengthen the relationships between our actions and their effects on our community. We invite all those who participate in CryoCloud to help us create safe and positive experiences for everyone.
+
+We invite all those who participate in CryoCloud to help us create safe and positive experiences for everyone. If you see someone who is making an extra effort to ensure our community is welcoming, friendly, and encourages all participants to contribute to the fullest extent, we want to know.
 
 [Mines' Statement of Equal Opportunity, Access and Nondiscrimination](https://www.mines.edu/equal-opportunity/)
 
@@ -30,13 +34,31 @@ It would be impossible to list everything staff can do to create a more welcomin
  * Ask questions, and seek to understand your partners' context.
  * Encourage other people to listen as much as they speak.
  * Attempt collaboration before conflict.
+ * Treat other people's identities and cultures with respect. Make an effort to say people's names correctly and refer to them by their stated pronouns.
  * Be mindful of your surroundings and of your fellow participants. Alert community leaders if you notice a dangerous situation, someone in distress, or violations of this Code of Conduct, even if they seem inconsequential.
  * Be respectful of differing opinions, viewpoints, and experiences
  * Give and gracefully accept constructive feedback
  * Accept responsibility and apologizing to those affected by our mistakes, and learning from the experience
  * Focus on what is best not just for us as individuals, but for the overall community.
 
-
+## Unacceptable Behavior
+ 
+ To help colleagues understand the kinds of behaviors that are illegal or run counter to the culture we seek to foster, we've listed below actions that are unacceptable within our community:
+ 
+  * Violence, threats of violence, or violent language directed against another person.
+  * Unwelcome verbal or written comment or physical conduct based on race, religion, color, sex (with or without sexual conduct and including pregnancy and sexual orientation involving transgender status/gender identity, and sex-stereotyping), national origin, age, disability, genetic information, sexual orientation, gender identity, parental status, marital status, or political affiliation.
+  * Posting or displaying sexually explicit or violent material, and sexual attention or advances of any kind
+  * Posting or threatening to post other people's personally identifying information without their explicit permission ("doxing").
+  * Inappropriate photography or recording.
+  * Inappropriate physical contact.
+  * Unwelcome sexual attention. This includes, sexualized comments or jokes; inappropriate touching, groping, and unwelcomed sexual advances.
+  * Deliberate intimidation, stalking, or following (online or in person).
+  * Trolling, insulting or derogatory comments, and personal or political attacks
+  * Public or private harassment
+  * Advocating for, or encouraging, any of the above behavior.
+  * Other conduct which could reasonably be considered inappropriate in a professional setting
+ 
+ If a community member engages in unacceptable behavior, the community organizers may take any action they deem appropriate, including a temporary ban or permanent expulsion from the community without warning.
 
 ### Responsibilities
 
