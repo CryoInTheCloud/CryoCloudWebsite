@@ -1,4 +1,4 @@
-# Background Work
+# Fundamentals 
 
 Based on previous experience, participants gain better access to all of the tools CryoCloud 
 has to offer after they have a preliminary understand of some of the foundational tools of 

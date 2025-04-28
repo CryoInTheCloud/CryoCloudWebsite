@@ -1,4 +1,4 @@
-# How To...
+# How To
 
 We welcome all types of learners to our cloud computing platform, from professional software 
 developers to people just getting started. Here we provide guidance on how to join CryoCloud, background work that 
