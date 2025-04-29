@@ -4,7 +4,6 @@
 title :      CryoCloud
 author :     CryoCloud Team and Community, Colorado School of Mines
 logo :       logo.png
-copyright : "2022" # Goes in the footer
 
 only_build_toc_files: true
 
