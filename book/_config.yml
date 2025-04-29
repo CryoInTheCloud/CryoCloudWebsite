@@ -74,6 +74,7 @@ bibtex_bibfiles:
 sphinx:
   config:
     bibtex_reference_style: author_year  # or label, super, \supercite
+    html_show_copyright: false
     nb_custom_formats:
         .py:
             - jupytext.reads
