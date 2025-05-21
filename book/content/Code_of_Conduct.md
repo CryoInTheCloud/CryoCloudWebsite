@@ -12,7 +12,7 @@ Anyone experiencing or witnessing behavior that constitutes an immediate or seri
 
 ## Purpose
 
-A primary goal of CryoCloud is to be inclusive to the largest number of community members, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe, and welcoming environment for all. We pledge to act and interact in ways that contribute to an open, welcoming, and healthy community.
+A primary goal of CryoCloud is to provide a welcoming space to all of our community members, with the most varied backgrounds and expertises possible. As such, we are committed to providing a friendly, safe, and welcoming environment for all. We pledge to act and interact in ways that contribute to an open, welcoming, and healthy community.
 
 This code of conduct outlines our expectations for all those who participate in our community, as well as the consequences for unacceptable behavior.  A supplemental goal of this Code of Conduct is to increase open science citizenship by encouraging participants to recognize and strengthen the relationships between our actions and their effects on our community. We invite all those who participate in CryoCloud to help us create safe and positive experiences for everyone.
 
@@ -22,7 +22,7 @@ We invite all those who participate in CryoCloud to help us create safe and posi
 
 ## Community Standards
 
-We strive to create a welcoming culture that empowers people to conduct open science using cloud computing resources. That requires an open exchange of ideas balanced by thoughtful guidelines. If we have only openness, colleagues who are on the receiving end of thoughtless or intentionally hurtful comments and behavior may reasonably withdraw. If we have overly intrusive guidelines, people may feel unwelcome.
+We strive to create a welcoming work atmosphere that empowers people to conduct open science using cloud computing resources. That requires an open exchange of ideas balanced by thoughtful guidelines. If we have only openness, colleagues who are on the receiving end of thoughtless or intentionally hurtful comments and behavior may reasonably withdraw. If we have overly intrusive guidelines, people may feel unwelcome.
 
 It would be impossible to list everything staff can do to create a more welcoming space, and we know this team will find ways to create a positive environment for their colleagues in ways we haven't even thought of. But when in doubt, we encourage you to look to these principles for guidance:
 
@@ -34,7 +34,7 @@ It would be impossible to list everything staff can do to create a more welcomin
  * Ask questions, and seek to understand your partners' context.
  * Encourage other people to listen as much as they speak.
  * Attempt collaboration before conflict.
- * Treat other people's identities and cultures with respect. Make an effort to say people's names correctly and refer to them by their stated pronouns.
+ * Treat other people's identities with respect. Make an effort to say people's names correctly and refer to them by their stated pronouns.
  * Be mindful of your surroundings and of your fellow participants. Alert community leaders if you notice a dangerous situation, someone in distress, or violations of this Code of Conduct, even if they seem inconsequential.
  * Be respectful of differing opinions, viewpoints, and experiences
  * Give and gracefully accept constructive feedback
@@ -43,7 +43,7 @@ It would be impossible to list everything staff can do to create a more welcomin
 
 ## Unacceptable Behavior
  
- To help colleagues understand the kinds of behaviors that are illegal or run counter to the culture we seek to foster, we've listed below actions that are unacceptable within our community:
+ To help colleagues understand the kinds of behaviors that are illegal or run counter to the atmosphere we seek to foster, we've listed below actions that are unacceptable within our community:
  
   * Violence, threats of violence, or violent language directed against another person.
   * Unwelcome verbal or written comment or physical conduct based on race, religion, color, sex (with or without sexual conduct and including pregnancy and sexual orientation involving transgender status/gender identity, and sex-stereotyping), national origin, age, disability, genetic information, sexual orientation, gender identity, parental status, marital status, or political affiliation.
