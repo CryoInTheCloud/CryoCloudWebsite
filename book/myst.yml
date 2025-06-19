@@ -9,7 +9,6 @@ project:
   github: https://github.com/CryoInTheCloud/CryoCloudWebsite
   license: MIT
   open_access: true
-  copyright: "2022"
   funding: "This work was funded by the NASA Transform to Open Science program (grant 80NSSC23K0002), and the NASA Cryosphere Program and ICESat-2 Project Science Office (grant 80NSSC22K1877)."
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 
