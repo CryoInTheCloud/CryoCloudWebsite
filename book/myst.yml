@@ -14,7 +14,7 @@ project:
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 
   toc:
-    - file: intro.md
+    - file: index.md
     - file: content/about.md
     - file: content/mission.md
     - file: content/Getting_Started.md
