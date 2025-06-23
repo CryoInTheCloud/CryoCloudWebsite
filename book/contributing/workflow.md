@@ -143,9 +143,16 @@ git checkout -b newbranchname  # create and switch to new branch
 
 ### Develop content
 
-Time to edit and develop content, and run your JupyterBook Workflow -- see
-[specific instructions below](#develop-cookbook-content). While you're
-developing, you'll want to frequently commit and push your changes.
+
+Time to edit and develop content using MyST markdown. For the best development experience:
+
+- Run `myst start` to launch a local development server with live reload
+- Edit your `.md` and `.ipynb` files - changes will automatically rebuild
+- Configure project settings and variables in `myst.yml`
+- Use `myst build` to generate the final static site for deployment
+
+While you're developing, commit and push your changes frequently to keep your work backed up.
+
 
 ### Commit changes
 

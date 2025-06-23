@@ -3,7 +3,7 @@
 (event-jupyterhub)=
 ## Why are we using a shared cloud environment?
 
-We use {term}`JupyterHub` in an educational setting because it enables us to quickly begin working with code. Each participant connects to a computational environment hosted in the cloud. All that is required is a web browser, and a GitHub username for authentication:
+We use `JupyterHub` in an educational setting because it enables us to quickly begin working with code. Each participant connects to a computational environment hosted in the cloud. All that is required is a web browser, and a GitHub username for authentication:
 
 ![jupyterhub-connectivity](../../img/jupyterhub-connectivity.png)
 
@@ -35,7 +35,7 @@ user information for instance.
 
 ```{attention}
 It can take several minutes for new servers to launch on the cloud - be patient!
-Once things are spun up you will see your very own instance of a {term}`JupyterLab` environment
+Once things are spun up you will see your very own instance of a `JupyterLab` environment
 ```
 
 ![jupyterhub-overview](../../img/jupyterhub-overview.png)

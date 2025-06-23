@@ -1,7 +1,7 @@
 # GitHub
 
 ## What is GitHub?
-[GitHub](https://github.com) is a hosting service for {term}`Git` repositories,
+[GitHub](https://github.com) is a hosting service for `Git` repositories,
 enabling us to share code across teams in a web environment.
 
 ## Why do I need a GitHub account?

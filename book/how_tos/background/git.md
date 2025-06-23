@@ -11,7 +11,7 @@ many open source software projects to manage their software code base.
 
 Below are instructions to get you setup with `git` on the ICESat-2 hackweek
 JupyterHub. These are only basic instructions to get started. See the
-[Software Carpentry Git](http://swcarpentry.github.io/git-novice/02-setup/index.html)
+[Software Carpentry Git](https://swcarpentry.github.io/git-novice/02-setup.html)
 instructions for a more thorough explanation and background information.
 
 ### 1. Login to JupyterHub

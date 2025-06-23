@@ -18,7 +18,7 @@ Python software is distributed as a series of *libraries* that are called within
 
 ```{note}
 If you open a terminal on your computer, chances are if you type `python` you will find it is already installed! But it is best-practice to create separate environments or _virtual environments_ to not interfere with existing installations. This also allows you to have different projects in 
-different workspaces, each one of them with different Python versions and different packages installed. You can use {term}`conda` for this (see next sections).
+different workspaces, each one of them with different Python versions and different packages installed. You can use `conda` for this (see next sections).
 ```
 
 ## What is Conda?

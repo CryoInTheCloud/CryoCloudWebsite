@@ -1,10 +1,4 @@
 # Welcome to CryoCloud: Empowering collaborative Earth science in the cloud
-```{image} img/MinesLogos/stacked_white.png
-:alt: fishy
-:class: bg-white mb-1
-:width: 200px
-:align: right
-```
 
 CryoCloud is a NASA-supported community and cloud platform built in partnership with the International Interactive Computing Collaboration ([2i2c](https://2i2c.org/)) and designed to advance collaborative, data-intensive Earth science across all disciplines. CryoCloud embraces a broad vision—breaking down silos, fostering intellectual generosity, and empowering scientists to make the most of NASA's vast data resources through streamlined data workflows.
 
@@ -33,7 +27,7 @@ Have questions or ideas? Reach out at **cryocloud@mines.edu** or explore our ope
 
 ```{admonition} Quick links for the event
 :class: seealso
-* JupyterHub: {{ jupyterhub_url }}
-* GitHub organization: {{ github_org_url}}
-```
 
+* JupyterHub: https://hub.cryointhecloud.com
+* GitHub organization: https://github.com/CryoInTheCloud
+```
