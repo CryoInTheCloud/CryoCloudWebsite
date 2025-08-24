@@ -4,7 +4,7 @@ CryoCloud is a NASA-supported community and cloud platform built in partnership 
 
 
 ## 🚀 Our Mission  
-We aim to create an inclusive, interconnected research ecosystem that:
+We aim to create an welcoming, interconnected research ecosystem that:
 - **Reduces barriers:** Simplifies cloud adoption with cost-efficient and user-friendly tools and data workflows
 - **Fosters collaboration:** Brings together data producers, engineers, computational experts, and domain scientists in a shared virtual space  
 - **Drives innovation:** Accelerates impactful science with cutting-edge workflows and a commitment to open science  
