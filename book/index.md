@@ -17,7 +17,7 @@ This JupyterBook is your gateway to the resources, tutorials, and tools develope
 - A community ethos of sharing and collaboration, extending from Cryosphere research to the entire geoscience community
 
 ## 🌐 Join the Community  
-Since 2022, we have grown from a Cryosphere-focused project into a community ecosystem that supports hundreds of domestic and international scientists across geoscience disciplines. Our goal is to empower Earth scientists by providing the community and technical mechanisms that accelerate time to science for their broad range of data workflows. Whether you're looking to build workflows, share insights, or connect with others, you belong here.
+Since 2022, we have grown from a cryosphere-focused project into a community ecosystem that supports hundreds of domestic and international scientists **across geoscience disciplines**. Our goal is to empower Earth scientists by providing the community and technical mechanisms that accelerate time to science for their broad range of data workflows. **Whether you're looking to build workflows, share insights, or connect with others, you belong here.**
 
 ## 💡 Contact Us  
 Have questions or ideas? Reach out at **cryocloud@mines.edu** or explore our open resources on [GitHub](https://github.com/CryoInTheCloud) and [Zenodo](https://zenodo.org/communities/cryointhecloud).
