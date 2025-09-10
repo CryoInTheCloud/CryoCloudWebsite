@@ -58,6 +58,10 @@ project:
         - file: tutorials/ARCOdata_writingZarrs.ipynb
         - file: tutorials/GrIMP/GrIMP_tutorial_AGU23.ipynb
         - file: tutorials/ITS_LIVE_plot_point_timeseries.ipynb
+        - file: tutorials/SWOT_HR/index.md
+          children:
+            - file: tutorials/SWOT_HR/SWOT_HR_access.ipynb
+            - file: tutorials/SWOT_HR/SWOT_HR_w_IS2.ipynb
     - file: contributing/index.md
       children:
         - file: contributing/workflow.md
