@@ -1,0 +1,7 @@
+name: personal-image
+channels:
+  - conda-forge
+dependencies:
+  - jupyterlab
+  - mystmd
+  - jupyterlab-myst
