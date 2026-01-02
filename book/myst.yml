@@ -58,6 +58,7 @@ project:
         - file: tutorials/ARCOdata_writingZarrs.ipynb
         - file: tutorials/GrIMP/GrIMP_tutorial_AGU23.ipynb
         - file: tutorials/ITS_LIVE_plot_point_timeseries.ipynb
+        - file: tutorials/integrating_cloud_storage.ipynb
         - file: tutorials/SWOT_HR/index.md
           children:
             - file: tutorials/SWOT_HR/SWOT_HR_access.ipynb
