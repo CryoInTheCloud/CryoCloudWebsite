@@ -29,4 +29,4 @@ All live tutorial recordings available via CryoCloud YouTube. Or see the table b
 | [ITS_LIVE Python Library Demo: Time Series of Ice Flow Speed at a Point](https://book.cryointhecloud.com/its-live-plot-point-timeseries) | Recording
 | [SWOT High Resolution data search and access](https://book.cryointhecloud.com/swot-hr-access) | [Recording](https://youtu.be/lno-eJZnS0U)
 | [SWOT HR elevation comparison to ICESat-2](https://book.cryointhecloud.com/swot-hr-w-is2) | [Recording](https://youtu.be/YZKIW6rNtY4)
-| [Integrating cloud storage in CryoCloud](https://book.cryointhecloud.com/integrating_cloud_storage) | Recording
+| [Integrating cloud storage in CryoCloud](https://book.cryointhecloud.com/integrating_cloud_storage) | No recording
