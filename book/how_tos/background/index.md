@@ -28,7 +28,7 @@ Visit our [GitHub instruction page](github.md) to learn how!
 ### Slack Account
 
 All of our communication about the CryoCloud and any issues will be done using the
-(CryoCloud Slack space)[cryospherecloud.slack.com].
+[CryoCloud Slack space](cryospherecloud.slack.com).
 With your invite to the CryoCloud, you should also have received a separate
 email to join the Slack workspace. Upon accepting the invite please take a moment to update your profile picture with a fun picture of your and your info. This will help us more easily identify each other and build community.
 
