@@ -1,5 +1,5 @@
 ---
-name: Add research output to Projects Supported
+name: 🧾 Add research output to Projects Supported
 about: Request to add a manuscript, presentation, tool, or dataset to the CryoCloud Projects Supported page
 title: "Add project: <Project name>"
 labels: ["projects-supported"]
