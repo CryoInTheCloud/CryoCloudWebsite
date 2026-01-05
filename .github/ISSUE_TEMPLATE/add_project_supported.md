@@ -1,6 +1,6 @@
 ---
-name: Add Project to Projects Supported
-about: Request to add a project to the CryoCloud Projects Supported page
+name: Add research output to Projects Supported
+about: Request to add a manuscript, presentation, tool, or dataset to the CryoCloud Projects Supported page
 title: "Add project: <Project name>"
 labels: ["projects-supported"]
 assignees: []
