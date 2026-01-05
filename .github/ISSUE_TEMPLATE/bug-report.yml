@@ -1,0 +1,48 @@
+name: 🐛 Bug Report
+description: Report a problem in an existing tutorial or workflow
+title: "[Bug]: <brief summary>"
+labels: [bug]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please describe the issue you’re experiencing so we can reproduce and fix it.
+
+  - type: input
+    id: notebook
+    attributes:
+      label: Affected Notebook or Page
+      placeholder: "Example: notebooks/atl06-seaice.ipynb"
+
+  - type: textarea
+    id: error
+    attributes:
+      label: Describe the Problem
+      placeholder: |
+        When I run the notebook, I get an ImportError on SlideRule even though it’s in the environment file...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      placeholder: |
+        1. Go to the tutorial page
+        2. Launch in Binder
+        3. Run the third cell
+        4. Observe the error...
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error Logs or Traceback (if available)
+      render: shell
+
+  - type: input
+    id: environment
+    attributes:
+      label: Platform (e.g., Binder, JupyterHub, Local)
+      placeholder: "CryoCloud JupyterHub, Local, etc."
