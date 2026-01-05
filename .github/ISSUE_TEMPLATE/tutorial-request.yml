@@ -1,0 +1,59 @@
+name: 🚀 New Tutorial Request
+description: Suggest a new tutorial or example workflow for the CryoCloud JupyterBook
+title: "[Tutorial]: <brief title of proposed tutorial>"
+labels: [tutorial]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a new tutorial! Please fill out the form below to help us understand and implement your idea.
+
+  - type: input
+    id: topic
+    attributes:
+      label: Tutorial Topic
+      description: What is the focus area or use case? (e.g., ATL06 sea ice, SlideRule, ICESat-2 + SWOT fusion)
+      placeholder: "Example: Using ATL07 for ridge detection"
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description of Proposed Tutorial
+      description: Please describe what this tutorial would teach. Include relevant data products, tools, and scientific goals.
+      placeholder: |
+        This tutorial will demonstrate how to download and filter ATL07 data to identify leads and ridges in sea ice...
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Why is this tutorial valuable?
+      description: Help us understand the target audience and what gap it fills.
+      placeholder: "This would help new users explore sea ice features using photon data..."
+
+  - type: textarea
+    id: references
+    attributes:
+      label: Related Resources or References
+      description: List any papers, GitHub repos, or prior work that could guide development.
+
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Expected Difficulty
+      options:
+        - Beginner
+        - Intermediate
+        - Advanced
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Are you able to help create this tutorial?
+      options:
+        - label: I would like to author or co-author the tutorial
+        - label: I can help review or test the tutorial
+        - label: I cannot help directly, just sharing the idea
