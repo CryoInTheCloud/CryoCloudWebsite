@@ -36,9 +36,14 @@ project:
         - file: how_tos/data_access/index.md
           children:
             - file: how_tos/data_access/Cloud_Sentinel2_access.ipynb
-            - file: how_tos/data_access/Instructions_for_configuring_AWS_S3_bucket.ipynb
-            - file: how_tos/data_access/CryoCloudScratchBucket.ipynb
-            - file: external/ICESat2_Earthaccess.ipynb
+            - file: https://raw.githubusercontent.com/NASA-Openscapes/earthdata-cloud-cookbook/main/how-tos/access-data/access-cloud-python.ipynb
+              title: Accessing data with earthaccess
+              description: "Source: NASA Openscapes Earthdata Cloud Cookbook"
+        - file: how_tos/data_storage/index.md
+          children:
+            - file: how_tos/data_storage/CryoCloudScratchBucket.ipynb
+            - file: how_tos/data_storage/Instructions_for_configuring_AWS_S3_bucket.ipynb
+            - file: how_tos/data_storage/integrating_cloud_storage.ipynb
     - file: tutorials/index.md
       children:
         - file: tutorials/cryocloud_demo/CryoCloud_demo.ipynb
