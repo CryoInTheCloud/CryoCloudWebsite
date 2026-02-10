@@ -39,6 +39,7 @@ project:
             - file: how_tos/data_access/Instructions_for_configuring_AWS_S3_bucket.ipynb
             - file: how_tos/data_access/CryoCloudScratchBucket.ipynb
             - file: external/ICESat2_Earthaccess.ipynb
+            - file: how_tos/data_access/L1B_Waveforms_tutorial.ipynb
     - file: tutorials/index.md
       children:
         - file: tutorials/cryocloud_demo/CryoCloud_demo.ipynb
