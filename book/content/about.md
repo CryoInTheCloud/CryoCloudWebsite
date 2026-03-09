@@ -68,7 +68,7 @@ CryoCloud first and foremost helps to connect researchers and build community by
 
 ### **Easy Access to Resources**
 CryoCloud provides free access to cloud computing resources for verified geoscientists brought in through our workshops, including:
-- Scalable JupyterHub instances with up to 16 CPU/128 GB of RAM and NVIDIA 16 GB GPUs.
+- Scalable JupyterHub instances with up to 16 CPU/128 GB of RAM or NVIDIA 16 GB GPUs.
 - The ability to bring your own cloud credits for larger-scale computations.
 - 10 GB of data storage, with some additional temporary storage options.
 - [Soon] Long-term storage support for derived datasets through collaboration with Radiant Earth.
@@ -91,4 +91,4 @@ CryoCloud hosts workshops, hackathons, and training sessions designed to:
 
 CryoCloud aims to support the next generation of geoscience research by creating a culture of **openness**, **collaboration**, and **innovation**. Our work supports researchers in achieving their goals while inspiring new tools and approaches that advance Earth science as a whole.
 
-With CryoCloud, geoscientists can focus on what matters most: making discoveries that drive progress and understanding.
+With CryoCloud, community members can focus on what they do best without needing to become a cloud engineer or software developer to access the community, expertise, and infrastructure they need for their geoscience projects.
