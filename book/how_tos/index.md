@@ -21,7 +21,8 @@ will be useful for working on a JupyterHub, and examples for accessing data from
 
 ### [Data Storage](https://book.cryointhecloud.com/index-5)
 [Using the CryoCloud S3 scratch bucket](https://book.cryointhecloud.com/cryocloudscratchbucket) \
-[Setting up an AWS S3 bucket](https://book.cryointhecloud.com/instructions-for-configuring-aws-s3-bucket) 
+[Setting up an AWS S3 bucket](https://book.cryointhecloud.com/instructions-for-configuring-aws-s3-bucket) \
+[Integrating cloud storage with CryoCloud](https://book.cryointhecloud.com/integrating-cloud-storage)
 
 These pages are a work in progress and we welcome ideas for improvements or pages that would be helpful to 
 have included here.
