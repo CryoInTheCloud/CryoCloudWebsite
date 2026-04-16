@@ -9,7 +9,7 @@ project:
   github: https://github.com/CryoInTheCloud/CryoCloudWebsite
   license: MIT
   open_access: true
-  funding: "This work was funded by the NASA Transform to Open Science program (grant 80NSSC23K0002), and the NASA Cryosphere Program and ICESat-2 Project Science Office (grant 80NSSC22K1877)."
+  funding: "This work was funded by the NASA Earth Science Data Systems, Cryosphere Program, ICESat-2 Project Science Office, and Transform to Open Science program (grants 80NSSC22K1877, 80NSSC25K7940, 80NSSC23K0578, and 80NSSC23K0002)."
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 
   toc:
@@ -71,9 +71,9 @@ project:
     - file: contributing/index.md
       children:
         - file: contributing/workflow.md
+    - file: reference/projects_supported.ipynb
     - title: References
       children:
-        - file: reference/projects_supported.ipynb
         - file: reference/IS2-resources.md
         - file: reference/open_science.md
         - file: reference/open_source_software.md
