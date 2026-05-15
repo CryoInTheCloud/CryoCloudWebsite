@@ -37,8 +37,7 @@ project:
           children:
             - file: how_tos/data_access/Cloud_Sentinel2_access.ipynb
             - file: how_tos/data_access/L1B_Waveforms_tutorial.ipynb
-            - title: Access data with earthaccess
-              url: https://github.com/NASA-Openscapes/earthdata-cloud-cookbook/blob/main/how-tos/access-data/access-cloud-python.ipynb
+            - file: external/access-cloud-python.ipynb
         - file: how_tos/data_storage/index.md
           children:
             - file: how_tos/data_storage/CryoCloudScratchBucket.ipynb
@@ -63,7 +62,6 @@ project:
         - file: tutorials/ARCOdata_writingZarrs.ipynb
         - file: tutorials/GrIMP/GrIMP_tutorial_AGU23.ipynb
         - file: tutorials/ITS_LIVE_plot_point_timeseries.ipynb
-        - file: tutorials/integrating_cloud_storage.ipynb
         - file: tutorials/SWOT_HR/index.md
           children:
             - file: tutorials/SWOT_HR/SWOT_HR_access.ipynb
