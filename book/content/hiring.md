@@ -18,8 +18,4 @@ kernelspec:
 
 | Position | Date posted | Priority consideration|
 | ---  | --- | --- |
-[Postdoctoral Researcher or Research Specialist](https://book.cryointhecloud.com/postdoc) | June 5, 2026 June 30, 2026
-
-```{code-cell} ipython3
-
-```
+|[Postdoctoral Researcher or Research Specialist](https://book.cryointhecloud.com/postdoc) | June 5, 2026 | June 30, 2026 |
