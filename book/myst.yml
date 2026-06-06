@@ -21,6 +21,9 @@ project:
     - file: content/Code_of_Conduct.md
     - file: content/citing_cryocloud.md
     - file: recorded/index.md
+    - file: content/hiring.md
+      children:
+        - file: content/postdoc.md
     - file: how_tos/index.md
       children:
         - file: how_tos/background/index.md
