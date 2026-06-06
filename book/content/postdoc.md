@@ -1,18 +1,4 @@
 ---
-jupytext:
-  formats: md:myst
-  text_representation:
-    extension: .md
-    format_name: myst
-    format_version: 0.13
-    jupytext_version: 1.19.1
-kernelspec:
-  name: python3
-  display_name: Python 3 (ipykernel)
-  language: python
----
-
----
 title: Postdoctoral Researcher or Research Specialist Opportunity
 subtitle: University of Maryland ESSIC | NASA Goddard Space Flight Center
 date: 2026-06-05
