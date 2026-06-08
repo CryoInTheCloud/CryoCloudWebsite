@@ -15,7 +15,7 @@ authors:
 
 +++
 
-The **StratusGeo JupyterHub** (formerly *CryoCloud*; https://book.cryointhecloud.com) team invites applications for a **remote Postdoctoral Researcher** (preferred) or **Research Specialist** position jointly affiliated with the University of Maryland Earth System Science Interdisciplinary Center (ESSIC) and NASA Goddard Space Flight Center Cryospheric Laboratory.
+The **StratusGeo JupyterHub** (formerly *CryoCloud*; https://book.cryointhecloud.com) team invites applications for a **remote Postdoctoral Researcher** (preferred) or **Research Specialist** position jointly affiliated with the University of Maryland Earth System Science Interdisciplinary Center (ESSIC) and NASA Goddard Space Flight Center Cryospheric Sciences Laboratory.
 
 This is a unique opportunity that bridges **geoscience research**, **spatial statistics**, **open-source software**, and **community leadership**. The successful candidate will divide their time between scientific work supporting the NASA/CNES Surface Water and Ocean Topography (SWOT) mission, their own research pursuits, and serving as a community leader for the StratusGeo JupyterHub, with the balance depending on the candidate's strengths and interests.
 
