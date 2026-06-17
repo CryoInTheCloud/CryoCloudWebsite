@@ -43,7 +43,7 @@ project:
             - file: external/access-cloud-python.ipynb
         - file: how_tos/data_storage/index.md
           children:
-            - file: how_tos/data_storage/CryoCloudScratchBucket.ipynb
+            - file: how_tos/data_storage/CryoCloud_Scratch_Bucket.ipynb
             - file: how_tos/data_storage/Instructions_for_configuring_AWS_S3_bucket.ipynb
             - file: how_tos/data_storage/integrating_cloud_storage.ipynb
     - file: tutorials/index.md
