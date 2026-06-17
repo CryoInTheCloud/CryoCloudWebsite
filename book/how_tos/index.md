@@ -20,9 +20,9 @@ will be useful for working on a JupyterHub, and examples for accessing data from
 [Leveraging earthaccess](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/how-tos/access-data/access-cloud-python.html) 
 
 ### [Data Storage](https://book.cryointhecloud.com/index-5)
-[Using the CryoCloud S3 scratch bucket](https://book.cryointhecloud.com/cryocloudscratchbucket) \
-[Setting up an AWS S3 bucket](https://book.cryointhecloud.com/instructions-for-configuring-aws-s3-bucket) \
-[Integrating cloud storage with CryoCloud](https://book.cryointhecloud.com/integrating-cloud-storage)
+[Using the CryoCloud S3 scratch bucket](/cryocloud-scratch-bucket) \
+[Setting up an AWS S3 bucket](/instructions-for-configuring-aws-s3-bucket) \
+[Integrating cloud storage with CryoCloud](/integrating-cloud-storage)
 
 These pages are a work in progress and we welcome ideas for improvements or pages that would be helpful to 
 have included here.
