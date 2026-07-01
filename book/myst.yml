@@ -40,7 +40,7 @@ project:
           children:
             - file: how_tos/data_access/Cloud_Sentinel2_access.ipynb
             - file: how_tos/data_access/L1B_Waveforms_tutorial.ipynb
-            - file: external/access-cloud-python.ipynb
+            - file: how_tos/data_access/earthaccess.ipynb
         - file: how_tos/data_storage/index.md
           children:
             - file: how_tos/data_storage/CryoCloudScratchBucket.ipynb
