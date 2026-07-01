@@ -23,6 +23,6 @@ Instructions for using those are here. However, we cannot support >50 GB of data
 setting up your own personal storage bucket when you have more data you want to store than what we provide for free.
 
 ## Data storage notebooks covered here
-* [Using the CryoCloud S3 scratch bucket](https://book.cryointhecloud.com/cryocloud-scratch-bucket)
-* [Setting up an AWS S3 bucket](https://book.cryointhecloud.com/instructions-for-configuring-aws-s3-bucket)
-* [Introduction to integrating cloud storage](https://book.cryointhecloud.com/integrating-cloud-storage)
+* [Using the CryoCloud S3 scratch bucket](/cryocloud-scratch-bucket)
+* [Setting up an AWS S3 bucket](/instructions-for-configuring-aws-s3-bucket)
+* [Introduction to integrating cloud storage](/integrating-cloud-storage)
