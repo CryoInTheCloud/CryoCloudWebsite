@@ -7,15 +7,16 @@ on:
 jobs:
   add-preview:
     runs-on: ubuntu-latest
-    # This workflow accesses secrets and checks out a PR, so only run if labelled
+    # This workflow accesses secrets and checks out a PR, so only run if labelled by a maintainer
     # https://securitylab.github.com/research/github-actions-preventing-pwn-requests/
     if: contains(github.event.pull_request.labels.*.name, 'preview')
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         ref: ${{ github.event.pull_request.head.sha }}
+        allow-unsafe-pr-checkout: true
 
     - name: Configure NASA Earthdata Login
       env:
