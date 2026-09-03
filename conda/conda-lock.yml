@@ -8679,17 +8679,17 @@ package:
   category: main
   optional: false
 - name: pymdown-extensions
-  version: 10.21.2
+  version: 11.0.1
   manager: conda
   platform: linux-64
   dependencies:
     markdown: '>=3.6'
     python: '>=3.10'
     pyyaml: ''
-  url: https://conda.anaconda.org/conda-forge/noarch/pymdown-extensions-10.21.2-pyhd8ed1ab_0.conda
+  url: https://conda.anaconda.org/conda-forge/noarch/pymdown-extensions-11.0.1-pyhd8ed1ab_0.conda
   hash:
-    md5: 8e693ba2664eaa3306d7084642e2e4a2
-    sha256: f0513cb5a1ad722025771e7c5a45fa163dfab965d608a82d058cde47abb02d48
+    md5: 4ac2447c5296879a6cbeb444ca32fb2c
+    sha256: 8a06e2490247e73f3d8cf906ca5ad0f9ec484797b68c93c5dadad7e568320dcc
   category: main
   optional: false
 - name: pyopencl
