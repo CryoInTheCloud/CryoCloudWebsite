@@ -49,8 +49,8 @@ project:
     - file: tutorials/index.md
       children:
         - file: tutorials/cryocloud_demo/CryoCloud_demo.ipynb
-        - file: tutorials/IS2_cloud_Landsat_integration.ipynb
-        - file: tutorials/ICESat2_ATL15_dhdt/ICESat2_ATL15_dhdt.ipynb
+        - file: tutorials/IS2_Landsat_integration/IS2_cloud_Landsat_integration.ipynb
+        - file: tutorials/IS2_ATL15_dhdt/ICESat2_ATL15_dhdt.ipynb
         - file: tutorials/IS2_ATL15_surface_height_anomalies/IS2_ATL15_surface_height_anomalies.ipynb
         - file: external/ICESat2_ATL10-h5coro_large_scale_time_series.ipynb
         - file: tutorials/NASA-Earthdata-Cloud-Access/index.md
@@ -61,14 +61,15 @@ project:
             - file: tutorials/NASA-Earthdata-Cloud-Access/4.icepyx.ipynb
             - file: tutorials/NASA-Earthdata-Cloud-Access/4b.icepyx-ATL06.ipynb
         - file: tutorials/SlideRule_applications/SlideRule_applications.ipynb
-        - file: tutorials/dask_for_geoscientists.ipynb
-        - file: tutorials/ARCOdata_writingZarrs.ipynb
+        - file: tutorials/Dask/dask_for_geoscientists.ipynb
+        - file: tutorials/Zarr_with_ApRES/ARCOdata_writingZarrs.ipynb
         - file: tutorials/GrIMP/GrIMP_tutorial_AGU23.ipynb
-        - file: tutorials/ITS_LIVE_plot_point_timeseries.ipynb
-        - file: tutorials/SWOT_HR/index.md
+        - file: tutorials/ITS_LIVE/ITS_LIVE_plot_point_timeseries.ipynb
+        - file: tutorials/SWOT/index.md
           children:
-            - file: tutorials/SWOT_HR/SWOT_HR_access.ipynb
-            - file: tutorials/SWOT_HR/SWOT_HR_w_IS2.ipynb
+            - file: tutorials/SWOT_HR/0_SWOT_LRHR_access.ipynb
+            - file: tutorials/SWOT_HR/1_SWOT_HR_coverage.ipynb
+            - file: tutorials/SWOT_HR/2_SWOT_HR_vs_ICESat2.ipynb
     - file: contributing/index.md
       children:
         - file: contributing/workflow.md
