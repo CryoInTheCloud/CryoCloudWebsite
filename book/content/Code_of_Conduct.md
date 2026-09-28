@@ -1,10 +1,10 @@
-# CryoCloud Code of Conduct
+# StratusGeo Code of Conduct
 
 ## Reporting a Code of Conduct Violation
 
-If you are the subject of unacceptable behavior or have witnessed any such behavior, please immediately notify a [CryoCloud team member](https://github.com/orgs/CryoInTheCloud/teams/cryocloudadvanced). 
+If you are the subject of unacceptable behavior or have witnessed any such behavior, please immediately notify a [StratusGeo team member](https://github.com/orgs/CryoInTheCloud/teams/cryocloudadvanced). 
 
-Notification should be done by contacting a CryoCloud team member on site or by emailing Tasha Snow at [tsnow03@umd.edu](mailto:tsnow03@umd.edu), Joanna Millstein at [joanna.millstein@mines.edu](mailto:joanna.millstein@mines.edu), Wilson Sauthoff at [sauthoff@mines.edu](mailto:sauthoff@mines.edu), or Matthew Siegfried at [siegfried@mines.edu](mailto:siegfried@mines.edu).
+Notification should be done by contacting a StratusGeo team member on site or by emailing Tasha Snow at [tsnow03@umd.edu](mailto:tsnow03@umd.edu), Derek Pickell at [derekp@umd.edu](mailto:derekp@umd.edu), Wilson Sauthoff at [sauthoff@mines.edu](mailto:sauthoff@mines.edu), or Matthew Siegfried at [siegfried@mines.edu](mailto:siegfried@mines.edu).
 
 All complaints will be reviewed and investigated promptly and fairly. All community leaders are obligated to respect the privacy and security of the reporter of any incident.
 
@@ -12,11 +12,11 @@ Anyone experiencing or witnessing behavior that constitutes an immediate or seri
 
 ## Purpose
 
-A primary goal of CryoCloud is to provide a welcoming space to all of our community members, with the most varied backgrounds and expertises possible. As such, we are committed to providing a friendly, safe, and welcoming environment for all. We pledge to act and interact in ways that contribute to an open, welcoming, and healthy community.
+A primary goal of StratusGeo is to provide a welcoming space to all of our community members, with the most varied backgrounds and expertises possible. As such, we are committed to providing a friendly, safe, and welcoming environment for all. We pledge to act and interact in ways that contribute to an open, welcoming, and healthy community.
 
-This code of conduct outlines our expectations for all those who participate in our community, as well as the consequences for unacceptable behavior.  A supplemental goal of this Code of Conduct is to increase open science citizenship by encouraging participants to recognize and strengthen the relationships between our actions and their effects on our community. We invite all those who participate in CryoCloud to help us create safe and positive experiences for everyone.
+This code of conduct outlines our expectations for all those who participate in our community, as well as the consequences for unacceptable behavior. A supplemental goal of this Code of Conduct is to increase open science citizenship by encouraging participants to recognize and strengthen the relationships between our actions and their effects on our community. We invite all those who participate in StratusGeo to help us create safe and positive experiences for everyone.
 
-We invite all those who participate in CryoCloud to help us create safe and positive experiences for everyone. If you see someone who is making an extra effort to ensure our community is welcoming, friendly, and encourages all participants to contribute to the fullest extent, we want to know.
+We invite all those who participate in StratusGeo to help us create safe and positive experiences for everyone. If you see someone who is making an extra effort to ensure our community is welcoming, friendly, and encourages all participants to contribute to the fullest extent, we want to know.
 
 [Mines' Statement of Equal Opportunity, Access and Nondiscrimination](https://www.mines.edu/equal-opportunity/)
 
@@ -71,8 +71,8 @@ Community leaders have the right and responsibility to remove, edit, or reject c
 This Code of Conduct applies both within project spaces and in public spaces when an individual is participating in the project or its community. 
 
 ### Key Definitions 
-* A **participant** is someone who has posted a comment or question on the [CryoCloud GitHub](https://github.com/CryoInTheCloud), [CryoCloud Slack](https://cryospherecloud.slack.com), or chat features provided by CryoCloud to the community during training events. Anyone who interacts with CryoCloud is a participant. 
-* A **contributor** is an individual who has made a pull request or code commit to [CryoCloud GitHub](https://github.com/CryoInTheCloud). 
+* A **participant** is someone who has posted a comment or question on the [StratusGeo GitHub](https://github.com/CryoInTheCloud), [StratusGeo Slack](https://cryospherecloud.slack.com), or chat features provided by StratusGeo to the community during training events. Anyone who interacts with StratusGeo is a participant. 
+* A **contributor** is an individual who has made a pull request or code commit to [StratusGeo GitHub](https://github.com/CryoInTheCloud). 
 * A **moderator** is either (1) someone who is appointed to monitor the chat and respond to questions, comments and incidents during a training event, or (2) someone who has been given moderation access on GitHub. 
     * [GitHub defines a moderator](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#organization-moderators) as “Moderators are organization members who, in addition to their permissions as members, are allowed to block and unblock non-member contributors, set interaction limits, and hide comments in public repositories owned by the organization.” GitHub moderators can hide comments, pull requests, and issues; block or unblock contributors; and limit interactions for certain users.
     * GitHub resources for moderation can be [found here](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/managing-moderators-in-your-organization#about-organization-moderators). 
@@ -82,50 +82,50 @@ This Code of Conduct applies both within project spaces and in public spaces whe
 #### Summary 
 
 * First code of conduct violation 
-    * **Participant**: Comment removed + contacted by CryoCloud moderator
-    * **Contributor**:  Pull request (PR) not accepted and removed from GitHub + contacted by CryoCloud moderator
+    * **Participant**: Comment removed + contacted by StratusGeo moderator
+    * **Contributor**:  Pull request (PR) not accepted and removed from GitHub + contacted by StratusGeo moderator
 * Second code of conduct violation
-    * **Participant**: Comment removed + contacted by CryoCloud moderator + ban for 90 days from space where offense occurred
-    * **Contributor**: PR not accepted and removed from GitHub + contacted by CryoCloud moderator + banned from PRs for 90 days
+    * **Participant**: Comment removed + contacted by StratusGeo moderator + ban for 90 days from space where offense occurred
+    * **Contributor**: PR not accepted and removed from GitHub + contacted by StratusGeo moderator + banned from PRs for 90 days
 * Third code of conduct violation
-    * **Participant**: Comment removed + contacted by CryoCloud moderator + permanent ban from all CryoCloud spaces 
-    * **Contributor**: PR not accepted and removed from GitHub + contacted by CryoCloud moderator + permanent ban from GitHub and other CryoCloud Slack
+    * **Participant**: Comment removed + contacted by StratusGeo moderator + permanent ban from all StratusGeo spaces 
+    * **Contributor**: PR not accepted and removed from GitHub + contacted by StratusGeo moderator + permanent ban from GitHub and other StratusGeo Slack
 * Commit of Malicious Code
-    * Immediate and permanent ban from all CryoCloud spaces
+    * Immediate and permanent ban from all StratusGeo spaces
 * Threat of violence against an individual or group
-    * Immediate and permanent ban from all CryoCloud spaces
+    * Immediate and permanent ban from all StratusGeo spaces
 
 #### Full Text
 ##### **Participants**
 
-1. If a participant makes a comment which is contrary to the Code of Conduct during any CryoCloud meeting, that comment will be removed promptly from the space. 
+1. If a participant makes a comment which is contrary to the Code of Conduct during any StratusGeo meeting, that comment will be removed promptly from the space. 
      * A community moderator will, as soon as possible, contact the individual who posted the content. If needed, they will provide clarity around the nature of the violation, and an explanation of why the behavior was inappropriate. A public apology may be requested.
      * The participant will be allowed to continue participating in other spaces, and during other meetings.
      * If a participant makes additional comments during the same event and/or in the same digital space (e.g., discussion thread on GitHub or Slack channel) prior to being contacted by a community moderator, the comment and the participant will be removed from the space, until a community moderator can contact them. 
 2. If a participant violates the Code of Conduct for a **second time**, they will be contacted by a community moderator and informed of a temporary ban from the spaces in which the harm was perpetuated. 
      * Temporary bans will extend only to the Slack in which the harm occurred (e.g., removed from Slack but not banned from GitHub). 
-     * After 90 days, the participant may request to be included in that digital space again. Admission into the digital space will be determined by the CryoCloud team on a case-by-case basis. 
-3. If a participant violated the Code of Conduct a **third time, they will be permanently banned and removed from all CryoCloud spaces**, including digital communication channels, community meetings, and training events.  
+     * After 90 days, the participant may request to be included in that digital space again. Admission into the digital space will be determined by the StratusGeo team on a case-by-case basis. 
+3. If a participant violated the Code of Conduct a **third time, they will be permanently banned and removed from all StratusGeo spaces**, including digital communication channels, community meetings, and training events.  
      * A permanent ban includes avoiding interactions in community spaces as well as external channels like social media. 
-4. If a participant **seriously violates community standards**, such as threatening violence, they will be immediately and permanently removed from all CryoCloud spaces, and the harmful comment will be removed as quickly as possible. 
+4. If a participant **seriously violates community standards**, such as threatening violence, they will be immediately and permanently removed from all StratusGeo spaces, and the harmful comment will be removed as quickly as possible. 
      * A permanent ban includes avoiding interactions in community spaces as well as external channels like social media. 
 
 ##### **Contributors on GitHub**
 
 1. If a contributor submits a pull request (PR) containing information which is contrary to the Code of Conduct that PR will be denied.
      * A community moderator will, as soon as possible, contact the individual who posted the content. If needed, they will provide clarity around the nature of the violation, and an explanation of why the behavior was inappropriate.
-     * No other PRs by that participant will be accepted until the individual has been contacted by a CryoCloud community moderator. 
+     * No other PRs by that participant will be accepted until the individual has been contacted by a StratusGeo community moderator. 
 2. If a contributor submits a PR which violates the Code of Conduct for a **second time**, they will be contacted by a community moderator and informed of a 90-day temporary ban from submitting PRs. 
      * Temporary bans will extend only to the area in which the harm occurred, in this case, no PRs will be accepted for 90 days but the individual may continue to comment in Discussions, Issues, in Slack and attend virtual meetings. 
-     * After 90 days, the contributor’s PRs will be accepted once again, subject to review by the [CryoCloud GitHub team](https://github.com/orgs/CryoInTheCloud/teams/cryocloudadvanced). 
-3. If a contributor submits a PR which violates the Code of Conduct for a **third time, they will be permanently banned and removed from all CryoCloud spaces**, including digital communication channels and community meetings.  
+     * After 90 days, the contributor’s PRs will be accepted once again, subject to review by the [StratusGeo GitHub team](https://github.com/orgs/CryoInTheCloud/teams/cryocloudadvanced). 
+3. If a contributor submits a PR which violates the Code of Conduct for a **third time, they will be permanently banned and removed from all StratusGeo spaces**, including digital communication channels and community meetings.  
      * A permanent ban includes avoiding interactions in community spaces as well as external channels like social media. 
-4. If a contributor **submits a PR which is harmful to our digital spaces (e.g., malicious code), they will be immediately and permanently banned** from all CryoCloud digital spaces including but not limited to GitHub and Slack. They will also not be permitted to participate in CryoCloud community meetings or training events. 
+4. If a contributor **submits a PR which is harmful to our digital spaces (e.g., malicious code), they will be immediately and permanently banned** from all StratusGeo digital spaces including but not limited to GitHub and Slack. They will also not be permitted to participate in StratusGeo community meetings or training events. 
 
 
 ## Attribution
 
-CyroCloud modeled its Code of Conduct from [NASA Transform to Open Science (TOPS) Code of Conduct](https://github.com/nasa/Transform-to-Open-Science/blob/main/CODE_OF_CONDUCT.md). 
+StratusGeo modeled its Code of Conduct from [NASA Transform to Open Science (TOPS) Code of Conduct](https://github.com/nasa/Transform-to-Open-Science/blob/main/CODE_OF_CONDUCT.md). 
 
 TOPS drew from multiple sources including:
 

@@ -30,7 +30,7 @@ git pull
 git checkout -b newbranchname
 
 ## develop content: write prose in markdown, code in R and Python
-## render your content to check for problems after you have loaded the cryocloud environment
+## render your content to check for problems after you have loaded the StratusGeo environment
 jupyter-book build yourbookname/
 
 ## commit changes

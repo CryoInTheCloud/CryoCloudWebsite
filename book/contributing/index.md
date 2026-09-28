@@ -2,10 +2,10 @@
 
 ## How we work
 
-The CryoCloud Community is collaborating to create this JupyterBook, with 
+The StratusGeo Community is collaborating to create this JupyterBook, with 
 an eye towards how others could collaborate with us in the future.
 
-The [CryoCloud Code of Conduct](../content/Code_of_Conduct) describes how we 
+The [StratusGeo Code of Conduct](../content/Code_of_Conduct) describes how we 
 work to create a positive environment through 
 continual learning, practice, and iteration.
 
@@ -22,7 +22,7 @@ Our style of working is greatly influenced by:
 -   [The Turing Way Community Handbook](https://the-turing-way.netlify.app/community-handbook/community-handbook.html)
 -   [The Carpentries Curriculum Development Handbook](https://carpentries.github.io/curriculum-development)
 
-The CryoCloud JupyterBook is made with our [2i2c](https://2i2c.org/) JupyterHub. 
+The StratusGeo JupyterBook is made with our [2i2c](https://2i2c.org/) JupyterHub. 
 
 **Learn how to contribute to our JupyterBook or any other GitHub project in the [Workflow](workflow) section.**
 

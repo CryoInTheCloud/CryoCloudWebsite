@@ -4,7 +4,7 @@
 
 [Jupyter-collaboration](https://jupyterlab-realtime-collaboration.readthedocs.io/en/latest/) Jupyter extension allows co-coding functionality similar to how GoogleDocs works. It is called Real-Time Collaboration (RTC) and is synchronous only: your collaborators will only be able to code in your document if you have the same document open in RTC mode in your server.
 
-## Activate jupyter-collaboration in CryoCloud
+## Activate jupyter-collaboration in StratusGeo
 
 There are two options you can take for turning co-coding capabilities on for the times when you would like to co-code with others:
 
@@ -63,4 +63,4 @@ The **RTC link for a notebook never changes between sessions.** Hypothetically i
 
 If you are having problems where you've provided a link but the work your collaborator is doing on your notebook isn't immediately showing for you, you may be using a notebook that doesn't have RTC (real-time collaboration enabled) enabled. Follow `To start collaborating` above and recopy the link to fix.
 
-Coming soon: Can non-CryoCloud collaborators use an RTC link?
+Coming soon: Can non-StratusGeo collaborators use an RTC link?
