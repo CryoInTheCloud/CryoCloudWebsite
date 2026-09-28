@@ -1,7 +1,7 @@
 # How To
 
 We welcome all types of learners to our cloud computing platform, from professional software 
-developers to people just getting started. Here we provide guidance on how to join CryoCloud, background work that 
+developers to people just getting started. Here we provide guidance on how to join StratusGeo, background work that 
 will be useful for working on a JupyterHub, and examples for accessing data from within the cloud. This is a list of our "How To" guides which can also be accessed via the contents list to the left:
 
 ### [Background Work](https://book.cryointhecloud.com/index-3)
@@ -20,9 +20,9 @@ will be useful for working on a JupyterHub, and examples for accessing data from
 [Leveraging earthaccess](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/how-tos/access-data/access-cloud-python.html) 
 
 ### [Data Storage](https://book.cryointhecloud.com/index-5)
-[Using the CryoCloud S3 scratch bucket](/cryocloud-scratch-bucket) \
+[Using the StratusGeo S3 scratch bucket](/cryocloud-scratch-bucket) \
 [Setting up an AWS S3 bucket](/instructions-for-configuring-aws-s3-bucket) \
-[Integrating cloud storage with CryoCloud](/integrating-cloud-storage)
+[Integrating cloud storage with StratusGeo](/integrating-cloud-storage)
 
 These pages are a work in progress and we welcome ideas for improvements or pages that would be helpful to 
 have included here.

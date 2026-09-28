@@ -1,6 +1,6 @@
 # Fundamentals 
 
-Based on previous experience, participants gain better access to all of the tools CryoCloud 
+Based on previous experience, participants gain better access to all of the tools StratusGeo 
 has to offer after they have a preliminary understand of some of the foundational tools of 
 data science workflows. These skills include knowing how to:
 
@@ -17,19 +17,19 @@ We strongly encourage participants to review this two-day recorded fundamentals 
 
 ```{attention}
 Please make sure to find some time to go through the below material before
-orientation and getting onto the CryoCloud.
+orientation and getting onto the StratusGeo.
 ```
 
 ### GitHub Account
 
-Everyone attending the CryoCloud Orientation will need to obtain a GitHub account and request access to join the CryoCloud organization and CryoCloudUser team.
+Everyone attending the StratusGeo Orientation will need to obtain a GitHub account and request access to join the StratusGeo organization and StratusGeoUser team.
 Visit our [GitHub instruction page](github.md) to learn how!
 
 ### Slack Account
 
-All of our communication about the CryoCloud and any issues will be done using the
-[CryoCloud Slack space](cryospherecloud.slack.com).
-With your invite to the CryoCloud, you should also have received a separate
+All of our communication about the StratusGeo and any issues will be done using the
+[StratusGeo Slack space](cryospherecloud.slack.com).
+With your invite to the StratusGeo, you should also have received a separate
 email to join the Slack workspace. Upon accepting the invite please take a moment to update your profile picture with a fun picture of your and your info. This will help us more easily identify each other and build community.
 
 ### JupyterHub
@@ -39,7 +39,7 @@ Visit our [Introduction to Jupyter Hub](./jupyterhub.md) page to learn more!
 
 ### Git
 
-All content for the CryoCloud will be shared via GitHub and interacting with the
+All content for the StratusGeo will be shared via GitHub and interacting with the
 website will be done via the `git` command. Visit [Setting up the `git` command](./git.md)
 to learn how to configure that!
 

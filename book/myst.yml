@@ -1,9 +1,9 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  title: CryoCloud
+  title: StratusGeo
   jupyter: true
-  description: "Welcome to CryoCloud: Empowering collaborative Earth science in the cloud"
+  description: "Welcome to StratusGeo: Empowering collaborative Earth science in the cloud"
   # keywords: []
   # authors:
   github: https://github.com/CryoInTheCloud/CryoCloudWebsite
@@ -19,7 +19,7 @@ project:
     - file: content/Getting_Started.md
     - file: content/hub_best_practices.md
     - file: content/Code_of_Conduct.md
-    - file: content/citing_cryocloud.md
+    - file: content/citing_stratusgeo.md
     - file: recorded/index.md
     - file: content/hiring.md
       children:
@@ -48,7 +48,7 @@ project:
             - file: how_tos/data_storage/integrating_cloud_storage.ipynb
     - file: tutorials/index.md
       children:
-        - file: tutorials/cryocloud_demo/CryoCloud_demo.ipynb
+        - file: tutorials/stratusgeo_demo/StratusGeo_demo.ipynb
         - file: tutorials/IS2_cloud_Landsat_integration.ipynb
         - file: tutorials/ICESat2_ATL15_dhdt/ICESat2_ATL15_dhdt.ipynb
         - file: tutorials/IS2_ATL15_surface_height_anomalies/IS2_ATL15_surface_height_anomalies.ipynb
@@ -82,7 +82,7 @@ project:
 
 site:
   template: book-theme
-  title: CryoCloud Website
+  title: StratusGeo Website
   options:
   #   favicon: favicon.ico
     logo: logo.png

@@ -6,12 +6,12 @@ helps, and credit will always be given.
 - Report bugs, request features or submit feedback as a [GitHub Issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues).
 - Make fixes, add content or improvements using [GitHub Pull Requests](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
 
-Ready to contribute? Here's a quick guide
+Ready to contribute? Here's a quick guide:
 
 
 ## Contributing website changes
 
-To build our website, we need specific Python packages which are managed with the `conda` and `mamba` tools. If you already do not already have those tools installed, we recommend using the [Mambaforge Installer](https://github.com/conda-forge/miniforge#mambaforge):
+To build our website, we need specific Python packages which are managed with the `conda` and `mamba` tools. If you do not already have those tools installed, we recommend using the [Mambaforge Installer](https://github.com/conda-forge/miniforge#mambaforge):
 
 
 1. Fork this hackweek's website repo on GitHub (https://github.com/ICESAT-2HackWeek/website2022).

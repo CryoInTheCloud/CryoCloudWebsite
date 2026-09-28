@@ -78,8 +78,8 @@ For example, you can use `mamba install <package>` instead of `conda install <pa
 
 Once miniconda/conda/mamba has been installed, we can use it to create new virtual environments with different Python versions and packages. A good practice is to have different environments for different projects when these have different dependencies.
 ````{admonition} Persistent Environments
-By default, conda environments are not persistent in the CryoCloud Hub. 
-This means that every time you open a new CryoCloud session, all the installations you made in previous sessions will be gone. 
+By default, conda environments are not persistent in the StratusGeo Hub. 
+This means that every time you open a new StratusGeo session, all the installations you made in previous sessions will be gone. 
 In order to be able to work in the same computational environment across sessions without re-installing the same packages, we encourage users to create a folder in their home directory to store all their customized environments. 
 By doing this, your environments will stay in your account when you comeback to work in the future. 
 In order to do this, create a folder called `envs` in your home directory (that is, `/home/jovyan`). 
@@ -94,7 +94,7 @@ Then, also in your home directory, create a new textfile called `.condarc` (the 
 envs_dirs:
  - ~/envs
 ```
-This will indicates to conda that all the new environments have to live inside `~envs` (`~` is the unix character for your home directory). In doing so, you ensure that the new environments you build will be permanent to your CryoCloud account. 
+This will indicates to conda that all the new environments have to live inside `~envs` (`~` is the unix character for your home directory). In doing so, you ensure that the new environments you build will be permanent to your StratusGeo account. 
 ````
 
 You can now create a new environment with `conda`.
