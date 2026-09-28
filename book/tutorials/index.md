@@ -15,7 +15,7 @@ All live tutorial recordings available via CryoCloud YouTube. Or see the table b
 
 | Tutorial | Recording Link |
 | ---  | --- |
-| [CryoCloud demo](https://book.cryointhecloud.com/cryocloud-demo) | [Recording](https://www.youtube.com/watch?v=ub86G53V12s)
+| [StratusCloud demo](https://book.cryointhecloud.com/cryocloud-demo) | [Recording](https://www.youtube.com/watch?v=ub86G53V12s)
 | [ICESat-2 and Landsat cloud access and data integration](https://book.cryointhecloud.com/is2-cloud-landsat-integration) | [Recording](https://youtu.be/QNrDlwiomgc)
 | [Streaming cloud-hosted ICESat-2 ATL15 (Gridded Antarctic/Arctic Land Ice Height) to calculate dh/dt trends](https://book.cryointhecloud.com/icesat2-atl15-dhdt) | No recording
 | [NASA ICESat-2 subglacial lake investigation using ice-surface height anomalies](https://book.cryointhecloud.com/is2-atl15-surface-height-anomalies) | [Recording](https://youtu.be/HnGsCKyxkPo) 
