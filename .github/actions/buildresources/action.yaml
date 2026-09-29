@@ -47,7 +47,7 @@ runs:
         external_repository: CryoInTheCloud/cryointhecloud.github.io
         publish_dir: book/_build/html
         publish_branch: gh-pages
-        cname: book.cryointhecloud.com
+        cname: book.stratusgeo.org
 
     - name: Save Build
       if: ${{ always() && inputs.jb-save == 'true'}} 
