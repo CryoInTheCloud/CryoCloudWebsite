@@ -2,7 +2,7 @@
 
 ## Reporting a Code of Conduct Violation
 
-If you are the subject of unacceptable behavior or have witnessed any such behavior, please immediately notify a [StratusGeo team member](https://github.com/orgs/CryoInTheCloud/teams/cryocloudadvanced). 
+If you are the subject of unacceptable behavior or have witnessed any such behavior, please immediately notify a [StratusGeo team member](https://github.com/orgs/StratusGeo/teams/cryocloudadvanced). 
 
 Notification should be done by contacting a StratusGeo team member on site or by emailing Tasha Snow at [tsnow03@umd.edu](mailto:tsnow03@umd.edu), Derek Pickell at [derekp@umd.edu](mailto:derekp@umd.edu), Wilson Sauthoff at [sauthoff@mines.edu](mailto:sauthoff@mines.edu), or Matthew Siegfried at [siegfried@mines.edu](mailto:siegfried@mines.edu).
 
@@ -71,8 +71,8 @@ Community leaders have the right and responsibility to remove, edit, or reject c
 This Code of Conduct applies both within project spaces and in public spaces when an individual is participating in the project or its community. 
 
 ### Key Definitions 
-* A **participant** is someone who has posted a comment or question on the [StratusGeo GitHub](https://github.com/CryoInTheCloud), [StratusGeo Slack](https://cryospherecloud.slack.com), or chat features provided by StratusGeo to the community during training events. Anyone who interacts with StratusGeo is a participant. 
-* A **contributor** is an individual who has made a pull request or code commit to [StratusGeo GitHub](https://github.com/CryoInTheCloud). 
+* A **participant** is someone who has posted a comment or question on the [StratusGeo GitHub](https://github.com/StratusGeo), [StratusGeo Slack](https://cryospherecloud.slack.com), or chat features provided by StratusGeo to the community during training events. Anyone who interacts with StratusGeo is a participant. 
+* A **contributor** is an individual who has made a pull request or code commit to [StratusGeo GitHub](https://github.com/StratusGeo). 
 * A **moderator** is either (1) someone who is appointed to monitor the chat and respond to questions, comments and incidents during a training event, or (2) someone who has been given moderation access on GitHub. 
     * [GitHub defines a moderator](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#organization-moderators) as “Moderators are organization members who, in addition to their permissions as members, are allowed to block and unblock non-member contributors, set interaction limits, and hide comments in public repositories owned by the organization.” GitHub moderators can hide comments, pull requests, and issues; block or unblock contributors; and limit interactions for certain users.
     * GitHub resources for moderation can be [found here](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/managing-moderators-in-your-organization#about-organization-moderators). 
@@ -117,7 +117,7 @@ This Code of Conduct applies both within project spaces and in public spaces whe
      * No other PRs by that participant will be accepted until the individual has been contacted by a StratusGeo community moderator. 
 2. If a contributor submits a PR which violates the Code of Conduct for a **second time**, they will be contacted by a community moderator and informed of a 90-day temporary ban from submitting PRs. 
      * Temporary bans will extend only to the area in which the harm occurred, in this case, no PRs will be accepted for 90 days but the individual may continue to comment in Discussions, Issues, in Slack and attend virtual meetings. 
-     * After 90 days, the contributor’s PRs will be accepted once again, subject to review by the [StratusGeo GitHub team](https://github.com/orgs/CryoInTheCloud/teams/cryocloudadvanced). 
+     * After 90 days, the contributor’s PRs will be accepted once again, subject to review by the [StratusGeo GitHub team](https://github.com/orgs/StratusGeo/teams/cryocloudadvanced). 
 3. If a contributor submits a PR which violates the Code of Conduct for a **third time, they will be permanently banned and removed from all StratusGeo spaces**, including digital communication channels and community meetings.  
      * A permanent ban includes avoiding interactions in community spaces as well as external channels like social media. 
 4. If a contributor **submits a PR which is harmful to our digital spaces (e.g., malicious code), they will be immediately and permanently banned** from all StratusGeo digital spaces including but not limited to GitHub and Slack. They will also not be permitted to participate in StratusGeo community meetings or training events. 

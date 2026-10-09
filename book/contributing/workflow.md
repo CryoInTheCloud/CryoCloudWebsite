@@ -67,7 +67,7 @@ We will work in branches so as to not overwrite each other's work, and
 let GitHub do what it does best.
 
 The `main` branch will be the current approved version of the book. The
-main branch is what displays at <https://cryocloud.github.io>.
+main branch is what displays at <https://stratusgeo.github.io>.
 
 A nice clean workflow with branches is to consider them temporary. You
 pull the most recent from `main`, you create a branch locally, you make
@@ -262,7 +262,7 @@ git merge origin/main
 
 Now you've synced your work to github.com. It is currently online, in a
 separate branch from the `main` branch. Go to
-<https://github.com/cryointhecloud/CryoCloudWebsite>, find your
+<https://github.com/stratusgeo/StratusGeoWebsite>, find your
 branch, and do a pull request. Write a suitable subject heading and submit
 the pull request. 
 
@@ -316,7 +316,7 @@ in the JupyterBook before pushing to github.com.
 The thing to do first is to "preview" the JupyterBook so that we can see
 what it looks like as we develop the chapters.
 
-Run the following from your branch in your `CryoCloudWebsite/book/`
+Run the following from your branch in your `StratusGeoWebsite/book/`
 directory from the command line:
 
 ``` bash
@@ -349,11 +349,11 @@ set in stone.
 
 ## JupyterHub Workflow
 
-We use the CryoCloud [2i2c](https://2i2c.org/) JupyterHub to run notebooks.
+We use the StratusGeo [2i2c](https://2i2c.org/) JupyterHub to run notebooks.
 
 ### Log into the JupyterHub
 
-1.  Go to the [CryoCloud Hub](https://hub.cryointhecloud.com). *You should see the CryoCloud logo.*
+1.  Go to the [Stratus Hub](https://hub.stratusgeo.org). *You should see the StratusGeo logo.*
 2.  Click on the orange "Log in to continue" button.
 3.  Click the "Sign in with Github" button and log in. *If you aren't
     already logged into Github, you should see the login prompt.
