@@ -8,6 +8,11 @@ Close out your browser tab every time that you log out. This keeps each log in c
 
 ***
 
+Please stream data into memory rather than downloading it whenever possible: 
+This is a best practice for cloud computing, it is often faster than manually downloading, and storing data costs us a lot of money. Please see [this tutorial](https://book.stratusgeo.org/earthaccess/) to learn more about streaming data and using earthaccess, the fastest way to stream NASA data. Also message us on Slack or email if you want some help figuring out how to stream other kinds of datasets. If you need to download the data, the next best option is to download and delete immediately after use. Please avoid storing data for more than a month or so if you will not be using it.
+
+***
+
 To save money for us, when you finish on the Hub:
 * Go to `File` > `Hub Control Panel` > push `Stop Server`
 * Once that button disappears, your server has stopped
@@ -32,10 +37,10 @@ The `shared` drive is a folder everyone can read files from and only admins can 
 
 Pip installs on your hub last only for that session
 * If multiple people use a missing package, let us know and we will add it to everyone's environment
-* Guidance for adding packages in [Contributing/Workflows](../contributing/workflow.md)
+* Guidance for adding packages in [Contributing/Workflows](https://book.stratusgeo.org/workflow/)
 * Otherwise you have two options to maintain shareability and replicability:
    * Install the package each time you open StratusGeo using `%pip install packagename` or `%conda install packagename` run in the first cell of your Jupyter notebook (`%pip` is better than `!pip` because it ensures installation to the right directory)
-   * Create a persistent environment by building a new kernel, using instructions in [Python Installation and Environments](../how_tos/background/python.md)
+   * Create a persistent environment by building a new kernel, using instructions in [Python Installation and Environments](https://book.stratusgeo.org/python/)
  
 ***
 
