@@ -40,7 +40,7 @@ Pip installs on your hub last only for that session
 * Guidance for adding packages in [Contributing/Workflows](../contributing/workflow.md)
 * Otherwise you have two options to maintain shareability and replicability:
    * Install the package each time you open StratusGeo using `%pip install packagename` or `%conda install packagename` run in the first cell of your Jupyter notebook (`%pip` is better than `!pip` because it ensures installation to the right directory)
-   * Create a persistent environment by building a new kernel, using instructions in [Python Installation and Environments](https://book.stratusgeo.org/python/)
+   * Create a persistent environment by building a new kernel, using instructions in [Python Installation and Environments](../how_tos/background/python.md)
  
 ***
 
