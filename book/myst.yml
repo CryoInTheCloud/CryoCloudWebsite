@@ -65,9 +65,9 @@ project:
         - file: tutorials/ITS_LIVE/ITS_LIVE_plot_point_timeseries.ipynb
         - file: tutorials/SWOT/index.md
           children:
-            - file: tutorials/SWOT_HR/0_SWOT_LRHR_access.ipynb
-            - file: tutorials/SWOT_HR/1_SWOT_HR_coverage.ipynb
-            - file: tutorials/SWOT_HR/2_SWOT_HR_vs_ICESat2.ipynb
+            - file: tutorials/SWOT/0_SWOT_LRHR_access.ipynb
+            - file: tutorials/SWOT/1_SWOT_HR_coverage.ipynb
+            - file: tutorials/SWOT/2_SWOT_HR_vs_ICESat2.ipynb
     - file: contributing/index.md
       children:
         - file: contributing/workflow.md
