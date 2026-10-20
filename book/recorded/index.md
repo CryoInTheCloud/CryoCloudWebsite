@@ -8,8 +8,8 @@ All live tutorial recordings available via the [StratusGeo YouTube](https://www.
 | Topics | Date | Recording |
 | ---  | --- | ---|
 | [AGU advanced open science and cloud computing learning workshop](https://bit.ly/44ScC1B) | Dec 10, 2023 | [Recording](https://youtu.be/Egd0VNVPNpE) |
-| [ICESat-2 Science Team CryoCloud workshop](https://bit.ly/44ScC1B) | Oct 4, 2023 | [Recording](https://youtu.be/pLWMCHanFR8) |
-| [ICESat-2 Hackweek CryoCloud demo](https://bit.ly/44ScC1B) | Aug 7, 2023 | [Recording](https://www.youtube.com/watch?v=ub86G53V12s) |
+| [ICESat-2 Science Team StratusGeo/CryoCloud workshop](https://bit.ly/44ScC1B) | Oct 4, 2023 | [Recording](https://youtu.be/pLWMCHanFR8) |
+| [ICESat-2 Hackweek StratusGeo/CryoCloud demo](https://bit.ly/44ScC1B) | Aug 7, 2023 | [Recording](https://www.youtube.com/watch?v=ub86G53V12s) |
 | [FOGSS Workshop cryosphere software tutorials](https://doi.org/10.5281/zenodo.7812488) | Mar 24, 2023 | [Recording](https://youtu.be/WcZCVjSKTYo) |
-| [ICESat-2 Science Team getting started on CryoCloud](https://doi.org/10.5281/zenodo.7474855) | Dec 2, 2022 | [Recording](https://youtu.be/QNrDlwiomgc) |
-| [CryoCloud onboarding with SWOT tutorials](https://doi.org/10.5281/zenodo.17123375) | Sep 11, 2025 | [Recording](https://www.youtube.com/watch?v=VI4UzotLcm0)
+| [ICESat-2 Science Team getting started on StratusGeo/CryoCloud](https://doi.org/10.5281/zenodo.7474855) | Dec 2, 2022 | [Recording](https://youtu.be/QNrDlwiomgc) |
+| [StratusGeo/CryoCloud onboarding with SWOT tutorials](https://doi.org/10.5281/zenodo.17123375) | Sep 11, 2025 | [Recording](https://www.youtube.com/watch?v=VI4UzotLcm0)

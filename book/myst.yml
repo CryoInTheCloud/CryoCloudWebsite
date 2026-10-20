@@ -6,7 +6,7 @@ project:
   description: "Welcome to StratusGeo: Empowering collaborative Earth science in the cloud"
   # keywords: []
   # authors:
-  github: https://github.com/CryoInTheCloud/CryoCloudWebsite
+  github: https://github.com/stratusgeo/StratusGeoWebsite
   license: MIT
   open_access: true
   funding: "This work was funded by the NASA Earth Science Data Systems, Cryosphere Program, ICESat-2 Project Science Office, and Transform to Open Science program (grants 80NSSC22K1877, 80NSSC25K7940, 80NSSC23K0578, and 80NSSC23K0002)."
@@ -41,7 +41,7 @@ project:
             - file: how_tos/data_access/earthaccess.ipynb
         - file: how_tos/data_storage/index.md
           children:
-            - file: how_tos/data_storage/CryoCloud_Scratch_Bucket.ipynb
+            - file: how_tos/data_storage/StratusGeo_Scratch_Bucket.ipynb
             - file: how_tos/data_storage/Instructions_for_configuring_AWS_S3_bucket.ipynb
             - file: how_tos/data_storage/integrating_cloud_storage.ipynb
     - file: tutorials/index.md
