@@ -35,12 +35,12 @@ email to join the Slack workspace. Upon accepting the invite please take a momen
 ### JupyterHub
 
 We will offer all tutorials within the Jupyter Hub computing environment.
-Visit our [Introduction to Jupyter Hub](./jupyterhub.md) page to learn more!
+Visit our [Introduction to Jupyter Hub](../../getting_started/setup/0_jupyterhub.md) page to learn more!
 
 ### Git
 
 All content for the StratusGeo will be shared via GitHub and interacting with the
-website will be done via the `git` command. Visit [Setting up the `git` command](./git.md)
+website will be done via the `git` command. Visit [Setting up the `git` command](../../getting_started/setup/2_terminal_and_git.md)
 to learn how to configure that!
 
 ### EarthData Login

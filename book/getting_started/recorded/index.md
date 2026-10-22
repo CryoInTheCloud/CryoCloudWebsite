@@ -1,4 +1,4 @@
-# Onboarding in the Cloud
+# Recordings: Onboarding in the Cloud
 
 These are recordings of the live cloud-computing and JupyterHub orientations for all new users to the StratusGeo. You will learn how to gain the credentials to access the StratusGeo JupyterHub and will receive a tour of all of the hub tools and best practices for using the hub.
 

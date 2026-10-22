@@ -10,47 +10,55 @@ project:
   license: MIT
   open_access: true
   funding: "This work was funded by the NASA Earth Science Data Systems, Cryosphere Program, ICESat-2 Project Science Office, and Transform to Open Science program (grants 80NSSC22K1877, 80NSSC25K7940, 80NSSC23K0578, and 80NSSC23K0002)."
-  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 
   toc:
     - file: index.md
-    - file: content/about.md
-    - file: content/mission.md
-    - file: content/Getting_Started.md
-    - file: content/hub_best_practices.md
-    - file: content/Code_of_Conduct.md
-    - file: content/citing_stratusgeo.md
-    - file: recorded/index.md
-    - file: content/hiring.md
-    - file: how_tos/index.md
+      
+    - title: Welcome
       children:
-        - file: how_tos/background/index.md
+        - file: welcome/about.md
+        - file: welcome/code_of_conduct.md
+
+    - file: getting_started/index.md
+      title: Getting Started on the Hub
+      children:
+        - file: getting_started/setup/0_jupyterhub.md
+        - file: getting_started/setup/1_navigatinghub.md
+        - file: getting_started/setup/2_terminal_and_git.md
+        - file: getting_started/setup/3_notebooks.md
+        - file: getting_started/setup/4_files_storage_quotas.md
+        - file: getting_started/hub_best_practices.md
+        - file: getting_started/stratusgeo_demo/StratusGeo_demo.ipynb
+        - file: getting_started/recorded/index.md
+
+    - file: how_tos/index.md
+      title: How-To Guides
+      children:
+        - file: how_tos/fundamentals/index.md
           children:
-            - file: how_tos/background/github.md
-            - file: how_tos/background/jupyterhub.md
-            - file: how_tos/background/git.md
-            - file: how_tos/background/earthdata.md
-            - file: how_tos/background/earthengine.md
-            - file: how_tos/background/swc.md
-            - file: how_tos/background/python.md
-            - file: how_tos/nbdime/nbdime-hub.ipynb
+            - file: how_tos/fundamentals/github.md
+            # - file: how_tos/fundamentals/jupyterhub.md
+            # - file: how_tos/fundamentals/git.md
+            - file: how_tos/fundamentals/earthdata.md
+            - file: how_tos/fundamentals/earthengine.md
+            - file: how_tos/fundamentals/swc.md
+            - file: how_tos/fundamentals/python.md
+            - file: how_tos/fundamentals/jup_collaboration.md
         - file: how_tos/data_access/index.md
           children:
+            - file: how_tos/data_access/earthaccess.ipynb
             - file: how_tos/data_access/Cloud_Sentinel2_access.ipynb
             - file: how_tos/data_access/L1B_Waveforms_tutorial.ipynb
-            - file: how_tos/data_access/earthaccess.ipynb
         - file: how_tos/data_storage/index.md
           children:
-            - file: how_tos/data_storage/CryoCloud_Scratch_Bucket.ipynb
+            - file: how_tos/data_storage/StratusGeo_Scratch_Bucket.ipynb
             - file: how_tos/data_storage/Instructions_for_configuring_AWS_S3_bucket.ipynb
             - file: how_tos/data_storage/integrating_cloud_storage.ipynb
+        - file: how_tos/nbdime/nbdime-hub.ipynb
+
     - file: tutorials/index.md
+      title: Cloud Computing Examples & Tutorials
       children:
-        - file: tutorials/stratusgeo_demo/StratusGeo_demo.ipynb
-        - file: tutorials/IS2_Landsat_integration/IS2_cloud_Landsat_integration.ipynb
-        - file: tutorials/IS2_ATL15_dhdt/ICESat2_ATL15_dhdt.ipynb
-        - file: tutorials/IS2_ATL15_surface_height_anomalies/IS2_ATL15_surface_height_anomalies.ipynb
-        - file: external/ICESat2_ATL10-h5coro_large_scale_time_series.ipynb
         - file: tutorials/NASA-Earthdata-Cloud-Access/index.md
           children:
             - file: tutorials/NASA-Earthdata-Cloud-Access/1.Intro-Earthdata-Cloud.md
@@ -58,32 +66,45 @@ project:
             - file: tutorials/NASA-Earthdata-Cloud-Access/3.earthaccess.ipynb
             - file: tutorials/NASA-Earthdata-Cloud-Access/4.icepyx.ipynb
             - file: tutorials/NASA-Earthdata-Cloud-Access/4b.icepyx-ATL06.ipynb
-        - file: tutorials/SlideRule_applications/SlideRule_applications.ipynb
-        - file: tutorials/Dask/dask_for_geoscientists.ipynb
-        - file: tutorials/Zarr_with_ApRES/ARCOdata_writingZarrs.ipynb
-        - file: tutorials/GrIMP/GrIMP_tutorial_AGU23.ipynb
-        - file: tutorials/ITS_LIVE/ITS_LIVE_plot_point_timeseries.ipynb
+        - file: tutorials/IS2_Landsat_integration/IS2_cloud_Landsat_integration.ipynb
+        - file: tutorials/IS2_ATL15_dhdt/ICESat2_ATL15_dhdt.ipynb
+        - file: tutorials/IS2_ATL15_surface_height_anomalies/IS2_ATL15_surface_height_anomalies.ipynb
+        - file: external/ICESat2_ATL10-h5coro_large_scale_time_series.ipynb
         - file: tutorials/SWOT/index.md
           children:
             - file: tutorials/SWOT/0_SWOT_LRHR_access.ipynb
             - file: tutorials/SWOT/1_SWOT_HR_coverage.ipynb
             - file: tutorials/SWOT/2_SWOT_HR_vs_ICESat2.ipynb
-    - file: contributing/index.md
+        - file: tutorials/Dask/dask_for_geoscientists.ipynb
+        - file: tutorials/Zarr_with_ApRES/ARCOdata_writingZarrs.ipynb
+        - file: tutorials/SlideRule_applications/SlideRule_applications.ipynb
+        - file: tutorials/ITS_LIVE/ITS_LIVE_plot_point_timeseries.ipynb
+        - file: tutorials/GrIMP/GrIMP_tutorial_AGU23.ipynb
+
+    - file: community/index.md
+      title: Community & Contributions
       children:
-        - file: contributing/workflow.md
-    - file: reference/projects_supported.ipynb
-    - title: References
+        - file: community/contributing/index.md
+          children:
+            - file: community/contributing/workflow.md
+        - file: community/citing_stratusgeo.md
+        - file: community/projects_supported.ipynb
+        - file: community/hiring.md
+        - file: community/reference/projects_supported.ipynb
+
+    - title: Help & Resources
       children:
+        - file: reference/questions.md
         - file: reference/IS2-resources.md
         - file: reference/open_science.md
         - file: reference/open_source_software.md
-        - file: reference/questions.md
+      
 
 site:
   template: book-theme
   title: StratusGeo Website
   options:
-  #   favicon: favicon.ico
-    logo: logo.png
+    favicon: img/logo.png
+    logo: img/logo.png
     analytics_google: G-BGCG9E4C16
     
