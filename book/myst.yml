@@ -104,7 +104,7 @@ site:
   template: book-theme
   title: StratusGeo Website
   options:
-    favicon: img/logo.png
+    favicon: img/favicon.png
     logo: img/logo.png
     analytics_google: G-BGCG9E4C16
     

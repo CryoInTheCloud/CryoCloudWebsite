@@ -32,9 +32,10 @@ StratusGeo is a **community-centric cloud-based computing ecosystem** designed t
 
 Our platform enables researchers to transition to cloud-based collaboration and data processing seamlessly, while ensuring that the needs of the geoscience community are met. StratusGeo builds on a foundation of intellectual generosity, interoperability, and community buy-in to create an inclusive environment where data producers, engineers, scientists, and developers collaborate to tackle pressing geoscience challenges, including managing and analyzing the growing volume of Earth observation data in the face of a changing climate. -->
 
-
 ## 💡 Contact Us  
 Have questions or ideas? Reach out at **stratusgeo@umd.edu** or explore our open resources on [GitHub](https://github.com/CryoInTheCloud) and [Zenodo](https://zenodo.org/communities/stratusgeo/).
+
+![Banner](./img/banner.png)
 
 ## Funding Sources
 ![funder logos](/img/funderlogos.png)
