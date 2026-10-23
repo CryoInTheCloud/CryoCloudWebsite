@@ -55,6 +55,8 @@ project:
             - file: how_tos/data_storage/Instructions_for_configuring_AWS_S3_bucket.ipynb
             - file: how_tos/data_storage/integrating_cloud_storage.ipynb
         - file: how_tos/nbdime/nbdime-hub.ipynb
+        - file: how_tos/machine_learning/index.md
+        - file: how_tos/ai/index.md
 
     - file: tutorials/index.md
       title: Cloud Computing Examples & Tutorials
@@ -80,6 +82,8 @@ project:
         - file: tutorials/SlideRule_applications/SlideRule_applications.ipynb
         - file: tutorials/ITS_LIVE/ITS_LIVE_plot_point_timeseries.ipynb
         - file: tutorials/GrIMP/GrIMP_tutorial_AGU23.ipynb
+        - file: how_tos/data_access/L1B_Waveforms_tutorial.ipynb
+
 
     - file: community/index.md
       title: Community & Contributions
