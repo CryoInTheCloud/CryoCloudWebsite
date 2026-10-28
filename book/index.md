@@ -4,8 +4,8 @@ StratusGeo (formerly CryoCloud) is a NASA-supported community and cloud platform
 ## 📚 What You'll Find Here  
 This JupyterBook is your gateway to the resources, tutorials, and tools developed by and for our community. Whether you're new to cloud computing or an experienced researcher, we have something for you:
 - [Getting Started in the Cloud:](getting_started/index) for onboarding with our JupyterHub cloud computing platform. 
-- [How-To's:](how_tos/index) for specific info on data storage, data access, environments, and beyond. 
-- [Interactive Tutorials:](tutorials/index) for examples of cloud-based data workflows that leverage NASA or other data sources. 
+- [How-To's:](how_tos/index) Task-focused guides on data storage, data access, environments, and beyond. 
+- [Interactive Tutorials:](tutorials/index) Walkthroughs of cloud-based data workflows that leverage NASA or other data sources. 
 - [Community Info and Contributions:](community/index) for how to share, collaborate, cite, and contribute to StratusGeo.
 
 ```{admonition} Quick links

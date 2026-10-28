@@ -22,12 +22,12 @@ project:
     - file: getting_started/index.md
       title: Getting Started on the Hub
       children:
+        - file: getting_started/hub_best_practices.md
         - file: getting_started/setup/0_jupyterhub.md
         - file: getting_started/setup/1_navigatinghub.md
         - file: getting_started/setup/2_terminal_and_git.md
         - file: getting_started/setup/3_notebooks.md
         - file: getting_started/setup/4_files_storage_quotas.md
-        - file: getting_started/hub_best_practices.md
         - file: getting_started/stratusgeo_demo/StratusGeo_demo.ipynb
         - file: getting_started/recorded/index.md
 
@@ -91,7 +91,6 @@ project:
         - file: community/contributing/index.md
           children:
             - file: community/contributing/workflow.md
-        - file: community/citing_stratusgeo.md
         - file: community/projects_supported.ipynb
         - file: community/hiring.md
         - file: community/reference/projects_supported.ipynb
@@ -102,6 +101,10 @@ project:
         - file: reference/IS2-resources.md
         - file: reference/open_science.md
         - file: reference/open_source_software.md
+
+    - file: community/citing_stratusgeo.md
+      title: Citing StratusGeo
+        
       
 
 site:
