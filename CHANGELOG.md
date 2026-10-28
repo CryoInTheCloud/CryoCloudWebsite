@@ -29,6 +29,7 @@ The following people contributed discussions, new ideas, code and documentation 
 See [our definition of contributors](https://github-activity.readthedocs.io/en/latest/use/#how-does-this-tool-define-contributions-in-the-reports).
 
 @derekpickell
+@tsnow03
 
 <!-- <END NEW CHANGELOG ENTRY> -->
 
