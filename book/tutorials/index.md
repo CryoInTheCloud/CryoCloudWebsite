@@ -32,7 +32,7 @@ All live tutorial recordings are available via the StratusGeo YouTube channel. T
 | [ICESat-2 and Landsat cloud access and data integration](IS2_Landsat_integration/IS2_cloud_Landsat_integration.ipynb) | [Recording](https://youtu.be/QNrDlwiomgc) |
 | [Streaming cloud-hosted ICESat-2 ATL15 (Gridded Antarctic/Arctic Land Ice Height) to calculate dh/dt trends](IS2_ATL15_dhdt/ICESat2_ATL15_dhdt.ipynb) | No recording |
 | [NASA ICESat-2 subglacial lake investigation using ice-surface height anomalies](IS2_ATL15_surface_height_anomalies/IS2_ATL15_surface_height_anomalies.ipynb) | [Recording](https://youtu.be/HnGsCKyxkPo) |
-| [ICESat-2 ATL10-h5coro processing large-scale time series](https://book.cryointhecloud.com/icesat2-atl10-h5coro-large-scale-time-series) | [Recording](https://youtu.be/iSRjtXoflRU) |
+| [ICESat-2 ATL10-h5coro processing large-scale time series](https://book.stratusgeo.org/icesat2-atl10-h5coro-large-scale-time-series) | [Recording](https://youtu.be/iSRjtXoflRU) |
 | [NASA SlideRule Earth](SlideRule_applications/SlideRule_applications.ipynb) | [Recording](https://youtu.be/2kb_AU7mLzA) |
 | [Determining ice sheet change using Greenland Ice Mapping Project (GrIMP) tools](GrIMP/GrIMP_tutorial_AGU23.ipynb) | [Recording](https://youtu.be/MSp7zke8ReE) |
 | [SWOT HR elevation comparison to ICESat-2](SWOT/SWOT_HR_w_IS2_old.ipynb) | [Recording](https://youtu.be/YZKIW6rNtY4) |
@@ -73,10 +73,10 @@ All live tutorial recordings are available via the StratusGeo YouTube channel. T
 
 | Tutorial | Recording |
 | --- | --- |
-| [StratusCloud demo](https://book.cryointhecloud.com/cryocloud-demo) | [Recording](https://www.youtube.com/watch?v=ub86G53V12s) |
+| [StratusCloud demo](../getting_started/stratusgeo_demo/StratusGeo_demo.ipynb) | [Recording](https://www.youtube.com/watch?v=ub86G53V12s) |
 | [Parallelized cloud computing with Dask for geoscientists](Dask/dask_for_geoscientists.ipynb) | [Recording](https://youtu.be/8B9H5Q5kmos) |
 | [Analysis-ready, cloud-optimized data: writing zarr directories](Zarr_with_ApRES/ARCOdata_writingZarrs.ipynb) | [Recording](https://youtu.be/CkQW_3gcFaM) |
-| [Integrating cloud storage with StratusGeo](https://book.cryointhecloud.com/integrating-cloud-storage) | No recording |
+| [Integrating cloud storage with StratusGeo](../how_tos/data_storage/integrating_cloud_storage.ipynb) | No recording |
 | Publishing tools and storing data with Ghub | [Recording](https://youtu.be/wwezHsz1j9M) |
 
 ---
@@ -102,7 +102,7 @@ All live tutorial recordings are available via the StratusGeo YouTube channel. T
 
 | Tutorial | Mission / data | Recording |
 | --- | --- | --- |
-| [ICESat-2 ATL10-h5coro processing large-scale time series](https://book.cryointhecloud.com/icesat2-atl10-h5coro-large-scale-time-series) | ICESat-2 | [Recording](https://youtu.be/iSRjtXoflRU) |
+| [ICESat-2 ATL10-h5coro processing large-scale time series](https://book.stratusgeo.org/icesat2-atl10-h5coro-large-scale-time-series) | ICESat-2 | [Recording](https://youtu.be/iSRjtXoflRU) |
 
 #### Snow
 
