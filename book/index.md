@@ -35,7 +35,7 @@ Our platform enables researchers to transition to cloud-based collaboration and 
 ## 💡 Contact Us  
 Have questions or ideas? Reach out at **stratusgeo@umd.edu** or explore our open resources on [GitHub](https://github.com/CryoInTheCloud) and [Zenodo](https://zenodo.org/communities/stratusgeo/).
 
-![Banner](./img/banner.png)
+![Banner](./img/logo.png)
 
 ## Funding Sources
 ![funder logos](/img/funderlogos.png)
