@@ -9,7 +9,7 @@ assignees: []
 Thanks for contributing to CryoCloud! 🎉  
 Please fill out the information below so we can add your project to the **Projects Supported** page.
 
-🔗 Page: https://book.cryointhecloud.com/projects-supported
+🔗 Page: https://book.stratusgeo.org/projects-supported
 
 ---
 
