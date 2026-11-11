@@ -61,29 +61,45 @@ project:
     - file: tutorials/index.md
       title: Cloud Computing Examples & Tutorials
       children:
-        - file: tutorials/NASA-Earthdata-Cloud-Access/index.md
+        - title: ICESat-2
           children:
-            - file: tutorials/NASA-Earthdata-Cloud-Access/1.Intro-Earthdata-Cloud.md
-            - file: tutorials/NASA-Earthdata-Cloud-Access/2.earthdata_search.md
-            - file: tutorials/NASA-Earthdata-Cloud-Access/3.earthaccess.ipynb
-            - file: tutorials/NASA-Earthdata-Cloud-Access/4.icepyx.ipynb
-            - file: tutorials/NASA-Earthdata-Cloud-Access/4b.icepyx-ATL06.ipynb
-        - file: tutorials/IS2_Landsat_integration/IS2_cloud_Landsat_integration.ipynb
-        - file: tutorials/IS2_ATL15_dhdt/ICESat2_ATL15_dhdt.ipynb
-        - file: tutorials/IS2_ATL15_surface_height_anomalies/IS2_ATL15_surface_height_anomalies.ipynb
-        - file: external/ICESat2_ATL10-h5coro_large_scale_time_series.ipynb
-        - file: tutorials/SWOT/index.md
+            - file: tutorials/NASA-Earthdata-Cloud-Access/index.md
+              children:
+                - file: tutorials/NASA-Earthdata-Cloud-Access/1.Intro-Earthdata-Cloud.md
+                - file: tutorials/NASA-Earthdata-Cloud-Access/2.earthdata_search.md
+                - file: tutorials/NASA-Earthdata-Cloud-Access/3.earthaccess.ipynb
+                - file: tutorials/NASA-Earthdata-Cloud-Access/4.icepyx.ipynb
+                - file: tutorials/NASA-Earthdata-Cloud-Access/4b.icepyx-ATL06.ipynb
+            - file: tutorials/IS2_Landsat_integration/IS2_cloud_Landsat_integration.ipynb
+            - file: tutorials/IS2_ATL15_dhdt/ICESat2_ATL15_dhdt.ipynb
+            - file: tutorials/IS2_ATL15_surface_height_anomalies/IS2_ATL15_surface_height_anomalies.ipynb
+            - file: external/ICESat2_ATL10-h5coro_large_scale_time_series.ipynb
+            - file: tutorials/SlideRule_applications/SlideRule_applications.ipynb
+
+        - title: SWOT
+          # children:
+            # - file: tutorials/SWOT/index.md
           children:
             - file: tutorials/SWOT/0_SWOT_LRHR_access.ipynb
             - file: tutorials/SWOT/1_SWOT_HR_coverage.ipynb
             - file: tutorials/SWOT/2_SWOT_HR_vs_ICESat2.ipynb
-        - file: tutorials/Dask/dask_for_geoscientists.ipynb
-        - file: tutorials/Zarr_with_ApRES/ARCOdata_writingZarrs.ipynb
-        - file: tutorials/SlideRule_applications/SlideRule_applications.ipynb
-        - file: tutorials/ITS_LIVE/ITS_LIVE_plot_point_timeseries.ipynb
-        - file: tutorials/GrIMP/GrIMP_tutorial_AGU23.ipynb
-        - file: how_tos/data_access/L1B_Waveforms_tutorial.ipynb
 
+        - title: Landsat & Sentinel (Ice Velocity & Ice Sheet Change)
+          children:
+            - file: tutorials/ITS_LIVE/ITS_LIVE_plot_point_timeseries.ipynb
+            - file: tutorials/GrIMP/GrIMP_tutorial_AGU23.ipynb
+
+        - title: Airborne Missions
+          children:
+            - file: how_tos/data_access/L1B_Waveforms_tutorial.ipynb
+
+        - title: Ground-Based Instruments
+          children:
+            - file: tutorials/Zarr_with_ApRES/ARCOdata_writingZarrs.ipynb
+
+        - title: Mission-Agnostic Tools
+          children:
+            - file: tutorials/Dask/dask_for_geoscientists.ipynb
 
     - file: community/index.md
       title: Community & Contributions
@@ -93,7 +109,7 @@ project:
             - file: community/contributing/workflow.md
         - file: community/projects_supported.ipynb
         - file: community/hiring.md
-        - file: community/reference/projects_supported.ipynb
+        - file: community/projects_supported.ipynb
 
     - title: Help & Resources
       children:
@@ -102,6 +118,8 @@ project:
         - file: reference/open_science.md
         - file: reference/open_source_software.md
 
+    - file: getting_started/hub_best_practices.md
+      title: Best Practices
     - file: community/citing_stratusgeo.md
       title: Citing StratusGeo
         
