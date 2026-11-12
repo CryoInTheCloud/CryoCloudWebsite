@@ -26,7 +26,7 @@ dependencies:
   # hubs and machines. Used along with `jupyter-syncthing-proxy`.
   - jupyter-syncthing-proxy==1.0.3
   - syncthing~=1.22.1
-  # gh-scoped-creds allows users to securely push to GitHub from their repo.
+  # gh-scoped-creds allows users to securely push to GitHub from their repo
   # https://blog.jupyter.org/securely-pushing-to-github-from-a-jupyterhub-3ee42dfdc54f has
   # some more information
   - gh-scoped-creds==4.1
