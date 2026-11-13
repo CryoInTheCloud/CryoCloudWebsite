@@ -5,7 +5,7 @@
 # !!! If you are developing the website locally use the existing lock files
 # for your platform (`conda env create --name cryocloud --file conda-linux-64.lock.yml`)
 
-name: cryocloud
+name: stratusgeo
 
 channels:
   - conda-forge
@@ -26,7 +26,7 @@ dependencies:
   # hubs and machines. Used along with `jupyter-syncthing-proxy`.
   - jupyter-syncthing-proxy==1.0.3
   - syncthing~=1.22.1
-  # gh-scoped-creds allows users to securely push to GitHub from their repo.
+  # gh-scoped-creds allows users to securely push to GitHub from their repo
   # https://blog.jupyter.org/securely-pushing-to-github-from-a-jupyterhub-3ee42dfdc54f has
   # some more information
   - gh-scoped-creds==4.1
@@ -58,6 +58,7 @@ dependencies:
   - pymdown-extensions>=7.1
   # dashboards
   - voila~=0.5
+  - nodejs==20.12.2 #Hard coded to improve speed of solve w JB update, will need to change later
   - nodeenv~=1.9.0
   - mystmd>=1.12
   # - npm~=11.0.0
