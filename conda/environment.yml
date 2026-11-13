@@ -5,7 +5,7 @@
 # !!! If you are developing the website locally use the existing lock files
 # for your platform (`conda env create --name cryocloud --file conda-linux-64.lock.yml`)
 
-name: stratusgeo
+name: cryocloud
 
 channels:
   - conda-forge
