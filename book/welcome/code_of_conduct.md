@@ -4,7 +4,7 @@
 
 If you are the subject of unacceptable behavior or have witnessed any such behavior, please immediately notify a [StratusGeo team member](https://github.com/orgs/CryoInTheCloud/teams/cryocloudadvanced). 
 
-Notification should be done by contacting a StratusGeo team member on site or by emailing Tasha Snow at [tsnow03@umd.edu](mailto:tsnow03@umd.edu), Derek Pickell at [derekp@umd.edu](mailto:derekp@umd.edu), Wilson Sauthoff at [sauthoff@mines.edu](mailto:sauthoff@mines.edu), or Matthew Siegfried at [siegfried@mines.edu](mailto:siegfried@mines.edu).
+Notification should be done by contacting a StratusGeo team member on site or by emailing Tasha Snow at [tsnow03@umd.edu](mailto:tsnow03@umd.edu), Derek Pickell at [derekp@umd.edu](mailto:derekp@umd.edu), or our shared inbox [stratusgeo@umd.edu](mailto:stratusgeo@umd.edu).
 
 All complaints will be reviewed and investigated promptly and fairly. All community leaders are obligated to respect the privacy and security of the reporter of any incident.
 
@@ -125,7 +125,7 @@ This Code of Conduct applies both within project spaces and in public spaces whe
 
 ## Attribution
 
-StratusGeo modeled its Code of Conduct from [NASA Transform to Open Science (TOPS) Code of Conduct](https://github.com/nasa/Transform-to-Open-Science/blob/main/CODE_OF_CONDUCT.md). 
+StratusGeo modeled its Code of Conduct from [NASA Transform to Open Science (TOPS) Code of Conduct](https://github.com/brianwisti/Transform-to-Open-Science/blob/main/CODE_OF_CONDUCT.md). 
 
 TOPS drew from multiple sources including:
 

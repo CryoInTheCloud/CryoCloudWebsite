@@ -92,3 +92,14 @@ StratusGeo hosts workshops, hackathons, and training sessions designed to:
 StratusGeo aims to support the next generation of geoscience research by creating a culture of **openness**, **collaboration**, and **innovation**. Our work supports researchers in achieving their goals while inspiring new tools and approaches that advance Earth science as a whole.
 
 With StratusGeo, community members can focus on what they do best without needing to become a cloud engineer or software developer to access the community, expertise, and infrastructure they need for their geoscience projects.
+
+---
+
+## Core Principles
+
+StratusGeo is guided by key principles that ensure our platform meets the diverse needs of our growing community:
+
+- **FAIR and CARE Practices**: Develop workflows and data that are **Findable, Accessible, Interoperable, and Reproducible (FAIR)** while promoting **Collective Benefit, Authority, Responsibility, and Ethics (CARE)**.
+- **Cloud-Native Workflows**: Design geoscience workflows that maximize **accessibility, transparency, reproducibility, and interoperability**.
+- **Cross-Disciplinary Collaboration**: Foster collaboration across diverse scientific and technical domains to tackle complex geoscience challenges.
+- **Equitable Support**: Provide training and support for users at all experience levels, ensuring inclusivity for underrepresented and under-resourced communities.

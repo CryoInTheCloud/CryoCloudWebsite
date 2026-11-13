@@ -1,4 +1,4 @@
-# JupyterHub
+# (1) Accessing the JupyterHub
 
 (event-jupyterhub)=
 ## Why are we using a shared cloud environment?
@@ -16,20 +16,8 @@ Access to our shared cloud environment (JupyterHub) is under this URL: {{ jupyte
 
 ### First time login
 
-```{attention}
-Before going to {{ jupyterhub_url }} you need to setup your {{ hackweek }}
-organization membership correctly. See: {ref}`configure-github`
-```
-
 The first time you sign in, you will be asked to authorize the OAuth app as access
-to the JupyterHub is restricted to {{ hackweek }} GitHub Organization members.
-
-```{note}
-The screenshots below will not exactly match what you see and you should see your
-user information for instance.
-```
-
-![jupyterhub-authentication](../../img/jupyterhub-authentication.png)
+to the JupyterHub is restricted to StratusGeo GitHub Organization members.
 
 ### After each login
 

@@ -1,6 +1,4 @@
-# StratusGeo Best Practices
-
-Who and how you can access the StratusGeo - Setup instructions in the [Getting Started section](../content/Getting_Started.md) 
+# (0) StratusGeo Best Practices
 
 ***
 
@@ -13,7 +11,7 @@ This is a best practice for cloud computing, it is often faster than manually do
 
 ***
 
-To save money for us, when you finish on the Hub:
+To save us money, when you finish on the Hub:
 * Go to `File` > `Hub Control Panel` > push `Stop Server`
 * Once that button disappears, your server has stopped
 * Click `Log Out`
@@ -26,6 +24,7 @@ To save money for us, when you finish on the Hub:
 Keep personal storage to <10 Gb unless you talk to us about it
 * We recommend that you stream data (no download) or download and delete automatically where possible
 * You can use this handy terminal command `du -hs --exclude="shared*" ~/` to check how much disk space you have used 
+* Or, from `File` > `Hub Control Panel` > push `Services` > `Usage Quota` to see your usage. 
 * It costs $90 a month to store 2 Tb of data
 * Reach out if you need more storage because we can apply for more cloud credits if needed
 
@@ -37,7 +36,7 @@ The `shared` drive is a folder everyone can read files from and only admins can 
 
 Pip installs on your hub last only for that session
 * If multiple people use a missing package, let us know and we will add it to everyone's environment
-* Guidance for adding packages in [Contributing/Workflows](../contributing/workflow.md)
+* Guidance for adding packages in [Contributing/Workflows](../community/contributing/workflow.md)
 * Otherwise you have two options to maintain shareability and replicability:
    * Install the package each time you open StratusGeo using `%pip install packagename` or `%conda install packagename` run in the first cell of your Jupyter notebook (`%pip` is better than `!pip` because it ensures installation to the right directory)
    * Create a persistent environment by building a new kernel, using instructions in [Python Installation and Environments](../how_tos/background/python.md)
