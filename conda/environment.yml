@@ -58,9 +58,9 @@ dependencies:
   - pymdown-extensions>=7.1
   # dashboards
   - voila~=0.5
-  - nodejs==20.12.2 #Hard coded to improve speed of solve w JB update, will need to change later
+  - nodejs=20.12.2 #Hard coded to improve speed of solve w JB update, will need to change later
   - nodeenv~=1.9.0
-  - mystmd>=1.12
+  - mystmd=1.8.3 #Hard coded to improve speed of solve w JB update, will need to change later 
   # - npm~=11.0.0
 
   # Core scientific python stack
