@@ -58,7 +58,8 @@ dependencies:
   - pymdown-extensions>=7.1
   # dashboards
   - voila~=0.5
-  - nodejs==20.12.2 #Hard coded to improve speed of solve w JB update, will need to change later
+  - nodejs=24 # MyST >=1.12 requires Node >=22
+  # - nodejs==20.12.2 #Hard coded to improve speed of solve w JB update, will need to change later
   - nodeenv~=1.9.0
   - mystmd>=1.12
   # - npm~=11.0.0
