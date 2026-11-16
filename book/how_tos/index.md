@@ -1,29 +1,40 @@
-# How To
+# How-To Guides
 
-We welcome all types of learners to our cloud computing platform, from professional software 
-developers to people just getting started. Here we provide guidance on how to join StratusGeo, background work that 
-will be useful for working on a JupyterHub, and examples for accessing data from within the cloud. This is a list of our "How To" guides which can also be accessed via the contents list to the left:
+We welcome all types of learners to StratusGeo, from professional software
+developers to people just getting started. These guides cover background skills
+that are useful on a JupyterHub, accessing data from within the cloud, and
+storing data. You can also reach them from the contents list on the left.
 
-### [Background Work](https://book.cryointhecloud.com/index-3)
-[GitHub](https://book.cryointhecloud.com/github) \
-[JupyterHub](https://book.cryointhecloud.com/jupyterhub) \
-[Git](https://book.cryointhecloud.com/git) \
-[Earthdata Login](https://book.cryointhecloud.com/earthdata) \
-[Google Earth Engine Sign-Up](https://book.cryointhecloud.com/earthengine) \
-[Software Carpentry Training](https://book.cryointhecloud.com/swc) \
-[Python Installation and Environments](https://book.cryointhecloud.com/python) \
-[Nbdime - Version Control](https://book.cryointhecloud.com/nbdime-hub) 
+New to the hub? Start with [Getting Started on the Hub](../getting_started/index.md).
 
-### [Data Access](https://book.cryointhecloud.com/index-4)
-[Access Sentinel 2 data](./data_access/Cloud_Sentinel2_access.ipynb) \
-[Using CASALS data](https://book.cryointhecloud.com/l1b-waveforms-tutorial) \
-[Leveraging earthaccess](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/how-tos/access-data/access-cloud-python.html) 
+## [Fundamentals](./fundamentals/index.md)
 
-### [Data Storage](https://book.cryointhecloud.com/index-5)
-[Using the StratusGeo S3 scratch bucket](/cryocloud-scratch-bucket) \
-[Setting up an AWS S3 bucket](/instructions-for-configuring-aws-s3-bucket) \
-[Integrating cloud storage with StratusGeo](/integrating-cloud-storage)
+- [GitHub](./fundamentals/github.md)
+- [Earthdata Login](./fundamentals/earthdata.md)
+- [Google Earth Engine Sign-Up](./fundamentals/earthengine.md)
+- [Software Carpentry Training](./fundamentals/swc.md)
+- [Python Installation and Environments](./fundamentals/python.md)
+- [Collaborating in JupyterLab](./fundamentals/jup_collaboration.md)
 
-These pages are a work in progress and we welcome ideas for improvements or pages that would be helpful to 
-have included here.
- 
+For an introduction to JupyterHub and Git, see
+[JupyterHub](../getting_started/setup/0_jupyterhub.md) and
+[The Terminal and Git](../getting_started/setup/2_terminal_and_git.md) in Getting Started.
+
+## [Data Access](./data_access/index.md)
+
+- [Leveraging earthaccess](./data_access/earthaccess.ipynb)
+- [Accessing Sentinel-2 data](./data_access/Cloud_Sentinel2_access.ipynb)
+<!-- - [Using CASALS data](./data_access/L1B_Waveforms_tutorial.ipynb) -->
+
+## [Data Storage](./data_storage/index.md)
+
+- [Using the StratusGeo S3 scratch bucket](./data_storage/StratusGeo_Scratch_Bucket.ipynb)
+- [Setting up an AWS S3 bucket](./data_storage/Instructions_for_configuring_AWS_S3_bucket.ipynb)
+- [Integrating cloud storage with StratusGeo](./data_storage/integrating_cloud_storage.ipynb)
+
+## Version Control for Notebooks
+
+- [Comparing notebooks with nbdime](./nbdime/nbdime-hub.ipynb)
+
+These pages are a work in progress. We welcome ideas for improvements, or for
+new pages that would be helpful to include.

@@ -5,7 +5,7 @@
 The StratusGeo Community is collaborating to create this JupyterBook, with 
 an eye towards how others could collaborate with us in the future.
 
-The [StratusGeo Code of Conduct](../content/Code_of_Conduct) describes how we 
+The [StratusGeo Code of Conduct](../../welcome/code_of_conduct.md) describes how we 
 work to create a positive environment through 
 continual learning, practice, and iteration.
 

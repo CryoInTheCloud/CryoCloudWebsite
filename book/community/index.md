@@ -1,0 +1,29 @@
+# Community
+
+## How we work
+
+The StratusGeo Community is collaborating to create this JupyterBook, with 
+an eye towards how others could collaborate with us in the future.
+
+The [StratusGeo Code of Conduct](../content/Code_of_Conduct) describes how we 
+work to create a positive environment through 
+continual learning, practice, and iteration.
+
+We believe open practices can accelerate data-driven solutions and increase 
+diversity, equity, inclusion, and belonging in science. These are critical to 
+uncovering enduring science-based solutions faster, as well as for the 
+well-being and resilience of research communities. We work towards kinder science.
+
+Our style of working is greatly influenced by:
+
+-   [NASA Transform to Open Science](https://github.com/nasa/Transform-to-Open-Science)
+-   [NASA OpenScapes](https://nasa-openscapes.github.io/)
+-   [eScience Hackweeks](https://guidebook.hackweek.io/intro.html)
+-   [The Turing Way Community Handbook](https://the-turing-way.netlify.app/community-handbook/community-handbook.html)
+-   [The Carpentries Curriculum Development Handbook](https://carpentries.github.io/curriculum-development)
+
+The StratusGeo JupyterBook is made with our [2i2c](https://2i2c.org/) JupyterHub. 
+
+**Learn how to contribute to our JupyterBook or any other GitHub project in the [Workflow](workflow) section.**
+
+*Modeled after [NASA OpenScapes Cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/).*
