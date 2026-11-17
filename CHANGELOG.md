@@ -8,13 +8,30 @@ and this project adheres to [Calendar Versioning](https://calver.org)
 To compare changes between tags:
 https://github.com/uwhackweek/jupyterbook-template/compare/2021.05.05..main
 
-## 2022-?-?
+<!-- <START NEW CHANGELOG ENTRY> -->
 
-### Changed
+## 2.0.0
 
-### Removed
+### Maintenance and upkeep improvements
 
-### Added
+- None
+
+### Documentation improvements
+
+- Diataxis! Organized files cleanly into How-To's, Tutorials, Community, etc. 
+- Added funding and collaborator information
+- Added new entry-level how-to's for getting started in the cloud
+- 
+
+### Contributors to this release
+
+The following people contributed discussions, new ideas, code and documentation contributions, and review.
+See [our definition of contributors](https://github-activity.readthedocs.io/en/latest/use/#how-does-this-tool-define-contributions-in-the-reports).
+
+@derekpickell
+@tsnow03
+
+<!-- <END NEW CHANGELOG ENTRY> -->
 
 
 ## 2022-1-26
