@@ -36,7 +36,7 @@ dependencies:
   # Jupyter tools
   - ipython~=8.20.0
   - ipywidgets~=8.1.1
-  - jupyter-book~=2.1.7
+  - jupyter-book~=2.1.4
   - jupyterlab-favorites~=3.2.1
   - jupyterlab-geojson~=3.4.0
   - jupyterlab-git~=0.50.0
@@ -58,9 +58,9 @@ dependencies:
   - pymdown-extensions>=7.1
   # dashboards
   - voila~=0.5
-  - nodejs==20.12.2 #Hard coded to improve speed of solve w JB update, will need to change later
+  - nodejs=20.12.2 #Hard coded to improve speed of solve w JB update, will need to change later
   - nodeenv~=1.9.0
-  - mystmd>=1.12
+  - mystmd=1.8.3 #Hard coded to improve speed of solve w JB update, will need to change later 
   # - npm~=11.0.0
 
   # Core scientific python stack
