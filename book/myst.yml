@@ -89,6 +89,12 @@ project:
             - file: tutorials/ITS_LIVE/ITS_LIVE_plot_point_timeseries.ipynb
             - file: tutorials/GrIMP/GrIMP_tutorial_AGU23.ipynb
 
+        - title: Ocean Color (PACE)
+          children:
+            - file: external/oci_file_structure.ipynb
+            - file: external/oci_subsetting_harmony.ipynb
+            - file: external/oci_moana.ipynb
+
         - title: Airborne Missions
           children:
             - file: how_tos/data_access/L1B_Waveforms_tutorial.ipynb

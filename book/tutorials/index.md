@@ -53,8 +53,17 @@ All live tutorial recordings are available via the StratusGeo YouTube channel. T
 | Tutorial | Recording |
 | --- | --- |
 | [ICESat-2 and Landsat cloud access and data integration](IS2_Landsat_integration/IS2_cloud_Landsat_integration.ipynb) | [Recording](https://youtu.be/QNrDlwiomgc) |
-| [ITS_LIVE Python Library Demo: Time Series of Ice Flow Speed at a Point](ITS_LIVE/ITS_LIVE_plot_point_timeseries.ipynb) | Recording (link needed) <!-- TODO: add ITS_LIVE recording URL --> |
+| [ITS_LIVE Python Library Demo: Time Series of Ice Flow Speed at a Point](ITS_LIVE/ITS_LIVE_plot_point_timeseries.ipynb) | Recording (link needed) |
 | [Determining ice sheet change using Greenland Ice Mapping Project (GrIMP) tools](GrIMP/GrIMP_tutorial_AGU23.ipynb) | [Recording](https://youtu.be/MSp7zke8ReE) |
+
+
+### PACE
+| Tutorial | Recording |
+| --- | --- |
+| [Intro to Product Levels: Ocean Color Instrument (OCI)](../external/oci_file_structure.ipynb) | No recording |
+| [Subsetting PACE OCI data](../external/oci_subsetting_harmony.ipynb) | No Recording |
+| [Multi Ordination ANAlysis (MOANA): Phytoplankton Communities from PACE OCI](../external/oci_moana.ipynb) | No recording |
+
 
 ### Airborne missions
 
@@ -110,7 +119,7 @@ All live tutorial recordings are available via the StratusGeo YouTube channel. T
 | --- | --- | --- |
 | [NASA SlideRule Earth](SlideRule_applications/SlideRule_applications.ipynb) (Grand Mesa example) | ICESat-2 | [Recording](https://youtu.be/2kb_AU7mLzA) |
 
-### Hydrology
+### Hydrology and Oceanography
 
 | Tutorial | Mission / data | Recording |
 | --- | --- | --- |
@@ -120,6 +129,8 @@ All live tutorial recordings are available via the StratusGeo YouTube channel. T
 | [SWOT HR vs. LR](SWOT/3_SWOT_HR_vs_LR.ipynb) | SWOT | No recording |
 | [SWOT HR elevation comparison to ICESat-2](SWOT/SWOT_HR_w_IS2_old.ipynb) | SWOT, ICESat-2 | [Recording](https://youtu.be/YZKIW6rNtY4) |
 | [NASA ICESat-2 subglacial lake investigation using ice-surface height anomalies](IS2_ATL15_surface_height_anomalies/IS2_ATL15_surface_height_anomalies.ipynb) | ICESat-2 | [Recording](https://youtu.be/HnGsCKyxkPo) |
+| [Intro to Product Levels: Ocean Color Instrument (OCI)](../external/oci_file_structure.ipynb) | No recording |
+| [Subsetting PACE OCI data](../external/oci_subsetting_harmony.ipynb) | No Recording |
 
 ### Biology & ecosystems
 
@@ -127,6 +138,10 @@ All live tutorial recordings are available via the StratusGeo YouTube channel. T
 | --- | --- | --- |
 | [Data access with icepyx (ATL08 vegetation heights)](NASA-Earthdata-Cloud-Access/4.icepyx.ipynb) | ICESat-2 | (part of [series recording](https://youtu.be/VRG896cMtT0)) |
 | [CASALS L1B waveforms](CASAL/L1B_Waveforms_tutorial.ipynb) | CASALS (airborne lidar) | No recording |
+| [Intro to Product Levels: Ocean Color Instrument (OCI)](../external/oci_file_structure.ipynb) | No recording |
+| [Subsetting PACE OCI data](../external/oci_subsetting_harmony.ipynb) | No Recording |
+| [Multi Ordination ANAlysis (MOANA): Phytoplankton Communities from PACE OCI](../external/oci_moana.ipynb) | No recording |
+
 
 ### Machine learning
 

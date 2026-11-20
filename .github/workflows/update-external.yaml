@@ -1,0 +1,72 @@
+name: Update External Notebooks
+
+on:
+  schedule:
+    # Every Monday at 06:00 UTC
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  update-external:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      # Use the CryoInTheCloud bot token so the PR it opens triggers
+      # QualityControl/preview workflows
+      - uses: tibdex/github-app-token@v1
+        id: generate-token
+        with:
+          app_id: ${{ secrets.APP_ID }}
+          private_key: ${{ secrets.APP_PRIVATE_KEY }}
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ steps.generate-token.outputs.token }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install nbformat requests markdown pqdm
+
+      - name: Re-import external files
+        working-directory: scripts
+        run: python notebook_import.py -f assets.json
+
+      # The script stamps "imported on: **YYYY-MM-DD**" into each notebook,
+      # So ignore files whose only change is that date. 
+      - name: Discard date-only changes
+        run: |
+          for f in $(git diff --name-only -- book/external); do
+            if git diff --quiet -I 'imported on: \*\*[0-9-]+\*\*' -- "$f"; then
+              echo "No upstream change: $f"
+              git checkout -- "$f"
+            else
+              echo "Updated upstream: $f"
+            fi
+          done
+          git status --short
+
+      - name: Open or update pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ steps.generate-token.outputs.token }}
+          branch: auto/update-external-notebooks
+          delete-branch: true
+          add-paths: book/external/**
+          commit-message: "[auto] Update external notebooks from upstream"
+          title: "[auto] Update external notebooks from upstream"
+          body: |
+            Weekly re-run of `scripts/notebook_import.py` found upstream changes
+            in one or more files listed in `scripts/assets.json`.
+
+            Please review the diff before merging; merging to `main` will trigger
+            the Deploy workflow.
+          labels: automated
