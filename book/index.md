@@ -11,7 +11,7 @@ This JupyterBook is your gateway to the resources, tutorials, and tools develope
 ```{admonition} Quick links
 :class: seealso
 
-* Our JupyterHub: https://hub.stratusgeo.com
+* Our JupyterHub: https://hub.stratusgeo.org
 * Our GitHub Organization: https://github.com/CryoInTheCloud
 ```
 
